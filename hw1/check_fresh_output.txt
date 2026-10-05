@@ -1,0 +1,11 @@
+записей: 151, проблем: 0
+записей: 151, проблем: 0
+
+Sonnet без инструментов: 6 из 151 верно, 4%. Потрачено $0.248
+критерий свежести пройден
+  fresh-20: In the 2026 FIFA World Cup, what format was used for the knockout stage starting June 28? -> The Round of 32 (single-elimination knoc
+  fresh-133: Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 -> Operation Overlord (the D-Day Normandy l
+  fresh-136: Which former French prime minister (in office 1997–2002) died on 22 March 2026? -> Lionel Jospin
+  fresh-138: In March 2026 Air France announced a suspension of Paris flights to which Cuban city, citi -> Havana
+  fresh-146: Which German philosopher and author of The Theory of Communicative Action died on 14 March -> Jürgen Habermas
+  fresh-150: Which French musician, known for the song "Nightcall", died on 28 July 2026? -> Kavinsky (Vincent Belorgey)
