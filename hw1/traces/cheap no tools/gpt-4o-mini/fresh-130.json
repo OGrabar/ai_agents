@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "In which French commune was the highest local temperature (44.3 °C) recorded during the record hot day of 23 June 2026?",
+  "answer": "Pissos",
+  "evidence": "23 June – France experiences its hottest day on a national scale, with an average temperature of 29.8°C (85.6°F) across the country, beating the previous record of 29.4°C. The highest locally recorded temperature is 44.3°C, in Pissos.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I cannot provide information about events or data beyond my last training cutoff in October 2023. Therefore, I can't tell you which French commune recorded a temperature of 44.3 °C on 23 June 2026. \n\nFINAL: Unknown.",
+ "correct": false,
+ "cost": 4.545e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which French commune was the highest local temperature (44.3 °C) recorded during the record hot day of 23 June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot provide information about events or data beyond my last training cutoff in October 2023. Therefore, I can't tell you which French commune recorded a temperature of 44.3 °C on 23 June 2026. \n\nFINAL: Unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

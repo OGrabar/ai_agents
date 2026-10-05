@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+ "correct": true,
+ "cost": 0.0003285,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_6HQelNx8EDLJDVWI9w3JoUJG",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Matt Braly indie animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_6HQelNx8EDLJDVWI9w3JoUJG",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aedpUjDjC5yEwfm2fZs26fCj",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Amphibia\",\"keywords\":\"indie animated series, Matt Braly, funded, March 17, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aedpUjDjC5yEwfm2fZs26fCj",
+   "content": "Keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_S7k9GhMEbRfH3nxL7rmYf12N",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in animation\",\"keywords\":\"indie animated series, Matt Braly\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_S7k9GhMEbRfH3nxL7rmYf12N",
+   "content": "[2026 in animation]\nThe teaser trailer for the indie animated series, Clara and the Below, created by Amphibia creator Matt Braly, was released on YouTube.\nMarch 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching."
+  },
+  {
+   "role": "assistant",
+   "content": "The indie animated series created by Matt Braly that was fully funded on March 17, 2026, is \"Clara and the Below.\" \n\nFINAL: Clara and the Below",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-126",
+  "source": "fresh",
+  "question": "Which club's victory in the 2026 UEFA Champions League final sparked nationwide clashes between police and fans in France on 31 May 2026?",
+  "answer": "Paris St-Germain",
+  "evidence": "31 May – Nationwide clashes between police and football fans celebrating Paris St-Germain's victory in the 2026 UEFA Champions League final leave one person dead, 219 injured and 780 arrested.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have information about events in 2026. My knowledge cutoff is early 2025, so I cannot know the outcome of the 2026 UEFA Champions League final or any associated events in France on 31 May 2026.\n\nFINAL: I don't know — this event is beyond my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.001422,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which club's victory in the 2026 UEFA Champions League final sparked nationwide clashes between police and fans in France on 31 May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about events in 2026. My knowledge cutoff is early 2025, so I cannot know the outcome of the 2026 UEFA Champions League final or any associated events in France on 31 May 2026.\n\nFINAL: I don't know — this event is beyond my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

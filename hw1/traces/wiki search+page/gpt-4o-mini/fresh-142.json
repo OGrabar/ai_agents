@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-142",
+  "source": "fresh",
+  "question": "In which German city did a meteorite strike the roof of a house on 8 March 2026?",
+  "answer": "Koblenz",
+  "evidence": "A meteorite strikes a roof of a house in Koblenz, Rhineland-Palatinate. No one is injured.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The meteorite struck the roof of a house in Koblenz, Rhineland-Palatinate. \n\nFINAL: Koblenz",
+ "correct": true,
+ "cost": 0.000432,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which German city did a meteorite strike the roof of a house on 8 March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_xXnr2gjyq7m5ERDBgdtfOeeK",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"meteorite strike roof house 8 March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_xXnr2gjyq7m5ERDBgdtfOeeK",
+   "content": "[Meteorite] A meteorite is a rock that originated in outer space and has fallen to the surface of a planet or moon. When the original object enters the atmosphere, various factors such as friction, pressure, and chemical interactions with the atmospheric gases cause it to heat up and radiate energy. It then becomes a meteor and forms a fireball, also known as a shooting star; astronomers call the brightest examples \"bolides\". Once it settles on the larger body's surface, the meteor becomes a meteorite. Meteorites vary greatly in size. For geologists, a bolide is a meteorite large enough to create an impact crater. Meteorites that are recovered after being observed as they transit the atmosphere and impact Earth are called meteorite falls. All others are known as meteorite finds. Meteorites have traditionally been divided into three broad categories: stony meteorites that are rocks, mainly composed of silicate minerals; iron meteorites that are largely composed of ferronickel; and stony-iron meteorites that contain large amounts of both metallic and rocky material. Modern classification schemes divide meteorites into groups according to their structure, chemical and isotopic composition and mineralogy. \"Meteorites\" less than ~1 mm (3⁄64 inch) in diameter are classified as micrometeorites, however micrometeorites differ from meteorites in that they typically melt completely in the atmosphere and fall to Earth as quenched droplets. Extraterrestrial meteorites have been found on the Moon and on Mars. Most space rocks that fall to Earth originate from a small number of asteroids in the main asteroid belt. The origin of most meteorites can be traced to just a handful of asteroid breakup events – possibly even individual asteroids."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PFn5O4oJHmftRIhJQm4X400a",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"meteorite strike house Germany March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PFn5O4oJHmftRIhJQm4X400a",
+   "content": "[2026 in Germany] Events in the year 2026 in Germany."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_awd4CAJ8zSJ9YBzMeql6rxV5",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Germany\",\"keywords\":\"meteorite, strike, house\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_awd4CAJ8zSJ9YBzMeql6rxV5",
+   "content": "[2026 in Germany]\nA meteorite strikes a roof of a house in Koblenz, Rhineland-Palatinate. No one is injured."
+  },
+  {
+   "role": "assistant",
+   "content": "The meteorite struck the roof of a house in Koblenz, Rhineland-Palatinate. \n\nFINAL: Koblenz",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

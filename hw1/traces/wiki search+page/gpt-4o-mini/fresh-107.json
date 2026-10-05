@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-107",
+  "source": "fresh",
+  "question": "What event occurs in Benin on January 11, 2026?",
+  "answer": "2026 Beninese parliamentary election",
+  "evidence": "January 11 – The 2026 Beninese parliamentary election is held.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "January 10 is Benin's National Voodoo Day (Fête du Vodoun), a public holiday; festivities often continue on January 11. In 2026, January 11 falls the day after this national celebration of Vodoun culture in Benin.",
+  "agent_ok": false
+ },
+ "answer": "FINAL: 2026 Beninese parliamentary election",
+ "correct": true,
+ "cost": 0.00012104999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What event occurs in Benin on January 11, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_scomAJRhJsh37JyMiM0xpEKv",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Benin\",\"keywords\":\"event January 11\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_scomAJRhJsh37JyMiM0xpEKv",
+   "content": "[2026 in Benin]\nEvents in the year 2026 in Benin.\n== Events ==\n=== January ===\n11 January – 2026 Beninese parliamentary election: The pro-Talon Progressive Union Renewal and Republican Bloc parties win all 109 seats in the National Assembly.\n1 January – New Year's Day"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 2026 Beninese parliamentary election",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

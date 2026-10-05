@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-112",
+  "source": "fresh",
+  "question": "What mission was launched by ESA and CAS on May 19, 2026?",
+  "answer": "SMILE",
+  "evidence": "On 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The mission launched by ESA and CAS on May 19, 2026, was the joint heliophysics mission named SMILE, which was designed to study the dynamic interaction between solar wind and Earth's magnetosphere. \n\nFINAL: SMILE mission",
+ "correct": true,
+ "cost": 0.0001899,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What mission was launched by ESA and CAS on May 19, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Nj57fOmwWx32o5LcqPiPsMh8",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in spaceflight\",\"keywords\":\"ESA CAS mission May 19\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Nj57fOmwWx32o5LcqPiPsMh8",
+   "content": "[2026 in spaceflight]\nOn 11 January, NASA launched the Pandora small space telescope to study exoplanet atmospheres. The same Falcon 9 flight also carried two CubeSat-type space telescopes by NASA: SPARCS and BlackCAT, alongside other payloads. Pandora completed its commissioning phase and started scientific observations in August 2026.\nIn February, ESA's experimental heliophysics mission PROBA-3 suffered an anomaly which led to the loss of contact with one of the two spacecraft. Contact was re-established with PROBA-3 in March and the spacecraft resumed observations in July.\nOn 19 May, ESA and CAS launched their joint heliophysics mission SMILE to study the dynamic interaction between solar wind and Earth's magnetosphere. The spacecraft reached its final science orbit on 20 June and started science observations on 23 September.\nIn 2026, NASA plans to launch the SunRISE mission consisting of six CubeSats for studying solar activity.\nThe joint ESA-JAXA mission BepiColombo is expected to enter orbit around Mercury in late 2026. The arrival operations began on 3 September 2026 with the separation of the propulsion module from the remaining spacecraft."
+  },
+  {
+   "role": "assistant",
+   "content": "The mission launched by ESA and CAS on May 19, 2026, was the joint heliophysics mission named SMILE, which was designed to study the dynamic interaction between solar wind and Earth's magnetosphere. \n\nFINAL: SMILE mission",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The maximum distance the crew of Artemis II reached from Earth on April 6, 2026, was 252,756 miles (406,771 km). \n\nFINAL: 252756",
+ "correct": true,
+ "cost": 0.00017624999999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CeT7PhXAygQ73W4t8ijyXZYV",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Artemis II\",\"keywords\":\"maximum distance, Earth, April 6, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CeT7PhXAygQ73W4t8ijyXZYV",
+   "content": "[Artemis II]\nArtemis II (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Ori\nAmong the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 2\nOn flight day 6, Orion entered the Moon's sphere of influence, where lunar gravity became the dominant force shaping its trajectory. Orion flew around the Moon at a closest approach of about 4,067 miles (6,545 km; 3,534 nmi) from the far-side lunar surface at 23:00 UTC on April 6. Its farthest distance from Earth was 252,756 miles (406,771 km; 219,"
+  },
+  {
+   "role": "assistant",
+   "content": "The maximum distance the crew of Artemis II reached from Earth on April 6, 2026, was 252,756 miles (406,771 km). \n\nFINAL: 252756",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

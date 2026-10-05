@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-114",
+  "source": "fresh",
+  "question": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?",
+  "answer": "Urgent Care Centre",
+  "evidence": "January 12 – A new Urgent Care Centre opens in St. John's, Newfoundland and Labrador.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have reliable information about events occurring on January 12, 2026, as that date is beyond my knowledge cutoff. I cannot confirm what facility opened in St. John's, Newfoundland and Labrador on that specific date.\n\nIf you have a source for this information, I'd be happy to help interpret or discuss it further.",
+ "correct": false,
+ "cost": 0.001467,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about events occurring on January 12, 2026, as that date is beyond my knowledge cutoff. I cannot confirm what facility opened in St. John's, Newfoundland and Labrador on that specific date.\n\nIf you have a source for this information, I'd be happy to help interpret or discuss it further.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

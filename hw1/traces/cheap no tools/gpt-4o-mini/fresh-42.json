@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-42",
+  "source": "fresh",
+  "question": "Who inaugurated the Noida International Airport in India in March 2026?",
+  "answer": "Prime Minister Narendra Modi",
+  "evidence": "28 March – The Noida International Airport is inaugurated by Prime Minister Narendra Modi.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I do not have access to events or information beyond October 2023, including the inauguration of the Noida International Airport in March 2026. For such updates, please consult a current news source. \n\nFINAL: No information available.",
+ "correct": false,
+ "cost": 4.14e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who inaugurated the Noida International Airport in India in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I do not have access to events or information beyond October 2023, including the inauguration of the Noida International Airport in March 2026. For such updates, please consult a current news source. \n\nFINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

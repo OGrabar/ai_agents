@@ -1,0 +1,260 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I apologize, but I was unable to find specific information about the indie animated series created by Matt Braly that was fully funded on March 17, 2026 through my searches. The search results only confirmed that Matt Braly is best known for creating Amphibia for Disney Channel, and worked on other projects like Gravity Falls and Big City Greens, but did not return information about a specific indie animated series with that exact funding date.\n\nWithout access to additional tools and based on the information I could retrieve, I cannot provide a reliable answer to this question.\n\nFINAL: I cannot determine the answer with the information available to me.",
+ "correct": false,
+ "cost": 0.026097,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll help you find information about Matt Braly's indie animated series that was fully funded on March 17, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XXLGzu7qe1ne4Jyr8Z51FL",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Matt Braly indie animated series 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XXLGzu7qe1ne4Jyr8Z51FL",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for information about Matt Braly's crowdfunded indie series:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019XpQVYtLMyEwkhfryKwBsG",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Matt Braly crowdfunded March 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01SQuzRiQGKqRTfG7zJ8Gyws",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Matt Braly indie series animation funding\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019XpQVYtLMyEwkhfryKwBsG",
+   "content": "[Amazon (company)] Amazon.com, Inc. (doing business as Amazon) is an American multinational conglomerate engaged in e-commerce, retail, cloud computing, online advertising, digital streaming, entertainment, and artificial intelligence. Founded in 1994 by Jeff Bezos in Bellevue, Washington, the company started as an online book marketplace that gradually expanded to include virtually all consumer products as well as many other categories, positioned as \"The Everything Store\". As of 2026 it was the world's biggest online retailer. Amazon sells books, electronics, pharmaceuticals, car parts, video games, dining products, jewelry, food, music, and sports equipment. The company has multiple subsidiaries, including Amazon Web Services (AWS), which provides cloud computing; Zoox, a self-driving car division; satellite Internet provider Kuiper Systems; and Amazon Lab126, a computer hardware R&D provider. Other subsidiaries include Ring, Twitch, IMDb, and grocer Whole Foods Market. Amazon distributes downloadable and streaming content through its Amazon Prime Video, MGM+, Amazon Music, Twitch, Audible, and Wondery units. It publishes books through its publishing arm, Amazon Publishing; produces and distributes film and television content through Amazon MGM Studios, including the Metro-Goldwyn-Mayer studio; and owns Brilliance Audio and Audible, which produce and distribute audiobooks, respectively. Amazon produces consumer electronics, most notably Kindle e-readers, Echo devices, Fire tablets, and Fire TVs. Amazon has a reputation as an industry disruptor through innovation and aggressive reinvestment of profits. As of 2023, it was the largest online retailer and marketplace, smart speaker provider, cloud computing service provider through AWS, live-streaming service provider through Twitch, and Internet company as measured by revenue and market share. In 2021, it surpassed Walmart as the world's largest retailer outside of China, supported by its subscription plan, Amazon P"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01SQuzRiQGKqRTfG7zJ8Gyws",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about Matt Braly's recent projects:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WxWKDdqTcgsDAvFy8YSvmp",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"\\\"Matt Braly\\\" Hilda Infinity Train\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01AuP2zmmT3C5EZBytgxxddL",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Matt Braly 2026 animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WxWKDdqTcgsDAvFy8YSvmp",
+   "content": "[List of children's animated television series of the 2010s] This is a list of children's animated television series (including internet television series); that is, animated programs originally targeted towards audiences aged 12 and under in mind. This list does not include Japanese, Chinese, or Korean series, as children's animation is much more common in these regions."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01AuP2zmmT3C5EZBytgxxddL",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for specific animated series from 2026:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XcYk33AbzbrDE62neoyE7H",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"2026 animated series kickstarter funding\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01TEgzSwCA6SM52R3UdtQ2Lv",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"\\\"March 17 2026\\\" animation series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XcYk33AbzbrDE62neoyE7H",
+   "content": "[List of animated feature films of 2026] This is a list of animated feature films in 2026."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TEgzSwCA6SM52R3UdtQ2Lv",
+   "content": "[List of Sony Pictures Animation productions] The following is a list of all productions produced or released by Sony Pictures Animation, the animation division of Sony Pictures Motion Picture Group (part of Sony Pictures Entertainment), including animated and live-action feature films, shorts, television and internet series, and specials. As of 2026, Sony Pictures Animation has released 31 feature films, with their first being Open Season in 2006, and their latest being Goat in 2026. Their upcoming slate of films include Spider-Man: Beyond the Spider-Verse on June 18, 2027, Wish Dragon 2 in summer 2027, The Haunting of Hotel Transylvania on October 8, 2027, Buds on December 22, 2027, and an untitled KPop Demon Hunters sequel in 2029."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more directly for Matt Braly's work:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01HWpUT7p1EGVMZJ3tkqyNSs",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Matt Braly Amphibia creator new series\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01WhitybKEH394bpF8qiGRNW",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Matt Braly independent animation project\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01HWpUT7p1EGVMZJ3tkqyNSs",
+   "content": "[Amphibia (TV series)] Amphibia is an American animated fantasy television series created by Matt Braly that aired on Disney Channel from June 17, 2019, to May 14, 2022. The series features the voices of Brenda Song, Justin Felbinger, Bill Farmer, Amanda Leighton, Anna Akana, Troy Baker, Haley Tju, and Keith David. The series follows Anne Boonchuy (Song), a young girl who finds herself trapped in a world of anthropomorphic amphibian creatures. Amphibia premiered on June 17, 2019, running for three seasons until concluding on May 14, 2022. The series has received positive reviews, with praise for its characters, animation, voice acting, humor, and emotional weight. The series additionally won an award for Best Character Design at the 2021 Annie Awards."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WhitybKEH394bpF8qiGRNW",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try searching for specific indie animated projects from 2026:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_011xT2DGYd2YHV2iBBhNjMWz",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"indie animated series fully funded March 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_018jBnDUs7atT67wYx9kX3dC",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"\\\"Matt Braly\\\" crowdfunding campaign\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_011xT2DGYd2YHV2iBBhNjMWz",
+   "content": "[Glitch Productions] Glitch Productions Pty. Ltd. (credited as Glitch and stylised in all caps; formerly known as Glitchy Boy) is an Australian independent animation studio based in Parramatta, a city in the Greater Sydney area in New South Wales. The studio was founded in 2017 by brothers Kevin and Luke Lerdwichagul, previously known for creating the sketch comedy machinima web series SMG4. Glitch is known for independently producing animated web shows on YouTube such as Meta Runner, Sunset Paradise, Murder Drones, The Amazing Digital Circus, The Gaslight District, Knights of Guinevere, and Gameoverse. Glitch's founders were featured in Forbes' 30 Under 30 list for Media, Marketing, and Advertising in 2023."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018jBnDUs7atT67wYx9kX3dC",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for animated series by year to find what was funded in 2026:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GhxrYNC2GpKEC2Yg46gCZJ",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"2026 in animation\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GhxrYNC2GpKEC2Yg46gCZJ",
+   "content": "[2026 in animation] 2026 in animation is an overview of notable events, including notable awards, list of films released, television show debuts and endings, and notable deaths."
+  },
+  {
+   "role": "user",
+   "content": "Tools are no longer available. Answer based on what is already known, with the last line FINAL: <answer>."
+  },
+  {
+   "role": "assistant",
+   "content": "I apologize, but I was unable to find specific information about the indie animated series created by Matt Braly that was fully funded on March 17, 2026 through my searches. The search results only confirmed that Matt Braly is best known for creating Amphibia for Disney Channel, and worked on other projects like Gravity Falls and Big City Greens, but did not return information about a specific indie animated series with that exact funding date.\n\nWithout access to additional tools and based on the information I could retrieve, I cannot provide a reliable answer to this question.\n\nFINAL: I cannot determine the answer with the information available to me.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

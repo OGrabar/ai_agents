@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-141",
+  "source": "fresh",
+  "question": "What percentage of the vote did the Greens win in the 8 March 2026 Baden-Württemberg state election?",
+  "answer": "30.2%",
+  "evidence": "8 March 2026 Baden-Württemberg state election: The Greens win a plurality of 30.2% in the Landtag of Baden-Württemberg, the CDU win 29,7% and the AfD win 18.8% in the Landtag.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The Greens won 30.2% of the vote in the 8 March 2026 Baden-Württemberg state election. \n\nFINAL: 30.2",
+ "correct": true,
+ "cost": 0.0001878,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What percentage of the vote did the Greens win in the 8 March 2026 Baden-Württemberg state election?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_taOIl70SVtPorhqcc9ZRIR0n",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Baden-Württemberg state election March 8 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_taOIl70SVtPorhqcc9ZRIR0n",
+   "content": "[2026 Baden-Württemberg state election] The 2026 Baden-Württemberg state election was held on 8 March 2026. The outgoing government was a coalition of Alliance 90/The Greens supported by the Christian Democratic Union (CDU) led by Minister-President Winfried Kretschmann (Greens), who retired at this election. Defying most polls leading up to the election, the Greens remained the largest party with 30.2% of the vote, only a small decline from the previous election. The CDU gained more than five percentage points and placed a narrow second on 29.7%, with both parties finishing on 56 seats. The Alternative for Germany (AfD) won 18.8% and 35 seats, almost doubling its previous performance. Three other parties, despite polling over the 5% electoral threshold, suffered losses. The Social Democratic Party (SPD) lost half its support and took 5.5% of the vote and 10 seats, the party's worst ever result in a state election since 1945. The Free Democratic Party (FDP) fell below 5% and for the first time lost representation in the state which is considered its stronghold. The CDU held a lead in polling for much of the period prior to the election, but the Greens gained rapidly during the campaign, which was attributed to Özdemir's personal popularity. The party was also assisted by strategic voting from supporters of parties such as the SPD and The Left (Die Linke), the latter of which failed to clear the electoral threshold. In absence of other realistic options, both parties declared that they would continue to cooperate. While the CDU and AfD hold a majority between them, the CDU rejects cooperation with the party (firewall policy). The Greens and CDU therefore renewed their coalition, with Özdemir becoming the first Minister-President of Turkish background. The election was held after modifications to the state's mixed-member proportional representation system, which gave voters two votes – one for a single-member constituency and one for a party list – for the first time."
+  },
+  {
+   "role": "assistant",
+   "content": "The Greens won 30.2% of the vote in the 8 March 2026 Baden-Württemberg state election. \n\nFINAL: 30.2",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

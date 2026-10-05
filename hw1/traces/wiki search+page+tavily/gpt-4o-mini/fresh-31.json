@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "After the legislative election on August 23, 2026, the new government of Kazakhstan was formed by the ruling party Ädilet, and Oljas Bektenov was reappointed as Prime Minister. \n\nFINAL: Oljas Bektenov",
+ "correct": false,
+ "cost": 0.0004122,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2zoIIkJMovuAtBH2eBXSP7Fx",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Kazakhstan\",\"keywords\":\"new government, legislative election, August 23, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2zoIIkJMovuAtBH2eBXSP7Fx",
+   "content": "[2026 in Kazakhstan]\n23 August – 2026 Kazakh legislative election: The ruling Ädilet party wins 71.17% of the vote on a turnout of 73.8%."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_btbGZauGSSnpk5I6KmL6NTUN",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Ädilet party\",\"keywords\":\"new government, formed\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_btbGZauGSSnpk5I6KmL6NTUN",
+   "content": "No such page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_b3COIELgBJlcKhmILEfSmikY",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Kazakhstan new government formed after August 23 2026 legislative election\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_b3COIELgBJlcKhmILEfSmikY",
+   "content": "[2026 Kazakh legislative election - Wikipedia] https://en.wikipedia.org/wiki/2026_Kazakh_legislative_election On 28 August 2026, the newly elected Kurultai convened for its first session, where Tokayev nominated Aibek Dädebai as chairman, and deputies subsequently elected him unanimously. The government, led by Prime Minister Oljas Bektenov, also resigned, with its members continuing to perform their duties until a new government was formed. On 31 August, Tokayev nominated Bektenov for reappointment as prime minister, with the Kurultai approving the nomination and Tokayev subsequently appointing him to [...] On 31 August, Tokayev nominated Bektenov for reappointment as prime minister, describing him as an experienced and qualified statesman who had performed effectively as prime minister. The Kurultai approved his candidacy by a vote of 137–0, with seven abstentions, following which Tokayev formally reappointed Bektenov as prime minister and formed the Second Bektenov Government. After his reappointment, Bektenov said the government would support Kazakhstan's development and the political changes [...] 23. ↑ Zhakiyanova, Meruyert (29 August 2026). \"Kazakhstan's gov't steps down as new parliament holds first session\". Euronews. Retrieved 29 August 2026. 24. ↑ Light, Felix; Vaal, Tamara (31 August 2026). \"Kazakhstan's president appoints top adviser as vice president\". Reuters. Retrieved 31 August 2026. 25. ↑ Berekekyzy, Aiym (31 August 2026). \"Vice President, Prime Minister appointed in Kazakhstan\". Silk Way TV. Retrieved 31 August 2026.\n[Key Takeaways From Kazakhstan's New Government & Parliament - Aretera Public Affairs] https://areterapa.com/key-takeaways-from-kazakhstans-new-government-parliament The formation of the new cabinet comes after parliamentary elections on 23rd August, which resulted in a constitutional majority for the pro-Presidential Ädilet, the country’s new ruling party and the political successor of the long-time ruling Amanat. Ädilet secured more"
+  },
+  {
+   "role": "assistant",
+   "content": "After the legislative election on August 23, 2026, the new government of Kazakhstan was formed by the ruling party Ädilet, and Oljas Bektenov was reappointed as Prime Minister. \n\nFINAL: Oljas Bektenov",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-70",
+  "source": "fresh",
+  "question": "What new service begins on March 26, 2026, in rail transport in Europe?",
+  "answer": "night train service",
+  "evidence": "26 March – European Sleeper begins a night train service between Paris, Brussels, and Berlin.",
+  "page": "2026 in rail transport",
+  "url": "https://en.wikipedia.org/wiki/2026_in_rail_transport",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The new service that begins on March 26, 2026, in rail transport in Europe is the introduction of the European Sleeper service. FINAL: European Sleeper service",
+ "correct": false,
+ "cost": 3.42e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What new service begins on March 26, 2026, in rail transport in Europe?"
+  },
+  {
+   "role": "assistant",
+   "content": "The new service that begins on March 26, 2026, in rail transport in Europe is the introduction of the European Sleeper service. FINAL: European Sleeper service",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

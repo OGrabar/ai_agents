@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-96",
+  "source": "fresh",
+  "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+  "answer": "Istanbul",
+  "evidence": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Katowice",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Huelva\n\nThe 2026 European Men's and Women's Team Badminton Championships were held in **Huelva, Spain**.",
+ "correct": false,
+ "cost": 0.002569,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the 2026 European Men's and Women's Team Badminton Championships.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VL6r5PYqrAw76S1YbC59c2",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"2026 European Team Badminton Championships\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VL6r5PYqrAw76S1YbC59c2",
+   "content": "[2026 European Badminton Championships] The 2026 European Badminton Championships is the 32nd edition of the European Badminton Championships. It is held in Palacio de los Deportes Carolina Marín, Huelva, Spain, from 6 to 12 April 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Huelva\n\nThe 2026 European Men's and Women's Team Badminton Championships were held in **Huelva, Spain**.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

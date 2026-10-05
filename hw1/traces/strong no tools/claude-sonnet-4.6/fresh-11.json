@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?",
+  "answer": "Helter Skelter",
+  "evidence": "May 9 until May 23 – Helter Skelter: Arthur Jafa and Richard Prince at Fondazione Prada in Venice.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have information about events scheduled for May 2026, as my knowledge cutoff is early 2025 and I cannot access real-time or future event listings.\n\nTo find the title of that exhibition, I'd recommend checking:\n- The official Fondazione Prada website (fondazioneprada.org)\n- Press releases or announcements from Fondazione Prada Venice (Ca' Corner della Regina)\n\nFINAL: I don't have information about this future event.",
+ "correct": false,
+ "cost": 0.001956,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What was the title of the art exhibition at Fondazione Prada in Venice from May 9 to May 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about events scheduled for May 2026, as my knowledge cutoff is early 2025 and I cannot access real-time or future event listings.\n\nTo find the title of that exhibition, I'd recommend checking:\n- The official Fondazione Prada website (fondazioneprada.org)\n- Press releases or announcements from Fondazione Prada Venice (Ca' Corner della Regina)\n\nFINAL: I don't have information about this future event.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

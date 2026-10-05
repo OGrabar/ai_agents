@@ -1,0 +1,907 @@
+config,model,id,source,correct,confidence,steps,tool_calls,cost,seconds,answer,gold
+strong no tools,claude-sonnet-4.6,fresh-0,fresh,False,0.0,1,0,0.003165,4.7,"I don't have information about this event, as the 2026 Winte",15 March
+strong no tools,claude-sonnet-4.6,fresh-1,fresh,False,0.0,1,0,0.001245,2.9,"April 24, 2025",22 March
+strong no tools,claude-sonnet-4.6,fresh-2,fresh,False,0.0,1,0,0.001206,2.0,"I don't have information about events on March 13, 2026.",Miguel Díaz-Canel
+strong no tools,claude-sonnet-4.6,fresh-3,fresh,False,0.0,1,0,0.001062,2.1,"I don't have information about events in March 2026, as it i",a strategic partnership agreement
+strong no tools,claude-sonnet-4.6,fresh-4,fresh,False,0.0,1,0,0.005178,8.4,I don't have sufficient certainty about the specific measure,A total fire ban
+strong no tools,claude-sonnet-4.6,fresh-5,fresh,False,0.0,1,0,0.00117,1.9,I don't have information about this event.,two people
+strong no tools,claude-sonnet-4.6,fresh-6,fresh,False,0.0,1,0,0.001209,2.5,I don't have data on events from August 2026.,"4,500"
+strong no tools,claude-sonnet-4.6,fresh-7,fresh,False,0.0,1,0,0.001128,2.0,I don't have information about events in July 2026.,Deniz Göktaş
+strong no tools,claude-sonnet-4.6,fresh-8,fresh,False,0.0,1,0,0.001092,2.0,"I don't have information about events in July 2026, as this ",Pavel Durov
+strong no tools,claude-sonnet-4.6,fresh-9,fresh,False,0.0,1,0,0.000774,1.8,Copenhagen,New Delhi
+strong no tools,claude-sonnet-4.6,fresh-10,fresh,True,0.0,1,0,0.002583,3.8,12,Twelve
+strong no tools,claude-sonnet-4.6,fresh-11,fresh,False,0.0,1,0,0.001956,3.3,I don't have information about this future event.,Helter Skelter
+strong no tools,claude-sonnet-4.6,fresh-12,fresh,False,0.0,1,0,0.00285,4.3,"This data is not available as it pertains to January 2026, w","700,000"
+strong no tools,claude-sonnet-4.6,fresh-13,fresh,False,0.0,1,0,0.001143,2.1,I don't have data on 2026 events.,41.5 °C
+strong no tools,claude-sonnet-4.6,fresh-14,fresh,False,0.0,1,0,0.003408,5.2,I need to think about this carefully. The 2026 FIFA World Cu,Ciudad Rodrigo
+strong no tools,claude-sonnet-4.6,fresh-15,fresh,False,0.0,1,0,0.001125,2.1,I don't know — that date is beyond my knowledge cutoff.,Oleksandr Syrskyi
+strong no tools,claude-sonnet-4.6,fresh-16,fresh,False,0.0,1,0,0.001803,3.0,"I don't have information about events from May 2026, as it's",Montreal Victoire
+strong no tools,claude-sonnet-4.6,fresh-17,fresh,False,0.0,1,0,0.001266,2.4,"I don't have information about events in September 2026, as ",EOS-05
+strong no tools,claude-sonnet-4.6,fresh-18,fresh,False,0.0,1,0,0.001806,3.3,"November 27, 2019",13 July
+strong no tools,claude-sonnet-4.6,fresh-19,fresh,False,0.0,1,0,0.001149,2.1,I don't know,Disney Kids & Family
+strong no tools,claude-sonnet-4.6,fresh-20,fresh,True,0.0,1,0,0.002442,16.7,"Single-elimination (knockout) format, beginning with the Rou",single-elimination
+strong no tools,claude-sonnet-4.6,fresh-21,fresh,False,0.0,1,0,0.001296,15.0,I don't have information about this June 2026 event.,Gavin Snider
+strong no tools,claude-sonnet-4.6,fresh-22,fresh,False,0.0,1,0,0.002436,3.5,I don't have information about this series as it was funded ,Clara and the Below
+strong no tools,claude-sonnet-4.6,fresh-23,fresh,False,0.0,1,0,0.001434,2.4,I don't have reliable information about events that occurred,German Galushchenko
+strong no tools,claude-sonnet-4.6,fresh-24,fresh,False,0.0,1,0,0.00477,8.3,A UNESCO Biosphere Reserve (the whole of Wales declared as a,a drought
+strong no tools,claude-sonnet-4.6,fresh-25,fresh,False,0.0,1,0,0.002097,3.2,I don't have information about this event.,"""open war"""
+strong no tools,claude-sonnet-4.6,fresh-26,fresh,False,0.0,1,0,0.001179,14.6,I don't have information about this future event.,nine
+strong no tools,claude-sonnet-4.6,fresh-27,fresh,False,0.0,1,0,0.003387,4.6,Milo Rau,Markus Hinterhäuser
+strong no tools,claude-sonnet-4.6,fresh-28,fresh,False,0.0,1,0,0.001398,2.2,I cannot answer this question as it falls after my knowledge,nine
+strong no tools,claude-sonnet-4.6,fresh-29,fresh,False,0.0,1,0,0.00147,2.3,I don't know,43
+strong no tools,claude-sonnet-4.6,fresh-30,fresh,False,0.0,1,0,0.001731,2.8,I don't have information about this event as it falls after ,Ankara
+strong no tools,claude-sonnet-4.6,fresh-31,fresh,False,0.0,1,0,0.001158,2.2,I don't have information about this future event beyond my k,Aibek Dädebai
+strong no tools,claude-sonnet-4.6,fresh-32,fresh,False,0.0,1,0,0.001194,2.3,I don't know — that date is beyond my knowledge cutoff.,Richard Lewer
+strong no tools,claude-sonnet-4.6,fresh-33,fresh,False,0.0,1,0,0.001047,2.0,I don't have information about this event.,Marilyn Gladu
+strong no tools,claude-sonnet-4.6,fresh-34,fresh,False,0.0,1,0,0.004533,5.0,6.2,6.3
+strong no tools,claude-sonnet-4.6,fresh-35,fresh,False,0.0,1,0,0.001257,6.2,I don't have information about this event from February 2026,Dina Levačić
+strong no tools,claude-sonnet-4.6,fresh-36,fresh,False,0.0,1,0,0.001389,6.6,"I don't have information about this event, as August 15, 202",129
+strong no tools,claude-sonnet-4.6,fresh-37,fresh,False,0.0,1,0,0.003093,4.4,I don't have information about this event as it falls outsid,15 June
+strong no tools,claude-sonnet-4.6,fresh-38,fresh,False,0.0,1,0,0.001884,7.2,I cannot determine this as May 2026 is beyond my knowledge c,Chief Minister
+strong no tools,claude-sonnet-4.6,fresh-39,fresh,False,0.0,1,0,0.00141,6.6,I cannot determine the location without verified information,Gelida
+strong no tools,claude-sonnet-4.6,fresh-40,fresh,False,0.0,1,0,0.001119,14.6,I don't know — that date is beyond my knowledge cutoff.,Vladimir Alekseyev
+strong no tools,claude-sonnet-4.6,fresh-41,fresh,False,0.0,1,0,0.001023,14.6,I don't know,Thirty thousand people
+strong no tools,claude-sonnet-4.6,fresh-42,fresh,False,0.0,1,0,0.001074,2.7,I don't have verified information about this event.,Prime Minister Narendra Modi
+strong no tools,claude-sonnet-4.6,fresh-43,fresh,True,0.0,1,0,0.003648,6.6,Zohran Mamdani,Zohran Mamdani
+strong no tools,claude-sonnet-4.6,fresh-44,fresh,False,0.0,1,0,0.002862,9.0,"I cannot determine this - the date July 16, 2026 is beyond m",LHS 1140 b
+strong no tools,claude-sonnet-4.6,fresh-45,fresh,False,0.0,1,0,0.001344,2.9,"I don't have information about this event, as it occurred af",F-16 Fighting Falcon
+strong no tools,claude-sonnet-4.6,fresh-46,fresh,False,0.0,1,0,0.001374,2.5,I have no data on this event,five
+strong no tools,claude-sonnet-4.6,fresh-47,fresh,False,0.0,1,0,0.001263,2.0,I don't have information about this event from July 2026.,Education Minister
+strong no tools,claude-sonnet-4.6,fresh-48,fresh,False,0.0,1,0,0.001224,2.3,"I don't have information about events on July 15, 2026.",Mykhailo Fedorov
+strong no tools,claude-sonnet-4.6,fresh-49,fresh,False,0.0,1,0,0.001257,2.3,I don't have information about this event as it is beyond my,life imprisonment
+strong no tools,claude-sonnet-4.6,fresh-50,fresh,False,0.0,1,0,0.001497,6.2,I don't have information about this event beyond my knowledg,"802,500 lira"
+strong no tools,claude-sonnet-4.6,fresh-51,fresh,False,0.0,1,0,0.000945,6.2,I don't know,Bruno Foucher
+strong no tools,claude-sonnet-4.6,fresh-52,fresh,False,0.0,1,0,0.001176,3.0,I don't have data on this event.,5.2
+strong no tools,claude-sonnet-4.6,fresh-53,fresh,False,0.0,1,0,0.001734,2.6,I don't have specific information about an appointment to th,Tonya McBride Robles
+strong no tools,claude-sonnet-4.6,fresh-54,fresh,False,0.0,1,0,0.001278,2.3,I don't have information about this event as it falls after ,80
+strong no tools,claude-sonnet-4.6,fresh-55,fresh,False,0.0,1,0,0.001308,3.6,"I don't have information about this event, as it occurred af",two
+strong no tools,claude-sonnet-4.6,fresh-56,fresh,False,0.0,1,0,0.002064,7.3,Unknown — this date is beyond my knowledge cutoff.,3%
+strong no tools,claude-sonnet-4.6,fresh-57,fresh,False,0.0,1,0,0.00174,6.7,"I don't have information about events in July 2026, as this ",Yoon Suk Yeol
+strong no tools,claude-sonnet-4.6,fresh-58,fresh,False,0.0,1,0,0.00114,6.2,BYD,BYD Auto
+strong no tools,claude-sonnet-4.6,fresh-59,fresh,False,0.0,1,0,0.00144,2.2,I don't have information about this event from March 2026.,Carson Ting
+strong no tools,claude-sonnet-4.6,fresh-60,fresh,False,0.0,1,0,0.000951,31.4,I don't know,209
+strong no tools,claude-sonnet-4.6,fresh-61,fresh,False,0.0,1,0,0.001305,31.1,"I don't have information about this event, as it occurred af",Fourteen
+strong no tools,claude-sonnet-4.6,fresh-62,fresh,False,0.0,1,0,0.001821,2.9,"I don't have information about this event from March 2026, w",13 years
+strong no tools,claude-sonnet-4.6,fresh-63,fresh,False,0.0,1,0,0.002043,3.2,"I don't have information about this event, as it falls after",Two
+strong no tools,claude-sonnet-4.6,fresh-64,fresh,False,0.0,1,0,0.00126,1.8,I don't have information about this event from March 2026.,mayor of Lutsk
+strong no tools,claude-sonnet-4.6,fresh-65,fresh,False,0.0,1,0,0.001317,2.1,I don't have information about this event.,16
+strong no tools,claude-sonnet-4.6,fresh-66,fresh,False,0.0,1,0,0.001356,2.2,I cannot answer this question as it falls after my knowledge,at least six
+strong no tools,claude-sonnet-4.6,fresh-67,fresh,False,0.0,1,0,0.001218,2.3,I don't know — this event is beyond my knowledge cutoff date,Liam Nassereddine
+strong no tools,claude-sonnet-4.6,fresh-68,fresh,False,0.0,1,0,0.001161,2.1,I don't have information about events in March 2026.,Mark Carney
+strong no tools,claude-sonnet-4.6,fresh-69,fresh,False,0.0,1,0,0.000411,1.2,Wrocław,Leipzig
+strong no tools,claude-sonnet-4.6,fresh-70,fresh,False,0.0,1,0,0.005085,11.9,The Stuttgart 21 new main station opens and new high-speed r,night train service
+strong no tools,claude-sonnet-4.6,fresh-71,fresh,False,0.0,1,0,0.001386,6.4,"I don't have information about this event, as it occurred af",Nikita Solovyov
+strong no tools,claude-sonnet-4.6,fresh-72,fresh,False,0.0,1,0,0.002301,3.6,"I don't have reliable information about a ""Cockroach Janta P",Dharmendra Pradhan
+strong no tools,claude-sonnet-4.6,fresh-73,fresh,False,0.0,1,0,0.00132,2.5,"I don't have information about events on August 31, 2026.",Han Hak-ja
+strong no tools,claude-sonnet-4.6,fresh-74,fresh,False,0.0,1,0,0.001398,2.9,"I don't have information about events on July 20, 2026.",Daniel Ortega
+strong no tools,claude-sonnet-4.6,fresh-75,fresh,False,0.0,1,0,0.003777,5.2,"Kericho, Kenya",Novokuznetsk
+strong no tools,claude-sonnet-4.6,fresh-76,fresh,False,0.0,1,0,0.001131,6.5,"I don't have information about events from February 2026, as",life imprisonment
+strong no tools,claude-sonnet-4.6,fresh-77,fresh,False,0.0,1,0,0.001188,2.0,I don't have information about the 2026 São Toméan president,Carlos Vila Nova
+strong no tools,claude-sonnet-4.6,fresh-78,fresh,False,0.0,1,0,0.002895,8.3,I cannot determine this answer as it falls outside my knowle,13.2 months
+strong no tools,claude-sonnet-4.6,fresh-79,fresh,True,0.0,1,0,0.007164,7.5,3,three
+strong no tools,claude-sonnet-4.6,fresh-80,fresh,False,0.0,1,0,0.001182,30.6,"I don't have information about events from January 29, 2026,","UGC Equity Regulations, 2026"
+strong no tools,claude-sonnet-4.6,fresh-81,fresh,False,0.0,1,0,0.002208,16.3,I do not have data for July 2026 passenger traffic at Istanb,8.15m
+strong no tools,claude-sonnet-4.6,fresh-82,fresh,False,0.0,1,0,0.001323,2.2,"I don't have information about this event, as it falls after",28 people
+strong no tools,claude-sonnet-4.6,fresh-83,fresh,False,0.0,1,0,0.0024,3.7,"I don't have information about events in March 2026, as this",improvised explosive device
+strong no tools,claude-sonnet-4.6,fresh-84,fresh,False,0.0,1,0,0.001221,2.1,I don't know,eight games
+strong no tools,claude-sonnet-4.6,fresh-85,fresh,False,0.0,1,0,0.001455,3.1,I don't have data on 2026 UK heat records.,38 °C
+strong no tools,claude-sonnet-4.6,fresh-86,fresh,False,0.0,1,0,0.001878,7.1,£15.4 billion,£30.4bn
+strong no tools,claude-sonnet-4.6,fresh-87,fresh,False,0.0,1,0,0.00129,2.2,"I don't have information about events on January 9, 2026, wh",José Jerí
+strong no tools,claude-sonnet-4.6,fresh-88,fresh,False,0.0,1,0,0.002019,3.3,I don't have information about this event as it is beyond my,"Henoko, Okinawa Prefecture"
+strong no tools,claude-sonnet-4.6,fresh-89,fresh,False,0.0,1,0,0.001044,2.1,I don't have information about events in March 2026.,Doug Armstrong
+strong no tools,claude-sonnet-4.6,fresh-90,fresh,False,0.0,1,0,0.004689,6.6,UK Health Security Agency (UKHSA),Imperial College London
+strong no tools,claude-sonnet-4.6,fresh-91,fresh,False,0.0,1,0,0.001653,2.6,"I don't have information about events from July 2026, as it ","₹25,863 crore"
+strong no tools,claude-sonnet-4.6,fresh-92,fresh,True,0.0,1,0,0.006339,9.8,Rubén Rocha Moya,Rubén Rocha Moya
+strong no tools,claude-sonnet-4.6,fresh-93,fresh,False,0.0,1,0,0.001398,2.7,"The 2026 FIFA World Cup has not yet occurred, so the winner ",Spain
+strong no tools,claude-sonnet-4.6,fresh-94,fresh,False,0.0,1,0,0.001131,2.3,I don't have data on Eurovision 2026 results.,11th
+strong no tools,claude-sonnet-4.6,fresh-95,fresh,False,0.0,1,0,0.001242,6.3,The 2026 Men's T20 World Cup had not yet occurred as of my k,India
+strong no tools,claude-sonnet-4.6,fresh-96,fresh,False,0.0,1,0,0.000822,1.6,Malmö,Istanbul
+strong no tools,claude-sonnet-4.6,fresh-97,fresh,False,0.0,1,0,0.001056,2.0,"Truist Park in Cumberland, Georgia (Atlanta Braves)",Citizens Bank Park
+strong no tools,claude-sonnet-4.6,fresh-98,fresh,False,0.0,1,0,0.001644,2.7,"I don't have information about events in June 2026, as it is",Islamabad Memorandum
+strong no tools,claude-sonnet-4.6,fresh-99,fresh,False,0.0,1,0,0.000903,1.8,I don't know,Elon Musk
+strong no tools,claude-sonnet-4.6,fresh-100,fresh,False,0.0,1,0,0.002562,32.5,"I don't have information about events from April 2026, as th","252,756 miles"
+strong no tools,claude-sonnet-4.6,fresh-101,fresh,False,0.0,1,0,0.001527,15.4,"I don't have reliable information about a ""2026 Lebanon war""",10-day
+strong no tools,claude-sonnet-4.6,fresh-102,fresh,False,0.0,1,0,0.003654,9.4,Multiple individuals were recognized as Heroes of Ukraine in,Oleksandr Dovhach
+strong no tools,claude-sonnet-4.6,fresh-103,fresh,False,0.0,1,0,0.002031,3.3,I don't have information about events in February 2026 beyon,José María Balcázar
+strong no tools,claude-sonnet-4.6,fresh-104,fresh,True,0.0,1,0,0.003186,4.2,21,21
+strong no tools,claude-sonnet-4.6,fresh-105,fresh,False,0.0,1,0,0.003264,9.1,I don't have specific data on the fuel surcharge increase by,¥60–120
+strong no tools,claude-sonnet-4.6,fresh-106,fresh,False,0.0,1,0,0.002202,3.4,Terminal 3 (T3),GRU Airport People Mover
+strong no tools,claude-sonnet-4.6,fresh-107,fresh,False,0.0,1,0,0.002976,4.8,Presidential election in Benin,2026 Beninese parliamentary election
+strong no tools,claude-sonnet-4.6,fresh-108,fresh,False,0.0,1,0,0.001041,2.3,I don't know — this event is beyond my knowledge cutoff.,Michaelmas Island
+strong no tools,claude-sonnet-4.6,fresh-109,fresh,False,0.0,1,0,0.00111,2.2,I cannot answer this question as it refers to a future event,conspiracy to commit arson
+strong no tools,claude-sonnet-4.6,fresh-110,fresh,False,0.0,1,0,0.000984,2.1,"Unknown, the election has not yet occurred.",Clay Fuller
+strong no tools,claude-sonnet-4.6,fresh-111,fresh,False,0.0,1,0,0.001848,3.2,"I don't have information about events from June 2026, as thi",prime minister
+strong no tools,claude-sonnet-4.6,fresh-112,fresh,False,0.0,1,0,0.00189,3.0,I don't know — that date is beyond my knowledge cutoff.,SMILE
+strong no tools,claude-sonnet-4.6,fresh-113,fresh,False,0.0,1,0,0.000849,2.0,I don't know,850
+strong no tools,claude-sonnet-4.6,fresh-114,fresh,False,0.0,1,0,0.001467,2.5,I don't have reliable information about events occurring on ,Urgent Care Centre
+strong no tools,claude-sonnet-4.6,fresh-115,fresh,False,0.0,1,0,0.001098,2.1,I don't know,66
+strong no tools,claude-sonnet-4.6,fresh-116,fresh,True,0.0,1,0,0.002388,8.3,The 2026 U.S. Women's Open is scheduled to be held at Rivier,Nelly Korda
+strong no tools,claude-sonnet-4.6,fresh-117,fresh,False,0.0,1,0,0.001071,6.1,Line 7,Line S2
+strong no tools,claude-sonnet-4.6,fresh-118,fresh,False,0.0,1,0,0.001203,2.0,I don't have information about events in August 2026.,Antonello da Messina
+strong no tools,claude-sonnet-4.6,fresh-119,fresh,False,0.0,1,0,0.002319,4.1,"I don't have specific information about events in May 2026, ",Baku and Tbilisi
+strong no tools,claude-sonnet-4.6,fresh-120,fresh,False,0.0,1,0,0.002367,16.5,Seizure of tankers transporting Iranian oil in violation of ,Operation Southern Spear
+strong no tools,claude-sonnet-4.6,fresh-121,fresh,False,0.0,1,0,0.001203,14.6,I don't have data on a June 2026 earthquake in Yamanashi Pre,5.6
+strong no tools,claude-sonnet-4.6,fresh-122,fresh,False,0.0,1,0,0.001125,2.3,I don't have verified information about this event.,Angus Taylor
+strong no tools,claude-sonnet-4.6,fresh-123,fresh,False,0.0,1,0,0.00102,6.1,I don't have information about events in June 2026.,Burkina Faso
+strong no tools,claude-sonnet-4.6,fresh-124,fresh,False,0.0,1,0,0.001143,2.2,I don't have verified information about this event.,Kehl
+strong no tools,claude-sonnet-4.6,fresh-125,fresh,False,0.0,1,0,0.000972,7.7,I don't know,Christophe Leribault
+strong no tools,claude-sonnet-4.6,fresh-126,fresh,False,0.0,1,0,0.001422,2.6,I don't know — this event is beyond my knowledge cutoff.,Paris St-Germain
+strong no tools,claude-sonnet-4.6,fresh-127,fresh,False,0.0,1,0,0.001311,2.3,I don't have information about Eurovision 2026 as it hasn't ,Monroe
+strong no tools,claude-sonnet-4.6,fresh-128,fresh,True,0.0,1,0,0.001602,2.8,Bezalel Smotrich,Bezalel Smotrich
+strong no tools,claude-sonnet-4.6,fresh-129,fresh,False,0.0,1,0,0.006228,8.0,"I cannot confirm this with certainty, but the 2026 G7 summit",Évian-les-Bains
+strong no tools,claude-sonnet-4.6,fresh-130,fresh,False,0.0,1,0,0.003819,18.9,"I don't have information about this future event (June 23, 2",Pissos
+strong no tools,claude-sonnet-4.6,fresh-131,fresh,False,0.0,1,0,0.002379,4.2,Golfech,Golfech Nuclear Power Plant
+strong no tools,claude-sonnet-4.6,fresh-132,fresh,False,0.0,1,0,0.00243,3.7,"I don't have information about events on June 19, 2026, as i",Claude Guillemot
+strong no tools,claude-sonnet-4.6,fresh-133,fresh,True,0.0,1,0,0.003048,4.9,Operation Overlord (D-Day/Normandy landings),Normandy landings
+strong no tools,claude-sonnet-4.6,fresh-134,fresh,False,0.0,1,0,0.002298,3.9,I don't have information about this future event (August 202,$7 billion
+strong no tools,claude-sonnet-4.6,fresh-135,fresh,False,0.0,1,0,0.003189,9.3,"I don't have information about events in August 2026, as thi",The Constitutional Council
+strong no tools,claude-sonnet-4.6,fresh-136,fresh,True,0.0,1,0,0.002103,3.2,Lionel Jospin,Lionel Jospin
+strong no tools,claude-sonnet-4.6,fresh-137,fresh,False,0.0,1,0,0.002286,7.6,"I don't have information about this event from June 2026, as",Democratic Republic of the Congo
+strong no tools,claude-sonnet-4.6,fresh-138,fresh,True,0.0,1,0,0.000423,1.3,Havana,Havana
+strong no tools,claude-sonnet-4.6,fresh-139,fresh,True,0.0,1,0,0.001794,15.7,Baden-Württemberg,Baden-Württemberg
+strong no tools,claude-sonnet-4.6,fresh-140,fresh,False,0.0,1,0,0.001473,2.5,I don't have information about this future election (Septemb,43.8%
+strong no tools,claude-sonnet-4.6,fresh-141,fresh,False,0.0,1,0,0.00165,6.9,I don't know,30.2%
+strong no tools,claude-sonnet-4.6,fresh-142,fresh,False,0.0,1,0,0.012012,14.8,Oldenburg,Koblenz
+strong no tools,claude-sonnet-4.6,fresh-143,fresh,False,0.0,1,0,0.004731,6.2,I cannot answer this question as 27 June 2026 is beyond my k,Möckern-Drewitz
+strong no tools,claude-sonnet-4.6,fresh-144,fresh,False,0.0,1,0,0.004647,6.6,"I don't have data for July 31, 2026, as it is beyond my know","186,700"
+strong no tools,claude-sonnet-4.6,fresh-145,fresh,False,0.0,1,0,0.005532,7.9,I need to think about this carefully. The question asks abou,2026 Leipzig Airport drone attack
+strong no tools,claude-sonnet-4.6,fresh-146,fresh,True,0.0,1,0,0.001347,2.1,Jürgen Habermas,Jürgen Habermas
+strong no tools,claude-sonnet-4.6,fresh-147,fresh,False,0.0,1,0,0.001116,2.4,I don't have data on this future event,Niue
+strong no tools,claude-sonnet-4.6,fresh-148,fresh,False,0.0,1,0,0.002322,3.5,I don't have information about this February 2026 event beyo,Amazon
+strong no tools,claude-sonnet-4.6,fresh-149,fresh,False,0.0,1,0,0.001245,2.3,"I don't have information about events from July 2026, as thi",Tomahawk missiles
+strong no tools,claude-sonnet-4.6,fresh-150,fresh,True,0.0,1,0,0.002085,3.3,Kavinsky,Kavinsky
+cheap no tools,gpt-4o-mini,fresh-0,fresh,False,0.0,1,0,4.74e-05,1.4,Not available yet.,15 March
+cheap no tools,gpt-4o-mini,fresh-1,fresh,False,0.0,1,0,2.895e-05,3.7,"February 24, 2021",22 March
+cheap no tools,gpt-4o-mini,fresh-2,fresh,False,0.0,1,0,3.975e-05,1.1,unavailable,Miguel Díaz-Canel
+cheap no tools,gpt-4o-mini,fresh-3,fresh,False,0.0,1,0,4.47e-05,1.3,Not available.,a strategic partnership agreement
+cheap no tools,gpt-4o-mini,fresh-4,fresh,False,0.0,1,0,4.44e-05,1.5,<Information not yet available; January 2026 is in the futur,A total fire ban
+cheap no tools,gpt-4o-mini,fresh-5,fresh,False,0.0,1,0,3.18e-05,1.5,I don't have access to data beyond October 2023. Please chec,two people
+cheap no tools,gpt-4o-mini,fresh-6,fresh,False,0.0,1,0,3.57e-05,1.9,N/A,"4,500"
+cheap no tools,gpt-4o-mini,fresh-7,fresh,False,0.0,1,0,3.9e-05,1.2,Unknown.,Deniz Göktaş
+cheap no tools,gpt-4o-mini,fresh-8,fresh,False,0.0,1,0,3.75e-05,1.1,N/A,Pavel Durov
+cheap no tools,gpt-4o-mini,fresh-9,fresh,False,0.0,1,0,2.595e-05,1.2,"Tokyo, Japan",New Delhi
+cheap no tools,gpt-4o-mini,fresh-10,fresh,False,0.0,1,0,4.305e-05,2.4,11,Twelve
+cheap no tools,gpt-4o-mini,fresh-11,fresh,False,0.0,1,0,3.36e-05,2.6,unavailable,Helter Skelter
+cheap no tools,gpt-4o-mini,fresh-12,fresh,False,0.0,1,0,4.215e-05,1.1,Data not available.,"700,000"
+cheap no tools,gpt-4o-mini,fresh-13,fresh,False,0.0,1,0,4.23e-05,1.3,Data not available.,41.5 °C
+cheap no tools,gpt-4o-mini,fresh-14,fresh,False,0.0,1,0,4.98e-05,1.5,No incident occurred.,Ciudad Rodrigo
+cheap no tools,gpt-4o-mini,fresh-15,fresh,False,0.0,1,0,4.89e-05,2.3,Information not available.,Oleksandr Syrskyi
+cheap no tools,gpt-4o-mini,fresh-16,fresh,False,0.0,1,0,3.195e-05,1.3,Unknown,Montreal Victoire
+cheap no tools,gpt-4o-mini,fresh-17,fresh,False,0.0,1,0,4.02e-05,2.0,Information unavailable.,EOS-05
+cheap no tools,gpt-4o-mini,fresh-18,fresh,False,0.0,1,0,3.51e-05,1.1,"November 30, 2022",13 July
+cheap no tools,gpt-4o-mini,fresh-19,fresh,False,0.0,1,0,3.945e-05,1.2,Unknown,Disney Kids & Family
+cheap no tools,gpt-4o-mini,fresh-20,fresh,True,0.0,1,0,5.085e-05,1.5,Single-elimination format,single-elimination
+cheap no tools,gpt-4o-mini,fresh-21,fresh,False,0.0,1,0,3.69e-05,1.2,Information not available.,Gavin Snider
+cheap no tools,gpt-4o-mini,fresh-22,fresh,False,0.0,1,0,4.365e-05,2.8,unable to answer,Clara and the Below
+cheap no tools,gpt-4o-mini,fresh-23,fresh,False,0.0,1,0,3.825e-05,2.3,N/A,German Galushchenko
+cheap no tools,gpt-4o-mini,fresh-24,fresh,False,0.0,1,0,4.92e-05,2.7,ban on the sale of new petrol and diesel cars,a drought
+cheap no tools,gpt-4o-mini,fresh-25,fresh,False,0.0,1,0,4.02e-05,1.6,information not available,"""open war"""
+cheap no tools,gpt-4o-mini,fresh-26,fresh,False,0.0,1,0,5.085e-05,1.3,N/A,nine
+cheap no tools,gpt-4o-mini,fresh-27,fresh,False,0.0,1,0,3.78e-05,1.1,information not available,Markus Hinterhäuser
+cheap no tools,gpt-4o-mini,fresh-28,fresh,False,0.0,1,0,3.465e-05,1.1,N/A,nine
+cheap no tools,gpt-4o-mini,fresh-29,fresh,False,0.0,1,0,3.465e-05,1.5,Not available.,43
+cheap no tools,gpt-4o-mini,fresh-30,fresh,False,0.0,1,0,3.06e-05,1.0,I cannot provide information about events occurring after my,Ankara
+cheap no tools,gpt-4o-mini,fresh-31,fresh,False,0.0,1,0,4.575e-05,1.1,Information not available.,Aibek Dädebai
+cheap no tools,gpt-4o-mini,fresh-32,fresh,False,0.0,1,0,3.075e-05,1.8,unable to provide information,Richard Lewer
+cheap no tools,gpt-4o-mini,fresh-33,fresh,False,0.0,1,0,3.165e-05,1.0,information not available.,Marilyn Gladu
+cheap no tools,gpt-4o-mini,fresh-34,fresh,False,0.0,1,0,4.485e-05,1.4,N/A,6.3
+cheap no tools,gpt-4o-mini,fresh-35,fresh,False,0.0,1,0,3.345e-05,2.0,N/A,Dina Levačić
+cheap no tools,gpt-4o-mini,fresh-36,fresh,False,0.0,1,0,3.705e-05,1.1,information not available,129
+cheap no tools,gpt-4o-mini,fresh-37,fresh,False,0.0,1,0,3.72e-05,2.3,unknown,15 June
+cheap no tools,gpt-4o-mini,fresh-38,fresh,False,0.0,1,0,4.215e-05,1.9,Unknown,Chief Minister
+cheap no tools,gpt-4o-mini,fresh-39,fresh,False,0.0,1,0,3.42e-05,1.9,I cannot provide information about events that occurred afte,Gelida
+cheap no tools,gpt-4o-mini,fresh-40,fresh,False,0.0,1,0,3.75e-05,2.1,information not available,Vladimir Alekseyev
+cheap no tools,gpt-4o-mini,fresh-41,fresh,False,0.0,1,0,3.6e-05,2.4,Unknown,Thirty thousand people
+cheap no tools,gpt-4o-mini,fresh-42,fresh,False,0.0,1,0,4.14e-05,2.5,No information available.,Prime Minister Narendra Modi
+cheap no tools,gpt-4o-mini,fresh-43,fresh,False,0.0,1,0,4.815e-05,1.3,Unknown as of October 2023,Zohran Mamdani
+cheap no tools,gpt-4o-mini,fresh-44,fresh,False,0.0,1,0,4.38e-05,1.2,Information not available.,LHS 1140 b
+cheap no tools,gpt-4o-mini,fresh-45,fresh,False,0.0,1,0,3.69e-05,1.8,No information available.,F-16 Fighting Falcon
+cheap no tools,gpt-4o-mini,fresh-46,fresh,False,0.0,1,0,4.29e-05,2.2,unknown,five
+cheap no tools,gpt-4o-mini,fresh-47,fresh,False,0.0,1,0,4.425e-05,2.8,Unknown,Education Minister
+cheap no tools,gpt-4o-mini,fresh-48,fresh,False,0.0,1,0,4.35e-05,1.2,Unknown,Mykhailo Fedorov
+cheap no tools,gpt-4o-mini,fresh-49,fresh,False,0.0,1,0,5.07e-05,2.8,Data not available.,life imprisonment
+cheap no tools,gpt-4o-mini,fresh-50,fresh,False,0.0,1,0,4.65e-05,1.2,No information available.,"802,500 lira"
+cheap no tools,gpt-4o-mini,fresh-51,fresh,False,0.0,1,0,4.2e-05,1.5,Information not available.,Bruno Foucher
+cheap no tools,gpt-4o-mini,fresh-52,fresh,False,0.0,1,0,3.555e-05,2.2,Data not available,5.2
+cheap no tools,gpt-4o-mini,fresh-53,fresh,False,0.0,1,0,3.75e-05,1.1,N/A,Tonya McBride Robles
+cheap no tools,gpt-4o-mini,fresh-54,fresh,False,0.0,1,0,4.38e-05,2.4,N/A,80
+cheap no tools,gpt-4o-mini,fresh-55,fresh,False,0.0,1,0,4.185e-05,1.9,N/A,two
+cheap no tools,gpt-4o-mini,fresh-56,fresh,False,0.0,1,0,3.075e-05,1.2,Data not available.,3%
+cheap no tools,gpt-4o-mini,fresh-57,fresh,False,0.0,1,0,5.325e-05,2.3,unable to provide current or future events.,Yoon Suk Yeol
+cheap no tools,gpt-4o-mini,fresh-58,fresh,False,0.0,1,0,4.56e-05,1.3,Unknown,BYD Auto
+cheap no tools,gpt-4o-mini,fresh-59,fresh,False,0.0,1,0,3.06e-05,1.0,Mirae Kim.,Carson Ting
+cheap no tools,gpt-4o-mini,fresh-60,fresh,False,0.0,1,0,4.2e-05,1.4,Data not available.,209
+cheap no tools,gpt-4o-mini,fresh-61,fresh,False,0.0,1,0,3.84e-05,2.2,N/A,Fourteen
+cheap no tools,gpt-4o-mini,fresh-62,fresh,False,0.0,1,0,3.975e-05,1.9,unknown,13 years
+cheap no tools,gpt-4o-mini,fresh-63,fresh,False,0.0,1,0,3.645e-05,1.5,N/A,Two
+cheap no tools,gpt-4o-mini,fresh-64,fresh,False,0.0,1,0,3.855e-05,1.9,Information not available.,mayor of Lutsk
+cheap no tools,gpt-4o-mini,fresh-65,fresh,False,0.0,1,0,3.465e-05,1.4,I cannot provide information about events occurring after my,16
+cheap no tools,gpt-4o-mini,fresh-66,fresh,False,0.0,1,0,3.495e-05,2.0,N/A,at least six
+cheap no tools,gpt-4o-mini,fresh-67,fresh,False,0.0,1,0,4.2e-05,1.2,"I cannot access information beyond October 2023. Therefore, ",Liam Nassereddine
+cheap no tools,gpt-4o-mini,fresh-68,fresh,False,0.0,1,0,3.63e-05,2.5,Unknown,Mark Carney
+cheap no tools,gpt-4o-mini,fresh-69,fresh,False,0.0,1,0,2.34e-05,1.3,London,Leipzig
+cheap no tools,gpt-4o-mini,fresh-70,fresh,False,0.0,1,0,3.42e-05,1.9,European Sleeper service,night train service
+cheap no tools,gpt-4o-mini,fresh-71,fresh,False,0.0,1,0,4.305e-05,2.0,Information not available.,Nikita Solovyov
+cheap no tools,gpt-4o-mini,fresh-72,fresh,False,0.0,1,0,3.9e-05,1.3,Unknown,Dharmendra Pradhan
+cheap no tools,gpt-4o-mini,fresh-73,fresh,False,0.0,1,0,3.84e-05,1.9,Information not available.,Han Hak-ja
+cheap no tools,gpt-4o-mini,fresh-74,fresh,False,0.0,1,0,4.2e-05,1.4,Unable to provide answer.,Daniel Ortega
+cheap no tools,gpt-4o-mini,fresh-75,fresh,False,0.0,1,0,3.21e-05,1.1,I cannot provide information on events occurring after my la,Novokuznetsk
+cheap no tools,gpt-4o-mini,fresh-76,fresh,False,0.0,1,0,4.785e-05,1.1,No information available.,life imprisonment
+cheap no tools,gpt-4o-mini,fresh-77,fresh,False,0.0,1,0,4.65e-05,3.0,No information available.,Carlos Vila Nova
+cheap no tools,gpt-4o-mini,fresh-78,fresh,False,0.0,1,0,4.275e-05,1.3,N/A,13.2 months
+cheap no tools,gpt-4o-mini,fresh-79,fresh,False,0.0,1,0,3.675e-05,1.1,unknown,three
+cheap no tools,gpt-4o-mini,fresh-80,fresh,False,0.0,1,0,4.965e-05,1.3,N/A,"UGC Equity Regulations, 2026"
+cheap no tools,gpt-4o-mini,fresh-81,fresh,False,0.0,1,0,4.32e-05,1.6,Data not available.,8.15m
+cheap no tools,gpt-4o-mini,fresh-82,fresh,False,0.0,1,0,3.795e-05,2.7,N/A,28 people
+cheap no tools,gpt-4o-mini,fresh-83,fresh,False,0.0,1,0,4.395e-05,1.4,N/A,improvised explosive device
+cheap no tools,gpt-4o-mini,fresh-84,fresh,False,0.0,1,0,3.9e-05,1.1,4 games,eight games
+cheap no tools,gpt-4o-mini,fresh-85,fresh,False,0.0,1,0,4.62e-05,3.3,unavailable,38 °C
+cheap no tools,gpt-4o-mini,fresh-86,fresh,False,0.0,1,0,3.42e-05,1.1,Information not available.,£30.4bn
+cheap no tools,gpt-4o-mini,fresh-87,fresh,False,0.0,1,0,5.58e-05,1.4,N/A,José Jerí
+cheap no tools,gpt-4o-mini,fresh-88,fresh,False,0.0,1,0,3.87e-05,1.9,N/A,"Henoko, Okinawa Prefecture"
+cheap no tools,gpt-4o-mini,fresh-89,fresh,False,0.0,1,0,4.77e-05,1.1,Information unavailable.,Doug Armstrong
+cheap no tools,gpt-4o-mini,fresh-90,fresh,False,0.0,1,0,4.935e-05,1.5,Office for National Statistics,Imperial College London
+cheap no tools,gpt-4o-mini,fresh-91,fresh,False,0.0,1,0,3.87e-05,1.3,Not available,"₹25,863 crore"
+cheap no tools,gpt-4o-mini,fresh-92,fresh,False,0.0,1,0,3.915e-05,1.2,No specific individual confirmed yet.,Rubén Rocha Moya
+cheap no tools,gpt-4o-mini,fresh-93,fresh,False,0.0,1,0,2.58e-05,1.8,Unknown,Spain
+cheap no tools,gpt-4o-mini,fresh-94,fresh,False,0.0,1,0,4.02e-05,1.0,Unknown,11th
+cheap no tools,gpt-4o-mini,fresh-95,fresh,False,0.0,1,0,3.6e-05,2.0,Not applicable,India
+cheap no tools,gpt-4o-mini,fresh-96,fresh,False,0.0,1,0,2.865e-05,1.0,Munich,Istanbul
+cheap no tools,gpt-4o-mini,fresh-97,fresh,False,0.0,1,0,2.805e-05,2.1,"Philadelphia, Pennsylvania",Citizens Bank Park
+cheap no tools,gpt-4o-mini,fresh-98,fresh,False,0.0,1,0,5.85e-05,1.5,No such document exists.,Islamabad Memorandum
+cheap no tools,gpt-4o-mini,fresh-99,fresh,False,0.0,1,0,3.105e-05,1.2,Unknown,Elon Musk
+cheap no tools,gpt-4o-mini,fresh-100,fresh,False,0.0,1,0,7.11e-05,3.0,Unknown,"252,756 miles"
+cheap no tools,gpt-4o-mini,fresh-101,fresh,False,0.0,1,0,4.935e-05,1.2,not applicable,10-day
+cheap no tools,gpt-4o-mini,fresh-102,fresh,False,0.0,1,0,3.795e-05,1.6,Information not available.,Oleksandr Dovhach
+cheap no tools,gpt-4o-mini,fresh-103,fresh,False,0.0,1,0,3.24e-05,1.7,information not available.,José María Balcázar
+cheap no tools,gpt-4o-mini,fresh-104,fresh,False,0.0,1,0,4.68e-05,1.2,11,21
+cheap no tools,gpt-4o-mini,fresh-105,fresh,False,0.0,1,0,3.57e-05,1.1,N/A,¥60–120
+cheap no tools,gpt-4o-mini,fresh-106,fresh,False,0.0,1,0,5.25e-05,1.4,Terminal 3,GRU Airport People Mover
+cheap no tools,gpt-4o-mini,fresh-107,fresh,False,0.0,1,0,2.64e-05,1.1,presidential election,2026 Beninese parliamentary election
+cheap no tools,gpt-4o-mini,fresh-108,fresh,False,0.0,1,0,3.135e-05,1.4,N/A,Michaelmas Island
+cheap no tools,gpt-4o-mini,fresh-109,fresh,False,0.0,1,0,4.305e-05,2.4,unable to predict future incidents.,conspiracy to commit arson
+cheap no tools,gpt-4o-mini,fresh-110,fresh,False,0.0,1,0,2.055e-05,1.1,N/A,Clay Fuller
+cheap no tools,gpt-4o-mini,fresh-111,fresh,False,0.0,1,0,4.485e-05,1.5,N/A,prime minister
+cheap no tools,gpt-4o-mini,fresh-112,fresh,False,0.0,1,0,4.35e-05,1.6,"No information available on a mission launched on May 19, 20",SMILE
+cheap no tools,gpt-4o-mini,fresh-113,fresh,False,0.0,1,0,3.51e-05,2.1,Information not available.,850
+cheap no tools,gpt-4o-mini,fresh-114,fresh,False,0.0,1,0,5.205e-05,1.3,N/A,Urgent Care Centre
+cheap no tools,gpt-4o-mini,fresh-115,fresh,False,0.0,1,0,3.615e-05,2.8,Not available.,66
+cheap no tools,gpt-4o-mini,fresh-116,fresh,False,0.0,1,0,4.11e-05,2.2,"2026 U.S. Women's Open, Pebble Beach Golf Links, California.",Nelly Korda
+cheap no tools,gpt-4o-mini,fresh-117,fresh,False,0.0,1,0,2.94e-05,1.1,Nanjing Metro Line 9,Line S2
+cheap no tools,gpt-4o-mini,fresh-118,fresh,False,0.0,1,0,3.705e-05,2.4,N/A.,Antonello da Messina
+cheap no tools,gpt-4o-mini,fresh-119,fresh,False,0.0,1,0,4.935e-05,1.5,Unable to determine.,Baku and Tbilisi
+cheap no tools,gpt-4o-mini,fresh-120,fresh,False,0.0,1,0,4.425e-05,2.3,Information unavailable.,Operation Southern Spear
+cheap no tools,gpt-4o-mini,fresh-121,fresh,False,0.0,1,0,4.38e-05,1.1,data not available,5.6
+cheap no tools,gpt-4o-mini,fresh-122,fresh,False,0.0,1,0,3.855e-05,1.1,Unknown politician or event.,Angus Taylor
+cheap no tools,gpt-4o-mini,fresh-123,fresh,False,0.0,1,0,3.825e-05,1.4,Unable to provide future information.,Burkina Faso
+cheap no tools,gpt-4o-mini,fresh-124,fresh,False,0.0,1,0,4.065e-05,1.3,information not available.,Kehl
+cheap no tools,gpt-4o-mini,fresh-125,fresh,False,0.0,1,0,4.98e-05,1.5,Information not available.,Christophe Leribault
+cheap no tools,gpt-4o-mini,fresh-126,fresh,False,0.0,1,0,3.705e-05,1.3,information not available,Paris St-Germain
+cheap no tools,gpt-4o-mini,fresh-127,fresh,False,0.0,1,0,4.92e-05,1.6,Unknown,Monroe
+cheap no tools,gpt-4o-mini,fresh-128,fresh,False,0.0,1,0,3.27e-05,1.0,Not applicable,Bezalel Smotrich
+cheap no tools,gpt-4o-mini,fresh-129,fresh,False,0.0,1,0,4.14e-05,1.2,Unknown,Évian-les-Bains
+cheap no tools,gpt-4o-mini,fresh-130,fresh,False,0.0,1,0,4.545e-05,2.4,Unknown.,Pissos
+cheap no tools,gpt-4o-mini,fresh-131,fresh,True,0.0,1,0,7.77e-05,1.9,Golfech Nuclear Power Plant,Golfech Nuclear Power Plant
+cheap no tools,gpt-4o-mini,fresh-132,fresh,False,0.0,1,0,4.905e-05,1.6,unavailable,Claude Guillemot
+cheap no tools,gpt-4o-mini,fresh-133,fresh,True,0.0,1,0,3.54e-05,2.0,Normandy landings,Normandy landings
+cheap no tools,gpt-4o-mini,fresh-134,fresh,False,0.0,1,0,4.95e-05,1.5,No information available.,$7 billion
+cheap no tools,gpt-4o-mini,fresh-135,fresh,False,0.0,1,0,4.2e-05,1.4,N/A,The Constitutional Council
+cheap no tools,gpt-4o-mini,fresh-136,fresh,False,0.0,1,0,4.035e-05,2.0,unknown,Lionel Jospin
+cheap no tools,gpt-4o-mini,fresh-137,fresh,False,0.0,1,0,3.96e-05,1.2,Not applicable.,Democratic Republic of the Congo
+cheap no tools,gpt-4o-mini,fresh-138,fresh,False,0.0,1,0,3.255e-05,1.0,<information not available>,Havana
+cheap no tools,gpt-4o-mini,fresh-139,fresh,False,0.0,1,0,4.74e-05,2.2,data not available,Baden-Württemberg
+cheap no tools,gpt-4o-mini,fresh-140,fresh,False,0.0,1,0,5.25e-05,2.5,not available,43.8%
+cheap no tools,gpt-4o-mini,fresh-141,fresh,False,0.0,1,0,5.025e-05,1.4,data not available,30.2%
+cheap no tools,gpt-4o-mini,fresh-142,fresh,False,0.0,1,0,3.405e-05,1.1,N/A,Koblenz
+cheap no tools,gpt-4o-mini,fresh-143,fresh,False,0.0,1,0,4.695e-05,1.2,?,Möckern-Drewitz
+cheap no tools,gpt-4o-mini,fresh-144,fresh,False,0.0,1,0,4.695e-05,1.2,Unknown,"186,700"
+cheap no tools,gpt-4o-mini,fresh-145,fresh,False,0.0,1,0,4.35e-05,2.2,Unable to provide information.,2026 Leipzig Airport drone attack
+cheap no tools,gpt-4o-mini,fresh-146,fresh,False,0.0,1,0,5.865e-05,2.9,False statement.,Jürgen Habermas
+cheap no tools,gpt-4o-mini,fresh-147,fresh,False,0.0,1,0,4.275e-05,1.4,Unknown.,Niue
+cheap no tools,gpt-4o-mini,fresh-148,fresh,False,0.0,1,0,3.33e-05,1.4,unknown.,Amazon
+cheap no tools,gpt-4o-mini,fresh-149,fresh,False,0.0,1,0,3.945e-05,1.4,information not available,Tomahawk missiles
+cheap no tools,gpt-4o-mini,fresh-150,fresh,False,0.0,1,0,4.05e-05,2.1,unavailable,Kavinsky
+wiki search,gpt-4o-mini,fresh-0,fresh,False,0.0,4,3,0.0005325,8.3,Not found,15 March
+wiki search,gpt-4o-mini,fresh-1,fresh,True,0.0,5,3,0.000366,8.7,22 March 2026,22 March
+wiki search,gpt-4o-mini,fresh-2,fresh,False,0.0,4,3,0.0004939499999999999,8.0,US and Iran negotiations,Miguel Díaz-Canel
+wiki search,gpt-4o-mini,fresh-3,fresh,False,0.0,9,7,0.00089145,18.6,No information available.,a strategic partnership agreement
+wiki search,gpt-4o-mini,fresh-4,fresh,False,0.0,7,7,0.00059805,18.3,No specific measure found.,A total fire ban
+wiki search,gpt-4o-mini,fresh-5,fresh,True,0.0,2,1,8.295e-05,3.2,2,two people
+wiki search,gpt-4o-mini,fresh-6,fresh,False,0.0,2,1,0.0001215,3.3,519,"4,500"
+wiki search,gpt-4o-mini,fresh-7,fresh,False,0.0,7,6,0.00108315,14.6,Ekrem İmamoğlu,Deniz Göktaş
+wiki search,gpt-4o-mini,fresh-8,fresh,False,0.0,2,1,0.00013739999999999998,3.7,Information not found.,Pavel Durov
+wiki search,gpt-4o-mini,fresh-9,fresh,True,0.0,2,1,8.115e-05,3.2,"New Delhi, India",New Delhi
+wiki search,gpt-4o-mini,fresh-10,fresh,False,0.0,9,7,0.0007304999999999999,20.0,unknown,Twelve
+wiki search,gpt-4o-mini,fresh-11,fresh,False,0.0,8,7,0.00114345,19.5,Not available,Helter Skelter
+wiki search,gpt-4o-mini,fresh-12,fresh,False,0.0,2,1,0.0001419,3.8,data not available,"700,000"
+wiki search,gpt-4o-mini,fresh-13,fresh,False,0.0,3,2,0.00036825,6.5,Information not found.,41.5 °C
+wiki search,gpt-4o-mini,fresh-14,fresh,False,0.0,9,7,0.00165225,21.7,Unknown,Ciudad Rodrigo
+wiki search,gpt-4o-mini,fresh-15,fresh,False,0.0,9,7,0.0013701,19.4,Unknown,Oleksandr Syrskyi
+wiki search,gpt-4o-mini,fresh-16,fresh,True,0.0,2,1,0.00010755,3.3,Montreal Victoire,Montreal Victoire
+wiki search,gpt-4o-mini,fresh-17,fresh,False,0.0,5,3,0.00057405,10.5,No launch information available.,EOS-05
+wiki search,gpt-4o-mini,fresh-18,fresh,False,0.0,9,7,0.0023445000000000002,20.6,6 November 2019,13 July
+wiki search,gpt-4o-mini,fresh-19,fresh,False,0.0,3,1,0.0002544,5.2,Unknown.,Disney Kids & Family
+wiki search,gpt-4o-mini,fresh-20,fresh,True,0.0,2,1,0.0001113,3.4,single-elimination format,single-elimination
+wiki search,gpt-4o-mini,fresh-21,fresh,False,0.0,9,8,0.0014343,22.2,Unknown.,Gavin Snider
+wiki search,gpt-4o-mini,fresh-22,fresh,False,0.0,5,4,0.00052935,11.9,Not available,Clara and the Below
+wiki search,gpt-4o-mini,fresh-23,fresh,False,0.0,7,6,0.0009140999999999999,15.7,Not found,German Galushchenko
+wiki search,gpt-4o-mini,fresh-24,fresh,True,0.0,3,2,0.00035085,5.4,drought declared across all of Wales,a drought
+wiki search,gpt-4o-mini,fresh-25,fresh,True,0.0,8,8,0.0015936,21.0,Open war declared by Pakistan,"""open war"""
+wiki search,gpt-4o-mini,fresh-26,fresh,False,0.0,5,4,0.0004890000000000001,11.5,Not found,nine
+wiki search,gpt-4o-mini,fresh-27,fresh,False,0.0,9,7,0.0016380000000000001,20.3,Unknown artist,Markus Hinterhäuser
+wiki search,gpt-4o-mini,fresh-28,fresh,False,0.0,2,1,0.0001095,7.2,6,nine
+wiki search,gpt-4o-mini,fresh-29,fresh,False,0.0,3,2,0.0002055,6.6,46,43
+wiki search,gpt-4o-mini,fresh-30,fresh,False,0.0,4,3,0.00027344999999999995,7.7,unknown,Ankara
+wiki search,gpt-4o-mini,fresh-31,fresh,False,0.0,2,1,0.00011669999999999999,3.3,Oljas Bektenov,Aibek Dädebai
+wiki search,gpt-4o-mini,fresh-32,fresh,True,0.0,3,2,0.0002256,5.9,Richard Lewer,Richard Lewer
+wiki search,gpt-4o-mini,fresh-33,fresh,False,0.0,8,7,0.0011299499999999998,18.4,no information found,Marilyn Gladu
+wiki search,gpt-4o-mini,fresh-34,fresh,False,0.0,9,7,0.00104355,16.9,No information available.,6.3
+wiki search,gpt-4o-mini,fresh-35,fresh,False,0.0,4,3,0.0004845,7.8,Not available,Dina Levačić
+wiki search,gpt-4o-mini,fresh-36,fresh,False,0.0,2,1,0.00011775,4.5,136,129
+wiki search,gpt-4o-mini,fresh-37,fresh,False,0.0,6,5,0.0008757000000000001,13.0,not available,15 June
+wiki search,gpt-4o-mini,fresh-38,fresh,True,0.0,2,1,0.00011279999999999999,3.2,Chief Minister of Kerala,Chief Minister
+wiki search,gpt-4o-mini,fresh-39,fresh,False,0.0,2,1,0.00012495,3.7,"Adamuz, Córdoba",Gelida
+wiki search,gpt-4o-mini,fresh-40,fresh,False,0.0,6,5,0.0005376000000000001,13.1,No information found.,Vladimir Alekseyev
+wiki search,gpt-4o-mini,fresh-41,fresh,False,0.0,3,2,0.00025365,6.2,No information available,Thirty thousand people
+wiki search,gpt-4o-mini,fresh-42,fresh,False,0.0,4,2,0.00033375,10.4,Unknown.,Prime Minister Narendra Modi
+wiki search,gpt-4o-mini,fresh-43,fresh,True,0.0,2,1,0.00015000000000000001,3.9,Zohran Mamdani,Zohran Mamdani
+wiki search,gpt-4o-mini,fresh-44,fresh,False,0.0,7,6,0.0006081,17.6,Unknown,LHS 1140 b
+wiki search,gpt-4o-mini,fresh-45,fresh,False,0.0,8,7,0.0008652,17.8,unknown,F-16 Fighting Falcon
+wiki search,gpt-4o-mini,fresh-46,fresh,True,0.0,2,1,0.00011535,4.0,5,five
+wiki search,gpt-4o-mini,fresh-47,fresh,False,0.0,2,1,0.00012705,3.2,Minister of Education,Education Minister
+wiki search,gpt-4o-mini,fresh-48,fresh,True,0.0,7,6,0.00096285,15.2,Mykhailo Fedorov,Mykhailo Fedorov
+wiki search,gpt-4o-mini,fresh-49,fresh,False,0.0,3,2,0.00027344999999999995,5.6,Not available,life imprisonment
+wiki search,gpt-4o-mini,fresh-50,fresh,False,0.0,4,3,0.00034455,8.0,Not available,"802,500 lira"
+wiki search,gpt-4o-mini,fresh-51,fresh,False,0.0,7,6,0.00064485,15.7,Not found.,Bruno Foucher
+wiki search,gpt-4o-mini,fresh-52,fresh,False,0.0,3,2,0.0001824,5.9,5.1,5.2
+wiki search,gpt-4o-mini,fresh-53,fresh,False,0.0,7,6,0.00053895,15.1,Not found.,Tonya McBride Robles
+wiki search,gpt-4o-mini,fresh-54,fresh,True,0.0,2,1,0.00010455,2.9,80,80
+wiki search,gpt-4o-mini,fresh-55,fresh,True,0.0,2,1,8.669999999999999e-05,3.2,2,two
+wiki search,gpt-4o-mini,fresh-56,fresh,False,0.0,2,1,0.00014235,3.5,Not available,3%
+wiki search,gpt-4o-mini,fresh-57,fresh,False,0.0,7,5,0.000762,15.3,Unknown,Yoon Suk Yeol
+wiki search,gpt-4o-mini,fresh-58,fresh,False,0.0,4,3,0.0005892,8.3,unknown,BYD Auto
+wiki search,gpt-4o-mini,fresh-59,fresh,False,0.0,9,7,0.0019611,18.2,Hypebeast,Carson Ting
+wiki search,gpt-4o-mini,fresh-60,fresh,False,0.0,5,4,0.0005025,9.9,Not available,209
+wiki search,gpt-4o-mini,fresh-61,fresh,True,0.0,2,1,8.31e-05,3.0,14,Fourteen
+wiki search,gpt-4o-mini,fresh-62,fresh,False,0.0,4,3,0.00021705,8.9,Not available,13 years
+wiki search,gpt-4o-mini,fresh-63,fresh,False,0.0,5,4,0.00028215,9.4,no information found,Two
+wiki search,gpt-4o-mini,fresh-64,fresh,False,0.0,9,7,0.0013654499999999998,17.5,unknown,mayor of Lutsk
+wiki search,gpt-4o-mini,fresh-65,fresh,False,0.0,5,4,0.0003771,10.5,Unknown,16
+wiki search,gpt-4o-mini,fresh-66,fresh,False,0.0,9,7,0.00119175,20.3,No information available.,at least six
+wiki search,gpt-4o-mini,fresh-67,fresh,False,0.0,6,5,0.00047264999999999997,14.0,Maayan Licht,Liam Nassereddine
+wiki search,gpt-4o-mini,fresh-68,fresh,True,0.0,3,2,0.0001842,6.5,Mark Carney,Mark Carney
+wiki search,gpt-4o-mini,fresh-69,fresh,True,0.0,2,1,0.0001008,3.7,"Leipzig, Germany",Leipzig
+wiki search,gpt-4o-mini,fresh-70,fresh,False,0.0,9,7,0.0007744499999999999,19.2,Unknown specific new service.,night train service
+wiki search,gpt-4o-mini,fresh-71,fresh,True,0.0,2,1,0.00012225,3.7,Nikita Solovyovat,Nikita Solovyov
+wiki search,gpt-4o-mini,fresh-72,fresh,True,0.0,2,1,0.00015255,3.5,Dharmendra Pradhan,Dharmendra Pradhan
+wiki search,gpt-4o-mini,fresh-73,fresh,False,0.0,4,3,0.00022260000000000002,8.0,Unknown,Han Hak-ja
+wiki search,gpt-4o-mini,fresh-74,fresh,True,0.0,2,1,0.00010199999999999999,3.3,Daniel Ortega,Daniel Ortega
+wiki search,gpt-4o-mini,fresh-75,fresh,False,0.0,6,5,0.0010107,14.7,No specific details found.,Novokuznetsk
+wiki search,gpt-4o-mini,fresh-76,fresh,False,0.0,3,3,0.00043425,7.2,life sentence for insurrection,life imprisonment
+wiki search,gpt-4o-mini,fresh-77,fresh,True,0.0,2,1,9.6e-05,3.3,Carlos Vila Nova won reelection with 55.88% of the vote.,Carlos Vila Nova
+wiki search,gpt-4o-mini,fresh-78,fresh,False,0.0,4,3,0.0004425,8.4,Not available,13.2 months
+wiki search,gpt-4o-mini,fresh-79,fresh,False,0.0,7,7,0.00066555,26.5,Not found,three
+wiki search,gpt-4o-mini,fresh-80,fresh,True,0.0,3,2,0.0002919,9.9,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+wiki search,gpt-4o-mini,fresh-81,fresh,False,0.0,2,1,0.00013125000000000002,3.5,Data not available,8.15m
+wiki search,gpt-4o-mini,fresh-82,fresh,True,0.0,2,1,0.00012375,3.8,28,28 people
+wiki search,gpt-4o-mini,fresh-83,fresh,True,0.0,7,6,0.00080745,17.2,improvised explosive device,improvised explosive device
+wiki search,gpt-4o-mini,fresh-84,fresh,False,0.0,4,3,0.00026655,7.7,Not available,eight games
+wiki search,gpt-4o-mini,fresh-85,fresh,True,0.0,2,1,0.00014879999999999998,3.2,38.0 °C,38 °C
+wiki search,gpt-4o-mini,fresh-86,fresh,False,0.0,6,5,0.0005262,12.3,Not available,£30.4bn
+wiki search,gpt-4o-mini,fresh-87,fresh,False,0.0,5,5,0.0006590999999999999,11.7,Keiko Fujimori,José Jerí
+wiki search,gpt-4o-mini,fresh-88,fresh,False,0.0,4,4,0.00031154999999999996,13.6,No information available.,"Henoko, Okinawa Prefecture"
+wiki search,gpt-4o-mini,fresh-89,fresh,False,0.0,7,6,0.0009471,15.9,Not found,Doug Armstrong
+wiki search,gpt-4o-mini,fresh-90,fresh,False,0.0,3,2,0.0003129,5.7,World Weather Attribution,Imperial College London
+wiki search,gpt-4o-mini,fresh-91,fresh,False,0.0,5,4,0.00042255000000000005,11.3,Not available,"₹25,863 crore"
+wiki search,gpt-4o-mini,fresh-92,fresh,True,0.0,8,7,0.0007029,18.1,Rubén Rocha Moya,Rubén Rocha Moya
+wiki search,gpt-4o-mini,fresh-93,fresh,True,0.0,2,1,0.0001341,3.3,Spain,Spain
+wiki search,gpt-4o-mini,fresh-94,fresh,False,0.0,3,2,0.00022005,5.8,10,11th
+wiki search,gpt-4o-mini,fresh-95,fresh,True,0.0,2,1,0.00011460000000000001,3.1,India,India
+wiki search,gpt-4o-mini,fresh-96,fresh,True,0.0,3,3,0.00024839999999999997,9.6,"Istanbul, Turkey",Istanbul
+wiki search,gpt-4o-mini,fresh-97,fresh,True,0.0,2,1,0.00011445,3.5,"Citizens Bank Park, Philadelphia, Pennsylvania",Citizens Bank Park
+wiki search,gpt-4o-mini,fresh-98,fresh,False,0.0,3,2,0.00036525,5.7,No information available,Islamabad Memorandum
+wiki search,gpt-4o-mini,fresh-99,fresh,True,0.0,2,1,9.21e-05,3.1,Elon Musk,Elon Musk
+wiki search,gpt-4o-mini,fresh-100,fresh,True,0.0,3,3,0.00038310000000000004,7.3,252756,"252,756 miles"
+wiki search,gpt-4o-mini,fresh-101,fresh,True,0.0,2,1,0.0001638,4.5,"10 days (initially), extended multiple times.",10-day
+wiki search,gpt-4o-mini,fresh-102,fresh,False,0.0,3,2,0.00023040000000000002,5.9,Not available,Oleksandr Dovhach
+wiki search,gpt-4o-mini,fresh-103,fresh,False,0.0,5,4,0.00074865,11.5,Keiko Fujimori,José María Balcázar
+wiki search,gpt-4o-mini,fresh-104,fresh,False,0.0,5,4,0.0004011,10.0,Not found,21
+wiki search,gpt-4o-mini,fresh-105,fresh,False,0.0,2,2,0.00019485,6.1,No information available.,¥60–120
+wiki search,gpt-4o-mini,fresh-106,fresh,False,0.0,3,2,0.0003528,5.9,No information available.,GRU Airport People Mover
+wiki search,gpt-4o-mini,fresh-107,fresh,False,0.0,9,7,0.0008590500000000001,17.9,presidential election,2026 Beninese parliamentary election
+wiki search,gpt-4o-mini,fresh-108,fresh,False,0.0,6,5,0.0005689499999999999,16.6,No information available,Michaelmas Island
+wiki search,gpt-4o-mini,fresh-109,fresh,False,0.0,2,1,0.00013470000000000002,3.6,antisemitic attacks in London,conspiracy to commit arson
+wiki search,gpt-4o-mini,fresh-110,fresh,True,0.0,3,2,0.00021030000000000002,5.6,Clay Fuller,Clay Fuller
+wiki search,gpt-4o-mini,fresh-111,fresh,True,0.0,2,1,0.0001398,3.3,Prime Minister,prime minister
+wiki search,gpt-4o-mini,fresh-112,fresh,False,0.0,9,7,0.0014043,26.4,Lunar Polar Exploration,SMILE
+wiki search,gpt-4o-mini,fresh-113,fresh,False,0.0,7,6,0.00110715,17.5,No information found,850
+wiki search,gpt-4o-mini,fresh-114,fresh,False,0.0,5,4,0.0005793,12.3,No information found,Urgent Care Centre
+wiki search,gpt-4o-mini,fresh-115,fresh,True,0.0,2,1,0.0001104,4.9,66,66
+wiki search,gpt-4o-mini,fresh-116,fresh,True,0.0,2,1,0.00010935,3.6,"Nelly Korda, Charley Hull, Gaby López",Nelly Korda
+wiki search,gpt-4o-mini,fresh-117,fresh,False,0.0,4,3,0.00034619999999999996,8.3,Unknown,Line S2
+wiki search,gpt-4o-mini,fresh-118,fresh,False,0.0,3,2,0.0002352,6.8,Not found,Antonello da Messina
+wiki search,gpt-4o-mini,fresh-119,fresh,False,0.0,6,5,0.0006072,12.5,No information found.,Baku and Tbilisi
+wiki search,gpt-4o-mini,fresh-120,fresh,False,0.0,2,1,0.0001539,3.6,military raid in Venezuela,Operation Southern Spear
+wiki search,gpt-4o-mini,fresh-121,fresh,False,0.0,3,2,0.0001809,5.5,No information available.,5.6
+wiki search,gpt-4o-mini,fresh-122,fresh,True,0.0,4,3,0.00041910000000000005,8.1,Angus Taylor,Angus Taylor
+wiki search,gpt-4o-mini,fresh-123,fresh,False,0.0,9,7,0.00155535,21.8,Unknown,Burkina Faso
+wiki search,gpt-4o-mini,fresh-124,fresh,False,0.0,6,5,0.0009611999999999999,12.0,None found,Kehl
+wiki search,gpt-4o-mini,fresh-125,fresh,False,0.0,6,5,0.0006760500000000001,13.1,Unknown,Christophe Leribault
+wiki search,gpt-4o-mini,fresh-126,fresh,False,0.0,2,1,0.0001296,3.8,Paris Saint-Germain,Paris St-Germain
+wiki search,gpt-4o-mini,fresh-127,fresh,False,0.0,3,2,0.00034095,6.0,Not available,Monroe
+wiki search,gpt-4o-mini,fresh-128,fresh,True,0.0,9,8,0.0014758500000000001,20.1,Bezalel Smotrich,Bezalel Smotrich
+wiki search,gpt-4o-mini,fresh-129,fresh,True,0.0,2,1,0.00010365,3.7,Évian-les-Bains,Évian-les-Bains
+wiki search,gpt-4o-mini,fresh-130,fresh,True,0.0,2,1,0.00016380000000000002,3.5,Pissos,Pissos
+wiki search,gpt-4o-mini,fresh-131,fresh,True,0.0,9,7,0.0019968,18.8,Golfech Nuclear Power Plant,Golfech Nuclear Power Plant
+wiki search,gpt-4o-mini,fresh-132,fresh,False,0.0,8,10,0.0012124500000000001,20.3,No information found.,Claude Guillemot
+wiki search,gpt-4o-mini,fresh-133,fresh,False,0.0,4,3,0.0004898999999999999,8.2,Normandy D-Day beaches,Normandy landings
+wiki search,gpt-4o-mini,fresh-134,fresh,False,0.0,8,6,0.0008380499999999999,17.1,Not available.,$7 billion
+wiki search,gpt-4o-mini,fresh-135,fresh,True,0.0,3,2,0.00027705000000000004,5.6,Constitutional Council of France,The Constitutional Council
+wiki search,gpt-4o-mini,fresh-136,fresh,True,0.0,3,2,0.00021569999999999998,5.5,Lionel Jospin,Lionel Jospin
+wiki search,gpt-4o-mini,fresh-137,fresh,True,0.0,3,2,0.00030375,5.6,Democratic Republic of the Congo,Democratic Republic of the Congo
+wiki search,gpt-4o-mini,fresh-138,fresh,False,0.0,4,3,0.0005638500000000001,8.9,Not found,Havana
+wiki search,gpt-4o-mini,fresh-139,fresh,True,0.0,2,1,0.0001296,3.4,Baden-Württemberg,Baden-Württemberg
+wiki search,gpt-4o-mini,fresh-140,fresh,True,0.0,2,1,0.00015015,5.1,43.8%,43.8%
+wiki search,gpt-4o-mini,fresh-141,fresh,True,0.0,2,1,0.00015225,3.6,30.2,30.2%
+wiki search,gpt-4o-mini,fresh-142,fresh,True,0.0,4,3,0.0002538,7.9,Koblenz,Koblenz
+wiki search,gpt-4o-mini,fresh-143,fresh,False,0.0,3,2,0.00036975,6.1,Unknown locality in Germany,Möckern-Drewitz
+wiki search,gpt-4o-mini,fresh-144,fresh,False,0.0,2,1,0.00022155,5.3,Unknown exact number.,"186,700"
+wiki search,gpt-4o-mini,fresh-145,fresh,False,0.0,2,1,0.00012059999999999999,4.5,Leipzig Airport drone attack,2026 Leipzig Airport drone attack
+wiki search,gpt-4o-mini,fresh-146,fresh,True,0.0,3,2,0.00031875,6.2,Jürgen Habermas,Jürgen Habermas
+wiki search,gpt-4o-mini,fresh-147,fresh,False,0.0,3,2,0.00026385,6.0,No information available.,Niue
+wiki search,gpt-4o-mini,fresh-148,fresh,False,0.0,5,4,0.00057675,11.7,not found,Amazon
+wiki search,gpt-4o-mini,fresh-149,fresh,False,0.0,9,7,0.00208575,19.7,Unknown,Tomahawk missiles
+wiki search,gpt-4o-mini,fresh-150,fresh,True,0.0,4,3,0.0002697,8.2,Kavinsky,Kavinsky
+wiki search+page,gpt-4o-mini,fresh-0,fresh,True,0.0,3,2,0.00034515,5.6,"March 15, 2026",15 March
+wiki search+page,gpt-4o-mini,fresh-1,fresh,True,0.0,2,1,0.0001587,2.7,22 March 2026,22 March
+wiki search+page,gpt-4o-mini,fresh-2,fresh,False,0.0,6,5,0.0008889,11.7,No specific information found.,Miguel Díaz-Canel
+wiki search+page,gpt-4o-mini,fresh-3,fresh,True,0.0,3,2,0.0002031,5.0,strategic partnership agreement in defense and energy sector,a strategic partnership agreement
+wiki search+page,gpt-4o-mini,fresh-4,fresh,True,0.0,4,3,0.00031185,6.5,Total fire ban,A total fire ban
+wiki search+page,gpt-4o-mini,fresh-5,fresh,True,0.0,2,1,0.00011625,3.4,2,two people
+wiki search+page,gpt-4o-mini,fresh-6,fresh,False,0.0,3,2,0.00030345,5.1,519,"4,500"
+wiki search+page,gpt-4o-mini,fresh-7,fresh,True,0.0,3,2,0.00021674999999999998,5.3,Deniz Göktaş,Deniz Göktaş
+wiki search+page,gpt-4o-mini,fresh-8,fresh,True,0.0,2,1,0.0001272,2.5,Pavel Durov,Pavel Durov
+wiki search+page,gpt-4o-mini,fresh-9,fresh,True,0.0,3,2,0.0002031,4.6,"New Delhi, India",New Delhi
+wiki search+page,gpt-4o-mini,fresh-10,fresh,False,0.0,9,7,0.0007926,16.5,unknown,Twelve
+wiki search+page,gpt-4o-mini,fresh-11,fresh,True,0.0,3,2,0.00020265000000000002,6.6,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+wiki search+page,gpt-4o-mini,fresh-12,fresh,True,0.0,2,1,0.0001281,3.3,700000,"700,000"
+wiki search+page,gpt-4o-mini,fresh-13,fresh,False,0.0,4,3,0.0005287499999999999,8.1,41.5,41.5 °C
+wiki search+page,gpt-4o-mini,fresh-14,fresh,False,0.0,9,7,0.0015978000000000001,17.9,None,Ciudad Rodrigo
+wiki search+page,gpt-4o-mini,fresh-15,fresh,True,0.0,2,1,0.0001227,2.6,Oleksandr Syrskyi,Oleksandr Syrskyi
+wiki search+page,gpt-4o-mini,fresh-16,fresh,False,0.0,3,2,0.00029235000000000003,5.0,Carolina Hurricanes,Montreal Victoire
+wiki search+page,gpt-4o-mini,fresh-17,fresh,False,0.0,3,2,0.00027269999999999996,5.6,No specific launch information available.,EOS-05
+wiki search+page,gpt-4o-mini,fresh-18,fresh,False,0.0,9,7,0.0016258499999999999,18.2,January 2021,13 July
+wiki search+page,gpt-4o-mini,fresh-19,fresh,True,0.0,3,2,0.0003459,4.8,Disney Kids & Family,Disney Kids & Family
+wiki search+page,gpt-4o-mini,fresh-20,fresh,True,0.0,2,1,0.0001494,3.8,single-elimination format,single-elimination
+wiki search+page,gpt-4o-mini,fresh-21,fresh,True,0.0,3,2,0.00023459999999999998,4.8,Gavin Snider,Gavin Snider
+wiki search+page,gpt-4o-mini,fresh-22,fresh,True,0.0,4,3,0.0003285,7.6,Clara and the Below,Clara and the Below
+wiki search+page,gpt-4o-mini,fresh-23,fresh,True,0.0,2,1,0.00013544999999999999,3.2,Former energy minister German Galushchenko,German Galushchenko
+wiki search+page,gpt-4o-mini,fresh-24,fresh,True,0.0,5,4,0.00040320000000000004,9.6,drought,a drought
+wiki search+page,gpt-4o-mini,fresh-25,fresh,False,0.0,4,3,0.000498,7.9,No specific declaration found.,"""open war"""
+wiki search+page,gpt-4o-mini,fresh-26,fresh,True,0.0,2,1,0.0001185,2.8,9,nine
+wiki search+page,gpt-4o-mini,fresh-27,fresh,False,0.0,8,7,0.00113295,16.0,Unknown,Markus Hinterhäuser
+wiki search+page,gpt-4o-mini,fresh-28,fresh,True,0.0,3,2,0.00020534999999999998,4.3,9,nine
+wiki search+page,gpt-4o-mini,fresh-29,fresh,True,0.0,3,2,0.00024660000000000003,5.0,43,43
+wiki search+page,gpt-4o-mini,fresh-30,fresh,True,0.0,3,2,0.0002547,5.0,Ankara,Ankara
+wiki search+page,gpt-4o-mini,fresh-31,fresh,True,0.0,3,2,0.00038205,5.8,Aibek Dädebai and Oljas Bektenov,Aibek Dädebai
+wiki search+page,gpt-4o-mini,fresh-32,fresh,True,0.0,2,1,0.00011475,3.0,Richard Lewer,Richard Lewer
+wiki search+page,gpt-4o-mini,fresh-33,fresh,False,0.0,5,4,0.0006631499999999999,10.7,No information found,Marilyn Gladu
+wiki search+page,gpt-4o-mini,fresh-34,fresh,True,0.0,2,1,0.0001428,3.1,6.3,6.3
+wiki search+page,gpt-4o-mini,fresh-35,fresh,True,0.0,3,2,0.00027570000000000003,5.8,Dina Levačić,Dina Levačić
+wiki search+page,gpt-4o-mini,fresh-36,fresh,False,0.0,2,1,0.00011549999999999999,2.7,136,129
+wiki search+page,gpt-4o-mini,fresh-37,fresh,True,0.0,3,2,0.0002076,5.2,15 June 2026,15 June
+wiki search+page,gpt-4o-mini,fresh-38,fresh,True,0.0,4,3,0.00039075,6.6,13th Chief Minister,Chief Minister
+wiki search+page,gpt-4o-mini,fresh-39,fresh,True,0.0,2,1,0.00013785000000000002,2.5,Gelida,Gelida
+wiki search+page,gpt-4o-mini,fresh-40,fresh,True,0.0,2,1,0.0001194,2.8,Lieutenant General Vladimir Alekseyev,Vladimir Alekseyev
+wiki search+page,gpt-4o-mini,fresh-41,fresh,False,0.0,2,1,0.00011970000000000001,2.7,30000,Thirty thousand people
+wiki search+page,gpt-4o-mini,fresh-42,fresh,False,0.0,5,4,0.00067605,8.5,Unknown,Prime Minister Narendra Modi
+wiki search+page,gpt-4o-mini,fresh-43,fresh,True,0.0,3,2,0.0002292,5.1,Zohran Mamdani,Zohran Mamdani
+wiki search+page,gpt-4o-mini,fresh-44,fresh,False,0.0,4,3,0.00042029999999999997,8.1,GJ 887 d,LHS 1140 b
+wiki search+page,gpt-4o-mini,fresh-45,fresh,True,0.0,3,2,0.00022470000000000001,5.2,F-16 Fighting Falcon,F-16 Fighting Falcon
+wiki search+page,gpt-4o-mini,fresh-46,fresh,True,0.0,2,1,0.0001149,3.0,5,five
+wiki search+page,gpt-4o-mini,fresh-47,fresh,False,0.0,2,1,0.00016155,3.3,Minister of Education,Education Minister
+wiki search+page,gpt-4o-mini,fresh-48,fresh,True,0.0,2,1,0.00013305,2.6,Mykhailo Fedorov,Mykhailo Fedorov
+wiki search+page,gpt-4o-mini,fresh-49,fresh,True,0.0,3,2,0.0002877,5.0,life imprisonment,life imprisonment
+wiki search+page,gpt-4o-mini,fresh-50,fresh,True,0.0,2,1,0.0001569,2.8,802500,"802,500 lira"
+wiki search+page,gpt-4o-mini,fresh-51,fresh,True,0.0,3,2,0.00021510000000000002,5.1,Bruno Foucher,Bruno Foucher
+wiki search+page,gpt-4o-mini,fresh-52,fresh,True,0.0,2,1,0.00013680000000000002,2.5,5.2,5.2
+wiki search+page,gpt-4o-mini,fresh-53,fresh,True,0.0,3,2,0.00020355,5.1,Tonya McBride Robles,Tonya McBride Robles
+wiki search+page,gpt-4o-mini,fresh-54,fresh,True,0.0,2,1,0.0001386,3.7,80,80
+wiki search+page,gpt-4o-mini,fresh-55,fresh,True,0.0,2,1,0.00011444999999999999,2.5,2,two
+wiki search+page,gpt-4o-mini,fresh-56,fresh,True,0.0,2,1,0.000144,3.2,3,3%
+wiki search+page,gpt-4o-mini,fresh-57,fresh,False,0.0,7,6,0.000921,13.1,None mentioned.,Yoon Suk Yeol
+wiki search+page,gpt-4o-mini,fresh-58,fresh,False,0.0,9,7,0.0018468,17.8,Unknown.,BYD Auto
+wiki search+page,gpt-4o-mini,fresh-59,fresh,True,0.0,3,2,0.00032955,10.4,Carson Ting,Carson Ting
+wiki search+page,gpt-4o-mini,fresh-60,fresh,True,0.0,2,1,0.0001143,3.4,209,209
+wiki search+page,gpt-4o-mini,fresh-61,fresh,True,0.0,2,1,0.00011640000000000001,3.1,14,Fourteen
+wiki search+page,gpt-4o-mini,fresh-62,fresh,False,0.0,4,4,0.00042510000000000003,9.1,Life imprisonment for Ahmad Badreddin Hassoun,13 years
+wiki search+page,gpt-4o-mini,fresh-63,fresh,True,0.0,2,1,0.00011505,2.8,2,Two
+wiki search+page,gpt-4o-mini,fresh-64,fresh,True,0.0,4,3,0.00038565,6.6,mayor of Lutsk,mayor of Lutsk
+wiki search+page,gpt-4o-mini,fresh-65,fresh,True,0.0,3,2,0.0002295,5.8,16,16
+wiki search+page,gpt-4o-mini,fresh-66,fresh,False,0.0,3,2,0.0002055,5.6,6,at least six
+wiki search+page,gpt-4o-mini,fresh-67,fresh,True,0.0,4,3,0.0002769,6.8,Liam Nassereddine,Liam Nassereddine
+wiki search+page,gpt-4o-mini,fresh-68,fresh,True,0.0,3,2,0.00022620000000000002,5.3,Mark Carney,Mark Carney
+wiki search+page,gpt-4o-mini,fresh-69,fresh,True,0.0,2,1,0.0001239,3.8,"Leipzig, Germany",Leipzig
+wiki search+page,gpt-4o-mini,fresh-70,fresh,True,0.0,3,2,0.00023249999999999999,7.7,European Sleeper night train service,night train service
+wiki search+page,gpt-4o-mini,fresh-71,fresh,True,0.0,2,1,0.00015555,4.6,Nikita Solovyovat,Nikita Solovyov
+wiki search+page,gpt-4o-mini,fresh-72,fresh,True,0.0,3,2,0.0002208,5.8,Dharmendra Pradhan,Dharmendra Pradhan
+wiki search+page,gpt-4o-mini,fresh-73,fresh,True,0.0,2,1,0.00012135,3.3,Han Hak-ja,Han Hak-ja
+wiki search+page,gpt-4o-mini,fresh-74,fresh,True,0.0,2,1,0.00013275,3.4,Daniel Ortega,Daniel Ortega
+wiki search+page,gpt-4o-mini,fresh-75,fresh,False,0.0,9,7,0.00144585,18.5,Unknown,Novokuznetsk
+wiki search+page,gpt-4o-mini,fresh-76,fresh,False,0.0,3,2,0.00039315,5.3,7 years,life imprisonment
+wiki search+page,gpt-4o-mini,fresh-77,fresh,True,0.0,2,1,0.0001293,3.2,Carlos Vila Nova re-elected with 55.88% of the vote.,Carlos Vila Nova
+wiki search+page,gpt-4o-mini,fresh-78,fresh,False,0.0,9,7,0.00176565,20.1,7-11 months,13.2 months
+wiki search+page,gpt-4o-mini,fresh-79,fresh,True,0.0,2,1,0.00013845,3.0,3,three
+wiki search+page,gpt-4o-mini,fresh-80,fresh,True,0.0,3,2,0.00034425,5.9,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+wiki search+page,gpt-4o-mini,fresh-81,fresh,False,0.0,4,3,0.00039075000000000004,8.7,Not available,8.15m
+wiki search+page,gpt-4o-mini,fresh-82,fresh,True,0.0,2,1,0.00011564999999999999,2.6,28,28 people
+wiki search+page,gpt-4o-mini,fresh-83,fresh,True,0.0,3,2,0.0002094,6.1,improvised explosive device,improvised explosive device
+wiki search+page,gpt-4o-mini,fresh-84,fresh,False,0.0,7,6,0.0007825499999999999,16.3,No information found.,eight games
+wiki search+page,gpt-4o-mini,fresh-85,fresh,True,0.0,3,3,0.0004647,7.8,38.0,38 °C
+wiki search+page,gpt-4o-mini,fresh-86,fresh,False,0.0,2,1,0.00012465,3.3,30.4 billion,£30.4bn
+wiki search+page,gpt-4o-mini,fresh-87,fresh,True,0.0,3,2,0.00022784999999999998,4.8,José Jerí,José Jerí
+wiki search+page,gpt-4o-mini,fresh-88,fresh,True,0.0,2,1,0.00014429999999999998,3.2,"Henoko, Okinawa Prefecture","Henoko, Okinawa Prefecture"
+wiki search+page,gpt-4o-mini,fresh-89,fresh,False,0.0,9,7,0.0015888000000000002,17.5,Unknown,Doug Armstrong
+wiki search+page,gpt-4o-mini,fresh-90,fresh,True,0.0,3,2,0.00036704999999999995,5.8,"Imperial College London, the Met Office, and the London Scho",Imperial College London
+wiki search+page,gpt-4o-mini,fresh-91,fresh,True,0.0,4,3,0.00031185,8.4,25863,"₹25,863 crore"
+wiki search+page,gpt-4o-mini,fresh-92,fresh,True,0.0,2,1,0.0001413,2.8,Rubén Rocha Moya,Rubén Rocha Moya
+wiki search+page,gpt-4o-mini,fresh-93,fresh,True,0.0,2,1,0.00018179999999999997,3.4,Spain,Spain
+wiki search+page,gpt-4o-mini,fresh-94,fresh,False,0.0,4,3,0.0004596,8.3,11,11th
+wiki search+page,gpt-4o-mini,fresh-95,fresh,True,0.0,2,1,0.0001407,3.2,India,India
+wiki search+page,gpt-4o-mini,fresh-96,fresh,True,0.0,2,2,0.00017969999999999998,5.7,"Istanbul, Turkey",Istanbul
+wiki search+page,gpt-4o-mini,fresh-97,fresh,True,0.0,2,1,0.00013455,3.4,"Citizens Bank Park, Philadelphia, Pennsylvania",Citizens Bank Park
+wiki search+page,gpt-4o-mini,fresh-98,fresh,False,0.0,3,2,0.0003738,5.6,memorandum of understanding,Islamabad Memorandum
+wiki search+page,gpt-4o-mini,fresh-99,fresh,True,0.0,3,2,0.00028890000000000003,5.3,Elon Musk,Elon Musk
+wiki search+page,gpt-4o-mini,fresh-100,fresh,True,0.0,2,1,0.00017624999999999997,3.5,252756,"252,756 miles"
+wiki search+page,gpt-4o-mini,fresh-101,fresh,True,0.0,4,3,0.0005577,8.5,10 days (initial ceasefire),10-day
+wiki search+page,gpt-4o-mini,fresh-102,fresh,False,0.0,8,7,0.0011364,15.3,Unknown,Oleksandr Dovhach
+wiki search+page,gpt-4o-mini,fresh-103,fresh,True,0.0,3,2,0.00020685,5.1,José María Balcázar,José María Balcázar
+wiki search+page,gpt-4o-mini,fresh-104,fresh,False,0.0,7,7,0.0009486,17.3,No information available for Udhampur accident. Doda acciden,21
+wiki search+page,gpt-4o-mini,fresh-105,fresh,True,0.0,3,4,0.00031590000000000003,8.4,¥60–120 (US$8.70–17.5),¥60–120
+wiki search+page,gpt-4o-mini,fresh-106,fresh,False,0.0,5,5,0.00070185,10.1,Unknown,GRU Airport People Mover
+wiki search+page,gpt-4o-mini,fresh-107,fresh,True,0.0,2,1,0.00012104999999999999,2.7,2026 Beninese parliamentary election,2026 Beninese parliamentary election
+wiki search+page,gpt-4o-mini,fresh-108,fresh,False,0.0,4,3,0.00033660000000000005,8.9,No documented incident found.,Michaelmas Island
+wiki search+page,gpt-4o-mini,fresh-109,fresh,False,0.0,2,1,0.00017595,4.0,investigation of arson and attacks on Jewish sites,conspiracy to commit arson
+wiki search+page,gpt-4o-mini,fresh-110,fresh,False,0.0,3,2,0.0002448,6.1,not available,Clay Fuller
+wiki search+page,gpt-4o-mini,fresh-111,fresh,False,0.0,5,4,0.0007131,9.1,Leader of the Labour Party,prime minister
+wiki search+page,gpt-4o-mini,fresh-112,fresh,True,0.0,2,1,0.00016350000000000002,3.5,SMILE mission,SMILE
+wiki search+page,gpt-4o-mini,fresh-113,fresh,True,0.0,2,1,0.00011655,2.7,850,850
+wiki search+page,gpt-4o-mini,fresh-114,fresh,True,0.0,2,1,0.0001272,3.3,Urgent Care Centre,Urgent Care Centre
+wiki search+page,gpt-4o-mini,fresh-115,fresh,False,0.0,2,1,0.00013560000000000002,2.7,108,66
+wiki search+page,gpt-4o-mini,fresh-116,fresh,True,0.0,3,2,0.0002301,7.5,"Nelly Korda, Charley Hull, Gaby López",Nelly Korda
+wiki search+page,gpt-4o-mini,fresh-117,fresh,False,0.0,7,6,0.00089175,14.9,No line opens in April 2026,Line S2
+wiki search+page,gpt-4o-mini,fresh-118,fresh,True,0.0,5,4,0.0005088,10.3,Antonello da Messina,Antonello da Messina
+wiki search+page,gpt-4o-mini,fresh-119,fresh,False,0.0,8,8,0.0009667499999999999,19.8,No information available,Baku and Tbilisi
+wiki search+page,gpt-4o-mini,fresh-120,fresh,False,0.0,3,2,0.00035025,6.9,military operation against Iranian tankers,Operation Southern Spear
+wiki search+page,gpt-4o-mini,fresh-121,fresh,False,0.0,6,5,0.00063075,12.6,Not found,5.6
+wiki search+page,gpt-4o-mini,fresh-122,fresh,True,0.0,3,2,0.0003312,5.4,Angus Taylor,Angus Taylor
+wiki search+page,gpt-4o-mini,fresh-123,fresh,True,0.0,3,2,0.00017805000000000002,5.4,Burkina Faso,Burkina Faso
+wiki search+page,gpt-4o-mini,fresh-124,fresh,True,0.0,4,3,0.0004083,8.2,Kehl,Kehl
+wiki search+page,gpt-4o-mini,fresh-125,fresh,True,0.0,3,2,0.00024345,5.7,Christophe Leribault,Christophe Leribault
+wiki search+page,gpt-4o-mini,fresh-126,fresh,False,0.0,3,2,0.00028905,5.0,Paris Saint-Germain,Paris St-Germain
+wiki search+page,gpt-4o-mini,fresh-127,fresh,True,0.0,3,2,0.00026835,5.0,Monroe,Monroe
+wiki search+page,gpt-4o-mini,fresh-128,fresh,True,0.0,2,1,0.00012585,2.7,Bezalel Smotrich,Bezalel Smotrich
+wiki search+page,gpt-4o-mini,fresh-129,fresh,True,0.0,2,1,0.00013845,3.2,Évian-les-Bains,Évian-les-Bains
+wiki search+page,gpt-4o-mini,fresh-130,fresh,True,0.0,3,2,0.000363,5.3,Pissos,Pissos
+wiki search+page,gpt-4o-mini,fresh-131,fresh,True,0.0,3,2,0.00033915,10.9,Golfech Nuclear Power Plant,Golfech Nuclear Power Plant
+wiki search+page,gpt-4o-mini,fresh-132,fresh,True,0.0,3,2,0.00031455000000000003,5.1,Claude Guillemot,Claude Guillemot
+wiki search+page,gpt-4o-mini,fresh-133,fresh,False,0.0,4,3,0.000441,7.9,Beaches of the D-Day Landings,Normandy landings
+wiki search+page,gpt-4o-mini,fresh-134,fresh,False,0.0,3,2,0.00019454999999999999,10.4,7000000000,$7 billion
+wiki search+page,gpt-4o-mini,fresh-135,fresh,True,0.0,3,2,0.0002562,6.0,Constitutional Council of France,The Constitutional Council
+wiki search+page,gpt-4o-mini,fresh-136,fresh,True,0.0,5,4,0.0005718,9.8,Lionel Jospin,Lionel Jospin
+wiki search+page,gpt-4o-mini,fresh-137,fresh,True,0.0,2,1,0.00011955,2.8,Democratic Republic of the Congo,Democratic Republic of the Congo
+wiki search+page,gpt-4o-mini,fresh-138,fresh,True,0.0,3,2,0.00032925,4.8,Havana,Havana
+wiki search+page,gpt-4o-mini,fresh-139,fresh,True,0.0,3,2,0.00032805,5.0,Baden-Württemberg,Baden-Württemberg
+wiki search+page,gpt-4o-mini,fresh-140,fresh,True,0.0,2,1,0.00019245000000000002,4.1,43.8,43.8%
+wiki search+page,gpt-4o-mini,fresh-141,fresh,True,0.0,2,1,0.0001878,5.1,30.2,30.2%
+wiki search+page,gpt-4o-mini,fresh-142,fresh,True,0.0,4,3,0.000432,9.8,Koblenz,Koblenz
+wiki search+page,gpt-4o-mini,fresh-143,fresh,True,0.0,3,2,0.0002496,4.9,Möckern-Drewitz,Möckern-Drewitz
+wiki search+page,gpt-4o-mini,fresh-144,fresh,True,0.0,3,2,0.0002145,4.4,186700,"186,700"
+wiki search+page,gpt-4o-mini,fresh-145,fresh,False,0.0,2,1,0.0001572,3.3,Leipzig Airport drone attack,2026 Leipzig Airport drone attack
+wiki search+page,gpt-4o-mini,fresh-146,fresh,True,0.0,3,2,0.00031275,5.5,Jürgen Habermas,Jürgen Habermas
+wiki search+page,gpt-4o-mini,fresh-147,fresh,False,0.0,9,7,0.0011541,17.7,Unknown.,Niue
+wiki search+page,gpt-4o-mini,fresh-148,fresh,True,0.0,3,2,0.0001989,5.3,"Amazon, Inc.",Amazon
+wiki search+page,gpt-4o-mini,fresh-149,fresh,True,0.0,3,2,0.00033765,5.5,Tomahawk missiles,Tomahawk missiles
+wiki search+page,gpt-4o-mini,fresh-150,fresh,True,0.0,3,2,0.00025875000000000003,4.9,Kavinsky,Kavinsky
+wiki search+page+tavily,gpt-4o-mini,fresh-0,fresh,True,0.0,3,2,0.00036735,7.0,15 March 2026,15 March
+wiki search+page+tavily,gpt-4o-mini,fresh-1,fresh,True,0.0,2,1,0.00016590000000000002,2.7,22 March 2026,22 March
+wiki search+page+tavily,gpt-4o-mini,fresh-2,fresh,True,0.0,5,4,0.00061965,11.1,Miguel Díaz-Canel,Miguel Díaz-Canel
+wiki search+page+tavily,gpt-4o-mini,fresh-3,fresh,True,0.0,3,2,0.00022710000000000002,4.9,Strategic partnership agreement in defense and energy sector,a strategic partnership agreement
+wiki search+page+tavily,gpt-4o-mini,fresh-4,fresh,False,0.0,6,5,0.0007990499999999999,12.7,statutory right to work from home,A total fire ban
+wiki search+page+tavily,gpt-4o-mini,fresh-5,fresh,True,0.0,2,1,0.0001326,3.3,2,two people
+wiki search+page+tavily,gpt-4o-mini,fresh-6,fresh,False,0.0,2,1,0.0001596,3.0,519,"4,500"
+wiki search+page+tavily,gpt-4o-mini,fresh-7,fresh,True,0.0,3,2,0.00022845,4.7,Deniz Göktaş,Deniz Göktaş
+wiki search+page+tavily,gpt-4o-mini,fresh-8,fresh,True,0.0,2,1,0.00013695,3.3,Pavel Durov,Pavel Durov
+wiki search+page+tavily,gpt-4o-mini,fresh-9,fresh,True,0.0,3,2,0.00023205000000000003,4.7,"New Delhi, India",New Delhi
+wiki search+page+tavily,gpt-4o-mini,fresh-10,fresh,True,0.0,2,1,0.00020160000000000002,7.3,12,Twelve
+wiki search+page+tavily,gpt-4o-mini,fresh-11,fresh,True,0.0,3,2,0.0002445,5.2,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+wiki search+page+tavily,gpt-4o-mini,fresh-12,fresh,False,0.0,3,2,0.00038055,6.6,1800000,"700,000"
+wiki search+page+tavily,gpt-4o-mini,fresh-13,fresh,False,0.0,5,4,0.0009182999999999999,11.0,41.7,41.5 °C
+wiki search+page+tavily,gpt-4o-mini,fresh-14,fresh,True,0.0,4,3,0.0005909999999999999,10.8,Ciudad Rodrigo,Ciudad Rodrigo
+wiki search+page+tavily,gpt-4o-mini,fresh-15,fresh,True,0.0,2,1,0.00013529999999999998,2.4,Oleksandr Syrskyi,Oleksandr Syrskyi
+wiki search+page+tavily,gpt-4o-mini,fresh-16,fresh,True,0.0,2,1,0.00013995000000000001,2.3,Montreal Victoire,Montreal Victoire
+wiki search+page+tavily,gpt-4o-mini,fresh-17,fresh,True,0.0,3,2,0.00030659999999999997,5.8,EOS-05 Earth-observing satellite,EOS-05
+wiki search+page+tavily,gpt-4o-mini,fresh-18,fresh,True,0.0,4,3,0.0006039,8.1,13 July 2026,13 July
+wiki search+page+tavily,gpt-4o-mini,fresh-19,fresh,True,0.0,3,2,0.0003888,6.0,Disney Kids & Family,Disney Kids & Family
+wiki search+page+tavily,gpt-4o-mini,fresh-20,fresh,True,0.0,2,1,0.0001728,7.9,single-elimination tournament format,single-elimination
+wiki search+page+tavily,gpt-4o-mini,fresh-21,fresh,True,0.0,3,2,0.00036405,5.8,Gavin Snider,Gavin Snider
+wiki search+page+tavily,gpt-4o-mini,fresh-22,fresh,True,0.0,5,4,0.0006684000000000001,9.5,Clara and the Below,Clara and the Below
+wiki search+page+tavily,gpt-4o-mini,fresh-23,fresh,True,0.0,2,1,0.00014849999999999998,4.9,German Galushchenko,German Galushchenko
+wiki search+page+tavily,gpt-4o-mini,fresh-24,fresh,True,0.0,4,3,0.0005466,7.9,drought,a drought
+wiki search+page+tavily,gpt-4o-mini,fresh-25,fresh,False,0.0,5,4,0.00073545,12.2,No specific declaration mentioned.,"""open war"""
+wiki search+page+tavily,gpt-4o-mini,fresh-26,fresh,True,0.0,2,1,0.00013634999999999998,3.4,9,nine
+wiki search+page+tavily,gpt-4o-mini,fresh-27,fresh,True,0.0,3,2,0.00041835000000000006,6.0,Markus Hinterhäuser,Markus Hinterhäuser
+wiki search+page+tavily,gpt-4o-mini,fresh-28,fresh,False,0.0,3,2,0.00028155,5.4,6,nine
+wiki search+page+tavily,gpt-4o-mini,fresh-29,fresh,True,0.0,3,2,0.0002652,5.4,43,43
+wiki search+page+tavily,gpt-4o-mini,fresh-30,fresh,True,0.0,2,1,0.0002049,3.8,Ankara,Ankara
+wiki search+page+tavily,gpt-4o-mini,fresh-31,fresh,False,0.0,4,3,0.0004122,7.4,Oljas Bektenov,Aibek Dädebai
+wiki search+page+tavily,gpt-4o-mini,fresh-32,fresh,True,0.0,3,2,0.00029535,5.5,Richard Lewer,Richard Lewer
+wiki search+page+tavily,gpt-4o-mini,fresh-33,fresh,True,0.0,5,4,0.0008075999999999999,12.9,Marilyn Gladu,Marilyn Gladu
+wiki search+page+tavily,gpt-4o-mini,fresh-34,fresh,True,0.0,2,1,0.00016350000000000002,2.7,6.3,6.3
+wiki search+page+tavily,gpt-4o-mini,fresh-35,fresh,True,0.0,2,1,0.00021329999999999998,4.2,Dina Levačić,Dina Levačić
+wiki search+page+tavily,gpt-4o-mini,fresh-36,fresh,False,0.0,2,1,0.00014055,4.9,136,129
+wiki search+page+tavily,gpt-4o-mini,fresh-37,fresh,False,0.0,3,2,0.00038985,8.5,"May 27, 2026",15 June
+wiki search+page+tavily,gpt-4o-mini,fresh-38,fresh,True,0.0,3,2,0.00028244999999999995,5.1,Chief Minister,Chief Minister
+wiki search+page+tavily,gpt-4o-mini,fresh-39,fresh,True,0.0,2,1,0.00015075,2.8,Gelida,Gelida
+wiki search+page+tavily,gpt-4o-mini,fresh-40,fresh,True,0.0,2,1,0.0001428,2.9,Lieutenant General Vladimir Alekseyev,Vladimir Alekseyev
+wiki search+page+tavily,gpt-4o-mini,fresh-41,fresh,False,0.0,2,1,0.00014370000000000002,2.5,30000,Thirty thousand people
+wiki search+page+tavily,gpt-4o-mini,fresh-42,fresh,False,0.0,4,3,0.0005273999999999999,9.2,Hon'ble Prime Minister of India,Prime Minister Narendra Modi
+wiki search+page+tavily,gpt-4o-mini,fresh-43,fresh,False,0.0,3,2,0.00028965,5.8,Zohran Kwame Mamdani,Zohran Mamdani
+wiki search+page+tavily,gpt-4o-mini,fresh-44,fresh,False,0.0,3,2,0.0002898,5.5,GJ 887 d,LHS 1140 b
+wiki search+page+tavily,gpt-4o-mini,fresh-45,fresh,True,0.0,2,1,0.000138,2.6,F-16 Fighting Falcon,F-16 Fighting Falcon
+wiki search+page+tavily,gpt-4o-mini,fresh-46,fresh,True,0.0,2,1,0.00013425,3.2,5,five
+wiki search+page+tavily,gpt-4o-mini,fresh-47,fresh,False,0.0,3,2,0.00033615,5.8,Minister of Education,Education Minister
+wiki search+page+tavily,gpt-4o-mini,fresh-48,fresh,True,0.0,2,1,0.00016155,2.8,Mykhailo Fedorov,Mykhailo Fedorov
+wiki search+page+tavily,gpt-4o-mini,fresh-49,fresh,True,0.0,3,2,0.00031364999999999995,5.4,life imprisonment,life imprisonment
+wiki search+page+tavily,gpt-4o-mini,fresh-50,fresh,True,0.0,2,1,0.0001563,2.7,"802,500 lira ($18,500)","802,500 lira"
+wiki search+page+tavily,gpt-4o-mini,fresh-51,fresh,False,0.0,2,1,0.00020459999999999999,5.6,Unnamed ambassador,Bruno Foucher
+wiki search+page+tavily,gpt-4o-mini,fresh-52,fresh,True,0.0,2,1,0.00014655,2.6,5.2,5.2
+wiki search+page+tavily,gpt-4o-mini,fresh-53,fresh,True,0.0,2,1,0.00022155,4.0,Tonya McBride Robles,Tonya McBride Robles
+wiki search+page+tavily,gpt-4o-mini,fresh-54,fresh,False,0.0,2,1,0.0001296,2.8,79,80
+wiki search+page+tavily,gpt-4o-mini,fresh-55,fresh,True,0.0,2,1,0.00013455,2.7,2,two
+wiki search+page+tavily,gpt-4o-mini,fresh-56,fresh,True,0.0,2,1,0.00015299999999999998,2.7,3%,3%
+wiki search+page+tavily,gpt-4o-mini,fresh-57,fresh,True,0.0,3,2,0.00031545,8.0,Yoon Suk Yeol,Yoon Suk Yeol
+wiki search+page+tavily,gpt-4o-mini,fresh-58,fresh,False,0.0,4,3,0.0006099,9.8,BYD,BYD Auto
+wiki search+page+tavily,gpt-4o-mini,fresh-59,fresh,False,0.0,3,2,0.00042375,6.7,Collaboration of three artists,Carson Ting
+wiki search+page+tavily,gpt-4o-mini,fresh-60,fresh,True,0.0,2,1,0.0001299,2.4,209,209
+wiki search+page+tavily,gpt-4o-mini,fresh-61,fresh,True,0.0,2,1,0.0001356,3.9,14,Fourteen
+wiki search+page+tavily,gpt-4o-mini,fresh-62,fresh,False,0.0,4,3,0.00043365,7.7,60 years,13 years
+wiki search+page+tavily,gpt-4o-mini,fresh-63,fresh,True,0.0,3,2,0.00024135,4.9,2,Two
+wiki search+page+tavily,gpt-4o-mini,fresh-64,fresh,False,0.0,3,2,0.000357,6.4,Lutsk Mayor,mayor of Lutsk
+wiki search+page+tavily,gpt-4o-mini,fresh-65,fresh,True,0.0,3,2,0.00033585,6.5,16,16
+wiki search+page+tavily,gpt-4o-mini,fresh-66,fresh,False,0.0,3,2,0.00021330000000000003,4.9,6,at least six
+wiki search+page+tavily,gpt-4o-mini,fresh-67,fresh,False,0.0,5,4,0.00068835,10.2,Maayan Licht,Liam Nassereddine
+wiki search+page+tavily,gpt-4o-mini,fresh-68,fresh,True,0.0,4,3,0.00037575,7.9,Mark Carney,Mark Carney
+wiki search+page+tavily,gpt-4o-mini,fresh-69,fresh,True,0.0,2,1,0.0001395,3.3,"Leipzig, Germany",Leipzig
+wiki search+page+tavily,gpt-4o-mini,fresh-70,fresh,True,0.0,3,2,0.00024495,5.2,European Sleeper night train service from Paris to Berlin.,night train service
+wiki search+page+tavily,gpt-4o-mini,fresh-71,fresh,True,0.0,2,1,0.0001401,3.0,Nikita Solovyov,Nikita Solovyov
+wiki search+page+tavily,gpt-4o-mini,fresh-72,fresh,True,0.0,3,3,0.00044745,6.2,Dharmendra Pradhan,Dharmendra Pradhan
+wiki search+page+tavily,gpt-4o-mini,fresh-73,fresh,False,0.0,4,3,0.0005500500000000001,9.1,Hak Ja Han,Han Hak-ja
+wiki search+page+tavily,gpt-4o-mini,fresh-74,fresh,True,0.0,2,1,0.0001383,3.1,Daniel Ortega,Daniel Ortega
+wiki search+page+tavily,gpt-4o-mini,fresh-75,fresh,False,0.0,3,2,0.00030615000000000004,6.6,Russia,Novokuznetsk
+wiki search+page+tavily,gpt-4o-mini,fresh-76,fresh,False,0.0,3,2,0.0004068,9.8,7 years,life imprisonment
+wiki search+page+tavily,gpt-4o-mini,fresh-77,fresh,True,0.0,2,1,0.00014295,2.8,Carlos Vila Nova re-elected with 55.94% of the vote.,Carlos Vila Nova
+wiki search+page+tavily,gpt-4o-mini,fresh-78,fresh,False,0.0,3,2,0.00043380000000000003,7.4,Not specified,13.2 months
+wiki search+page+tavily,gpt-4o-mini,fresh-79,fresh,True,0.0,3,2,0.00031185,6.1,3,three
+wiki search+page+tavily,gpt-4o-mini,fresh-80,fresh,True,0.0,2,1,0.00015299999999999998,2.8,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+wiki search+page+tavily,gpt-4o-mini,fresh-81,fresh,False,0.0,4,4,0.00051285,8.2,8.15 million,8.15m
+wiki search+page+tavily,gpt-4o-mini,fresh-82,fresh,True,0.0,2,1,0.00017265,3.8,28,28 people
+wiki search+page+tavily,gpt-4o-mini,fresh-83,fresh,True,0.0,3,2,0.00023055,6.4,improvised explosive device,improvised explosive device
+wiki search+page+tavily,gpt-4o-mini,fresh-84,fresh,True,0.0,2,1,0.00020910000000000001,4.6,8,eight games
+wiki search+page+tavily,gpt-4o-mini,fresh-85,fresh,True,0.0,2,1,0.0002211,3.7,38.0,38 °C
+wiki search+page+tavily,gpt-4o-mini,fresh-86,fresh,False,0.0,3,2,0.00034500000000000004,7.4,30.4 billion,£30.4bn
+wiki search+page+tavily,gpt-4o-mini,fresh-87,fresh,False,0.0,3,2,0.00028470000000000004,7.2,José Enrique Jerí,José Jerí
+wiki search+page+tavily,gpt-4o-mini,fresh-88,fresh,True,0.0,2,1,0.00015989999999999998,4.1,"Henoko, Okinawa Prefecture","Henoko, Okinawa Prefecture"
+wiki search+page+tavily,gpt-4o-mini,fresh-89,fresh,True,0.0,5,4,0.0007090499999999999,14.1,Doug Armstrong,Doug Armstrong
+wiki search+page+tavily,gpt-4o-mini,fresh-90,fresh,True,0.0,2,1,0.00023520000000000002,5.0,"LSHTM, Imperial College London, Met Office",Imperial College London
+wiki search+page+tavily,gpt-4o-mini,fresh-91,fresh,True,0.0,3,2,0.0002463,5.6,25863,"₹25,863 crore"
+wiki search+page+tavily,gpt-4o-mini,fresh-92,fresh,True,0.0,2,1,0.0001713,3.2,Rubén Rocha Moya,Rubén Rocha Moya
+wiki search+page+tavily,gpt-4o-mini,fresh-93,fresh,False,0.0,2,1,0.00019965,3.8,Not determined yet.,Spain
+wiki search+page+tavily,gpt-4o-mini,fresh-94,fresh,False,0.0,4,3,0.0005826,9.3,11,11th
+wiki search+page+tavily,gpt-4o-mini,fresh-95,fresh,True,0.0,2,1,0.0001563,3.6,India,India
+wiki search+page+tavily,gpt-4o-mini,fresh-96,fresh,True,0.0,2,2,0.00024239999999999998,9.3,"Istanbul, Turkey",Istanbul
+wiki search+page+tavily,gpt-4o-mini,fresh-97,fresh,False,0.0,2,1,0.00016094999999999998,3.8,"Philadelphia, Pennsylvania",Citizens Bank Park
+wiki search+page+tavily,gpt-4o-mini,fresh-98,fresh,False,0.0,3,2,0.0003978,5.8,memorandum of understanding,Islamabad Memorandum
+wiki search+page+tavily,gpt-4o-mini,fresh-99,fresh,True,0.0,2,1,0.000141,3.9,Elon Musk,Elon Musk
+wiki search+page+tavily,gpt-4o-mini,fresh-100,fresh,True,0.0,2,1,0.0001896,4.4,252756,"252,756 miles"
+wiki search+page+tavily,gpt-4o-mini,fresh-101,fresh,True,0.0,5,4,0.0007823999999999999,10.1,Extended multiple times since initial 10 days.,10-day
+wiki search+page+tavily,gpt-4o-mini,fresh-102,fresh,False,0.0,6,5,0.0007545,17.9,"Multiple recipients, notable: Major General Oleksandr Poklad",Oleksandr Dovhach
+wiki search+page+tavily,gpt-4o-mini,fresh-103,fresh,True,0.0,3,2,0.0003045,5.0,José María Balcázar,José María Balcázar
+wiki search+page+tavily,gpt-4o-mini,fresh-104,fresh,True,0.0,2,1,0.00021015,4.3,21,21
+wiki search+page+tavily,gpt-4o-mini,fresh-105,fresh,True,0.0,3,4,0.0003408,7.8,¥60–120,¥60–120
+wiki search+page+tavily,gpt-4o-mini,fresh-106,fresh,False,0.0,3,2,0.0002931,6.3,People Mover system,GRU Airport People Mover
+wiki search+page+tavily,gpt-4o-mini,fresh-107,fresh,False,0.0,2,1,0.0001536,3.5,Beninese parliamentary election results,2026 Beninese parliamentary election
+wiki search+page+tavily,gpt-4o-mini,fresh-108,fresh,True,0.0,3,2,0.0004251,7.0,"Michaelmas Island, Western Australia",Michaelmas Island
+wiki search+page+tavily,gpt-4o-mini,fresh-109,fresh,False,0.0,2,1,0.0001977,3.9,Arson attack on synagogue,conspiracy to commit arson
+wiki search+page+tavily,gpt-4o-mini,fresh-110,fresh,True,0.0,2,1,0.0002241,5.2,Clay Fuller,Clay Fuller
+wiki search+page+tavily,gpt-4o-mini,fresh-111,fresh,False,0.0,3,2,0.00034500000000000004,4.9,Labour Party leader,prime minister
+wiki search+page+tavily,gpt-4o-mini,fresh-112,fresh,True,0.0,2,1,0.0001899,3.0,SMILE mission,SMILE
+wiki search+page+tavily,gpt-4o-mini,fresh-113,fresh,True,0.0,2,1,0.00013215,2.7,850,850
+wiki search+page+tavily,gpt-4o-mini,fresh-114,fresh,True,0.0,2,1,0.00015735,2.9,Urgent Care Centre,Urgent Care Centre
+wiki search+page+tavily,gpt-4o-mini,fresh-115,fresh,False,0.0,3,2,0.00030000000000000003,4.8,25,66
+wiki search+page+tavily,gpt-4o-mini,fresh-116,fresh,False,0.0,3,2,0.0003171,83.1,"Riviera Country Club, Marshall Dick, USGA partners",Nelly Korda
+wiki search+page+tavily,gpt-4o-mini,fresh-117,fresh,True,0.0,7,6,0.0010095,14.5,Line S2,Line S2
+wiki search+page+tavily,gpt-4o-mini,fresh-118,fresh,True,0.0,4,3,0.00048405,8.3,Antonello da Messina,Antonello da Messina
+wiki search+page+tavily,gpt-4o-mini,fresh-119,fresh,False,0.0,3,2,0.00034035,7.1,"Multiple cities resumed services including Baku-Tbilisi, Bad",Baku and Tbilisi
+wiki search+page+tavily,gpt-4o-mini,fresh-120,fresh,True,0.0,5,4,0.00071475,11.1,Operation Southern Spear,Operation Southern Spear
+wiki search+page+tavily,gpt-4o-mini,fresh-121,fresh,True,0.0,3,2,0.00033135,5.8,5.6,5.6
+wiki search+page+tavily,gpt-4o-mini,fresh-122,fresh,True,0.0,3,2,0.0003534,5.7,Angus Taylor,Angus Taylor
+wiki search+page+tavily,gpt-4o-mini,fresh-123,fresh,True,0.0,3,2,0.00037785,6.2,Burkina Faso,Burkina Faso
+wiki search+page+tavily,gpt-4o-mini,fresh-124,fresh,True,0.0,3,3,0.00046665,8.6,Kehl,Kehl
+wiki search+page+tavily,gpt-4o-mini,fresh-125,fresh,True,0.0,3,2,0.0002454,5.1,Christophe Leribault,Christophe Leribault
+wiki search+page+tavily,gpt-4o-mini,fresh-126,fresh,False,0.0,3,2,0.00030764999999999997,5.1,Paris Saint-Germain,Paris St-Germain
+wiki search+page+tavily,gpt-4o-mini,fresh-127,fresh,True,0.0,5,4,0.0005922,11.4,Monroe,Monroe
+wiki search+page+tavily,gpt-4o-mini,fresh-128,fresh,True,0.0,2,1,0.0001407,2.6,Bezalel Smotrich,Bezalel Smotrich
+wiki search+page+tavily,gpt-4o-mini,fresh-129,fresh,True,0.0,2,1,0.00015405,3.4,Évian-les-Bains,Évian-les-Bains
+wiki search+page+tavily,gpt-4o-mini,fresh-130,fresh,True,0.0,2,1,0.00016785,2.8,Pissos,Pissos
+wiki search+page+tavily,gpt-4o-mini,fresh-131,fresh,True,0.0,3,2,0.00042750000000000004,6.4,Golfech nuclear power plant,Golfech Nuclear Power Plant
+wiki search+page+tavily,gpt-4o-mini,fresh-132,fresh,True,0.0,3,2,0.00033765,6.6,Claude Guillemot,Claude Guillemot
+wiki search+page+tavily,gpt-4o-mini,fresh-133,fresh,True,0.0,5,4,0.0007172999999999999,10.2,Normandy landings beaches,Normandy landings
+wiki search+page+tavily,gpt-4o-mini,fresh-134,fresh,False,0.0,3,2,0.00023355,5.4,7000000000,$7 billion
+wiki search+page+tavily,gpt-4o-mini,fresh-135,fresh,True,0.0,3,2,0.00037695000000000003,6.6,French Constitutional Council,The Constitutional Council
+wiki search+page+tavily,gpt-4o-mini,fresh-136,fresh,True,0.0,4,3,0.0004584,8.0,Lionel Jospin,Lionel Jospin
+wiki search+page+tavily,gpt-4o-mini,fresh-137,fresh,True,0.0,2,1,0.00014294999999999998,2.7,Democratic Republic of the Congo,Democratic Republic of the Congo
+wiki search+page+tavily,gpt-4o-mini,fresh-138,fresh,True,0.0,3,2,0.00035265,4.9,Havana,Havana
+wiki search+page+tavily,gpt-4o-mini,fresh-139,fresh,True,0.0,2,1,0.00018,3.5,Baden-Württemberg,Baden-Württemberg
+wiki search+page+tavily,gpt-4o-mini,fresh-140,fresh,True,0.0,2,1,0.00020865,3.2,43.8%,43.8%
+wiki search+page+tavily,gpt-4o-mini,fresh-141,fresh,True,0.0,2,1,0.00018825,2.9,30.2%,30.2%
+wiki search+page+tavily,gpt-4o-mini,fresh-142,fresh,True,0.0,2,1,0.00014145,2.5,Koblenz,Koblenz
+wiki search+page+tavily,gpt-4o-mini,fresh-143,fresh,True,0.0,2,1,0.00013695,2.7,Möckern-Drewitz,Möckern-Drewitz
+wiki search+page+tavily,gpt-4o-mini,fresh-144,fresh,True,0.0,3,2,0.00034215000000000005,6.2,186700,"186,700"
+wiki search+page+tavily,gpt-4o-mini,fresh-145,fresh,False,0.0,2,1,0.00017099999999999998,3.5,Leipzig Airport drone attack,2026 Leipzig Airport drone attack
+wiki search+page+tavily,gpt-4o-mini,fresh-146,fresh,True,0.0,3,2,0.00033810000000000003,5.4,Jürgen Habermas,Jürgen Habermas
+wiki search+page+tavily,gpt-4o-mini,fresh-147,fresh,True,0.0,3,2,0.00033029999999999995,6.3,Niue,Niue
+wiki search+page+tavily,gpt-4o-mini,fresh-148,fresh,True,0.0,3,2,0.00043830000000000003,6.7,Amazon,Amazon
+wiki search+page+tavily,gpt-4o-mini,fresh-149,fresh,False,0.0,4,3,0.0005841,8.6,Tomahawk cruise missiles,Tomahawk missiles
+wiki search+page+tavily,gpt-4o-mini,fresh-150,fresh,True,0.0,4,3,0.0004389,8.0,Kavinsky,Kavinsky
+mid wiki search+page,claude-haiku-4.5,fresh-0,fresh,True,0.0,3,2,0.005196,8.0,"March 15, 2026",15 March
+mid wiki search+page,claude-haiku-4.5,fresh-1,fresh,True,0.0,2,1,0.0024600000000000004,5.4,22 March 2026,22 March
+mid wiki search+page,claude-haiku-4.5,fresh-2,fresh,True,0.0,2,2,0.003398,5.5,"Miguel Díaz-Canel, First Secretary of the Communist Party of",Miguel Díaz-Canel
+mid wiki search+page,claude-haiku-4.5,fresh-3,fresh,True,0.0,2,2,0.002997,5.3,A strategic partnership agreement in the defense and energy ,a strategic partnership agreement
+mid wiki search+page,claude-haiku-4.5,fresh-4,fresh,True,0.0,2,1,0.002597,6.7,"A total fire ban came into force in Victoria, Australia on 9",A total fire ban
+mid wiki search+page,claude-haiku-4.5,fresh-5,fresh,True,0.0,2,1,0.002358,4.7,2,two people
+mid wiki search+page,claude-haiku-4.5,fresh-6,fresh,False,0.0,2,1,0.002624,4.4,519,"4,500"
+mid wiki search+page,claude-haiku-4.5,fresh-7,fresh,True,0.0,4,3,0.0072640000000000005,132.9,"Deniz Göktaş, a comedian, was imprisoned in Istanbul for ins",Deniz Göktaş
+mid wiki search+page,claude-haiku-4.5,fresh-8,fresh,True,0.0,2,2,0.003281,5.1,Pavel Durov (Telegram founder) was charged by the FSB in Rus,Pavel Durov
+mid wiki search+page,claude-haiku-4.5,fresh-9,fresh,True,0.0,3,2,0.00414,39.9,New Delhi,New Delhi
+mid wiki search+page,claude-haiku-4.5,fresh-10,fresh,False,0.0,9,7,0.017089,27.7,I cannot provide a reliable answer without additional detail,Twelve
+mid wiki search+page,claude-haiku-4.5,fresh-11,fresh,True,0.0,3,2,0.004191,6.0,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+mid wiki search+page,claude-haiku-4.5,fresh-12,fresh,True,0.0,3,3,0.005248,12.2,"700,000","700,000"
+mid wiki search+page,claude-haiku-4.5,fresh-13,fresh,False,0.0,9,8,0.034785,28.8,"38.5 °C (101.3 °F) in Kitzingen on June 19, 2026",41.5 °C
+mid wiki search+page,claude-haiku-4.5,fresh-14,fresh,True,0.0,5,4,0.008882000000000001,13.7,Ciudad Rodrigo,Ciudad Rodrigo
+mid wiki search+page,claude-haiku-4.5,fresh-15,fresh,True,0.0,2,1,0.002588,4.0,Oleksandr Syrskyi,Oleksandr Syrskyi
+mid wiki search+page,claude-haiku-4.5,fresh-16,fresh,True,0.0,4,3,0.0077080000000000004,39.0,Montreal Victoire,Montreal Victoire
+mid wiki search+page,claude-haiku-4.5,fresh-17,fresh,False,0.0,7,6,0.014976,57.0,The Wikipedia sources available do not contain specific info,EOS-05
+mid wiki search+page,claude-haiku-4.5,fresh-18,fresh,True,0.0,4,3,0.008118,10.2,13 July 2026,13 July
+mid wiki search+page,claude-haiku-4.5,fresh-19,fresh,True,0.0,4,4,0.008219,23.0,Disney Kids & Family,Disney Kids & Family
+mid wiki search+page,claude-haiku-4.5,fresh-20,fresh,True,0.0,2,1,0.002587,4.4,single-elimination tournament,single-elimination
+mid wiki search+page,claude-haiku-4.5,fresh-21,fresh,True,0.0,5,6,0.010439,33.1,Gavin Snider,Gavin Snider
+mid wiki search+page,claude-haiku-4.5,fresh-22,fresh,False,0.0,9,12,0.026097,78.8,I cannot determine the answer with the information available,Clara and the Below
+mid wiki search+page,claude-haiku-4.5,fresh-23,fresh,True,0.0,2,2,0.003354,9.6,German Galushchenko,German Galushchenko
+mid wiki search+page,claude-haiku-4.5,fresh-24,fresh,True,0.0,3,2,0.005228999999999999,7.1,drought,a drought
+mid wiki search+page,claude-haiku-4.5,fresh-25,fresh,True,0.0,9,7,0.026363,42.6,"Pakistan declared an ""open war"" with Afghanistan","""open war"""
+mid wiki search+page,claude-haiku-4.5,fresh-26,fresh,True,0.0,2,2,0.00326,14.1,9,nine
+mid wiki search+page,claude-haiku-4.5,fresh-27,fresh,True,0.0,6,5,0.012379,24.3,Markus Hinterhäuser,Markus Hinterhäuser
+mid wiki search+page,claude-haiku-4.5,fresh-28,fresh,False,0.0,2,1,0.002647,9.1,6,nine
+mid wiki search+page,claude-haiku-4.5,fresh-29,fresh,False,0.0,2,2,0.003613,10.7,46,43
+mid wiki search+page,claude-haiku-4.5,fresh-30,fresh,True,0.0,3,2,0.004653,40.6,Ankara,Ankara
+mid wiki search+page,claude-haiku-4.5,fresh-31,fresh,False,0.0,3,2,0.005667999999999999,21.9,Oljas Bektenov formed the new government as Prime Minister,Aibek Dädebai
+mid wiki search+page,claude-haiku-4.5,fresh-32,fresh,True,0.0,2,1,0.003398,4.5,"Richard Lewer won the Archibald Prize on May 8, 2026 (for hi",Richard Lewer
+mid wiki search+page,claude-haiku-4.5,fresh-33,fresh,False,0.0,9,7,0.022614,29.0,I cannot determine which MP defected from the Conservative P,Marilyn Gladu
+mid wiki search+page,claude-haiku-4.5,fresh-34,fresh,True,0.0,8,7,0.019229999999999997,46.7,6.3,6.3
+mid wiki search+page,claude-haiku-4.5,fresh-35,fresh,False,0.0,9,7,0.02562,54.8,I don't have information about this event in my available kn,Dina Levačić
+mid wiki search+page,claude-haiku-4.5,fresh-36,fresh,False,0.0,2,1,0.002426,32.1,136,129
+mid wiki search+page,claude-haiku-4.5,fresh-37,fresh,True,0.0,6,5,0.012487999999999999,34.0,"15 June (the date the strike was scheduled to begin, which w",15 June
+mid wiki search+page,claude-haiku-4.5,fresh-38,fresh,True,0.0,2,1,0.00287,16.3,Chief Minister of Kerala,Chief Minister
+mid wiki search+page,claude-haiku-4.5,fresh-39,fresh,False,0.0,3,2,0.005544,20.7,"The major train collision in Spain occurred on January 18, 2",Gelida
+mid wiki search+page,claude-haiku-4.5,fresh-40,fresh,True,0.0,7,6,0.013651000000000002,61.9,"Lieutenant General Vladimir Alekseyev, the deputy head of th",Vladimir Alekseyev
+mid wiki search+page,claude-haiku-4.5,fresh-41,fresh,False,0.0,4,3,0.006829999999999999,13.3,"30,000",Thirty thousand people
+mid wiki search+page,claude-haiku-4.5,fresh-42,fresh,False,0.0,4,3,0.007903,13.5,The Wikipedia sources do not specify who inaugurated the Noi,Prime Minister Narendra Modi
+mid wiki search+page,claude-haiku-4.5,fresh-43,fresh,True,0.0,4,3,0.008591000000000001,28.2,Zohran Mamdani,Zohran Mamdani
+mid wiki search+page,claude-haiku-4.5,fresh-44,fresh,True,0.0,4,3,0.006852,14.1,LHS 1140 b,LHS 1140 b
+mid wiki search+page,claude-haiku-4.5,fresh-45,fresh,True,0.0,6,5,0.009850000000000001,16.4,F-16 Fighting Falcon,F-16 Fighting Falcon
+mid wiki search+page,claude-haiku-4.5,fresh-46,fresh,True,0.0,2,1,0.002822,33.1,5,five
+mid wiki search+page,claude-haiku-4.5,fresh-47,fresh,True,0.0,3,2,0.005226,12.3,Education Minister,Education Minister
+mid wiki search+page,claude-haiku-4.5,fresh-48,fresh,True,0.0,2,1,0.0026049999999999997,16.1,Mykhailo Fedorov,Mykhailo Fedorov
+mid wiki search+page,claude-haiku-4.5,fresh-49,fresh,True,0.0,3,2,0.004861,32.5,Life imprisonment for her involvement in terrorist activitie,life imprisonment
+mid wiki search+page,claude-haiku-4.5,fresh-50,fresh,True,0.0,3,3,0.005415,15.1,"802,500 lira ($18,500)","802,500 lira"
+mid wiki search+page,claude-haiku-4.5,fresh-51,fresh,True,0.0,3,2,0.004165,12.3,Bruno Foucher,Bruno Foucher
+mid wiki search+page,claude-haiku-4.5,fresh-52,fresh,True,0.0,5,4,0.008251,18.4,The earthquakes that hit Guangxi (specifically Liuzhou) on M,5.2
+mid wiki search+page,claude-haiku-4.5,fresh-53,fresh,True,0.0,3,2,0.004142,6.3,Tonya McBride Robles,Tonya McBride Robles
+mid wiki search+page,claude-haiku-4.5,fresh-54,fresh,True,0.0,2,1,0.002493,8.3,80,80
+mid wiki search+page,claude-haiku-4.5,fresh-55,fresh,True,0.0,2,1,0.002411,32.9,2,two
+mid wiki search+page,claude-haiku-4.5,fresh-56,fresh,True,0.0,4,3,0.006726,44.6,3%,3%
+mid wiki search+page,claude-haiku-4.5,fresh-57,fresh,False,0.0,9,7,0.021203,31.0,Unable to determine - insufficient information available,Yoon Suk Yeol
+mid wiki search+page,claude-haiku-4.5,fresh-58,fresh,False,0.0,9,8,0.029200999999999998,50.5,BYD,BYD Auto
+mid wiki search+page,claude-haiku-4.5,fresh-59,fresh,True,0.0,5,5,0.014158,44.6,Carson Ting,Carson Ting
+mid wiki search+page,claude-haiku-4.5,fresh-60,fresh,False,0.0,1,0,0.001342,1.8,I don't have access to real-time information or future data.,209
+mid wiki search+page,claude-haiku-4.5,fresh-61,fresh,True,0.0,2,1,0.0023699999999999997,8.2,14,Fourteen
+mid wiki search+page,claude-haiku-4.5,fresh-62,fresh,False,0.0,3,2,0.005463,13.3,"Based on available Wikipedia information, the March 2026 eve",13 years
+mid wiki search+page,claude-haiku-4.5,fresh-63,fresh,True,0.0,3,2,0.004028,21.7,2,Two
+mid wiki search+page,claude-haiku-4.5,fresh-64,fresh,True,0.0,3,2,0.004042,11.6,mayor of Lutsk,mayor of Lutsk
+mid wiki search+page,claude-haiku-4.5,fresh-65,fresh,True,0.0,5,4,0.008078000000000002,33.4,16,16
+mid wiki search+page,claude-haiku-4.5,fresh-66,fresh,False,0.0,4,3,0.007134,22.1,6,at least six
+mid wiki search+page,claude-haiku-4.5,fresh-67,fresh,False,0.0,3,4,0.006136,9.7,I cannot find this information in available Wikipedia source,Liam Nassereddine
+mid wiki search+page,claude-haiku-4.5,fresh-68,fresh,True,0.0,6,5,0.011268,52.1,Mark Carney,Mark Carney
+mid wiki search+page,claude-haiku-4.5,fresh-69,fresh,True,0.0,2,1,0.0024010000000000004,13.5,Leipzig,Leipzig
+mid wiki search+page,claude-haiku-4.5,fresh-70,fresh,True,0.0,3,3,0.004762000000000001,40.9,"European Sleeper begins night train services between Paris, ",night train service
+mid wiki search+page,claude-haiku-4.5,fresh-71,fresh,True,0.0,2,1,0.0025700000000000002,4.1,Nikita Solovyovat,Nikita Solovyov
+mid wiki search+page,claude-haiku-4.5,fresh-72,fresh,True,0.0,2,2,0.0032310000000000004,5.4,Dharmendra Pradhan,Dharmendra Pradhan
+mid wiki search+page,claude-haiku-4.5,fresh-73,fresh,True,0.0,4,3,0.006477,21.2,Han Hak-ja (Unification Church leader),Han Hak-ja
+mid wiki search+page,claude-haiku-4.5,fresh-74,fresh,True,0.0,2,1,0.002409,3.9,Daniel Ortega,Daniel Ortega
+mid wiki search+page,claude-haiku-4.5,fresh-75,fresh,False,0.0,9,7,0.020681,62.0,I cannot provide a reliable answer to this question as I lac,Novokuznetsk
+mid wiki search+page,claude-haiku-4.5,fresh-76,fresh,True,0.0,5,4,0.011493000000000001,42.3,"Life imprisonment (convicted on February 19, 2026 for insurr",life imprisonment
+mid wiki search+page,claude-haiku-4.5,fresh-77,fresh,True,0.0,2,1,0.0027530000000000002,4.1,Incumbent president Carlos Vila Nova won re-election in the ,Carlos Vila Nova
+mid wiki search+page,claude-haiku-4.5,fresh-78,fresh,False,0.0,3,3,0.006823,13.7,I cannot find this specific data in available Wikipedia sour,13.2 months
+mid wiki search+page,claude-haiku-4.5,fresh-79,fresh,True,0.0,4,5,0.007456,19.8,3,three
+mid wiki search+page,claude-haiku-4.5,fresh-80,fresh,True,0.0,3,2,0.004512,8.7,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+mid wiki search+page,claude-haiku-4.5,fresh-81,fresh,False,0.0,4,3,0.007213000000000001,25.7,Unable to find this specific data. Wikipedia does not appear,8.15m
+mid wiki search+page,claude-haiku-4.5,fresh-82,fresh,True,0.0,2,1,0.002569,16.6,28,28 people
+mid wiki search+page,claude-haiku-4.5,fresh-83,fresh,True,0.0,3,2,0.004035,9.9,improvised explosive device,improvised explosive device
+mid wiki search+page,claude-haiku-4.5,fresh-84,fresh,True,0.0,8,7,0.015231,52.1,8,eight games
+mid wiki search+page,claude-haiku-4.5,fresh-85,fresh,True,0.0,6,6,0.01762,39.0,38 °C,38 °C
+mid wiki search+page,claude-haiku-4.5,fresh-86,fresh,False,0.0,2,2,0.0028209999999999997,15.5,£30.4 billion,£30.4bn
+mid wiki search+page,claude-haiku-4.5,fresh-87,fresh,True,0.0,8,7,0.016961,36.5,José Jerí (though the Wikipedia sources indicate his censure,José Jerí
+mid wiki search+page,claude-haiku-4.5,fresh-88,fresh,True,0.0,4,3,0.0059180000000000005,33.5,"Henoko, Okinawa Prefecture","Henoko, Okinawa Prefecture"
+mid wiki search+page,claude-haiku-4.5,fresh-89,fresh,True,0.0,6,5,0.011316,27.0,Doug Armstrong,Doug Armstrong
+mid wiki search+page,claude-haiku-4.5,fresh-90,fresh,True,0.0,8,9,0.029372000000000002,37.9,"Imperial College London, the London School of Hygiene and Tr",Imperial College London
+mid wiki search+page,claude-haiku-4.5,fresh-91,fresh,True,0.0,3,3,0.004808,11.1,"₹25,863 crore (US$2.7 billion)","₹25,863 crore"
+mid wiki search+page,claude-haiku-4.5,fresh-92,fresh,True,0.0,3,3,0.005382,43.3,Rubén Rocha Moya returns to office as Sinaloa governor on Au,Rubén Rocha Moya
+mid wiki search+page,claude-haiku-4.5,fresh-93,fresh,True,0.0,2,1,0.002894,9.6,Spain,Spain
+mid wiki search+page,claude-haiku-4.5,fresh-94,fresh,True,0.0,2,2,0.003216,5.1,11th place,11th
+mid wiki search+page,claude-haiku-4.5,fresh-95,fresh,True,0.0,2,1,0.002585,36.5,India,India
+mid wiki search+page,claude-haiku-4.5,fresh-96,fresh,False,0.0,2,1,0.002569,8.8,Huelva,Istanbul
+mid wiki search+page,claude-haiku-4.5,fresh-97,fresh,True,0.0,2,1,0.002506,4.7,"Philadelphia, Pennsylvania at Citizens Bank Park",Citizens Bank Park
+mid wiki search+page,claude-haiku-4.5,fresh-98,fresh,False,0.0,5,6,0.015707,18.0,memorandum of understanding to end the war,Islamabad Memorandum
+mid wiki search+page,claude-haiku-4.5,fresh-99,fresh,True,0.0,2,1,0.002513,8.9,Elon Musk,Elon Musk
+mid wiki search+page,claude-haiku-4.5,fresh-100,fresh,True,0.0,2,2,0.003861,5.7,"252,756 miles (406,771 km)","252,756 miles"
+mid wiki search+page,claude-haiku-4.5,fresh-101,fresh,True,0.0,3,2,0.005976,8.3,"The ceasefire began with a 10-day truce on 16 April 2026, th",10-day
+mid wiki search+page,claude-haiku-4.5,fresh-102,fresh,False,0.0,4,4,0.007923,47.3,"I apologize, but I'm unable to find specific information abo",Oleksandr Dovhach
+mid wiki search+page,claude-haiku-4.5,fresh-103,fresh,True,0.0,3,4,0.0075320000000000005,38.9,José María Balcázar,José María Balcázar
+mid wiki search+page,claude-haiku-4.5,fresh-104,fresh,False,0.0,9,7,0.017495,47.0,I do not have reliable information about the specific death ,21
+mid wiki search+page,claude-haiku-4.5,fresh-105,fresh,True,0.0,3,4,0.006175,15.0,"On April 2, 2026, Air China and China Southern Airlines incr",¥60–120
+mid wiki search+page,claude-haiku-4.5,fresh-106,fresh,False,0.0,9,7,0.023704,37.6,I don't have confirmed information about what opens at São P,GRU Airport People Mover
+mid wiki search+page,claude-haiku-4.5,fresh-107,fresh,True,0.0,2,2,0.003067,11.0,The 2026 Beninese parliamentary election occurs on January 1,2026 Beninese parliamentary election
+mid wiki search+page,claude-haiku-4.5,fresh-108,fresh,False,0.0,4,3,0.006272,30.9,I'm not finding relevant information about a shark attack in,Michaelmas Island
+mid wiki search+page,claude-haiku-4.5,fresh-109,fresh,False,0.0,5,7,0.012055999999999999,18.1,arson,conspiracy to commit arson
+mid wiki search+page,claude-haiku-4.5,fresh-110,fresh,False,0.0,1,0,0.001288,2.0,I don't have access to information about future events. A sp,Clay Fuller
+mid wiki search+page,claude-haiku-4.5,fresh-111,fresh,True,0.0,3,2,0.005442,36.5,Prime Minister,prime minister
+mid wiki search+page,claude-haiku-4.5,fresh-112,fresh,True,0.0,2,2,0.003711,34.0,SMILE (Solar wind Magnetosphere Ionosphere Link Explorer),SMILE
+mid wiki search+page,claude-haiku-4.5,fresh-113,fresh,True,0.0,5,4,0.009848,12.4,850,850
+mid wiki search+page,claude-haiku-4.5,fresh-114,fresh,True,0.0,2,2,0.003062,15.3,An Urgent Care Centre,Urgent Care Centre
+mid wiki search+page,claude-haiku-4.5,fresh-115,fresh,False,0.0,4,3,0.006983,12.5,25,66
+mid wiki search+page,claude-haiku-4.5,fresh-116,fresh,True,0.0,2,1,0.002647,4.2,Nelly Korda was associated with the 2026 U.S. Women's Open h,Nelly Korda
+mid wiki search+page,claude-haiku-4.5,fresh-117,fresh,False,0.0,9,7,0.022925,61.2,I cannot determine which Nanjing Metro line opens in April 2,Line S2
+mid wiki search+page,claude-haiku-4.5,fresh-118,fresh,True,0.0,4,3,0.006335,40.4,Antonello da Messina,Antonello da Messina
+mid wiki search+page,claude-haiku-4.5,fresh-119,fresh,False,0.0,7,13,0.023761,36.3,I cannot find information about cities that resumed passenge,Baku and Tbilisi
+mid wiki search+page,claude-haiku-4.5,fresh-120,fresh,False,0.0,9,7,0.029291999999999995,50.8,I cannot definitively identify the specific operation involv,Operation Southern Spear
+mid wiki search+page,claude-haiku-4.5,fresh-121,fresh,False,0.0,9,7,0.01731,39.7,I cannot determine this information. No reliable data about ,5.6
+mid wiki search+page,claude-haiku-4.5,fresh-122,fresh,True,0.0,6,6,0.017374,37.8,Angus Taylor ousted Sussan Ley in February 2026. Taylor succ,Angus Taylor
+mid wiki search+page,claude-haiku-4.5,fresh-123,fresh,False,0.0,9,7,0.025986,118.3,I cannot determine the answer with certainty.,Burkina Faso
+mid wiki search+page,claude-haiku-4.5,fresh-124,fresh,True,0.0,4,3,0.007403,10.6,Kehl,Kehl
+mid wiki search+page,claude-haiku-4.5,fresh-125,fresh,True,0.0,5,8,0.013535,17.1,Christophe Leribault,Christophe Leribault
+mid wiki search+page,claude-haiku-4.5,fresh-126,fresh,False,0.0,3,3,0.005112,12.3,Paris Saint-Germain,Paris St-Germain
+mid wiki search+page,claude-haiku-4.5,fresh-127,fresh,False,0.0,9,7,0.026382000000000003,36.5,I cannot determine this answer with the available informatio,Monroe
+mid wiki search+page,claude-haiku-4.5,fresh-128,fresh,True,0.0,8,7,0.019221,26.4,Bezalel Smotrich,Bezalel Smotrich
+mid wiki search+page,claude-haiku-4.5,fresh-129,fresh,True,0.0,2,1,0.002487,16.1,Évian-les-Bains,Évian-les-Bains
+mid wiki search+page,claude-haiku-4.5,fresh-130,fresh,True,0.0,2,2,0.0035979999999999996,19.6,Pissos,Pissos
+mid wiki search+page,claude-haiku-4.5,fresh-131,fresh,True,0.0,6,6,0.014234,33.4,Golfech Nuclear Power Plant,Golfech Nuclear Power Plant
+mid wiki search+page,claude-haiku-4.5,fresh-132,fresh,True,0.0,6,10,0.01628,24.8,Claude Guillemot,Claude Guillemot
+mid wiki search+page,claude-haiku-4.5,fresh-133,fresh,False,0.0,6,5,0.012563000000000001,80.5,Operation Overlord (or D-Day),Normandy landings
+mid wiki search+page,claude-haiku-4.5,fresh-134,fresh,True,0.0,3,2,0.004,36.0,$7 billion,$7 billion
+mid wiki search+page,claude-haiku-4.5,fresh-135,fresh,True,0.0,3,2,0.004562999999999999,6.6,Constitutional Council of France,The Constitutional Council
+mid wiki search+page,claude-haiku-4.5,fresh-136,fresh,True,0.0,3,3,0.005284,12.8,Lionel Jospin,Lionel Jospin
+mid wiki search+page,claude-haiku-4.5,fresh-137,fresh,True,0.0,2,1,0.002523,3.3,Democratic Republic of the Congo,Democratic Republic of the Congo
+mid wiki search+page,claude-haiku-4.5,fresh-138,fresh,True,0.0,4,3,0.006988,9.8,Havana,Havana
+mid wiki search+page,claude-haiku-4.5,fresh-139,fresh,True,0.0,2,2,0.003689,9.4,Baden-Württemberg,Baden-Württemberg
+mid wiki search+page,claude-haiku-4.5,fresh-140,fresh,True,0.0,2,2,0.003638,10.4,43.8%,43.8%
+mid wiki search+page,claude-haiku-4.5,fresh-141,fresh,True,0.0,2,1,0.002955,16.8,30.2%,30.2%
+mid wiki search+page,claude-haiku-4.5,fresh-142,fresh,True,0.0,3,2,0.004006,23.1,Koblenz,Koblenz
+mid wiki search+page,claude-haiku-4.5,fresh-143,fresh,False,0.0,9,8,0.032735,45.8,I cannot determine the specific locality from the available ,Möckern-Drewitz
+mid wiki search+page,claude-haiku-4.5,fresh-144,fresh,True,0.0,5,4,0.01074,23.8,"186,700","186,700"
+mid wiki search+page,claude-haiku-4.5,fresh-145,fresh,True,0.0,2,2,0.003075,10.0,2026 Leipzig Airport drone attack,2026 Leipzig Airport drone attack
+mid wiki search+page,claude-haiku-4.5,fresh-146,fresh,True,0.0,3,2,0.0055,23.9,Jürgen Habermas,Jürgen Habermas
+mid wiki search+page,claude-haiku-4.5,fresh-147,fresh,True,0.0,7,12,0.020767,53.7,Niue,Niue
+mid wiki search+page,claude-haiku-4.5,fresh-148,fresh,True,0.0,3,3,0.005228,7.8,Amazon,Amazon
+mid wiki search+page,claude-haiku-4.5,fresh-149,fresh,True,0.0,2,2,0.00341,9.2,Tomahawk missiles,Tomahawk missiles
+mid wiki search+page,claude-haiku-4.5,fresh-150,fresh,True,0.0,2,1,0.0025529999999999997,4.1,Kavinsky,Kavinsky

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The resident doctors in England announced a four-day strike starting from 7am on 15 June 2026. \n\nFINAL: 15 June 2026",
+ "correct": true,
+ "cost": 0.0002076,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lWdfUGDHBj0MdswKNVTZBIcg",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"2026 in England\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lWdfUGDHBj0MdswKNVTZBIcg",
+   "content": "[2026 in England] Events of the year 2026 in England."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_q6lLMj4IVBJ1dsLVgYPLCvoC",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in England\",\"keywords\":\"resident doctors strike June\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_q6lLMj4IVBJ1dsLVgYPLCvoC",
+   "content": "[2026 in England]\nResident doctors in England vote in favour of further strike action in their long-running dispute with the UK government over pay and training posts.\nThe British Medical Association announces that resident doctors in England will stage a six-day strike from 7am on 7 April after talks between union representatives and the UK government broke down.\nResident doctors in England begin a six-day strike\nResident doctors announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute."
+  },
+  {
+   "role": "assistant",
+   "content": "The resident doctors in England announced a four-day strike starting from 7am on 15 June 2026. \n\nFINAL: 15 June 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

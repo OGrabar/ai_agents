@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I can't provide future dates or events as I don't have access to information beyond October 2023. For current events or future announcements, please refer to reliable news sources or official announcements. FINAL: unknown",
+ "correct": false,
+ "cost": 3.72e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I can't provide future dates or events as I don't have access to information beyond October 2023. For current events or future announcements, please refer to reliable news sources or official announcements. FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

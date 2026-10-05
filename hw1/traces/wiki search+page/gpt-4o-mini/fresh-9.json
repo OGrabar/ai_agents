@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "What city hosted the 2026 BWF World Championships in sports in August?",
+  "answer": "New Delhi",
+  "evidence": "August 17 – 23 : 2026 BWF World Championships in New Delhi, India",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Zhengzhou",
+  "agent_ok": true
+ },
+ "answer": "FINAL: New Delhi, India",
+ "correct": true,
+ "cost": 0.0002031,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What city hosted the 2026 BWF World Championships in sports in August?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JTMEWVFx0H59nZpgCiZyKOmP",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"2026 BWF World Championships\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JTMEWVFx0H59nZpgCiZyKOmP",
+   "content": "[2026 BWF World Championships] The 2026 BWF World Championships is the 30th edition of the world badminton championships. It took place in New Delhi, India in 2026. India hosted the World Championships for the first time since 2009."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_T2H802wheXRWiqGf9xEcazlt",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 BWF World Championships\",\"keywords\":\"location, host city\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_T2H802wheXRWiqGf9xEcazlt",
+   "content": "[2026 BWF World Championships]\nThe host nation India was originally supposed to hold the Sudirman Cup in 2023, however due to all events in China getting cancelled in 2021, the Sudirman Cup was moved to Vantaa in Finland with the 2023 Sudirman Cup going to Suzhou, China. India thereby was selected as the hosts of the 2026 World Championships due to the transfer of the hosting ri"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: New Delhi, India",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

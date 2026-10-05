@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Two people were killed in the avalanche near Ratschings on March 21, 2026. \n\nFINAL: 2",
+ "correct": true,
+ "cost": 0.00024135,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jXAWzbDGsLourqr5iVrE1yLU",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"avalanche near Ratschings March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jXAWzbDGsLourqr5iVrE1yLU",
+   "content": "[2026 in Italy] The following is a list of events of the year 2026 in Italy."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_brt7t4YuUxcLFqdtd3HoUjX6",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Italy\",\"keywords\":\"avalanche Ratschings March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_brt7t4YuUxcLFqdtd3HoUjX6",
+   "content": "[2026 in Italy]\n6–15 March – The 2026 Winter Paralympics in Milan and Cortina d'Ampezzo.\n21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.\n22–23 March – 2026 Italian constitutional referendum: A proposal to reform the judiciary is rejected by 54% of voters.\n30 March – Italy fails to qualify to the FIFA World Cup for a third consecutive time after losing to Bosnia and Herzegovina 4-1 on penalties at the 2026 FIFA World Cup qualification in Zenica."
+  },
+  {
+   "role": "assistant",
+   "content": "Two people were killed in the avalanche near Ratschings on March 21, 2026. \n\nFINAL: 2",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

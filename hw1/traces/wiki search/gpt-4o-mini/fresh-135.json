@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Which French institution ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors?",
+  "answer": "The Constitutional Council",
+  "evidence": "14 August – Decision 2026-911: The Constitutional Council rules that the social media ban for minors under 15 years of age violated the rights of minors.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The French institution that ruled on 14 August 2026 against the social media ban for minors under 15 was the Constitutional Council of France.\n\nFINAL: Constitutional Council of France",
+ "correct": true,
+ "cost": 0.00027705000000000004,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which French institution ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_u7dkzEvaDcSXuhPYqMy4CRDK",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"French institution social media ban minors August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_u7dkzEvaDcSXuhPYqMy4CRDK",
+   "content": "[Social media] Social media are new media technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks. Common features include: Online platforms enable users to create and share content and participate in social networking. User-generated content such as text posts or comments, digital photos or videos, and data generated through online interactions. Service specific profiles that are designed and maintained by the social media organization. Social media helps the development of online social networks by connecting a user's profile with those of other individuals or groups. The term social in regard to media suggests platforms enable communal activity. Social media helps people connect and build networks. Users access social media through web-based or mobile applications. These interactive platforms allow individuals, communities, businesses, and organizations to share, co-create, discuss, participate in, and modify user-generated or self-curated content. Social media is used to share memories, form friendships, build communities and learn. They may be used to promote people, companies, products, and ideas. Social media can be used to consume, publish, or share news. Popular social media platforms with over 100 million registered users include X, Facebook, WeChat, ShareChat, Instagram, Pinterest, QZone, Weibo, VK, Tumblr, Baidu Tieba, Threads, and LinkedIn. Depending on the interpretation, other popular platforms that are sometimes referred to as social media services include YouTube, Letterboxd, QQ, Telegram, WhatsApp, Signal, LINE, Snapchat, Viber, Reddit, Discord, and TikTok. Wikis and Roblox are examples of collaborative content creation. Social media outlets differ from old media (e.g. newspapers, TV, and radio broadcasting) in many ways, including quality, reach, frequency, usability, relevancy, and permanence. Social media outlets operate in a "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XTRqz4giWpKtJsA89xJIgUQR",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"French Constitutional Council ruling minors social media August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XTRqz4giWpKtJsA89xJIgUQR",
+   "content": "[Decision 2026-911 (France)] Decision 2026-911 is a decision from the Constitutional Council of France on the country's legally approved 2026 social media ban for minors under 15 years of age. The Council ruled that the law violated the rights of minors because the law could apply to all minors under 15 and would violate the privacy of adults because adults would have to prove their age before using social networks. A similar legal case is pending for High Court of Australia for Australia social media ban for minors under 16."
+  },
+  {
+   "role": "assistant",
+   "content": "The French institution that ruled on 14 August 2026 against the social media ban for minors under 15 was the Constitutional Council of France.\n\nFINAL: Constitutional Council of France",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

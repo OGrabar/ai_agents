@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-72",
+  "source": "fresh",
+  "question": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?",
+  "answer": "Dharmendra Pradhan",
+  "evidence": "The Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan.\n\nFINAL: Dharmendra Pradhan",
+ "correct": true,
+ "cost": 0.00044745,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who is the Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LlbV80tuNzM48ba69X0xhGgh",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"2026 Education Minister India Cockroach Janta Party resignation\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LlbV80tuNzM48ba69X0xhGgh",
+   "content": "[Cockroach Janta Party] The Cockroach Janta Party (CJP; lit. 'Cockroach People's Party'), also known as the Cockroach movement, is an Indian youth-based satirical political movement founded on 16 May 2026 by Abhijeet Dipke, a political communications strategist and activist. The CJP harnessed widespread political and economic discontent among Generation Z in India, leading to protests in Delhi and other cities in the following months. The \"party\" was created in response to remarks made on 15 May 2026 by Surya Kant, the Chief Justice of India, in which he referred to certain activists and unemployed youth as \"cockroaches\" and \"parasites of society\". Kant later said he was referring specifically to people who obtain fraudulent degrees, but his remarks nonetheless triggered broad criticism that India's economic and political landscape had become hostile to young people. The movement's name is a wordplay parodying the current ruling party in India, the Bharatiya Janata Party. The party achieved significant popularity online, rapidly gaining a large following across social media platforms shortly after its formation. It issued a five-point manifesto relating to the conduct of parliament members and of election commissioners, reservation of seats for women in politics, and media licensing. Beginning in June, the party led protests in Delhi and across the country over the fallout from irregularities in that year's entrance examinations for undergraduate biomedical studies. The protests culminated in talks with the central government and the resignation of Dharmendra Pradhan, the Indian Minister of Education, on 25 July 2026. The education minister's resignation was considered a major victory for the cockroach movement. Alongside its online presence, the movement organises protests and community service activities across India. The movement campaigns on broader societal, economic, and political issues affecting India. It is not registered as a political party with the Elect"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7tyfmf37bAxaaUZpqvFOXTNp",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"2026 in India\", \"keywords\": \"Education Minister resignation Cockroach Janta Party\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_GWy3YFceip0seB0ENQsJlLcn",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"Dharmendra Pradhan\", \"keywords\": \"resignation 2026 Cockroach Janta Party\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7tyfmf37bAxaaUZpqvFOXTNp",
+   "content": "[2026 in India]\n16 May – The Cockroach Janta Party is founded by Abhijeet Dipke in response to the comments made by Chief Justice of India, Surya Kant who called unemployed youths as \"cockroaches\" and \"parasites\".\n6 June – 2026 Delhi Jantar Mantar protests: The Cockroach Janta Party led by Abhijeet Dipke stages protests at Jantar Mantar demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.\n28 June – Sonam Wangchuk goes on an indefinite hunger strike in protests demanding the resignation of education minister, Dharmendra Pradhan over the 2026 NEET controversy.\nThe Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.\nMumbai Police detain over 300 people near Chaitya Bhoomi in Dadar, Mumbai who had gathered to demand the resignation of Education Minister, Dharmendra Pradhan."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GWy3YFceip0seB0ENQsJlLcn",
+   "content": "[Dharmendra Pradhan]\nDharmendra Pradhan (born 26 June 1969) is an Indian politician who served as the 9th Minister of Education from 2021 until his resignation in 2026. He previously served as Minister of Petroleum and Natural Gas from 2014 to 2021, Minister of Steel from 2019 to 2021, and Minister of Skill Development and Entrepreneurship from 2017 to 2024. Pradhan is\nHis tenure as the union education minister was marred with irregularities, including leakage of the scripts for 2024 and 2026 NEET (UG) exams. The government conducted a re-examination involving over 2.2 million students after the 2026 leakage. The irregularities led to suicides of at least 12 students, and has served as a catalyst to the 2026 Jant\nIn 2026, NEET-UG again became the subject of controversy after the National Testing Agency (NTA) cancelled the 3 May examination amid paper-leak allegations and scheduled a re-examination for 21 June 2026. On 6 June 2026, supporters of the Cockroach Janta Party, a satirical youth-led political movement, held a protest at Jantar Mantar in New Delhi "
+  },
+  {
+   "role": "assistant",
+   "content": "The Education Minister being demanded to resign by the Cockroach Janta Party in India in 2026 is Dharmendra Pradhan.\n\nFINAL: Dharmendra Pradhan",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

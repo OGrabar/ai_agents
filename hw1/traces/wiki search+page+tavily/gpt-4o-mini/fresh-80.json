@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-80",
+  "source": "fresh",
+  "question": "What regulation did the Supreme Court of India stay on January 29, 2026?",
+  "answer": "UGC Equity Regulations, 2026",
+  "evidence": "29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The Supreme Court of India stayed the implementation of the UGC Equity Regulations, 2026, citing misuse by specific groups. \n\nFINAL: UGC Equity Regulations, 2026",
+ "correct": true,
+ "cost": 0.00015299999999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What regulation did the Supreme Court of India stay on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OUdttZCYESlexhvuqq3du8T3",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"Supreme Court stay January 29 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OUdttZCYESlexhvuqq3du8T3",
+   "content": "[2026 in India]\n29 January – The Supreme Court of India stays the implementation of the UGC Equity Regulations, 2026 citing misuse by specific groups."
+  },
+  {
+   "role": "assistant",
+   "content": "The Supreme Court of India stayed the implementation of the UGC Equity Regulations, 2026, citing misuse by specific groups. \n\nFINAL: UGC Equity Regulations, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

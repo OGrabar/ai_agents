@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Burkina Faso broke off diplomatic relations with France in June 2026. \n\nFINAL: Burkina Faso",
+ "correct": true,
+ "cost": 0.00037785,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QA8eU1ba0w6kIQOOpG9wQbPA",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France in June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QA8eU1ba0w6kIQOOpG9wQbPA",
+   "content": "[Foreign relations of Israel] Foreign relations of Israel refers to diplomatic and trade relations between Israel and other countries around the world. Israel has diplomatic ties with 165 of the other 192 UN member states as of 12 December 2020. Israel is a member of the United Nations (UN) and a number of other international organisations. Israel maintains full diplomatic relations with two of its Arab neighbours, Egypt and Jordan, after signing peace treaties in 1979 and 1994 respectively. In 2020, Israel signed agreements establishing diplomatic relations with three Arab League countries, Bahrain, the United Arab Emirates, and Morocco. As of 2021, Israel had formal diplomatic relations with 168 countries, while 28 UN member states have either never established, or have broken off diplomatic relations with Israel. Israel's foreign relations are influenced primarily by Israel's strategic situation in the Middle East, the broader Arab–Israeli conflict and the conflict with Iran particularly over Iran's nuclear program, along with the rejection by regional states. Israel's foreign policy goals have therefore been to overcome diplomatic isolation and to achieve recognition and friendly relations with as many nations as possible, both in the Middle East region and further afield. Israel practices both open and secret diplomacy to further national goals, for example, commercial trade and science and technology cooperation, importing raw materials, engaging in military procurement as well as exporting arms and military assistance, intelligence cooperation with its allies, and prisoner-of-war exchanges and other arrangements for hostage releases. It has also sought to foster increased Jewish immigration to Israel and to protect vulnerable Jewish communities in the Diaspora, to offer aid to developing countries and humanitarian assistance to countries facing large-scale disasters. Israel's close friendship with the United States has been a linchpin of its foreign policy si"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_YThRz49YX5D5zy8SKZkkLld2",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"country breaks diplomatic relations with France June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_YThRz49YX5D5zy8SKZkkLld2",
+   "content": "[Burkina Faso cuts diplomatic ties with former colonial ruler France | Politics News | Al Jazeera] https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france Burkina Faso has broken off diplomatic relations with France, further widening the rift with its former colonial ruler. “The government of Burkina Faso hereby informs the national and international community that it has decided to sever diplomatic relations with France with effect from today, June 26, 2026,” said Friday’s statement read out on national television. ## Recommended Stories list of 4 items [...] Live Live News|Politics # Burkina Faso cuts diplomatic ties with former colonial ruler France The military government, in power since a coup in 2022, accused France of having ‘neo-colonial ambitions’. Save Share Burkina Faso's junta leader Captain Ibrahim Traore Burkina Faso's military leader Captain Ibrahim Traore has moved closer to Russia and distanced the country from France [File: Angelos Tzortzinis/Reuters] By Alex Milan Durie Published On 26 Jun 202626 Jun 2026 [...] According to the government statement released on Friday, the decision to cut ties with France “exclusively concerns diplomatic relations between the two states” and “does not call into question the historical, human, cultural and social ties between the people of Burkina Faso and France”. It added that French nationals in Burkina Faso will continue to be protected in accordance with the law.\n[French diplomatic force pull out of Burkina Faso after four years of souring ties • FRANCE 24] https://www.youtube.com/watch?v=tMmVHWwb0KA ### Transcript [0:00] June 2026, Burkina Faso officially announces its decision to break off diplomatic ties with France. [0:09] The government of Bkinaaso informs the national and international community that it has decided to sever diplomatic relations with the French Republic. [0:22] Paris immediately denounced a hostile and unfounded decision and in turn dema"
+  },
+  {
+   "role": "assistant",
+   "content": "Burkina Faso broke off diplomatic relations with France in June 2026. \n\nFINAL: Burkina Faso",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-115",
+  "source": "fresh",
+  "question": "How many people were killed in the Kenya floods on March 6–7, 2026?",
+  "answer": "66",
+  "evidence": "March 6–7 – 2026 Kenya floods: At least 66 people are killed after floods across Kenya.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have information about events that occurred in March 2026. My knowledge cutoff is early 2025, so I cannot provide details about Kenya floods on March 6–7, 2026.\n\nFINAL: I don't know",
+ "correct": false,
+ "cost": 0.001098,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the Kenya floods on March 6–7, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information about events that occurred in March 2026. My knowledge cutoff is early 2025, so I cannot provide details about Kenya floods on March 6–7, 2026.\n\nFINAL: I don't know",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

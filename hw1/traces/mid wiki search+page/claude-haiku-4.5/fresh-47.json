@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-47",
+  "source": "fresh",
+  "question": "What position did Dharmendra Pradhan resign from in India in July 2026?",
+  "answer": "Education Minister",
+  "evidence": "July 25 – Indian Education Minister Dharmendra Pradhan resigns from the position in light of the protests over a NEET exam leak. Most of the protests ceased following his resignation.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, Dharmendra Pradhan resigned from the position of **Education Minister** in 2026 amid the NEET examination controversy. While the exact date appears to be sometime during the protests (after June 28, 2026), the position he resigned from was clearly the **Ministry of Education** (also referred to as Education Minister).\n\nFINAL: Education Minister",
+ "correct": true,
+ "cost": 0.005226,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What position did Dharmendra Pradhan resign from in India in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Dharmendra Pradhan's resignation in July 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TXnf37JojkiRr1f1Gg4TsK",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Dharmendra Pradhan resignation July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TXnf37JojkiRr1f1Gg4TsK",
+   "content": "[Dharmendra Pradhan] Dharmendra Pradhan (born 26 June 1969) is an Indian politician who served as the 9th Minister of Education from 2021 until his resignation in 2026. He previously served as Minister of Petroleum and Natural Gas from 2014 to 2021, Minister of Steel from 2019 to 2021, and Minister of Skill Development and Entrepreneurship from 2017 to 2024. Pradhan is currently a member of the Indian parliament representing the Sambalpur constituency in the Lok Sabha as a member of the Bharatiya Janata Party. Previously, he has also served as a member of Rajya Sabha representing Bihar and Madhya Pradesh. His tenure as the union education minister was marred with irregularities, including leakage of the scripts for 2024 and 2026 NEET (UG) exams. The government conducted a re-examination involving over 2.2 million students after the 2026 leakage. The irregularities led to suicides of at least 12 students, and has served as a catalyst to the 2026 Jantar Mantar protests in Delhi calling for Pradhan's resignation. The protests turned violent, with clashes occurring between protestors and law enforcement officials, followed by negotiations between government and protestors and resignation of Pradhan."
+  },
+  {
+   "role": "assistant",
+   "content": "Now let me search for more specific details about July 2026 to confirm the exact date and position.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LbK8uxWjhKkuWUwpGWW6Wj",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"2026 in India\", \"keywords\": \"Dharmendra Pradhan resignation July Minister\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LbK8uxWjhKkuWUwpGWW6Wj",
+   "content": "[2026 in India]\n6 June – 2026 Delhi Jantar Mantar protests: The Cockroach Janta Party led by Abhijeet Dipke stages protests at Jantar Mantar demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.\n28 June – Sonam Wangchuk goes on an indefinite hunger strike in protests demanding the resignation of education minister, Dharmendra Pradhan over the 2026 NEET controversy.\nThe Cockroach Janta Party organises the Sansad Chalo March demanding the resignation of Education Minister Dharmendra Pradhan over the 2026 NEET controversy.\nMumbai Police detain over 300 people near Chaitya Bhoomi in Dadar, Mumbai who had gathered to demand the resignation of Education Minister, Dharmendra Pradhan.\nDharmendra Pradhan resigns as Education Minister amid outrage over the 2026 NEET controversy. He is replaced by Pralhad Joshi."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, Dharmendra Pradhan resigned from the position of **Education Minister** in 2026 amid the NEET examination controversy. While the exact date appears to be sometime during the protests (after June 28, 2026), the position he resigned from was clearly the **Ministry of Education** (also referred to as Education Minister).\n\nFINAL: Education Minister",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

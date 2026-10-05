@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-138",
+  "source": "fresh",
+  "question": "In March 2026 Air France announced a suspension of Paris flights to which Cuban city, citing a jet fuel shortage?",
+  "answer": "Havana",
+  "evidence": "4 March – Air France announces the suspension of flights between Paris, and Havana, Cuba, from March 29 until at least June 15 due to a jet fuel shortage in Cuba.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I cannot provide information from beyond October 2023. Please check the latest updates or reliable news sources for current events. FINAL: <information not available>",
+ "correct": false,
+ "cost": 3.255e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In March 2026 Air France announced a suspension of Paris flights to which Cuban city, citing a jet fuel shortage?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot provide information from beyond October 2023. Please check the latest updates or reliable news sources for current events. FINAL: <information not available>",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-27",
+  "source": "fresh",
+  "question": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?",
+  "answer": "Markus Hinterhäuser",
+  "evidence": "26 March – The board of directors of the Salzburg Festival announce the termination of the contract of Markus Hinterhäuser as artistic director of the festival, placing him on leave until 30 September 2026.",
+  "page": "2026 in classical music",
+  "url": "https://en.wikipedia.org/wiki/2026_in_classical_music",
+  "sonnet_answer": "Teodor Currentzis",
+  "agent_ok": true
+ },
+ "answer": "The Salzburg Festival placed its Artistic Director, Markus Hinterhäuser, on leave until September 30, 2026, on March 26, 2026. \n\nFINAL: Markus Hinterhäuser",
+ "correct": true,
+ "cost": 0.00041835000000000006,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In classical music, who was placed on leave until September 30, 2026, by the Salzburg Festival on March 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Wt0ogxYrsKRzuYUPxuxDarHN",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Salzburg Festival March 26 2026 news\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Wt0ogxYrsKRzuYUPxuxDarHN",
+   "content": "[Eurovision Song Contest 2026] The Eurovision Song Contest 2026 was the 70th edition of the Eurovision Song Contest. It consisted of two semi-finals on 12 and 14 May and a final on 16 May 2026, held at Wiener Stadthalle in Vienna, Austria, and presented by Victoria Swarovski and Michael Ostrowski, with Emily Busvine acting as the green room host. It was organised by the European Broadcasting Union (EBU) and host broadcaster Österreichischer Rundfunk (ORF), which staged the event after winning the 2025 contest for Austria with the song \"Wasted Love\" by JJ. Broadcasters from thirty-five countries participated in the contest, two fewer than in 2025 and the smallest number of participants since 2003, before the introduction of semi-finals. Iceland, Ireland, the Netherlands, Slovenia, and Spain opted not to participate in protest at Israel's inclusion in the context of the Gaza war, matching the record for the largest number of boycotting countries in the contest's history set in 1970, while Bulgaria, Moldova, and Romania returned after absences from recent editions. The winner was Bulgaria with the song \"Bangaranga\", performed by Dara and written by her with Anne Judith Wik, Cristian Tarcea, and Dimitris Kontopoulos. The song won both the jury vote and televote, the first entry to do so since Portugal in 2017, and gave Bulgaria its first win in the contest. Israel, Romania, Australia, and Italy rounded out the top five, with Romania equaling its best placements from 2005 and 2010 while achieving its highest points total to date. Luxembourg failed to qualify for the final for the first time, leaving Ukraine as the only country to have always progressed from the semi-finals since their introduction in 2004. The EBU reported that the contest had a television audience of 131 million viewers in 35 European markets, a decrease of 35 million viewers from the previous edition and the lowest viewing figures since the 2012 contest, which attracted 103 million viewers."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LIKp8mcgSPZmjSmDVVu3j76j",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Salzburg Festival placed on leave March 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LIKp8mcgSPZmjSmDVVu3j76j",
+   "content": "[Salzburg Festival Fires Its Artistic Director - The New York Times] https://www.nytimes.com/2026/03/26/arts/music/salzburg-festival-fires-artistic-director-markus-hinterhauser.html “Due to irreconcilable differences of opinion, the Salzburg Festival and Artistic Director Markus Hinterhäuser have decided to part ways, effective immediately,” the festival’s supervisory board said in a statement. It said Hinterhäuser would be placed on leave through the original termination date of his contract, Sept. 30. This was in addition to an earlier decision by the board to rescind a five-year contract extension. [...] The sudden termination means that the artistic leadership of the world’s largest classical music festival is, for the moment, unknown. The announcement came less than four months before the 2026 festival opens. The board said that as it looks for a permanent successor, discussions were already underway with candidates for provisional artistic director.\n[Salzburg Festival sacks its acclaimed director for refusing to blacklist Russian artists - World Socialist Web Site] https://www.wsws.org/en/articles/2026/08/18/yuyv-a18.html But at the end of March, just weeks before rehearsals were due to begin, he was surprisingly placed on leave “with immediate effect,” his contract shortened to end in September. The festival’s board of trustees, which includes the Austrian People’s Party (ÖVP) state Governor Karoline Edlstadler and the Social Democratic Party (SPÖ) mayor of the city of Salzburg and former Porsche Holding works Council Chairman Bernhard Auinger, spoke of “irreconcilable differences,” communication problems and a [...] As if on cue, his Spiegel report appeared online on March 26 at 12:50 p.m. At 1:30 p.m.—barely 40 minutes later—the board of trustees announced the immediate parting of ways with artistic director Markus Hinterhäuser!\n[Salzburg Festival 2026 – The Ultimate Guide - Salzburg Guide] https://www.my-salzburg-guide.at/en/salzburg-festival-2026-the-ulti"
+  },
+  {
+   "role": "assistant",
+   "content": "The Salzburg Festival placed its Artistic Director, Markus Hinterhäuser, on leave until September 30, 2026, on March 26, 2026. \n\nFINAL: Markus Hinterhäuser",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

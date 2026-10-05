@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have reliable information about events occurring on February 26, 2026, as that date is beyond my knowledge cutoff and/or may not have occurred yet or may not be well-documented in my training data. I cannot verify details about an \"Afghanistan–Pakistan war\" or a Pakistani government declaration on that specific date.\n\nIf this refers to a hypothetical scenario, a fictional work, or a specific document you're referencing, please provide more context and I'll do my best to help.\n\nFINAL: I don't have information about this event.",
+ "correct": false,
+ "cost": 0.002097,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have reliable information about events occurring on February 26, 2026, as that date is beyond my knowledge cutoff and/or may not have occurred yet or may not be well-documented in my training data. I cannot verify details about an \"Afghanistan–Pakistan war\" or a Pakistani government declaration on that specific date.\n\nIf this refers to a hypothetical scenario, a fictional work, or a specific document you're referencing, please provide more context and I'll do my best to help.\n\nFINAL: I don't have information about this event.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

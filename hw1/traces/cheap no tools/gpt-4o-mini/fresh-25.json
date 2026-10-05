@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I am unable to provide information on events that occurred after my last training cut-off in October 2023. For accurate and up-to-date details, please consult reliable news sources or databases. \n\nFINAL: information not available",
+ "correct": false,
+ "cost": 4.02e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I am unable to provide information on events that occurred after my last training cut-off in October 2023. For accurate and up-to-date details, please consult reliable news sources or databases. \n\nFINAL: information not available",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

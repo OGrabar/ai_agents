@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-12",
+  "source": "fresh",
+  "question": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?",
+  "answer": "700,000",
+  "evidence": "The number of children getting support for special educational needs and disabilities has increased by 12% between January 2025 and January 2026, UK government figures indicate, with 700,000 children now receiving help.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "As of January 2026, the number of children receiving support for special educational needs and disabilities in the United Kingdom is over 1.8 million.\n\nFINAL: 1800000",
+ "correct": false,
+ "cost": 0.00038055,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of children receiving support for special educational needs and disabilities in the United Kingdom in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zLJdHQ5aJ5ZNcTil6Vu4WnAG",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Special educational needs in the United Kingdom\",\"keywords\":\"children support January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zLJdHQ5aJ5ZNcTil6Vu4WnAG",
+   "content": "[Special education in the United Kingdom]\nSome support available for children with SEN include:\nThe current regulations for SEN are set out in the Children and Families Act 2014. Different levels of support are given to children depending on how much support is required. Most children with SEN are given school-level support, known as SEN support. An Education, Health and Care Plan (EHCP) is given to children and young people who are considere\nA Local Offer (or LO) is a statement detailing the pattern of support which a local authority expects to be available for children and young people with special educational needs (SEN) and/or disabilities within their area. It must include information about education, health and care provision. It should also tell families about training, employmen\nIn Scotland, the term additional support needs is used instead of SEN. As well as children with disabilities, this also encompasses children who may need support for reasons other than disability, such as children who are being bullied or who are in foster care.\nThe Education (Additional Support for Learning) (Scotland) Act 2004 redefined the law relating to the provision of special education to children with additional needs by establishing a framework for the policies of inclusion and generally practicing the \"presumption of mainstreaming\" in education. Children with complex needs who require support fro"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nWPmRZ5Fnzf7ScMQKPJG3cW5",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"number of children receiving support for special educational needs and disabilities in the UK January 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nWPmRZ5Fnzf7ScMQKPJG3cW5",
+   "content": "[Number of children getting special educational needs support hits record high] https://www.bbc.com/news/articles/cj4g18gy14no Between January 2025 and January 2026, there was a 12.5% increase in the number of children with education, health and care plans (EHCPs) - the legal documents setting out the support they are entitled to. It is the highest yearly increase since EHCPs were introduced over a decade ago, with numbers now over 700,000. [...] # Number of children getting special educational needs support hits another record high Getty Images Children in a classroom sit at desks with hands raised while a teacher stands at the front beside a whiteboard, leading a lesson. Colourful posters decorate the walls and stationery items are visible on desks. The number of children getting support for special educational needs and disabilities (SEND) in England has risen sharply again to a new record high, government figures show. [...] Under the government's SEND reform plans, which were released in the spring, fewer children will qualify for EHCPs from 2030. Instead, all children with SEND - currently over 1.8 million children - will get individual support plans, or ISPs, with EHCPs reserved for those with the most complex needs. Families and campaigners have raised concerns that this could \"strip away\" legal rights to support, but the government says this is not the case.\n[Release home - Special educational needs in England - Explore education statistics - GOV.UK] https://explore-education-statistics.service.gov.uk/find-statistics/special-educational-needs-in-england/2025-26 The number of pupils with an EHC plan increased by 11.6% between 2025 and 2026 to 538,500, and has more than doubled since 2016. The number of pupils with SEN support has increased by 2.8% from 2025 to 2026, and by 33.0% since 2016. Since 2016, the total pupil population increased by 4.2%, meaning that there are now proportionally more pupils with an EHC plan or SEN support. [...] #### Number of SEN "
+  },
+  {
+   "role": "assistant",
+   "content": "As of January 2026, the number of children receiving support for special educational needs and disabilities in the United Kingdom is over 1.8 million.\n\nFINAL: 1800000",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

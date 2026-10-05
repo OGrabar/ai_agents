@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-51",
+  "source": "fresh",
+  "question": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?",
+  "answer": "Bruno Foucher",
+  "evidence": "13 August – The French Foreign Ministry opens disciplinary proceedings against its ambassador to the Central African Republic, Bruno Foucher, following allegations that he brought around 30 young women to his official residence in Bangui from 2024 to 2026.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 has not been named in the sources. \n\nFINAL: Unnamed ambassador",
+ "correct": false,
+ "cost": 0.00020459999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_doA2yVtIYfOeMqVjHKP8sedK",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"French ambassador Central African Republic disciplinary proceedings August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_doA2yVtIYfOeMqVjHKP8sedK",
+   "content": "[French ambassador to CAR disciplined over misconduct allegations - RFI] https://www.rfi.fr/en/africa/20260812-french-ambassador-to-car-disciplined-over-misconduct-allegations Podcasts Sections By region # French ambassador to CAR disciplined over misconduct allegations France’s foreign ministry has launched disciplinary proceedings against its ambassador to the Central African Republic, following allegations that he repeatedly brought young women to the official residence in Bangui and had sexual relations with some of them. Issued on: 12/08/2026 - 16:02 [...] “At the Ministry’s initiative, an administrative inquiry was carried out in Bangui in 2026. Upon receipt of the findings of this inquiry, at the minister’s request, the Ministry initiated disciplinary proceedings against the ambassador. These proceedings are ongoing,” the ministry told French news agency AFP, without giving further details. [...] A health worker mops the floor of the Ebola treatment centre in Bunia General Hospital Ituri, eastern DR Congo, Tuesday, 11 August, 2026. ## Race to find Ebola vaccine as DR Congo outbreak kills more than 2,000 The remains of a tank from clashes between the Ethiopian National Defense Force and the Tigray People's Liberation Front on a road near Gereb Agew, Southern Tigray, Ethiopia, 3 March. ## Rebel forces in Ethiopia's Tigray state condemn army drone strikes\n[French ambassador investigated after reportedly inviting women to residence] https://www.lemonde.fr/en/le-monde-africa/article/2026/08/12/french-ambassador-investigated-after-reportedly-inviting-women-to-residence_6756412_124.html \"At the initiative of the ministry, an administrative investigation was carried out in Bangui in 2026,\" the foreign ministry told Agence France-Presse on Tuesday. \"Upon receipt of the findings of this mission, and at the request of the minister, the ministry initiated disciplinary proceedings against the ambassador. These proceedings are ongoing.\" [...] France has opened disciplinary"
+  },
+  {
+   "role": "assistant",
+   "content": "The French ambassador to the Central African Republic involved in disciplinary proceedings in August 2026 has not been named in the sources. \n\nFINAL: Unnamed ambassador",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

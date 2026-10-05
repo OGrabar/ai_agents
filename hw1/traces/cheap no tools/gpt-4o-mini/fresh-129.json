@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "In which French town was the 52nd G7 summit held in June 2026?",
+  "answer": "Évian-les-Bains",
+  "evidence": "15–17 June – 52nd G7 summit in Évian-les-Bains.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I do not have information on events occurring after October 2023, including the location of the 52nd G7 summit in June 2026. You may need to check an updated source for that information. \n\nFINAL: Unknown",
+ "correct": false,
+ "cost": 4.14e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which French town was the 52nd G7 summit held in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I do not have information on events occurring after October 2023, including the location of the 52nd G7 summit in June 2026. You may need to check an updated source for that information. \n\nFINAL: Unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: 850",
+ "correct": true,
+ "cost": 0.00013215,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3yal81kNP9KGGHy3MX7SAoDw",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Canada\",\"keywords\":\"Statistics Canada, job cuts, January 13\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3yal81kNP9KGGHy3MX7SAoDw",
+   "content": "[2026 in Canada]\nJanuary 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: 850",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

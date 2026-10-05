@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-137",
+  "source": "fresh",
+  "question": "From which country had the doctor returned when France confirmed its first case of Ebola on 24 June 2026?",
+  "answer": "Democratic Republic of the Congo",
+  "evidence": "2026 Ebola epidemic: France confirms its first case of Ebola in a doctor who returned from the Democratic Republic of the Congo on a humanitarian mission.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The doctor had returned from the Democratic Republic of the Congo. \n\nFINAL: Democratic Republic of the Congo",
+ "correct": true,
+ "cost": 0.00014294999999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "From which country had the doctor returned when France confirmed its first case of Ebola on 24 June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_q7qdu0KDo2tIJGTR1ZySPIQc",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"Ebola, first case, doctor\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_q7qdu0KDo2tIJGTR1ZySPIQc",
+   "content": "[2026 in France]\n2026 Ebola epidemic: France confirms its first case of Ebola in a doctor who returned from the Democratic Republic of the Congo on a humanitarian mission."
+  },
+  {
+   "role": "assistant",
+   "content": "The doctor had returned from the Democratic Republic of the Congo. \n\nFINAL: Democratic Republic of the Congo",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

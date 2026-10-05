@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Which French institution ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors?",
+  "answer": "The Constitutional Council",
+  "evidence": "14 August – Decision 2026-911: The Constitutional Council rules that the social media ban for minors under 15 years of age violated the rights of minors.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The French institution that ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors is the Constitutional Council of France. \n\nFINAL: Constitutional Council of France",
+ "correct": true,
+ "cost": 0.0002562,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which French institution ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_errNOoLRp3U00gUu9hZXJaDr",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"France social media ban minors under 15 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_errNOoLRp3U00gUu9hZXJaDr",
+   "content": "[Decision 2026-911 (France)] Decision 2026-911 is a decision from the Constitutional Council of France on the country's legally approved 2026 social media ban for minors under 15 years of age. The Council ruled that the law violated the rights of minors because the law could apply to all minors under 15 and would violate the privacy of adults because adults would have to prove their age before using social networks. A similar legal case is pending for High Court of Australia for Australia social media ban for minors under 16."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EGc0acAfCGyiNKDkXALD9fzs",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Decision 2026-911 (France)\",\"keywords\":\"social media ban minors\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EGc0acAfCGyiNKDkXALD9fzs",
+   "content": "[Decision 2026-911 (France)]\nDecision 2026-911 is a decision from the Constitutional Council of France on the country's legally approved 2026 social media ban for minors under 15 years of age. The Council ruled that the law violated the rights of minors because the law could apply to all minors under 15 and would violate the privacy of adults because adults would have to prove\nA similar legal case is pending for High Court of Australia for Australia social media ban for minors under 16.\nOnline Safety Amendment (Social Media Minimum Age) Act 2024"
+  },
+  {
+   "role": "assistant",
+   "content": "The French institution that ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors is the Constitutional Council of France. \n\nFINAL: Constitutional Council of France",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-146",
+  "source": "fresh",
+  "question": "Which German philosopher and author of The Theory of Communicative Action died on 14 March 2026 at age 96?",
+  "answer": "Jürgen Habermas",
+  "evidence": "14 March – Jürgen Habermas, 96, philosopher and sociologist (The Theory of Communicative Action)",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "That information is incorrect. Jürgen Habermas, the German philosopher and author of \"The Theory of Communicative Action,\" was born on June 18, 1929. As of my last update, he is still alive. Therefore, he did not die on March 14, 2026, at age 96. \n\nFINAL: False statement.",
+ "correct": false,
+ "cost": 5.865e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which German philosopher and author of The Theory of Communicative Action died on 14 March 2026 at age 96?"
+  },
+  {
+   "role": "assistant",
+   "content": "That information is incorrect. Jürgen Habermas, the German philosopher and author of \"The Theory of Communicative Action,\" was born on June 18, 1929. As of my last update, he is still alive. Therefore, he did not die on March 14, 2026, at age 96. \n\nFINAL: False statement.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

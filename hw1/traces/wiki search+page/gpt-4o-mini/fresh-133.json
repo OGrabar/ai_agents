@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?",
+  "answer": "Normandy landings",
+  "evidence": "26 July – The beaches used during the Normandy landings in 1944 are designated as UNESCO World Heritage Sites.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The beaches designated as UNESCO World Heritage Sites on 26 July 2026 are the Beaches of the D-Day Landings. \n\nFINAL: Beaches of the D-Day Landings",
+ "correct": false,
+ "cost": 0.000441,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bKV9ma19QmPlpBLFgzzSaWqK",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"1944 military operation UNESCO World Heritage Sites\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bKV9ma19QmPlpBLFgzzSaWqK",
+   "content": "[UNESCO] The United Nations Educational, Scientific and Cultural Organization (UNESCO ) is a specialized agency of the United Nations (UN) with the aim of promoting world peace and security through international cooperation in education, arts, sciences and culture. It has 194 member states and 12 associate members, as well as partners in the non-governmental, intergovernmental and private sector. Headquartered in Paris, France, UNESCO has 53 regional field offices and 199 national commissions. UNESCO was founded in 1945 as the successor to the League of Nations' International Committee on Intellectual Cooperation. UNESCO's founding mission, which was shaped by the events of World War II, is to advance peace, sustainable development and human rights by facilitating collaboration and dialogue among nations. It pursues this objective through five major programme areas: education, natural sciences, social/human sciences, culture and communication/information. UNESCO sponsors projects that improve literacy, provide technical training and education, advance science, protect independent media and press freedom, preserve regional and cultural history, and promote cultural diversity. The organization prominently helps establish and secure World Heritage Sites of cultural and natural importance. UNESCO is governed by the General Conference composed of member states and associate members, which meets biannually to set the agency's programmes and budget. It also elects members of the executive board, which manages UNESCO's work, and appoints every four years a Director-General, who serves as UNESCO's chief administrator."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3bR2GWRbauqO7RfanKnoh9am",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"D-Day\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3bR2GWRbauqO7RfanKnoh9am",
+   "content": "[Normandy landings] The Normandy landings were the landing operations and associated airborne operations on 6 June 1944 of the Allied invasion of Normandy in Operation Overlord during the Second World War. Codenamed Operation Neptune and often referred to as D-Day (after the military term), it is the largest seaborne invasion in history. The operation began the liberation of France and the rest of Western Europe, and laid the foundations for the Allied victory on the Western Front. Planning for the operation began in 1943. In the months leading up to the invasion, the Allies conducted a substantial military deception, codenamed Operation Bodyguard, to mislead the Germans as to the date and location of the main Allied landings. The weather on the day selected for D-Day was not ideal, and the operation had to be delayed 24 hours; a further postponement would have meant a delay of at least two weeks, as the planners had requirements for the phase of the moon, the tides, and time of day that meant only a few days each month were deemed suitable. German leader Adolf Hitler placed Field Marshal Erwin Rommel in command of German forces and developing fortifications along the Atlantic Wall in anticipation of an invasion. US president Franklin D. Roosevelt placed Major General Dwight D. Eisenhower in command of Allied forces. The invasion began shortly after midnight on the morning of 6 June with extensive aerial and naval bombardment as well as an airborne assault—the landing of 24,000 American, British, and Canadian airborne troops. The early morning aerial assault was soon followed by Allied amphibious landings on the coast of France c. 06:30. The target 80-kilometre (50 mi) stretch of the Normandy coast was divided into five sectors: Utah, Omaha, Gold, Juno, and Sword. Strong winds blew the landing craft east of their intended positions, particularly at Utah and Omaha. The men landed under heavy fire from gun emplacements overlooking the beaches, and the shore was mined "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ee2lfqaq7Z91nanQPzkXll03",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"D-Day\",\"keywords\":\"UNESCO World Heritage Sites\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ee2lfqaq7Z91nanQPzkXll03",
+   "content": "[Normandy landings]\nIn July 2026, the Beaches of the D-Day Landings were designated by UNESCO as a World Heritage Site."
+  },
+  {
+   "role": "assistant",
+   "content": "The beaches designated as UNESCO World Heritage Sites on 26 July 2026 are the Beaches of the D-Day Landings. \n\nFINAL: Beaches of the D-Day Landings",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

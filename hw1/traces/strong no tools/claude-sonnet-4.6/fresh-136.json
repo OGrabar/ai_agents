@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-136",
+  "source": "fresh",
+  "question": "Which former French prime minister (in office 1997–2002) died on 22 March 2026?",
+  "answer": "Lionel Jospin",
+  "evidence": "22 March – Lionel Jospin, 88, prime minister (1997–2002), minister of national education (1988–1992), and member of the Constitutional Council (2015–2019).",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Lionel Jospin served as French Prime Minister from 1997 to 2002. However, I need to verify whether he died on 22 March 2026, as my knowledge cutoff is early 2025 and I don't have information about events in 2026.\n\nBased on the timeframe given (Prime Minister 1997–2002), the person you're referring to is Lionel Jospin. He is the only French Prime Minister who served during that exact period.\n\nFINAL: Lionel Jospin",
+ "correct": true,
+ "cost": 0.002103,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which former French prime minister (in office 1997–2002) died on 22 March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Lionel Jospin served as French Prime Minister from 1997 to 2002. However, I need to verify whether he died on 22 March 2026, as my knowledge cutoff is early 2025 and I don't have information about events in 2026.\n\nBased on the timeframe given (Prime Minister 1997–2002), the person you're referring to is Lionel Jospin. He is the only French Prime Minister who served during that exact period.\n\nFINAL: Lionel Jospin",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

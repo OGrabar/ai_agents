@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I couldn't find any information about the specific date when resident doctors in England announced a four-day strike in June 2026. It appears that detailed information about that event is not available on current resources. \n\nFINAL: not available",
+ "correct": false,
+ "cost": 0.0008757000000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NLljUFU4pe30YAdO8yhyUWAH",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"resident doctors England strike June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NLljUFU4pe30YAdO8yhyUWAH",
+   "content": "[Resident doctor (United Kingdom)] In the United Kingdom, a resident doctor, known until 2024 as a junior doctor, is a qualified medical practitioner who is either engaged in postgraduate training or employed in a non-training post. The period of being a resident doctor starts when they qualify as a medical practitioner following graduation with a Bachelor of Medicine, Bachelor of Surgery degree and start the UK Foundation Programme. It culminates in a post as a consultant, a general practitioner (GP), or becoming a SAS doctor (Specialty, Associate Specialist, or Specialist doctor). The term resident doctor currently incorporates the grades of foundation doctor, core trainee (in some specialties, such as surgery, medicine, and psychiatry), and specialty registrar. Before 2007, it included the grades of pre-registration house officer, senior house officer and specialist registrar. During this time, resident doctors will do postgraduate examinations to become members of a medical royal college relevant to the specialty in which they are training, for example membership of the Royal College of Physicians for doctors specialising in internal medicine, membership of the Royal College of Surgeons for doctors specialising in surgery or membership of the Royal College of General Practitioners for doctors specialising in family medicine. Doctors typically may be resident doctors for 8–20 years, and this may be extended by doing research towards a higher degree, for example a Doctor of Philosophy or Doctor of Medicine degree. In England, there are around 71,000 resident doctors."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Us9uZDdcSaRXGfeJt3YpiYLq",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"junior doctors strike schedule England June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Us9uZDdcSaRXGfeJt3YpiYLq",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_kUN7GFadPB8HUtxl8bEiEqvz",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"June 2026 UK doctors strike announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_kUN7GFadPB8HUtxl8bEiEqvz",
+   "content": "[2026 Lebanon war] Since 2 March 2026, there has been an ongoing war in Lebanon between Israel and the militant group Hezbollah, with Israel invading parts of Lebanon. It is a resumption of major fighting in the Hezbollah–Israel conflict, and part of the wider conflict in the Middle East. The war has precipitated a humanitarian crisis, resulted in the deaths of more than 4,000 people from Israeli strikes in Lebanon, and seen the forced displacement of over 1 million. Hezbollah attacked Israel on October 8, 2023, one day after Hamas' October 7 attacks at the start of the Gaza war, which led to the 2024 Israeli invasion of Lebanon. After an Israel-Lebanon ceasefire agreement in November 2024, Israel still conducted airstrikes, saying that Hezbollah breached ceasefire conditions. Hezbollah launched strikes on Israel on 2 March 2026, in response to Israel and the United States launching a war against Iran, Hezbollah's main backer, and assassinating its supreme leader. Israel resumed airstrikes across Lebanon on a larger scale and, on March 16, began ground operations in southern Lebanon. The main bridges on the Litani River were blown up by Israel to cut off the south from the rest of Lebanon; Bint Jbeil became a site of intense ground combat. Israel announced it would demolish Lebanese border villages and occupy Lebanon up to the Litani. Lebanon moved to ban Hezbollah's military activities; it also condemned Israeli attacks on Lebanese civilians. Iran called for an end to Israeli attacks in Lebanon as a condition for a ceasefire in the wider war. After a ceasefire halted the Iran war, Hezbollah halted its attacks. Israeli Prime Minister Benjamin Netanyahu said the ceasefire did not apply to Lebanon, contradicting Iran and the Pakistani mediator, and launched the largest airstrikes of the war. On 16 April, Israel and Lebanon agreed to a 10-day ceasefire, later extended more than once. On 3 June, Israel and Lebanon reached an agreement, facilitated by the US. On June 4, "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XqTd0ygSVyhI6ghyuIzYHPIr",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"junior doctors strike June 2026 England announcement date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XqTd0ygSVyhI6ghyuIzYHPIr",
+   "content": "[United Kingdom industrial disputes and strikes (2022–present)] Since May–June 2022, a series of labour strikes and industrial disputes have occurred in various industries of the United Kingdom's economy as workers walked out over pay and conditions. The strikes took place with rising inflation, and demands for pay increases that would keep pace with this inflation. The strikes began on 15 June 2022 after members of the National Union of Rail, Maritime and Transport Workers (RMT) voted to strike over planned changes to their pay and working conditions. They were soon joined by other railway unions, and a series of one-day strikes halted trains in many parts of the British mainland. Train services operated at 20% of normal capacity on strike days. Public support for the strikes was organised through the Enough is Enough! campaign. With industrial action on the railways ongoing, trade union members working in other industries voted to take industrial action, including telecommunications, the postal service, legal profession and freight, as well as other areas of the transport sector."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WDae9uDtUqT8fD7KxdDnJedt",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"junior doctors strike news June 2026 announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WDae9uDtUqT8fD7KxdDnJedt",
+   "content": "[2024–2026 South Korean medical crisis] The 2024–2026 South Korean medical crisis is an ongoing healthcare crisis following the announcement of new government policies that significantly increased medical student admission quotas. In response to the policy, thousands of residents and interns resigned, which resulted in triage being implemented and less essential medical procedures being delayed, with some patients reporting months long delays. There has also been student boycotts and street protests. The South Korean government labeled medical professionals' actions as \"illegal collective actions.\" The government said that quota increase is needed because South Korea has a rapidly aging population and that the increasing proportion of elderly people will place an increasing burden on the health care system as time goes by. They also report that rural areas and key medical fields such as pediatrics are suffering from a doctor shortage. On the other hand, the Korean Medical Association (KMA), a trade union which represents doctors, stated that governmental mismanagement is the primary cause of the shortage, that reform—rather than an increased number of doctors—is needed to address it. They have also argued that the healthcare system struggles with insufficient financial support from the government and that increasing the quantity of medical students would require lowered standards that would cause a decrease in the quality of medical care."
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find any information about the specific date when resident doctors in England announced a four-day strike in June 2026. It appears that detailed information about that event is not available on current resources. \n\nFINAL: not available",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

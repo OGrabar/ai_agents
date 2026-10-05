@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-131",
+  "source": "fresh",
+  "question": "Which French nuclear power plant was temporarily shut down on 23 June 2026 because the Garonne was too warm to cool its reactors?",
+  "answer": "Golfech Nuclear Power Plant",
+  "evidence": "The Golfech Nuclear Power Plant is temporarily shut down as water temperatures in the River Garonne exceed the recommended safety limit of 28°C, which is too high to cool the reactors.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to check this carefully. The date mentioned is 23 June 2026, which is in the future relative to my knowledge cutoff. I don't have information about events that occurred in 2026.\n\nHowever, this question may be referring to a historical precedent — French nuclear power plants on the Garonne River (such as **Golfech**) have previously faced shutdowns due to high river temperatures. Golfech is the nuclear power plant located on the Garonne River in France that has historically had to reduce or halt operations when river temperatures are too high for cooling purposes.\n\nFINAL: Golfech",
+ "correct": false,
+ "cost": 0.002379,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which French nuclear power plant was temporarily shut down on 23 June 2026 because the Garonne was too warm to cool its reactors?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to check this carefully. The date mentioned is 23 June 2026, which is in the future relative to my knowledge cutoff. I don't have information about events that occurred in 2026.\n\nHowever, this question may be referring to a historical precedent — French nuclear power plants on the Garonne River (such as **Golfech**) have previously faced shutdowns due to high river temperatures. Golfech is the nuclear power plant located on the Garonne River in France that has historically had to reduce or halt operations when river temperatures are too high for cooling purposes.\n\nFINAL: Golfech",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

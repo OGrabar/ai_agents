@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The resident doctors in England announced a four-day strike starting from 7 am on Monday, June 15, 2026, which would end at 7 am on Friday, June 19, 2026. This announcement was made on May 27, 2026.\n\nFINAL: May 27, 2026",
+ "correct": false,
+ "cost": 0.00038985,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_NkMM7arfGZYoT58IDShT96Xz",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"June 2026 England resident doctors strike\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_NkMM7arfGZYoT58IDShT96Xz",
+   "content": "[Resident doctor (United Kingdom)] In the United Kingdom, a resident doctor, known until 2024 as a junior doctor, is a qualified medical practitioner who is either engaged in postgraduate training or employed in a non-training post. The period of being a resident doctor starts when they qualify as a medical practitioner following graduation with a Bachelor of Medicine, Bachelor of Surgery degree and start the UK Foundation Programme. It culminates in a post as a consultant, a general practitioner (GP), or becoming a SAS doctor (Specialty, Associate Specialist, or Specialist doctor). The term resident doctor currently incorporates the grades of foundation doctor, core trainee (in some specialties, such as surgery, medicine, and psychiatry), and specialty registrar. Before 2007, it included the grades of pre-registration house officer, senior house officer and specialist registrar. During this time, resident doctors will do postgraduate examinations to become members of a medical royal college relevant to the specialty in which they are training, for example membership of the Royal College of Physicians for doctors specialising in internal medicine, membership of the Royal College of Surgeons for doctors specialising in surgery or membership of the Royal College of General Practitioners for doctors specialising in family medicine. Doctors typically may be resident doctors for 8–20 years, and this may be extended by doing research towards a higher degree, for example a Doctor of Philosophy or Doctor of Medicine degree. In England, there are around 71,000 resident doctors."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CgsmELS8qWmueYuRGzBYF6mu",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"June 2026 resident doctors strike England date announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CgsmELS8qWmueYuRGzBYF6mu",
+   "content": "[Resident doctors announce strikes in June | NHS Employers] https://www.nhsemployers.org/news/resident-doctors-announce-strikes-june Today (27 May 2026), the BMA resident doctors committee has announced that its resident doctors in England will undertake four days of strike action. Resident doctors will strike from 7am Monday 15 June, ending at 7am on Friday 19 June. ## Further information and resources Employers can access industrial action guidance, resources and supporting FAQs on our website. Contact : Medical Pay Team Theme : Pay, pensions and reward [...] Search Careers Our communications 1. Home 2. News & blogs News # Resident doctors announce strikes in June The British Medical Association (BMA) has confirmed that resident doctors in England will strike in June. Publication date: 27 May 2026 Share Hospital corridor with double doors and overhead signs reading “Way Out – Main Entrance” and “Fire Exit.” [...] This webinar will give chief people officers (CPOs) and deputy CPOs the opportunity to learn about the Medical Education and Training Review. 16 November 2026 13:00 - 14:30 GMT\n[Called off: Resident doctor strikes 15-19 June 2026 :: Royal Papworth Hospital] https://royalpapworth.nhs.uk/our-hospital/latest-news/resident-doctor-strikes-15-19-june-2026 Please continue to attend any appointments and procedures as planned, unless we have already contacted you. You can also access other NHS services as normal if you need them. ### Original article: Thursday 4 June 2026 The British Medical Association (BMA) has announced strike action for resident doctors in June. There will be a full, four-day walk-out by BMA resident doctors from 07:00 on Monday 15 June 2026 until 06:59 on Friday 19 June 2026. [...] ### Strike action by resident doctors that was originally due to take place from Monday 15 June to Friday 19 June 2026 has now been called off. Please continue to attend your appointments and procedures as planned. 14 June 2026 ### Update: Sunday 14 June 2026 The s"
+  },
+  {
+   "role": "assistant",
+   "content": "The resident doctors in England announced a four-day strike starting from 7 am on Monday, June 15, 2026, which would end at 7 am on Friday, June 19, 2026. This announcement was made on May 27, 2026.\n\nFINAL: May 27, 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

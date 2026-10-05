@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The special election in Georgia's 14th congressional district in 2026 was won by Clay Fuller, who defeated Shawn Harris in a runoff election. \n\nFINAL: Clay Fuller",
+ "correct": true,
+ "cost": 0.00021030000000000002,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UrC1KhfhUSaacfW65KPUB5MA",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"2026 special election Georgia\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UrC1KhfhUSaacfW65KPUB5MA",
+   "content": "[2026 Georgia gubernatorial election] The 2026 Georgia gubernatorial election will take place on November 3, 2026, to elect the governor of Georgia. Incumbent Republican governor Brian Kemp is ineligible to seek re-election to a third consecutive term. Primary elections were held on May 19, 2026, with a primary runoff held on June 16. Rick Jackson and Burt Jones received the most votes in the first round of the Republican primary, but failed to reach the 50% threshold, causing a runoff which Jackson won. Jackson will face off against Democratic nominee Keisha Lance Bottoms in November. The 2026 gubernatorial primary was the first time that Democratic turnout exceeded that of Republicans since 2006. If elected, Lance Bottoms would be the first female and first African-American governor of Georgia and could be the first female African-American governor in United States history."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_PxGzA5qPbLd9DVCz5KNrCSkb",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"2026 special election Georgia results\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_PxGzA5qPbLd9DVCz5KNrCSkb",
+   "content": "[2026 Georgia's 14th congressional district special election] The 2026 Georgia's 14th congressional district special election was held on March 10, 2026, to fill the vacancy in Georgia's 14th congressional district. The seat became vacant on January 5, 2026, when incumbent Marjorie Taylor Greene resigned. Under Georgia law, all candidates appeared on one ballot in the March 10, 2026 special election. As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027."
+  },
+  {
+   "role": "assistant",
+   "content": "The special election in Georgia's 14th congressional district in 2026 was won by Clay Fuller, who defeated Shawn Harris in a runoff election. \n\nFINAL: Clay Fuller",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have access to medical literature or clinical data published in May 2026. My knowledge cutoff is early 2025, so I cannot access or report findings from studies, trials, or publications released after that date.\n\nIf you're looking for this information, I'd suggest:\n1. Searching **PubMed** or **ClinicalTrials.gov** for recent studies on metastatic pancreatic cancer survival\n2. Checking publications from major oncology conferences (ASCO, ESMO) for 2026 data\n3. Reviewing journals like the *Journal of Clinical Oncology* or *The Lancet Oncology* for May 2026 issues\n\nFINAL: I cannot determine this answer as it falls outside my knowledge cutoff date.",
+ "correct": false,
+ "cost": 0.002895,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to medical literature or clinical data published in May 2026. My knowledge cutoff is early 2025, so I cannot access or report findings from studies, trials, or publications released after that date.\n\nIf you're looking for this information, I'd suggest:\n1. Searching **PubMed** or **ClinicalTrials.gov** for recent studies on metastatic pancreatic cancer survival\n2. Checking publications from major oncology conferences (ASCO, ESMO) for 2026 data\n3. Reviewing journals like the *Journal of Clinical Oncology* or *The Lancet Oncology* for May 2026 issues\n\nFINAL: I cannot determine this answer as it falls outside my knowledge cutoff date.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

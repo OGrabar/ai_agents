@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I don't have information on events that occurred after October 2023. Therefore, I cannot provide the name of the person who was recognized as Hero of Ukraine in 2025. \n\nFINAL: Information not available.",
+ "correct": false,
+ "cost": 3.795e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have information on events that occurred after October 2023. Therefore, I cannot provide the name of the person who was recognized as Hero of Ukraine in 2025. \n\nFINAL: Information not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

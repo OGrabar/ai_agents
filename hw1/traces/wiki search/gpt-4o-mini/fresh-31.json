@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The new government of Kazakhstan after the legislative election on August 23, 2026, was formed by Prime Minister Oljas Bektenov. FINAL: Oljas Bektenov",
+ "correct": false,
+ "cost": 0.00011669999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_o2AzWk0aUDUANfh4SeaixObk",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Kazakhstan new government August 23 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_o2AzWk0aUDUANfh4SeaixObk",
+   "content": "[Second Bektenov Government] The Second Bektenov Government (Kazakh: Екінші Бектенов үкіметі; Russian: Второе правительство Бектенова) is the 20th government of Kazakhstan led by Prime Minister Oljas Bektenov. It was formed on 31 August 2026 following the resignation of the First Bektenov Government after the 2026 legislative election and the convening of the newly established Kurultai. President Kassym-Jomart Tokayev nominated Bektenov for reappointment as prime minister of Kazakhstan, and the Kurultai approved his candidacy. Tokayev subsequently reappointed Bektenov as prime minister and appointed the new government."
+  },
+  {
+   "role": "assistant",
+   "content": "The new government of Kazakhstan after the legislative election on August 23, 2026, was formed by Prime Minister Oljas Bektenov. FINAL: Oljas Bektenov",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

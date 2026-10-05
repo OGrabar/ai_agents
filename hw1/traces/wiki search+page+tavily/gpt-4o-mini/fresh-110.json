@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-110",
+  "source": "fresh",
+  "question": "Who wins the special election in Georgia in 2026?",
+  "answer": "Clay Fuller",
+  "evidence": "Assistant District Attorney Clay Fuller, a Trump-endorsed Republican, wins the special election in Georgia to replace Marjorie Taylor Greene, who resigned in January following a public fallout with Trump.",
+  "page": "2026 in the United States",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_States",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The special election in Georgia in 2026 was won by Republican Clay Fuller, who defeated Democrat Shawn Harris in a runoff held on April 7, 2026.\n\nFINAL: Clay Fuller",
+ "correct": true,
+ "cost": 0.0002241,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who wins the special election in Georgia in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0WsJZbq1vxDzh58jiTWGEsuZ",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Georgia special election results 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0WsJZbq1vxDzh58jiTWGEsuZ",
+   "content": "[2026 Georgia's 14th congressional district special election - Wikipedia] https://en.wikipedia.org/wiki/2026_Georgia%27s_14th_congressional_district_special_election [edit] 2026 Georgia's 14th congressional district special election runoff results | Party | Candidate | Votes | % | | Republican \"Republican Party (United States)\") | Clay Fuller | 72,338 | 55.89 | | Democratic \"Democratic Party (United States)\") | Shawn Harris | 57,097 | 44.11 | | Total votes | 129,435 | 100.00 | | Republican \"Republican Party (United States)\") hold | #### By county [edit] [...] Under Georgia law, all candidates appeared on one ballot in the March 10, 2026 special election. As no candidate received more than 50% of the vote, a runoff election between district attorney Clay Fuller and cattleman Shawn Harris was held on April 7, 2026, with Fuller winning to serve the remainder of the 119th United States Congress, ending January 3, 2027. ## Background [edit] [...] The 2026 Georgia's 14th congressional district special election was held on March 10, 2026, to fill the vacancy in Georgia's 14th congressional district. The seat became vacant on January 5, 2026, when incumbent Marjorie Taylor Greene resigned.\n[Georgia House District 13 Special Election 2026 Live Results] https://www.nbcnews.com/politics/2026-special-elections/georgia-us-house-district-13-results | Candidate | Party | Votes | Percentage | --- --- | | M. ScottMarcye Scott C. GonzalesCaesar Gonzales | D | 0 | 68.0% | | E. BlairEverton Blair C. GonzalesCaesar Gonzales | D | 0 | 25.8% | | C. MooreCarlos Moore C. GonzalesCaesar Gonzales | D | 0 | 4.4% | GwinnettGwinnett100% in [...] | Candidate | Party | Votes | Percentage | --- --- | | M. ScottMarcye Scott C. GonzalesCaesar Gonzales | D | 0 | 65.4% | | E. BlairEverton Blair C. GonzalesCaesar Gonzales | D | 0 | 23.0% | | C. GonzalesCaesar Gonzales C. GonzalesCaesar Gonzales | R | 0 | 4.7% | DeKalbDeKalb100% in [...] | Candidate | Party | Votes | Percentage | --- --- | | E. BlairEver"
+  },
+  {
+   "role": "assistant",
+   "content": "The special election in Georgia in 2026 was won by Republican Clay Fuller, who defeated Democrat Shawn Harris in a runoff held on April 7, 2026.\n\nFINAL: Clay Fuller",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

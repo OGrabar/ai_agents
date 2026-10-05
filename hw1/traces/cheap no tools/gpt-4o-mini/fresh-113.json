@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-113",
+  "source": "fresh",
+  "question": "How many job cuts did Statistics Canada announce on January 13, 2026?",
+  "answer": "850",
+  "evidence": "January 13 – Statistics Canada announces 850 job cuts, with over 100 to happen in the following days.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I cannot provide information about events occurring after my last training cut-off in October 2023. Please check a reliable news source for the latest updates. \n\nFINAL: Information not available.",
+ "correct": false,
+ "cost": 3.51e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "How many job cuts did Statistics Canada announce on January 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I cannot provide information about events occurring after my last training cut-off in October 2023. Please check a reliable news source for the latest updates. \n\nFINAL: Information not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

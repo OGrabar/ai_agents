@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "In 2025, several individuals were awarded the title of Hero of Ukraine, including Major General Oleksandr Poklad, Lieutenant Colonel Ihor Shtefko, Senior Lieutenant Yegor Sydorenko, Senior Lieutenant Oleksandr Shpak, Senior Lieutenant Serhiy Zubkov, Senior Soldier Vasyl Shkvarko (posthumously), Colonel Oleksandr Dovhach, and Soldier Serhiy Osypchuk.\n\nFINAL: Multiple recipients, notable: Major General Oleksandr Poklad.",
+ "correct": false,
+ "cost": 0.0007545,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Bkis2HhZWPQXqXo2t0mFopui",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2025 in Ukraine\",\"keywords\":\"Hero of Ukraine\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Bkis2HhZWPQXqXo2t0mFopui",
+   "content": "[2025 in Ukraine]\nEvents in the year 2025 in Ukraine.\nRussian invasion of Ukraine (2022–present)\nUkraine halts the transportation of Russian gas supplies through the country, following the expiration of a five-year transit deal.\nUkraine becomes a state party in the International Criminal Court.\n11 January – Ukraine announces the capture of two North Korean soldiers during fighting in Russia's Kursk Oblast."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_UC7z9CBGoK6vWZcw2cftvOy3",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Hero of Ukraine\",\"keywords\":\"2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_UC7z9CBGoK6vWZcw2cftvOy3",
+   "content": "Keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gPGCe99xLUZu3ee8682KbCt6",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025 recipient\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gPGCe99xLUZu3ee8682KbCt6",
+   "content": "[List of Heroes of Ukraine - Wikipedia] https://en.wikipedia.org/wiki/List_of_Heroes_of_Ukraine Wikipedia # List of Heroes of Ukraine This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026( the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). [...] Out of all recipients (considering only published decrees), 1007 (79%) have a distinction of the \"Order of the Gold Star\" and 275 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 661 (52%). By gender, 1237 (96%) of the recipients are men. The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi\"), received the award on his 100th birthday. [...] There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour \"Hero of Socialist Labour (USSR)\"). ## Contents ## 2026 As of 28 June 2026( 73. ## 2025 Total number of awards: 212. ## 2024 Total number of awards: 162.\n[Zelenskyy Awards Hero of Ukraine Title to Five Service Members | Ukraine news - #Mezha] https://mezha.net/eng/news/10664c3b_zelenskyy_awards_hero ## Who was awarded the title of Hero of Ukraine The title was awarded posthumously to: Senior Sergeant Olha Oleksandrivna Taran – Decree No. 987/2026; Sergeant Oleksandr Olehovych Kalashnyk – Decree No. 988/2026; Junior Sergeant Maryna Vitaliivna Hrytsenko – Decree No. 989/2026; Senior Soldier Oleksandr Viktorovych Onyshchenko – Decree No. 990/2026. Soldier Yurii Mykolaiovych Melnyk was awarded the title of Hero of Ukraine under Decree No. 991/2026. [...] Ukrainian helicopter technician Vyacheslav Sindii died during a 2022 mission to deliver supplies and evacuate wounded defenders from besieged Mariupol. President Volodymyr Zelenskyy awarded 278 Ukrainian "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7qt0WNxSLqz9a73utPz6QAW4",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Ukraine\",\"keywords\":\"Hero of Ukraine\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7qt0WNxSLqz9a73utPz6QAW4",
+   "content": "[2026 in Ukraine]\nEvents in the year 2026 in Ukraine.\nRussian invasion of Ukraine (2022–present)\nVasyl Malyuk resigns as head of the Security Service of Ukraine.\n31 January – A technical malfunction affecting power lines running between Ukraine, Romania and Moldova causes extensive power outages in western and central Ukraine, including Kyiv.\n1 February – SpaceX imposes a shutdown of Starlink satellite internet terminals across Ukraine, with exceptions for preapproved terminals by the Ukrainian defense ministry amid evidence that Russian forces were using the service in military operations."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HjVn5t4OTK1j5jZY83k2iWPg",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Hero of Ukraine awardees 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HjVn5t4OTK1j5jZY83k2iWPg",
+   "content": "[President Zelensky Awards Hero of Ukraine Title to 11 Servicemen | Mezha] https://mezha.net/eng/news/president-zelensky-awards-hero-of-ukraine-title-to-11-servicemen By Decree No. 730/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Major General Oleksandr Poklad. By Decree No. 731/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Lieutenant Colonel Ihor Shtefko. These decisions underscore the high value of defenders’ service and their contribution to safeguarding the sovereignty and security of the state. See also: [...] By Decree No. 709/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Senior Lieutenant Yegor Sydorenko. By Decree No. 710/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Senior Lieutenant Oleksandr Shpak. By Decree No. 729/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Senior Lieutenant Serhiy Zubkov. [...] By Decree No. 705/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Senior Soldier Vasyl Shkvarko (posthumously). By Decree No. 707/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Colonel Oleksandr Dovhach. By Decree No. 708/2025, the title of Hero of Ukraine with the Order of the Golden Star is conferred on Soldier Serhiy Osypchuk.\n[State awards of Ukraine: orders, medals & personalized weapons] https://frontliner.ua/en/state-awards-of-ukraine The Hero of Ukraine is the nation’s highest title, awarded either for acts of courage on the battlefield, in rescue missions, or other extreme situations, or for outstanding achievements in nation-building, science, economy, and culture. The “Golden Star” Order, Kyiv, Ukraine, Nov. 5, 2025. Danylo Dubchak / Frontliner State awards of Ukraine: from the “Golden Star” to personalized weapons The “Golden Star” Order, Kyiv, Ukraine, Nov. 5, 2025. Danylo Dubchak "
+  },
+  {
+   "role": "assistant",
+   "content": "In 2025, several individuals were awarded the title of Hero of Ukraine, including Major General Oleksandr Poklad, Lieutenant Colonel Ihor Shtefko, Senior Lieutenant Yegor Sydorenko, Senior Lieutenant Oleksandr Shpak, Senior Lieutenant Serhiy Zubkov, Senior Soldier Vasyl Shkvarko (posthumously), Colonel Oleksandr Dovhach, and Soldier Serhiy Osypchuk.\n\nFINAL: Multiple recipients, notable: Major General Oleksandr Poklad.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On September 3, 2026, ISRO launched the EOS-05, an Earth-observing satellite, using the GSLV (Geosynchronous Satellite Launch Vehicle) Mark II. \n\nFINAL: EOS-05 Earth-observing satellite",
+ "correct": true,
+ "cost": 0.00030659999999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JheBTByHcpIkMdZIW7jJsrvA",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in India\",\"keywords\":\"ISRO launched, September 3\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JheBTByHcpIkMdZIW7jJsrvA",
+   "content": "Keywords not found on the page"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mBwr97rxVp2LR27vEhGUdGyQ",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"ISRO launch September 3 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mBwr97rxVp2LR27vEhGUdGyQ",
+   "content": "[India notches spaceflight milestone, launches Earth-imaging satellite toward geosynchronous orbit (video) | Space] https://www.space.com/space-exploration/launches-spacecraft/gslv-mark-ii-eos-05-launch-first-indian-geo-earth-observing-satellite An Indian GSLV Mark II rocket launches the EOS-05 Earth-observing satellite toward geosynchronous orbit on Sept. 3, 2026. (Image credit: ISRO) The GSLV (Geosynchronous Satellite Launch Vehicle) Mark II is a three-stage rocket that stands 170 feet (52 meters) tall. The vehicle debuted in 2010 and now has 13 flights under its belt to date, 11 of them successful. (Its predecessor, the GSLV Mark I, flew six times between 2001 and 2010, with two launch failures.) [...] An Indian GSLV Mark II rocket topped with the EOS-05 Earth-observation satellite stands on the pad before its Sept. 3, 2026 launch. (Image credit: ISRO) India tried to get an Earth-observing satellite to GEO once before — in August 2021, when a GSLV Mark II launched the EOS-03 spacecraft. But the rocket experienced an anomaly with its third stage, and the satellite was lost.\n[BREAKING: ISRO Launches India's First Satellite That Can Watch the Entire Country Every 30 Minutes] https://www.youtube.com/watch?v=tivxEVzfVLg # BREAKING: ISRO Launches India's First Satellite That Can Watch the Entire Country Every 30 Minutes ## Channel: AIM Network (verified) 385K subscribers 251 likes ### Description 27,036 views Posted: 2026-09-02 ISRO is launching a satellite that can monitor the entire Indian landmass every 30 minutes. Essential space news. [...] ### Transcript [0:00] Now India is about to put a very different kind of satellite over the country. ISRO is set to launch GAT1A [0:08] or also called EOS05 on the 4th of September. An Earth observation satellite designed to keep a [0:16] near continuous eye on India from roughly 36,000 km above Earth. And what's interesting is that this isn't simply about getting sharper pictures. [0:26] It's about getting them much more frequ"
+  },
+  {
+   "role": "assistant",
+   "content": "On September 3, 2026, ISRO launched the EOS-05, an Earth-observing satellite, using the GSLV (Geosynchronous Satellite Launch Vehicle) Mark II. \n\nFINAL: EOS-05 Earth-observing satellite",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I am unable to provide information about events or releases beyond October 2023. Therefore, I cannot confirm any details about an indie animated series created by Matt Braly that was funded in March 2026. \n\nFINAL: unable to answer",
+ "correct": false,
+ "cost": 4.365e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I am unable to provide information about events or releases beyond October 2023. Therefore, I cannot confirm any details about an indie animated series created by Matt Braly that was funded in March 2026. \n\nFINAL: unable to answer",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

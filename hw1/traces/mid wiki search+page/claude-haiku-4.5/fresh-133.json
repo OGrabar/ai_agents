@@ -1,0 +1,142 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?",
+  "answer": "Normandy landings",
+  "evidence": "26 July – The beaches used during the Normandy landings in 1944 are designated as UNESCO World Heritage Sites.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on my search results, I have found the answer. The search results clearly state that the \"Beaches of the D-Day Landings\" were added to UNESCO World Heritage Sites in 2026 (along with the Royal Capetian Fortresses of Languedoc). The Normandy landings were the 1944 military operation (Operation Overlord, also known as Operation Neptune or D-Day).\n\nFINAL: Operation Overlord (or D-Day)",
+ "correct": false,
+ "cost": 0.012563000000000001,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to find information about beaches from a 1944 military operation that were designated as UNESCO World Heritage Sites on July 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_016bjdDLS1R8Q3SCLg2sUUxL",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"2026 in UNESCO\", \"keywords\": \"UNESCO World Heritage Sites July 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_016bjdDLS1R8Q3SCLg2sUUxL",
+   "content": "No such page"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me try a different approach:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0138YFjFJK8WH6EGyDTSxYoN",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"UNESCO World Heritage Sites July 2026 beaches\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0138YFjFJK8WH6EGyDTSxYoN",
+   "content": "[List of World Heritage Sites in China] The United Nations Educational, Scientific and Cultural Organization (UNESCO) World Heritage Sites are places of importance to cultural or natural heritage as described in the UNESCO World Heritage Convention, established in 1972. Cultural heritage consists of monuments (such as architectural works, monumental sculptures, or inscriptions), groups of buildings, and sites (including archaeological sites). Natural features (consisting of physical and biological formations), geological and physiographical formations (including habitats of threatened species of animals and plants), and natural sites which are important from the point of view of science, conservation or natural beauty, are defined as natural heritage. China accepted the convention on 12 December 1985, making its sites eligible for inclusion on the list. China has 61 World Heritage Sites on the list, ranking second in the world, just below Italy with 62 sites. Of these 61 sites, 42 are listed for their cultural, 15 for their natural, and 4 sites for both cultural and natural significance. In addition, China also has 60 sites on its tentative list. The first sites in China were added to the list in 1987 when six sites were inscribed. The most recent additions took place in 2026 when the Jingdezhen Handicraft Porcelain Industry Sites were listed. The Silk Roads: the Routes Network of Chang'an-Tianshan Corridor is a transnational site and is shared with Kazakhstan and Kyrgyzstan."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for 1944 military operations with beaches:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TGsWHNFpRFa748DbV6xcby",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"1944 military operation beaches D-Day Normandy\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TGsWHNFpRFa748DbV6xcby",
+   "content": "[Exercise Tiger] Exercise Tiger, or Operation Tiger, was one of the rehearsals for the D-Day invasion of Normandy. Held in April 1944 on Slapton Sands in Devon, it proved fraught with difficulties. Coordination and communication problems resulted in friendly fire injuries during the exercise, and an Allied convoy preparing for the landing was attacked by E-boats of Nazi Germany's Kriegsmarine, resulting in the deaths of at least 749 American servicemen. Because of the impending invasion of Normandy, the incident was kept secret and was only minimally reported afterwards."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for Normandy beaches UNESCO World Heritage Sites in 2026:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01W9WNvn7iJBYSysAyMh733a",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Normandy beaches UNESCO World Heritage 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01W9WNvn7iJBYSysAyMh733a",
+   "content": "[List of World Heritage Sites in France] The United Nations Educational, Scientific and Cultural Organization (UNESCO) World Heritage Sites are places of importance to cultural or natural heritage as described in the UNESCO World Heritage Convention, established in 1972. Cultural heritage consists of monuments (such as architectural works, monumental sculptures, or inscriptions), groups of buildings, and sites (including archaeological sites). Natural features (consisting of physical and biological formations), geological and physiographical formations (including habitats of threatened species of animals and plants), and natural sites which are important from the point of view of science, conservation or natural beauty, are defined as natural heritage. France accepted the Convention Concerning the Protection of the World Cultural and Natural Heritage on 27 June 1975. Out of 56 properties currently listed in France, 47 are cultural sites, 7 are natural, and 2 are (mixed), listed both for their cultural and natural significance. Of these sites, 50 are in the Metropolitan France while six are overseas. In addition, six properties are shared with other countries: Pyrénées – Mont Perdu is shared with Spain; Belfries of Belgium and France is shared with Belgium; Prehistoric Pile dwellings around the Alps is shared with five countries; The Architectural Work of Le Corbusier is shared with six countries; Funerary and memory sites of the First World War (Western Front) is shared with Belgium; Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe is shared with 17 countries. The first five sites in France were added to the list in 1979 while the most recent, the Beaches of the D-Day Landings and the Royal Capetian Fortresses of Languedoc, were added in 2026. France also has 32 sites on its tentative list. France has served on the World Heritage Committee five times. With 56 World Heritage Sites, France ranks third worldwide by number of sites, behi"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found it. Let me get more specific information about the Beaches of the D-Day Landings:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CGVR2uEx6ESM3hpfh4m7t2",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Beaches D-Day Landings UNESCO World Heritage\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CGVR2uEx6ESM3hpfh4m7t2",
+   "content": "[Normandy landings] The Normandy landings were the landing operations and associated airborne operations on 6 June 1944 of the Allied invasion of Normandy in Operation Overlord during the Second World War. Codenamed Operation Neptune and often referred to as D-Day (after the military term), it is the largest seaborne invasion in history. The operation began the liberation of France and the rest of Western Europe, and laid the foundations for the Allied victory on the Western Front. Planning for the operation began in 1943. In the months leading up to the invasion, the Allies conducted a substantial military deception, codenamed Operation Bodyguard, to mislead the Germans as to the date and location of the main Allied landings. The weather on the day selected for D-Day was not ideal, and the operation had to be delayed 24 hours; a further postponement would have meant a delay of at least two weeks, as the planners had requirements for the phase of the moon, the tides, and time of day that meant only a few days each month were deemed suitable. German leader Adolf Hitler placed Field Marshal Erwin Rommel in command of German forces and developing fortifications along the Atlantic Wall in anticipation of an invasion. US president Franklin D. Roosevelt placed Major General Dwight D. Eisenhower in command of Allied forces. The invasion began shortly after midnight on the morning of 6 June with extensive aerial and naval bombardment as well as an airborne assault—the landing of 24,000 American, British, and Canadian airborne troops. The early morning aerial assault was soon followed by Allied amphibious landings on the coast of France c. 06:30. The target 80-kilometre (50 mi) stretch of the Normandy coast was divided into five sectors: Utah, Omaha, Gold, Juno, and Sword. Strong winds blew the landing craft east of their intended positions, particularly at Utah and Omaha. The men landed under heavy fire from gun emplacements overlooking the beaches, and the shore was mined "
+  },
+  {
+   "role": "assistant",
+   "content": "Based on my search results, I have found the answer. The search results clearly state that the \"Beaches of the D-Day Landings\" were added to UNESCO World Heritage Sites in 2026 (along with the Royal Capetian Fortresses of Languedoc). The Normandy landings were the 1944 military operation (Operation Overlord, also known as Operation Neptune or D-Day).\n\nFINAL: Operation Overlord (or D-Day)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

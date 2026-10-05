@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-21",
+  "source": "fresh",
+  "question": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?",
+  "answer": "Gavin Snider",
+  "evidence": "June – Artist Gavin Snider accuses fellow artist and social media star Devon Rodriguez of presenting images of paintings of triumphant New York Knicks fans outside Madison Square Garden commissioned by the team from him to celebrate their 2026 NBA Championship, victory as his own. Rodriguez summarily removes his social media post introducing the work as his own.",
+  "page": "2026 in art",
+  "url": "https://en.wikipedia.org/wiki/2026_in_art",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The artist who accused Devon Rodriguez of presenting his work as his own in June 2026 is Gavin Snider. FINAL: Gavin Snider",
+ "correct": true,
+ "cost": 0.00036405,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In art, which artist accused Devon Rodriguez of presenting his work as his own in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mPITFNmM8ByelFSKC7QVwdy5",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Devon Rodriguez art controversy June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mPITFNmM8ByelFSKC7QVwdy5",
+   "content": "[List of vice presidential trips made by JD Vance] This is a list of vice presidential trips made by JD Vance during his tenure as the 50th vice president of the United States. This list excludes trips made within Washington, D.C., the U.S. federal capital, in which the Number One Observatory Circle, the official residence of the vice president, is located. Also excluded are trips to Camp David, the country residence of the president, as well as Joint Base Andrews. International trips are included. The list is organized chronologically by month. As of February 8, 2026, Vice President Vance has made 47 domestic trips to 26 states and 9 international trips visiting 12 countries/territories. Here are the number of visits per state (completed trips only): State trips: One: Alabama, Colorado, Delaware, Kansas, Mississippi, Missouri, New Jersey, North Dakota, Oklahoma, South Dakota, Utah, Vermont, Wisconsin, Wyoming Two: Georgia, Indiana, Iowa, Kentucky, Maine, Minnesota, Montana, Nevada, Tennessee Three: Arizona, Maryland, North Carolina, Pennsylvania, New York Four: Florida Five: California, Michigan Six: Texas, Virginia Nine: Ohio International trips: 9 trips, 12 countries/territories: France, Germany, Greenland, Vatican City (2), Italy (3), India, United Kingdom, Israel, Armenia, Azerbaijan, Hungary, Pakistan, and Switzerland."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZoQgQbH8xkmcTCXZhP1H7j4Q",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Devon Rodriguez artist controversy June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZoQgQbH8xkmcTCXZhP1H7j4Q",
+   "content": "[Devon Rodriguez - Wikipedia] https://en.wikipedia.org/wiki/Devon_Rodriguez In 2026, Rodriguez faced accusations of copyright infringement and artistic plagiarism when he was alleged to have copied two commissioned works by New York artist Gavin Snider, created specifically for the New York Knicks. ## References ## External links Wikimedia Foundation Powered by MediaWiki [...] Devon Rodriguez (born April 8, 1996) is an American artist from New York City. He initially gained recognition for drawing a series of realistic \"Realism (art)\") portraits of commuters on the New York City Subway. In 2019, Rodriguez was a finalist in the Outwin Boochever Portrait Competition for his portrait of sculptor John Ahearn. In 2020, he joined the video hosting platform TikTok and quickly achieved a large following for quick-sketching commuters and capturing their reactions when the [...] While Rodriguez was still in high school, sculptor John Ahearn attended a school portrait exhibit and took notice of Rodriguez's realist oil paintings of subway passengers. Ahearn then asked Rodriguez to be a subject for his own sculpted portrait. The resultant work, two plaster busts \"Bust (sculpture)\") of Rodriguez called The Rodriguez Twins, was a finalist for the Outwin Boochever Portrait Competition#Outwin_Boochever_Portrait_Competition \"National Portrait Gallery (United States)\") and was\n[TikTok Artist Devon Rodriguez Accused of Plagiarism - Plagiarism Today] https://www.plagiarismtoday.com/2026/06/23/tiktok-artist-devon-rodriguez-accused-of-plagiarism # TikTok Artist Devon Rodriguez Accused of Plagiarism Jonathan BaileyJune 23, 2026 5 minutes read Devon Rodriguez may well be the most-followed visual artist in the world, possibly in history. Originally shooting to prominence for his work painting strangers on the subway, he quickly became a viral sensation. Today, between his Instagram and TikTok accounts, he has amassed over 43 million followers. [...] Click Here to Get Permission for Free Jona"
+  },
+  {
+   "role": "assistant",
+   "content": "The artist who accused Devon Rodriguez of presenting his work as his own in June 2026 is Gavin Snider. FINAL: Gavin Snider",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

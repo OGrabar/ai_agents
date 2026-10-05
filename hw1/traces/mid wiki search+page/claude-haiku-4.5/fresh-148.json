@@ -1,0 +1,90 @@
+{
+ "task": {
+  "id": "fresh-148",
+  "source": "fresh",
+  "question": "Which company was ordered by Germany's Federal Cartel Office in February 2026 to return 59 million euros in profits from unfair trading practices?",
+  "answer": "Amazon",
+  "evidence": "5 February – The Federal Cartel Office orders Amazon, Inc. to return 59 million euros ($70 million) in profits from unfair trading practices.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: Amazon",
+ "correct": true,
+ "cost": 0.005228,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which company was ordered by Germany's Federal Cartel Office in February 2026 to return 59 million euros in profits from unfair trading practices?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this German Federal Cartel Office ruling from February 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01L5yk8itCmZ23ndSv9NkZd1",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Germany Federal Cartel Office February 2026 59 million euros\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_013JKnjWJRZZwTuBgmJQvypr",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Bundeskartellamt 2026 unfair trading practices profits\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01L5yk8itCmZ23ndSv9NkZd1",
+   "content": "[2026 in Germany] Events in the year 2026 in Germany."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_013JKnjWJRZZwTuBgmJQvypr",
+   "content": "[European Union competition law] In the European Union, competition law promotes the maintenance of competition within the European Single Market by regulating anti-competitive conduct by companies to ensure that they do not create cartels and monopolies that would damage the interests of society. European competition law today derives mostly from articles 101 to 109 of the Treaty on the Functioning of the European Union (TFEU), as well as a series of Regulations and Directives. Four main policy areas include: Cartels, or control of collusion and other anti-competitive practices, under article 101 TFEU. Market dominance, or preventing the abuse of firms' dominant market positions under article 102 TFEU. Mergers, control of proposed mergers, acquisitions and joint ventures involving companies that have a certain, defined amount of turnover in the EU, according to the European Union merger law. State aid, control of direct and indirect aid given by Member States of the European Union to companies under TFEU article 107. Primary authority for applying competition law within the European Union rests with the European Commission and its Directorate-General for Competition, although state aids in some sectors, such as agriculture, are handled by other Directorates-General. The Directorates can mandate that improperly-given state aid be repaid, as was the case in 2012 with Malev Hungarian Airlines. Leading ECJ cases on competition law include Consten & Grundig v Commission and United Brands v Commission. See also List of European Court of Justice rulings#Competition for other cases."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for events in 2026 in Germany:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01P9vrtHoeRAh8xfXHAtKoFE",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"2026 in Germany\", \"keywords\": \"Cartel Office 59 million euros February\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01P9vrtHoeRAh8xfXHAtKoFE",
+   "content": "[2026 in Germany]\n5 February – The Federal Cartel Office orders Amazon, Inc. to return 59 million euros ($70 million) in profits from unfair trading practices.\n9 February – Authorities seize eight metric tons of cocaine valued at 500 million euros ($582 million) from a container in Wilhelmshaven that originated from West Africa and supposedly contained cacao beans, resulting in two arrests in Spain."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Amazon",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-50",
+  "source": "fresh",
+  "question": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?",
+  "answer": "802,500 lira",
+  "evidence": "29 January – The Turkish Football Federation issues a fine of 802,500 lira ($18,500) on Diyarbakır-based club Amed S.F.K. and suspends its president, Nahit Eren, on charges of \"making ideological propaganda\" after the club uploads a video of a woman having her hair braided amid similar acts by Kurds in protests against the 2026 northeastern Syria offensive.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I do not have information about events or facts occurring after October 2023. Therefore, I cannot provide details about the fine issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026. \n\nFINAL: No information available.",
+ "correct": false,
+ "cost": 4.65e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What fine was issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I do not have information about events or facts occurring after October 2023. Therefore, I cannot provide details about the fine issued to Amed S.F.K. by the Turkish Football Federation on January 29, 2026. \n\nFINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

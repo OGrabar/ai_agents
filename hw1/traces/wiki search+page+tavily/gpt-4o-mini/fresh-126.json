@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-126",
+  "source": "fresh",
+  "question": "Which club's victory in the 2026 UEFA Champions League final sparked nationwide clashes between police and fans in France on 31 May 2026?",
+  "answer": "Paris St-Germain",
+  "evidence": "31 May – Nationwide clashes between police and football fans celebrating Paris St-Germain's victory in the 2026 UEFA Champions League final leave one person dead, 219 injured and 780 arrested.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The club whose victory in the 2026 UEFA Champions League final sparked nationwide clashes between police and fans in France was Paris Saint-Germain. \n\nFINAL: Paris Saint-Germain",
+ "correct": false,
+ "cost": 0.00030764999999999997,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which club's victory in the 2026 UEFA Champions League final sparked nationwide clashes between police and fans in France on 31 May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_s3TYnTqKWJXrMzcWKH5VO39n",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"2026 UEFA Champions League final\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_s3TYnTqKWJXrMzcWKH5VO39n",
+   "content": "[2026 UEFA Champions League final] The 2026 UEFA Champions League final was the final match of the 2025–26 UEFA Champions League, the 71st season of Europe's premier club football tournament organised by UEFA, and the 34th season since it was renamed from the European Champion Clubs' Cup to the UEFA Champions League. It was played at the Puskás Aréna in Budapest, Hungary, on 30 May 2026 between French club Paris Saint-Germain, the defending champions, and English club Arsenal. This was the first final to include a titleholder team since 2018. Paris Saint-Germain won the match 4–3 on penalties, following a 1–1 draw after extra time, for their second UEFA Champions League title, becoming the second club to win back-to-back titles in the UEFA Champions League era, matching Real Madrid's feat in the 2016–17 edition. As winners, Paris Saint-Germain earned the right to play against Aston Villa, the winners of the 2025–26 UEFA Europa League, in the 2026 UEFA Super Cup. They will also compete in the final of the 2026 FIFA Intercontinental Cup, and qualified for the 2029 FIFA Club World Cup."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ju6l3kwJjMil3gcrsTnWOzhi",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 UEFA Champions League final\",\"keywords\":\"clashes police fans France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ju6l3kwJjMil3gcrsTnWOzhi",
+   "content": "[2026 UEFA Champions League final]\nFollowing PSG's victory, tens of thousands of fans celebrated on the streets of Paris. Violent clashes erupted as the celebrations developed into rioting; there were 283 arrests in Paris and another 133 in the rest of France. The French Interior Ministry deployed 22,000 security officers across the country, including 8,000 in the capital. Similar r"
+  },
+  {
+   "role": "assistant",
+   "content": "The club whose victory in the 2026 UEFA Champions League final sparked nationwide clashes between police and fans in France was Paris Saint-Germain. \n\nFINAL: Paris Saint-Germain",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

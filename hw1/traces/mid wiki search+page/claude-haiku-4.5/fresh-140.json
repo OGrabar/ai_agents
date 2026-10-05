@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "What share of the vote did the AfD win in the 6 September 2026 Saxony-Anhalt state election?",
+  "answer": "43.8%",
+  "evidence": "6 September – 2026 Saxony-Anhalt state election: The AfD wins a plurality of 43.8% in elections to the Landtag of Saxony-Anhalt.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: 43.8%",
+ "correct": true,
+ "cost": 0.003638,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What share of the vote did the AfD win in the 6 September 2026 Saxony-Anhalt state election?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the AfD's performance in the September 6, 2026 Saxony-Anhalt state election.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01EPBPnhbmujmMqHN5bzKnZJ",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"AfD Saxony-Anhalt September 2026 election\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01Dr1VbNq8uwDy182sYo9PgL",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"2026 Saxony-Anhalt state election\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01EPBPnhbmujmMqHN5bzKnZJ",
+   "content": "[2026 Saxony-Anhalt state election] The 2026 Saxony-Anhalt state election was held on 6 September 2026 to elect the 9th Landtag of Saxony-Anhalt. It took place two weeks before the state elections in Berlin and in Mecklenburg-Vorpommern. This election drew significant national and international attention due to the performance of the far-right Alternative for Germany (AfD), including the possibility of it getting an absolute majority. The AfD is subject to a firewall policy as all other major parties refuse to cooperate with it; its state branch is under surveillance by the Federal Office for the Protection of the Constitution, which classified it as a \"confirmed right-wing extremist movement\" in 2023. The AfD secured a plurality of the vote, doubling its support to 43.8%, but failed to gain a majority of seats. The governing Christian Democratic Union (CDU) lost more than half of its previous vote share with 17.2%. The Social Democratic Party (SPD), Alliance 90/The Greens, and The Left each got about 9%. The Sahra Wagenknecht Alliance (BSW) barely passed the 5% election threshold, while the Free Democratic Party (FDP) lost representation. Voter turnout was an all-time high of 77.8%, up from 60% in 2021. The AfD candidates won 38 of the 41 single-member constituencies, with the remaining three won by The Left. The size of the parliament matches the nominal 83 seats for the first time as the AfD's result is large enough that there are no overhang seats. A tactical voting campaign supported the SPD and Greens, which were polling at or below the election threshold in the summer, and both ended with small gains compared to 2021."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Dr1VbNq8uwDy182sYo9PgL",
+   "content": "[2026 Saxony-Anhalt state election] The 2026 Saxony-Anhalt state election was held on 6 September 2026 to elect the 9th Landtag of Saxony-Anhalt. It took place two weeks before the state elections in Berlin and in Mecklenburg-Vorpommern. This election drew significant national and international attention due to the performance of the far-right Alternative for Germany (AfD), including the possibility of it getting an absolute majority. The AfD is subject to a firewall policy as all other major parties refuse to cooperate with it; its state branch is under surveillance by the Federal Office for the Protection of the Constitution, which classified it as a \"confirmed right-wing extremist movement\" in 2023. The AfD secured a plurality of the vote, doubling its support to 43.8%, but failed to gain a majority of seats. The governing Christian Democratic Union (CDU) lost more than half of its previous vote share with 17.2%. The Social Democratic Party (SPD), Alliance 90/The Greens, and The Left each got about 9%. The Sahra Wagenknecht Alliance (BSW) barely passed the 5% election threshold, while the Free Democratic Party (FDP) lost representation. Voter turnout was an all-time high of 77.8%, up from 60% in 2021. The AfD candidates won 38 of the 41 single-member constituencies, with the remaining three won by The Left. The size of the parliament matches the nominal 83 seats for the first time as the AfD's result is large enough that there are no overhang seats. A tactical voting campaign supported the SPD and Greens, which were polling at or below the election threshold in the summer, and both ended with small gains compared to 2021."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: 43.8%",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-31",
+  "source": "fresh",
+  "question": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?",
+  "answer": "Aibek Dädebai",
+  "evidence": "August 23 – The 2026 Kazakh legislative election was held, with Aibek Dädebai of the newly-formed Ädilet forming the new government of Kazakhstan.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "My knowledge cutoff is early 2025, so I don't have information about events that occurred in August 2026, including any legislative election in Kazakhstan on that date.\n\nFINAL: I don't have information about this future event beyond my knowledge cutoff date.",
+ "correct": false,
+ "cost": 0.001158,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who formed the new government of Kazakhstan after the legislative election on August 23, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "My knowledge cutoff is early 2025, so I don't have information about events that occurred in August 2026, including any legislative election in Kazakhstan on that date.\n\nFINAL: I don't have information about this future event beyond my knowledge cutoff date.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

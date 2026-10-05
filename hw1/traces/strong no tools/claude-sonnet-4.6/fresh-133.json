@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?",
+  "answer": "Normandy landings",
+  "evidence": "26 July – The beaches used during the Normandy landings in 1944 are designated as UNESCO World Heritage Sites.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to think about this carefully. The question asks about a UNESCO World Heritage Site designation on 26 July 2026, which is in the future (my knowledge cutoff is early 2025).\n\nHowever, there has been significant discussion and progress regarding the nomination of the D-Day beaches (Normandy Landing Beaches) from Operation Overlord (the 1944 Normandy landings) as UNESCO World Heritage Sites. France submitted this nomination, and there were expectations it could be inscribed around 2026, potentially timed with anniversaries.\n\nThe 1944 military operation whose beaches were being considered for UNESCO World Heritage status is Operation Overlord (the D-Day landings in Normandy, June 6, 1944).\n\nFINAL: Operation Overlord (D-Day/Normandy landings)",
+ "correct": true,
+ "cost": 0.003048,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to think about this carefully. The question asks about a UNESCO World Heritage Site designation on 26 July 2026, which is in the future (my knowledge cutoff is early 2025).\n\nHowever, there has been significant discussion and progress regarding the nomination of the D-Day beaches (Normandy Landing Beaches) from Operation Overlord (the 1944 Normandy landings) as UNESCO World Heritage Sites. France submitted this nomination, and there were expectations it could be inscribed around 2026, potentially timed with anniversaries.\n\nThe 1944 military operation whose beaches were being considered for UNESCO World Heritage status is Operation Overlord (the D-Day landings in Normandy, June 6, 1944).\n\nFINAL: Operation Overlord (D-Day/Normandy landings)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

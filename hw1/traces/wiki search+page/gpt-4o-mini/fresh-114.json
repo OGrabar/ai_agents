@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-114",
+  "source": "fresh",
+  "question": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?",
+  "answer": "Urgent Care Centre",
+  "evidence": "January 12 – A new Urgent Care Centre opens in St. John's, Newfoundland and Labrador.",
+  "page": "2026 in Canada",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Canada",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: Urgent Care Centre",
+ "correct": true,
+ "cost": 0.0001272,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What type of facility opened in St. John's, Newfoundland and Labrador on January 12, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RK0FX7n70wiRYT8E2vmyyMWb",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in Canada\",\"keywords\":\"St. John's, Newfoundland and Labrador, facility, opened, January 12\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RK0FX7n70wiRYT8E2vmyyMWb",
+   "content": "[2026 in Canada]\nJanuary 12 – A new Urgent Care Centre opens in St. John's, Newfoundland and Labrador.\nFebruary 27–March 8 – 2026 Montana's Brier is held in St. John's, Newfoundland and Labrador."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Urgent Care Centre",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

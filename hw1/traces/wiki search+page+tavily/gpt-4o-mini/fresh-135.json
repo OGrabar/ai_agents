@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-135",
+  "source": "fresh",
+  "question": "Which French institution ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors?",
+  "answer": "The Constitutional Council",
+  "evidence": "14 August – Decision 2026-911: The Constitutional Council rules that the social media ban for minors under 15 years of age violated the rights of minors.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The French institution that ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors was the French Constitutional Council.\n\nFINAL: French Constitutional Council",
+ "correct": true,
+ "cost": 0.00037695000000000003,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Which French institution ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ua5Hh4AuFcFo15RgmACfJ76j",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"French institution social media ban minors August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ua5Hh4AuFcFo15RgmACfJ76j",
+   "content": "[2026 Tacloban school shooting] On June 22, 2026, at approximately 9:13 a.m. (PHT), a school shooting occurred at San Jose National High School in Tacloban, Philippines. Three students were killed and twenty others were injured. Two suspects, aged 14 and 15, were arrested in connection with the shooting; one was apprehended at the scene, while the other was captured following a manhunt. The incident was widely described as an \"extremely rare\" case of a school shooting within the country, with the Ateneo de Manila University shooting in 2022 often being cited as the last recorded case. However, the Ateneo de Manila University shooting was a targeted political killing with non-student victims. It has renewed debate around the prosecution of juvenile offenders, as well as internet safety of children in the Philippines. A Senate investigation confirmed the shooting incident's connection with the online terrorist organization 764, known for its nihilistic violent extremism (NVE). The intel was confirmed by intelligence agencies across the government and international organizations. The investigations found that the group groomed and radicalized children and their presence has been confirmed in the Philippines. The FBI considers 764 as a significant national security threat, and cybersecurity experts view the Tacloban shooting as 764's first \"completed attack\" anywhere in the world, making the Philippines their testing ground. The PNP has revealed that a total of 24 Filipino minors have been rescued from the influence of the online extremist group."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_XQX1HV2ZqqgQPMqbv5iMCt6x",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"French institution social media ban minors August 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_XQX1HV2ZqqgQPMqbv5iMCt6x",
+   "content": "[French Constitutional Council Strikes Down Under-15 Social Media Ban | Inside Privacy] https://www.insideprivacy.com/online-safety/french-constitutional-council-strikes-down-under-15-social-media-ban On August 14, 2026, the French Constitutional Council (the “Constitutional Council”) struck down Article 1 of France’s Act to protect minors from the risks posed by the use of social media (the “Act”), which would have barred minors under the age of fifteen from accessing online social media services. The Constitutional Council held that the prohibition infringed on the freedom of expression and communication in a manner that was not appropriate, necessary, or proportionate to the objective [...] initiative of President Macron, by spring 2027. [...] As an immediate consequence of the decision, Article 1 of the legislation (i.e., the provision introducing the ban on social media access for minors under 15) cannot be promulgated and will not enter into force. The French government responded immediately, indicating that a replacement text would be prepared as quickly as possible, taking into account both the Constitutional Council’s decision and the EU framework. They still aim to achieve some form of the legislation, a flagship initiative of\n[France’s top court rejects social media ban for under-15s • FRANCE 24 English] https://www.youtube.com/watch?v=6b908iDC3Y8 ### Description 1,820 views Posted: 2026-08-15 France’s Constitutional Court has struck down a law that would have banned children under 15 from social media, ruling that it disproportionately infringed on freedom of expression and raised privacy concerns over age verification. The government plans to draft a revised bill, with Emmanuel Macron citing concerns over the impact of social media on children’s mental and physical health. #France #socialmediaban #SocialMediaFrance\n[France: Top watchdog blocks social media ban for children] https://www.dw.com/en/france-top-watchdog-blocks-social-media-ban-for-children/a"
+  },
+  {
+   "role": "assistant",
+   "content": "The French institution that ruled on 14 August 2026 that the social media ban for minors under 15 violated the rights of minors was the French Constitutional Council.\n\nFINAL: French Constitutional Council",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

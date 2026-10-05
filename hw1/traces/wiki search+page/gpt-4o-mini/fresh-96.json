@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-96",
+  "source": "fresh",
+  "question": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?",
+  "answer": "Istanbul",
+  "evidence": "February 11 – 15 : 2026 European Men's and Women's Team Badminton Championships in Istanbul, Turkey",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "Katowice",
+  "agent_ok": true
+ },
+ "answer": "The 2026 European Men's and Women's Team Badminton Championships will be held in Istanbul, Turkey. \n\nFINAL: Istanbul, Turkey",
+ "correct": true,
+ "cost": 0.00017969999999999998,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which city were the 2026 European Men's and Women's Team Badminton Championships held?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Gn6WLjCACS77xSsIuMMrVr2q",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"2026 European Men's and Women's Team Badminton Championships\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_GqgOoO3AXaCyVeNThvdxrWin",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"2026 in sports\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Gn6WLjCACS77xSsIuMMrVr2q",
+   "content": "[2026 European Men's and Women's Team Badminton Championships] The 2026 edition of the European Men's and Women's Team Badminton Championships is being held in Istanbul, Turkey, from 11 to 15 February 2026."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_GqgOoO3AXaCyVeNThvdxrWin",
+   "content": "[2026 in sports] The main sporting events scheduled to be held in 2026 are the 2026 Winter Olympics, the 2026 Winter Paralympics, both staged in Milano Cortina, the 2026 FIFA World Cup in the United States, Canada and Mexico, the 2026 Commonwealth Games in Glasgow and the 2026 World Baseball Classic in the United States, Puerto Rico and Japan. In rugby league, the Men's, Women's and the Wheelchair Rugby League World Cups will all be held in Australia, New Zealand and Papua New Guinea. In rugby union, there will be a new international rugby union tournament, which will be known as the World Rugby Nations Championship. There are also two T20 Cricket World Cups in 2026, the men's version will be staged in India and Sri Lanka while the women's version will be staged in England and Wales."
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 European Men's and Women's Team Badminton Championships will be held in Istanbul, Turkey. \n\nFINAL: Istanbul, Turkey",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

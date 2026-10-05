@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-133",
+  "source": "fresh",
+  "question": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?",
+  "answer": "Normandy landings",
+  "evidence": "26 July – The beaches used during the Normandy landings in 1944 are designated as UNESCO World Heritage Sites.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The beaches designated as UNESCO World Heritage Sites on 26 July 2026 were those used during the Normandy landings in 1944.\n\nFINAL: Normandy landings beaches",
+ "correct": true,
+ "cost": 0.0007172999999999999,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Beaches of which 1944 military operation were designated UNESCO World Heritage Sites on 26 July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oHclZS5aHSfT7daW5Pu0yWji",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"1944 military operation UNESCO World Heritage Sites July 26 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oHclZS5aHSfT7daW5Pu0yWji",
+   "content": "[Australian Convict Sites] The Australian Convict Sites are a World Heritage Site that consists of eleven penal sites associated with convict transportation to Australia. The sites were constructed during the 18th and 19th centuries, a period during which around 166,000 people were transported to Australia. Convicts were sent to Australia for a range of offences, including committing petty crimes and supporting particular political causes. Convicts were subjected to forced labour, which was used as a means of deterrence and rehabilitation, and as a way of developing the Australian colonies. Several thousand sites, including prisons and labour facilities, were established across Australia to support the convict system. The eleven designated sites served varied functions, including development of the colony's land and exploitation of its natural resources, deterrence of crime through secondary punishment, and rehabilitation of convicts. The Australian government began preparing a World Heritage nomination of a series of sites associated with convict transportation in 1995. In 2000, the government of John Howard announced a shortlist of eight sites, which were added to Australia's tentative list. In 2007, the Australian government announced a refined shortlist of eleven convict sites. The eleven sites are spread across Australia, with one site located on Norfolk Island, one in Western Australia, four in New South Wales, and the remaining five in Tasmania. The Australian Convict Sites nomination was submitted to UNESCO in January 2008. The Australian Convict sites were inscribed on the World Heritage List at the 34th Session of the World Heritage Committee in 2010. They were described as representing the \"best surviving examples of large-scale convict transportation and the colonial expansion of European powers through the presence and labour of convicts\". The sites were deemed to meet criteria 4 (illustrating a significant stage in human history) and 6 (being directly "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_e0hzJuDZY0ChJH3rFoqr4cUC",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"D-Day UNESCO World Heritage Sites\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_e0hzJuDZY0ChJH3rFoqr4cUC",
+   "content": "[List of World Heritage Sites in Italy] The United Nations Educational, Scientific and Cultural Organization (UNESCO) World Heritage Sites are places of importance to cultural or natural heritage as described in the UNESCO World Heritage Convention, established in 1972. Cultural heritage consists of monuments (such as architectural works, monumental sculptures, or inscriptions), groups of buildings, and sites (including archaeological sites). Natural features (consisting of physical and biological formations), geological and physiographical formations (including habitats of threatened species of animals and plants), and natural sites which are important from the point of view of science, conservation or natural beauty, are defined as natural heritage. Italy ratified the convention on June 23, 1978. Italy has 62 listed sites, making it the state party with the most World Heritage Sites, just above China (61) and France (56). The first site in Italy, the Rock Drawings in Valcamonica, was listed at the 3rd Session of the World Heritage Committee, held in Cairo and Luxor, Egypt, in 1979. Twenty-five Italian sites were added during the 1990s, including 10 sites added at the 21st session held in Naples in 1997. Italy has served as a member of the World Heritage Committee five times, 1978–1985, 1987–1993, 1993–1999, 1999–2001, and 2021–2025. Out of Italy's 62 heritage sites, 56 are cultural and 6 are natural. Seven sites are transnational. The Historic Centre of Rome is shared with the Vatican; the Monte San Giorgio and Rhaetian Railway with Switzerland; the Venetian Works of Defence with Croatia and Montenegro; the Prehistoric pile dwellings around the Alps with 5 other countries; The Great Spa Towns of Europe with 6 other countries; and the Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe are shared with 17 other countries. In addition, Italy has 30 sites on the tentative list."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_uNcKgJUQ9Cp6HnCqSJqXJ3Cz",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Sword Beach UNESCO World Heritage Site\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_uNcKgJUQ9Cp6HnCqSJqXJ3Cz",
+   "content": "[List of World Heritage Sites in France] The United Nations Educational, Scientific and Cultural Organization (UNESCO) World Heritage Sites are places of importance to cultural or natural heritage as described in the UNESCO World Heritage Convention, established in 1972. Cultural heritage consists of monuments (such as architectural works, monumental sculptures, or inscriptions), groups of buildings, and sites (including archaeological sites). Natural features (consisting of physical and biological formations), geological and physiographical formations (including habitats of threatened species of animals and plants), and natural sites which are important from the point of view of science, conservation or natural beauty, are defined as natural heritage. France accepted the Convention Concerning the Protection of the World Cultural and Natural Heritage on 27 June 1975. Out of 56 properties currently listed in France, 47 are cultural sites, 7 are natural, and 2 are (mixed), listed both for their cultural and natural significance. Of these sites, 50 are in the Metropolitan France while six are overseas. In addition, six properties are shared with other countries: Pyrénées – Mont Perdu is shared with Spain; Belfries of Belgium and France is shared with Belgium; Prehistoric Pile dwellings around the Alps is shared with five countries; The Architectural Work of Le Corbusier is shared with six countries; Funerary and memory sites of the First World War (Western Front) is shared with Belgium; Ancient and Primeval Beech Forests of the Carpathians and Other Regions of Europe is shared with 17 countries. The first five sites in France were added to the list in 1979 while the most recent, the Beaches of the D-Day Landings and the Royal Capetian Fortresses of Languedoc, were added in 2026. France also has 32 sites on its tentative list. France has served on the World Heritage Committee five times. With 56 World Heritage Sites, France ranks third worldwide by number of sites, behi"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mkuem1F9P3Uhumle6Pre3zhS",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"D-Day Beaches UNESCO World Heritage Site\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mkuem1F9P3Uhumle6Pre3zhS",
+   "content": "[2026 in France]\n26 July – The beaches used during the Normandy landings in 1944 are designated as UNESCO World Heritage Sites."
+  },
+  {
+   "role": "assistant",
+   "content": "The beaches designated as UNESCO World Heritage Sites on 26 July 2026 were those used during the Normandy landings in 1944.\n\nFINAL: Normandy landings beaches",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

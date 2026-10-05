@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-81",
+  "source": "fresh",
+  "question": "What was the passenger traffic number for Istanbul Airport in July 2026?",
+  "answer": "8.15m",
+  "evidence": "Data from Airports Council International shows that Heathrow Airport has lost its title as Europe's busiest airport, with Istanbul Airport seeing a greater volume of passenger traffic in July. Figures show that 8.15m people passed through Istanbul, compared to 7.86 through Heathrow.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I do not have access to data beyond October 2023, so I cannot provide the passenger traffic number for Istanbul Airport in July 2026. You may need to check official reports or news sources for that information. \n\nFINAL: Data not available.",
+ "correct": false,
+ "cost": 4.32e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What was the passenger traffic number for Istanbul Airport in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I do not have access to data beyond October 2023, so I cannot provide the passenger traffic number for Istanbul Airport in July 2026. You may need to check official reports or news sources for that information. \n\nFINAL: Data not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

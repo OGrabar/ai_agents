@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "fresh-22",
+  "source": "fresh",
+  "question": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?",
+  "answer": "Clara and the Below",
+  "evidence": "March 17: The Kickstarter campaign for Amphibia creator Matt Braly's indie animated series Clara and the Below was fully funded within 15 minutes of launching.",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I couldn't find any specific information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026. However, he is known for his work on the Disney Channel series \"Amphibia.\" \n\nIt appears that the information you provided may relate to a future event or project that isn't currently available in existing sources. \n\nFINAL: Not available",
+ "correct": false,
+ "cost": 0.00052935,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what is the name of the indie animated series created by Matt Braly that was fully funded on March 17, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JNm6gB1cyasQM4YKVNGSzTDG",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"indie animated series created by Matt Braly\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JNm6gB1cyasQM4YKVNGSzTDG",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_iUaenFqNgAlTj3aTW6fQq0f6",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Amphibia\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_iUaenFqNgAlTj3aTW6fQq0f6",
+   "content": "[Amphibian] Amphibians are ectothermic, anamniotic, four-limbed vertebrate animals that constitute the class Amphibia. In its broadest sense, it is a paraphyletic group encompassing all tetrapods, but excluding the amniotes (tetrapods with an amniotic membrane, such as modern reptiles, birds and mammals). All extant (living) amphibians belong to the monophyletic subclass Lissamphibia, with three living orders: Anura (frogs and toads), Urodela (salamanders), and Gymnophiona (caecilians). Evolved to be mostly semiaquatic, amphibians have adapted to inhabit a wide variety of habitats, with most species living in freshwater, wetland or terrestrial ecosystems (such as riparian woodland, fossorial and even arboreal habitats). Their life cycle typically starts out as aquatic larvae with gills known as tadpoles, but some species have developed behavioural adaptations to bypass this. Young amphibians generally undergo metamorphosis from an aquatic larval form with gills to an air-breathing adult form with lungs. Amphibians use their skin as a secondary respiratory interface, and some small terrestrial salamanders and frogs even lack lungs and rely entirely on their skin. They are superficially similar to reptiles like lizards, but unlike reptiles and other amniotes, require access to water bodies to breed. With their complex reproductive needs and permeable skins, amphibians are often ecological indicators to habitat conditions; in recent decades there has been a dramatic decline in amphibian populations for many species around the globe. Contrary to a common misconception, adult amphibians generally cannot breathe underwater. Wildlife hospitals report that a frequent mistake made by people who bring frogs and toads for treatment is placing them in water-filled aquaria without providing a means of exit. As a result, they may drown. The earliest amphibians evolved in the Devonian period from tetrapodomorph sarcopterygians (lobe-finned fish with articulated limb-like fins) tha"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_R1rbhZDOGQS1pjSRyO6hmBgx",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Matt Braly animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_R1rbhZDOGQS1pjSRyO6hmBgx",
+   "content": "[Matt Braly] Matthew Benjakarn Braly (born November 8, 1988) is a Thai-American animator, storyboard artist, writer, and director. He is best known as the creator and executive producer of the Disney Channel animated series Amphibia. He also worked as a director on Gravity Falls and Big City Greens."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_o4VCXZ7F8se5mPuetRiuDTk0",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"indie animated series\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_o4VCXZ7F8se5mPuetRiuDTk0",
+   "content": "[Independent animation] The terms independent animation or indie animation refers to animated shorts, web series, and feature films produced, financed and created outside a major national animation industry."
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find any specific information about an indie animated series created by Matt Braly that was fully funded on March 17, 2026. However, he is known for his work on the Disney Channel series \"Amphibia.\" \n\nIt appears that the information you provided may relate to a future event or project that isn't currently available in existing sources. \n\nFINAL: Not available",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

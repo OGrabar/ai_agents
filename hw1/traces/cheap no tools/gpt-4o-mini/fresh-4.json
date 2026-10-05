@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-4",
+  "source": "fresh",
+  "question": "What measure came into force in Victoria, Australia in January 2026?",
+  "answer": "A total fire ban",
+  "evidence": "9 January – A total fire ban comes into force in Victoria in response to an ongoing heatwave.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I need to look up the specific measure that came into force in Victoria, Australia in January 2026. Please hold on for a moment while I gather this information. \n\nFINAL: <Information not yet available; January 2026 is in the future.>",
+ "correct": false,
+ "cost": 4.44e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What measure came into force in Victoria, Australia in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to look up the specific measure that came into force in Victoria, Australia in January 2026. Please hold on for a moment while I gather this information. \n\nFINAL: <Information not yet available; January 2026 is in the future.>",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

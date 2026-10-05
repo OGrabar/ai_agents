@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-130",
+  "source": "fresh",
+  "question": "In which French commune was the highest local temperature (44.3 °C) recorded during the record hot day of 23 June 2026?",
+  "answer": "Pissos",
+  "evidence": "23 June – France experiences its hottest day on a national scale, with an average temperature of 29.8°C (85.6°F) across the country, beating the previous record of 29.4°C. The highest locally recorded temperature is 44.3°C, in Pissos.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The highest local temperature of 44.3 °C was recorded in the commune of Pissos. \n\nFINAL: Pissos",
+ "correct": true,
+ "cost": 0.00016785,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which French commune was the highest local temperature (44.3 °C) recorded during the record hot day of 23 June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LJB2uSeEMOOGHrzO8LlFAWSC",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"2026 in France\",\"keywords\":\"highest local temperature, 44.3 °C\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LJB2uSeEMOOGHrzO8LlFAWSC",
+   "content": "[2026 in France]\n22 June – An intense heat wave leads Météo-France to place 49 departments under red \"canicule\" alerts and 40 others under orange alerts, with temperatures forecast to exceed 42 °C (108 °F) locally in parts of central and western France. At least three people die from heat-related health issues, while almost 2,700 schools close or modify timetables.\nFrance experiences its hottest day on a national scale, with an average temperature of 29.8°C (85.6°F) across the country, beating the previous record of 29.4°C. The highest locally recorded temperature is 44.3°C, in Pissos."
+  },
+  {
+   "role": "assistant",
+   "content": "The highest local temperature of 44.3 °C was recorded in the commune of Pissos. \n\nFINAL: Pissos",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

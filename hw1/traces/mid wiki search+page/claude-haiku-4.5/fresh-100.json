@@ -1,0 +1,68 @@
+{
+ "task": {
+  "id": "fresh-100",
+  "source": "fresh",
+  "question": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?",
+  "answer": "252,756 miles",
+  "evidence": "April 6 – The crew of Artemis II breaks the record for the furthest humans have ever been from Earth, reaching a maximum distance of 252,756 miles (406,771 km) as they travel around the far side of the Moon.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the information I found, on April 6, 2026, the Artemis II crew reached their farthest distance from Earth during their lunar flyby.\n\nFINAL: 252,756 miles (406,771 km)",
+ "correct": true,
+ "cost": 0.003861,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What maximum distance did the crew of Artemis II reach from Earth on April 6, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about Artemis II and the distance reached on April 6, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LFHuf9KrEVaJdBGh9UwEyi",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Artemis II mission\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01NyCSwWewbpQJhkxTke1pPK",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"Artemis II\", \"keywords\": \"April 6 2026 distance Earth\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LFHuf9KrEVaJdBGh9UwEyi",
+   "content": "[Artemis II] Artemis II (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Orion spacecraft, named Integrity by the four-person crew. The mission was a test flight supporting the Artemis IV mission to return humans to the lunar surface. Originally designated Exploration Mission-2 (EM-2) and intended to support the canceled Asteroid Redirect Mission, its objectives were revised after the establishment of the Artemis program in 2017. The mission's primary goal was to validate the Orion spacecraft's systems, crew operations, and mission procedures ahead of sustained lunar exploration in future Artemis missions. Artemis II's mission objectives were similar to those of Apollo 8 in 1968, the first crewed lunar flight of the Apollo program, while its free-return trajectory resembled that flown by Apollo 13 in 1970. Among the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 248,655 miles (400,171 km) for the greatest human distance from Earth, reaching a maximum distance of 252,756 miles (406,771 km). After its launch, Artemis II gained widespread global attention for its achievements and inclusive crew, giving rise to the term \"Moon joy\"."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NyCSwWewbpQJhkxTke1pPK",
+   "content": "[Artemis II]\nArtemis II (April 1–11, 2026) was a crewed flyby of the Moon and first crewed flight of the NASA-led Artemis program. It was the first crewed flight beyond low Earth orbit (LEO) since Apollo 17 in 1972 and the only crewed flight beyond LEO not part of the Apollo program. It was the first crewed flight of the Space Launch System (SLS) and of the Ori\nAmong the four crew members, Victor Glover became the only person of color, Christina Koch the only woman, Canadian Space Agency astronaut Jeremy Hansen the only person not from the United States, and Reid Wiseman the oldest person to travel beyond low Earth orbit and around the Moon. During their lunar flyby, the crew broke Apollo 13's record of 2\nDuring preliminary reviews in 2011, the launch date was placed somewhere between 2019 and 2021, but afterwards the launch date was delayed to 2023. In January 2024, the mission was expected to launch in September 2025. However, in October 2024, the NASA Office of Inspector General determined that the Exploration Ground Systems team had exhausted th\nEarlier in March 2026, NASA announced that the upper-stage helium-flow problem, which had previously necessitated a rollback for repairs, had been fixed and was undergoing validation. On March 12, after a Flight Readiness Review (FRR), NASA cleared Artemis II's rocket for an April launch following these repairs, with the review polling 'go' to proc\nOn flight day 6, Orion entered the Moon's sphere of influence, where lunar gravity became the dominant force shaping its trajectory. Orion flew around the Moon at a closest approach of about 4,067 miles (6,545 km; 3,534 nmi) from the far-side lunar surface at 23:00 UTC on April 6. Its farthest distance from Earth was 252,756 miles (406,771 km; 219,"
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the information I found, on April 6, 2026, the Artemis II crew reached their farthest distance from Earth during their lunar flyby.\n\nFINAL: 252,756 miles (406,771 km)",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

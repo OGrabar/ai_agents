@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-57",
+  "source": "fresh",
+  "question": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?",
+  "answer": "Yoon Suk Yeol",
+  "evidence": "7 July – The Supreme Court upholds the 7-year prison sentence and 5-year suspended sentence for former President Yoon Suk Yeol, who was convicted on charges of inciting insurrection and interfering with official duties by ordering his security service to block the execution of a court warrant.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "The name of the former President upheld with a 7-year prison sentence in July 2026 is Yoon Suk Yeol. \n\nFINAL: Yoon Suk Yeol",
+ "correct": true,
+ "cost": 0.00031545,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What is the name of the former President upheld with a 7-year prison sentence in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mKgJodR3hFpXlg14iInSPLrw",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"former President upheld 7-year prison sentence July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mKgJodR3hFpXlg14iInSPLrw",
+   "content": "[List of longest prison sentences] This is a list of longest prison sentences ever given to a single person, worldwide. Listed are instances where people have been sentenced to jail terms in excess of a human lifetime, but effectively the same purpose. Note that many national legislations worldwide do not allow for such sentences. Since the sentence given is not necessarily equivalent to time served, the list of longest prison sentences served for those who have spent the longest continuous time in prison."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rCxqgCPMnuJanyBco7qghhDZ",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"former President upheld 7-year prison sentence July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rCxqgCPMnuJanyBco7qghhDZ",
+   "content": "[South Korea's top court upholds 7-year sentence for ex-president Yoon - France 24] https://www.france24.com/en/asia-pacific/20260709-south-korea-top-court-upholds-7-year-sentence-for-ex-president-yoon Headings # South Korea's top court upholds 7-year sentence for ex-president Yoon South Korea's Supreme Court on Thursday upheld a seven-year prison sentence handed down to former president Yoon Suk Yeol o charges of obstruction and other crimes tied to his botched 2024 martial law declaration. The disgraced former president has insisted his martial law declaration was motivated by the public interest. Issued on: 09/07/2026 - 08:54 [...] Former South Korean President Yoon Suk Yeol arrives at a court to attend a hearing to review his arrest warrant requested by special prosecutors in Seoul, South Korea, July 9, 2025 South Korea's highest court on Thursday upheld ex-president Yoon Suk Yeol's seven-year prison sentence over crimes tied to his botched 2024 martial law declaration and its chaotic aftermath. [...] Martial law lasted only about six hours as lawmakers raced to vote it down in an emergency session. However, Yoon's move triggered protests, sent the stock market plunging and caught key allies like the United States off-guard. In a separate case, a court handed Yoon a 30-year prison sentence for sending drones into North Korea to \"manufacture\" a crisis ahead of his martial law bid. The former president has insisted his martial law declaration was \"solely for the sake of the nation\".\n[South Korea top court upholds Yoon's 7-year sentence] https://www.dw.com/en/south-koreas-top-court-upholds-ex-president-yoons-7-year-sentence/a-77883414 Yoon also faces a 30-year prison sentence for sending drones to North KoreaImage: Lee Jin-man/AP Photo/picture alliance Advertisement South Korea's Supreme Court on Thursday upheld the seven-year prison sentence handed to former President Yoon Suk Yeol for crimes tied to the botched 2024 martial law declaration and the political chaos"
+  },
+  {
+   "role": "assistant",
+   "content": "The name of the former President upheld with a 7-year prison sentence in July 2026 is Yoon Suk Yeol. \n\nFINAL: Yoon Suk Yeol",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

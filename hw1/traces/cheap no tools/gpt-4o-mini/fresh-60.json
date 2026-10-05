@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-60",
+  "source": "fresh",
+  "question": "What is the number of people arrested in Ankara in June 2026?",
+  "answer": "209",
+  "evidence": "23 June – At least 209 people are arrested in raids by security forces across Ankara ahead of the 2026 Ankara NATO summit.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I currently do not have access to data beyond October 2023, nor can I look up future events or statistics. Therefore, I cannot provide the number of people arrested in Ankara in June 2026. \n\nFINAL: Data not available.",
+ "correct": false,
+ "cost": 4.2e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What is the number of people arrested in Ankara in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I currently do not have access to data beyond October 2023, nor can I look up future events or statistics. Therefore, I cannot provide the number of people arrested in Ankara in June 2026. \n\nFINAL: Data not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

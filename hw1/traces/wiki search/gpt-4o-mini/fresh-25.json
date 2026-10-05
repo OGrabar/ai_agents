@@ -1,0 +1,200 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "On February 26, 2026, the Government of Pakistan declared an \"open war\" against Afghanistan due to escalating conflicts, particularly involving airstrikes on alleged terrorist camps. This declaration was communicated by Pakistan's defense minister, Khawaja Asif, and marked the formal start of military operations under the codename \"Operation Ghazab lil-Haq.\" \n\nFINAL: Open war declared by Pakistan",
+ "correct": true,
+ "cost": 0.0015936,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1YWJIr2k7WODSPWNEzIlTxeL",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Afghanistan–Pakistan war\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1YWJIr2k7WODSPWNEzIlTxeL",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_5BuFnlQuPLfQQoIEEN4xKEuf",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Pakistan government declaration February 26, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_5BuFnlQuPLfQQoIEEN4xKEuf",
+   "content": "[2026 in the United States] The following is a list of events of the year 2026 in the United States, as well as predicted and scheduled events that have not yet occurred. July 4, 2026 was the 250th anniversary of the signing of the Declaration of Independence of the United States from Great Britain. Under the second year of Donald Trump's second presidency, the United States has engaged in attacks against its adversaries. In January 2026, the U.S. launched a military raid in Venezuela that captured its president Nicolás Maduro. In February 2026, the U.S. launched a major attack on Iran with Israel with the stated goal of regime change, killing its leader Ali Khamenei. Domestically, the US underwent two partial government shutdowns, with the first lasting four days, from January 31 to February 3, and the second lasting approximately 76 days, from February 14 to April 30, becoming the longest government shutdown in U.S. history and impacting the US Department of Homeland Security, with the core issue regarding the funding of Immigration and Customs Enforcement. In addition, 2026 saw the first major judicial actions against prediction markets, in particular Kalshi and the usage of its platform and other prediction markets to bypass state regulations on sports betting, with Nevada being the first to land a court-enforced ban of Kalshi and Arizona being the first to file criminal charges against Kalshi. In science and technology, the most prominent story so far has been the April 2026 NASA mission Artemis II, the first crewed deep-space mission since 1972. Artemis II sent four astronauts—including the first woman, person of color, and Canadian—to circumnavigate the Moon. The 2026 FIFA World Cup was held across the U.S., Canada, and Mexico from June to July; and planned events include the 2026 midterms in November."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RbVuuRNK6zmvMRtT7GA9pHmQ",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Pakistan February 26 2026 declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RbVuuRNK6zmvMRtT7GA9pHmQ",
+   "content": "[2026] 2026 (MMXXVI) is the current year, and is a common year starting on Thursday of the Gregorian calendar, the 2026th year of the Common Era (CE) and Anno Domini (AD) designations, the 26th year of the 3rd millennium and the 21st century, and the 7th year of the 2020s decade. The early part of the year saw escalating armed conflicts in the Americas and Middle East. In January, the United States launched a military operation in Venezuela that captured sitting President Nicolás Maduro, leading to a blockade of Venezuelan oil exports that contributed to a crisis in Cuba. In Syria, an offensive by the Syrian government led to the Syrian Democratic Forces eventually being integrated into the Syrian Army, ending the Rojava Revolution, while in Yemen, a counteroffensive by the Yemeni government led to the collapse of the Southern Transitional Council. In February, Pakistan launched airstrikes against Afghanistan, leading to an open war between both nations. In Iran, in response to authorities cracking down on protests, the United States and Israel began a war in late February with the assassination of Supreme Leader Ali Khamenei, which resulted in widespread economic grief, fuel shortages and retaliatory strikes on Gulf nations, as well as the closure of the Strait of Hormuz and a naval blockade. The continued release of the Epstein files that began the previous year has influenced scrutiny, media coverage, and in some cases arrests of high profile individuals in politics, business, and academia in the western world. Businessman Elon Musk became the first person to have a verified net worth exceeding $1 trillion upon the initial public offering of his company SpaceX in June. In politics, a conservative wave spread through Latin America, with right-wing victories in Colombia, Costa Rica and Peru. Far-right parties in Europe continued to gain ground in the United Kingdom and across the European Union, though the long ruling right-wing government in Hungary lost power aft"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rLouCx5rifkKaJp0D7VtlnpU",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"Pakistan February 26 2026 news\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_IkKv4BqQIZzn2mMOOc1qHTri",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"February 26 2026 Pakistan government statement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rLouCx5rifkKaJp0D7VtlnpU",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IkKv4BqQIZzn2mMOOc1qHTri",
+   "content": "[2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_oYLcAuhOFpWIaNtd3ii0clGK",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Operation Ghazab lil-Haq February 26 2026 Pakistan declaration\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_oYLcAuhOFpWIaNtd3ii0clGK",
+   "content": "[2020s] The 2020s (pronounced \"twenty-twenties\" or \"two thousand (and) twenties\") is the current decade of the Gregorian and Julian calendars that began on 1 January 2020 and will end on 31 December 2029. The COVID-19 pandemic and its aftermath marked the early 2020s, which triggered a global economic recession, sustained rise in global inflation, supply chain crisis, and autocratisation. Governments worldwide issued stay-at-home orders during the early pandemic, leading to a widespread use of teleconferencing, online learning, e-commerce, and food delivery services. In terms of politics, the 2020s has seen a rise in populist and anti-establishment movements across the world on both the left and right sides of the political spectrum, along with anti-government demonstrations and revolts, including the Gen Z protests. The decade saw an escalation of military conflicts, including the Russian invasion of Ukraine since 2022, the Gaza war and genocide since 2023, the 2025 Twelve-Day War, and the 2026 Iran war. By the middle of the decade, multiple journalists, economists, and political scientists had increasingly begun to refer to China as a superpower due to its enormous influence in the fields of geopolitics, technology, manufacturing, economics and culture. Technology has continued to evolve in the 2020s. Throughout the decade, generative artificial intelligence-based applications, such as ChatGPT and DALL-E, became widespread, allowing users to instantly generate sophisticated texts, images, and media. The growth of cryptocurrencies and artificial intelligence has led to the cryptocurrency bubble and AI spring. India and China expanded their space exploration programs,, with China assembling its space station Tiangong in 2022. The United States has led space exploration, including with the Artemis II crewed lunar flyby in 2026. Both the U.S. and China have vowed to return humans to the lunar surface by 2030. During the early part of this decade, the world population "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7Wb9mYwyiW1nA8Fb7QwLntou",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"February 2026 Pakistan declaration about war\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7Wb9mYwyiW1nA8Fb7QwLntou",
+   "content": "[Declaration of war] A declaration of war is a formal act by which one state announces existing or impending war activity against another. The declaration is a performative speech act (or the public signing of a document) by an authorized party of a national government, in order to create a state of war between two or more states. The legality of who is competent to declare war varies between nations and forms of government. In many nations, that power is given to the head of state or sovereign. In other cases, something short of a full declaration of war, such as a letter of marque or a covert operation, may authorise war-like acts by privateers or mercenaries. The official international protocol for declaring war was defined in the Hague Convention (III) of 1907 on the Opening of Hostilities. Since 1945, developments in international law such as the United Nations Charter, which prohibits both the threat and the use of force in international conflicts, have made declarations of war largely obsolete in international relations, though such declarations may have relevance within the domestic law of the belligerents or of neutral nations. The UN Security Council, under powers granted in articles 24 and 25, and Chapter VII of the Charter, may authorize collective action to maintain or enforce international peace and security. Article 51 of the United Nations Charter also states that: \"Nothing in the present Charter shall impair the inherent right to individual or collective self-defence if an armed attack occurs against a state.\" Declarations of war have been exceedingly rare since the end of World War II. Scholars have debated the causes of the decline, with some arguing that states are trying to evade the restrictions of international humanitarian law (which governs conduct in war) while others argue that war declarations have come to be perceived as markers of aggression and maximalist aims."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wS84dMHnKdESD1QS2Eh9lnCw",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"February 2026 Pakistan declaration Khawaja Asif\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wS84dMHnKdESD1QS2Eh9lnCw",
+   "content": "[2026 Iran war ceasefire] On 8 April 2026, the United States and Iran agreed to a two-week ceasefire in the 2026 Iran war, mediated by Pakistan. Iran had rejected the draft proposal for a 45-day two-phase ceasefire framework introduced on 5 April by Pakistan, instead proposing its own 10-point plan for a peace agreement. The proposal was developed as part of ongoing mediation efforts involving regional and international actors during the 2025–2026 negotiations. Since its declaration, the ceasefire was violated by both sides numerous times. On 21 April, US president Donald Trump extended the ceasefire indefinitely. On 8 July, the ceasefire deal collapsed after attacks by both sides. Low-intensity fighting between the US and Iran continued intermittently. Later, Trump decided to arrive at a more comprehensive ceasefire that would lead to an US–Iranian agreement. As a result, new ceasefire conditions were agreed upon on 12 June. On 17 June, the presidents of both countries signed the Islamabad Memorandum, a memorandum of understanding that formalized the process of ending the war and established a 60-day period to negotiate the final terms of a deal."
+  },
+  {
+   "role": "assistant",
+   "content": "On February 26, 2026, the Government of Pakistan declared an \"open war\" against Afghanistan due to escalating conflicts, particularly involving airstrikes on alleged terrorist camps. This declaration was communicated by Pakistan's defense minister, Khawaja Asif, and marked the formal start of military operations under the codename \"Operation Ghazab lil-Haq.\" \n\nFINAL: Open war declared by Pakistan",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

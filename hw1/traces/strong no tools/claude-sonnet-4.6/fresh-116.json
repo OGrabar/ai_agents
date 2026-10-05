@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-116",
+  "source": "fresh",
+  "question": "Who was associated with the 2026 U.S. Women's Open held in California?",
+  "answer": "Nelly Korda",
+  "evidence": "June 4–7: 2026 U.S. Women's Open at Riviera Country Club in Pacific Palisades, California – Nelly Korda",
+  "page": "2026 in sports",
+  "url": "https://en.wikipedia.org/wiki/2026_in_sports",
+  "sonnet_answer": "The 2026 U.S. Women's Open is scheduled to be held at Riviera Country Club in Pacific Palisades, California. Riviera Country Club is historically associated with Ben Hogan, who won there multiple times and gave the course its nickname 'Hogan's Alley.'",
+  "agent_ok": true
+ },
+ "answer": "The 2026 U.S. Women's Open is scheduled to be held at Riviera Country Club in Pacific Palisades, California. This venue is associated with the USGA's decision to bring the U.S. Women's Open to Riviera for the first time.\n\nHowever, if you're asking about a specific person associated with the event — Nelly Korda, as the dominant player in women's golf, or perhaps a host/ambassador — I don't have specific details beyond the venue assignment.\n\nCould you clarify what kind of association you're looking for (e.g., host, defending champion, course designer)?",
+ "correct": true,
+ "cost": 0.002388,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "Who was associated with the 2026 U.S. Women's Open held in California?"
+  },
+  {
+   "role": "assistant",
+   "content": "The 2026 U.S. Women's Open is scheduled to be held at Riviera Country Club in Pacific Palisades, California. This venue is associated with the USGA's decision to bring the U.S. Women's Open to Riviera for the first time.\n\nHowever, if you're asking about a specific person associated with the event — Nelly Korda, as the dominant player in women's golf, or perhaps a host/ambassador — I don't have specific details beyond the venue assignment.\n\nCould you clarify what kind of association you're looking for (e.g., host, defending champion, course designer)?",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

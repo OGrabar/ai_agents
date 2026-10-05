@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-140",
+  "source": "fresh",
+  "question": "What share of the vote did the AfD win in the 6 September 2026 Saxony-Anhalt state election?",
+  "answer": "43.8%",
+  "evidence": "6 September – 2026 Saxony-Anhalt state election: The AfD wins a plurality of 43.8% in elections to the Landtag of Saxony-Anhalt.",
+  "page": "2026 in Germany",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Germany",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "I don't have access to events or data beyond October 2023, and therefore I cannot provide the share of the vote won by the AfD in the September 2026 Saxony-Anhalt state election. You may need to check a current news source or official election results for that information. \n\nFINAL: not available",
+ "correct": false,
+ "cost": 5.25e-05,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What share of the vote did the AfD win in the 6 September 2026 Saxony-Anhalt state election?"
+  },
+  {
+   "role": "assistant",
+   "content": "I don't have access to events or data beyond October 2023, and therefore I cannot provide the share of the vote won by the AfD in the September 2026 Saxony-Anhalt state election. You may need to check a current news source or official election results for that information. \n\nFINAL: not available",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

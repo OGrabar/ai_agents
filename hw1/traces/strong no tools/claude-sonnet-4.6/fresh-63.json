@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Let me search for information about this event.\n\nI don't have reliable information about an avalanche near Ratschings in March 2026 in my training data. My knowledge cutoff is early 2025, and I cannot access real-time or future events.\n\nHowever, let me think — if this event occurred in March 2026, it would be after my knowledge cutoff date, and I cannot provide accurate information about it.\n\nFINAL: I don't have information about this event, as it falls after my knowledge cutoff.",
+ "correct": false,
+ "cost": 0.002043,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for information about this event.\n\nI don't have reliable information about an avalanche near Ratschings in March 2026 in my training data. My knowledge cutoff is early 2025, and I cannot access real-time or future events.\n\nHowever, let me think — if this event occurred in March 2026, it would be after my knowledge cutoff date, and I cannot provide accurate information about it.\n\nFINAL: I don't have information about this event, as it falls after my knowledge cutoff.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

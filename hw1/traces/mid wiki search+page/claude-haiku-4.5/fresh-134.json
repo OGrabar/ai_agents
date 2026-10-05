@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-134",
+  "source": "fresh",
+  "question": "What was the cost, in US dollars, of the theme park that France and Saudi Arabia agreed in August 2026 to build near Paris?",
+  "answer": "$7 billion",
+  "evidence": "25 August – France and Saudi Arabia agree to build a $7 billion theme park in the vicinity of Paris.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: $7 billion",
+ "correct": true,
+ "cost": 0.004,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "What was the cost, in US dollars, of the theme park that France and Saudi Arabia agreed in August 2026 to build near Paris?"
+  },
+  {
+   "role": "assistant",
+   "content": "I need to search for information about a theme park that France and Saudi Arabia agreed to build near Paris in August 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01BxuQHJLRZ1acZ8u3oJihCX",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\": \"France Saudi Arabia theme park Paris 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BxuQHJLRZ1acZ8u3oJihCX",
+   "content": "[2026 in Saudi Arabia] Events in the year 2026 in Saudi Arabia."
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for more specific information about this agreement.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RzfEKLn6JrqC6BhmocKH1p",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\": \"2026 in Saudi Arabia\", \"keywords\": \"theme park France Paris August\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RzfEKLn6JrqC6BhmocKH1p",
+   "content": "[2026 in Saudi Arabia]\n25 August – France and Saudi Arabia agree to build a $7 billion theme park in the vicinity of Paris."
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: $7 billion",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?",
+  "answer": "Disney Kids & Family",
+  "evidence": "June 15: Disney Branded Television (Parent company of Disney Television Animation) rebrands itself as \"Disney Kids & Family\".",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Disney Branded Television rebranded itself as Disney Kids & Family on June 15, 2026. \n\nFINAL: Disney Kids & Family",
+ "correct": true,
+ "cost": 0.0003459,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1Ni7fTqK49h9fz8rVpZ0zW6S",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"Disney Branded Television rebrand June 15 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1Ni7fTqK49h9fz8rVpZ0zW6S",
+   "content": "[Disney+ Hotstar] Disney+ Hotstar, known as JioHotstar is an Indian subscription video-on-demand, over-the-top streaming service owned by JioStar. The brand was introduced as Hotstar for a streaming service carrying content from Disney Star's (formerly Star India) local networks, including films, television series, live sports, and original programming, as well as featuring content licensed from third parties such as Showtime among others. Amid the significant growth of mobile broadband in India, Hotstar quickly became the dominant streaming service in the country. Following the acquisition of Star India's parent company 21st Century Fox by Disney in 2019, Hotstar was integrated into Disney's global streaming brand Disney+ as \"Disney+ Hotstar\" in April 2020. The co-branded service added Disney+ original programming, and films and television series from its main content brands of Walt Disney Studios, Pixar, Marvel Studios, Lucasfilm, and National Geographic alongside the domestic and third-party content already carried on the platform. The Indian version of Disney+ Hotstar in India was merged with JioCinema in February 2025 to form JioHotstar. Outside India, in Indonesia, Malaysia, and Thailand, Disney+ Hotstar is fully owned by The Walt Disney Company, where it similarly combines entertainment content licensed from local, third-party studios with the larger Disney+ library. Disney+ Hotstar in Indonesia, Malaysia, and Thailand became Disney+ on 9 October 2025 as part of the rebranding of Star into Hulu in the global market. In Singapore, Canada, and the United Kingdom, Hotstar operates as a streaming service targeting the Indian diaspora, focusing on Disney Star's domestic entertainment and sports content, and Disney+ operates as a standalone service in these markets. Hotstar formerly operated in the United States as well, but it was closed in 2021 and its content was folded into Hulu and ESPN+. JioHotstar was latter launch in Canada, Singapore, and the United Kingdo"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_V4eierKyggctBbFUyAxAxWgF",
+     "function": {
+      "name": "wiki_page_find",
+      "arguments": "{\"title\":\"Disney Branded Television\",\"keywords\":\"rebrand, June 15, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_V4eierKyggctBbFUyAxAxWgF",
+   "content": "[Disney Kids & Family]\nPrevious corporate names for this division were: Walt Disney Entertainment, Inc. (1982–83), The Disney Channel, Inc. (1983–97), Disney Channel, Inc. (1997–2001), ABC Cable Networks Group (2001–05), Disney Channels Worldwide (2005–2020) and Disney Branded Television (2020–2026). In June 2026, the company was officially rebranded to Disney Kids & Fam\nIn March 2026, Dana Walden became the The Walt Disney Company's first Chief Creative Officer and  announced that Debra OConnell would be chairman of the Disney Entertainment Television unit with Craig Erwich no longer overseeing the Disney Branded Television unit and Ayo Davis reporting now to OConnell. On June 15, 2026 it was announced that the un"
+  },
+  {
+   "role": "assistant",
+   "content": "Disney Branded Television rebranded itself as Disney Kids & Family on June 15, 2026. \n\nFINAL: Disney Kids & Family",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "fresh-129",
+  "source": "fresh",
+  "question": "In which French town was the 52nd G7 summit held in June 2026?",
+  "answer": "Évian-les-Bains",
+  "evidence": "15–17 June – 52nd G7 summit in Évian-les-Bains.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "The 52nd G7 summit was held in Évian-les-Bains, France. \n\nFINAL: Évian-les-Bains",
+ "correct": true,
+ "cost": 0.00010365,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You solve tasks. If you need to calculate or look up a fact, call tools instead of guessing. When the answer is ready, write it as the last line in the format FINAL: <answer>. For numeric tasks put only the number after FINAL, for factual questions a short phrase."
+  },
+  {
+   "role": "user",
+   "content": "In which French town was the 52nd G7 summit held in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_M33RSUbW0QmLGfKzc278OjYX",
+     "function": {
+      "name": "wiki_search",
+      "arguments": "{\"query\":\"G7 summit 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_M33RSUbW0QmLGfKzc278OjYX",
+   "content": "[52nd G7 summit] The 52nd G7 Summit was an annual summit of the G7 held from 15 to 17 June 2026 in Évian-les-Bains, Haute-Savoie, France. Évian-les-Bains previously hosted the 29th G8 summit in 2003. The 2026 summit therefore makes Évian the first French town to host a G7 or G8 leaders' summit twice. At the summit, leaders issued joint statements on Ukraine, the Middle East, critical minerals and global economic imbalances, among other issues."
+  },
+  {
+   "role": "assistant",
+   "content": "The 52nd G7 summit was held in Évian-les-Bains, France. \n\nFINAL: Évian-les-Bains",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
