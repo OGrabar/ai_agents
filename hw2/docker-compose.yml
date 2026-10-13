@@ -1,0 +1,43 @@
+name: duty
+
+services:
+  github-mcp:
+    image: ghcr.io/github/github-mcp-server:v1.13.0
+    container_name: github-mcp
+    command: ["http", "--port", "8082"]
+    ports:
+      - "127.0.0.1:8082:8082"
+    restart: unless-stopped
+
+  milvus:
+    image: milvusdb/milvus:v3.0.2
+    container_name: milvus
+    mem_limit: 1g
+    command: ["milvus", "run", "standalone"]
+    environment:
+      ETCD_USE_EMBED: "true"
+      ETCD_DATA_DIR: /var/lib/milvus/etcd
+      ETCD_CONFIG_PATH: /milvus/configs/embedEtcd.yaml
+      COMMON_STORAGETYPE: local
+      DEPLOY_MODE: STANDALONE
+    ports:
+      - "127.0.0.1:19530:19530"
+      - "127.0.0.1:9091:9091"
+    volumes:
+      - milvus-data:/var/lib/milvus
+      - ./embedEtcd.yaml:/milvus/configs/embedEtcd.yaml
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
+      start_period: 90s
+    restart: unless-stopped
+
+  sandbox:
+    image: romashka-sandbox:1
+    build: ./sandbox
+    profiles: ["build"]
+
+volumes:
+  milvus-data:

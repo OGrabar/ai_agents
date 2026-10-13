@@ -1,0 +1,746 @@
+config,model,id,correct,found,refused,cost,answer,gold
+без RAG,gpt-4o-mini,fresh-0,False,False,True,1.305e-05,NOT_FOUND.,15 March
+без RAG,gpt-4o-mini,fresh-1,False,False,False,2.4e-05,"February 24, 2021.",22 March
+без RAG,gpt-4o-mini,fresh-2,False,False,True,1.26e-05,NOT_FOUND.,Miguel Díaz-Canel
+без RAG,gpt-4o-mini,fresh-3,False,False,True,1.215e-05,NOT_FOUND.,a strategic partnership agreement
+без RAG,gpt-4o-mini,fresh-4,False,False,True,1.245e-05,NOT_FOUND.,A total fire ban
+без RAG,gpt-4o-mini,fresh-5,False,False,True,1.305e-05,NOT_FOUND.,two people
+без RAG,gpt-4o-mini,fresh-6,False,False,True,1.245e-05,NOT_FOUND.,Deniz Göktaş
+без RAG,gpt-4o-mini,fresh-7,False,False,True,1.275e-05,NOT_FOUND.,Pavel Durov
+без RAG,gpt-4o-mini,fresh-8,False,False,True,1.26e-05,NOT_FOUND.,New Delhi
+без RAG,gpt-4o-mini,fresh-9,False,False,True,1.2900000000000002e-05,NOT_FOUND.,Twelve
+без RAG,gpt-4o-mini,fresh-10,False,False,True,1.4249999999999999e-05,NOT_FOUND.,Helter Skelter
+без RAG,gpt-4o-mini,fresh-11,False,False,True,1.3800000000000002e-05,NOT_FOUND.,"700,000"
+без RAG,gpt-4o-mini,fresh-12,False,False,True,1.2750000000000002e-05,NOT_FOUND.,41.5 °C
+без RAG,gpt-4o-mini,fresh-13,False,False,True,1.305e-05,NOT_FOUND.,Ciudad Rodrigo
+без RAG,gpt-4o-mini,fresh-14,False,False,True,1.3350000000000001e-05,NOT_FOUND.,Oleksandr Syrskyi
+без RAG,gpt-4o-mini,fresh-15,False,False,True,1.32e-05,NOT_FOUND.,Montreal Victoire
+без RAG,gpt-4o-mini,fresh-16,False,False,True,1.3049999999999999e-05,NOT_FOUND.,EOS-05
+без RAG,gpt-4o-mini,fresh-17,False,False,False,3.075e-05,"November 30, 2021.",13 July
+без RAG,gpt-4o-mini,fresh-18,False,False,True,1.3500000000000003e-05,NOT_FOUND.,Disney Kids & Family
+без RAG,gpt-4o-mini,fresh-19,False,False,True,1.35e-05,NOT_FOUND.,single-elimination
+без RAG,gpt-4o-mini,fresh-20,False,False,True,1.335e-05,NOT_FOUND.,Gavin Snider
+без RAG,gpt-4o-mini,fresh-21,False,False,True,1.4699999999999998e-05,NOT_FOUND.,Clara and the Below
+без RAG,gpt-4o-mini,fresh-22,False,False,True,1.3499999999999996e-05,NOT_FOUND.,German Galushchenko
+без RAG,gpt-4o-mini,fresh-23,False,False,True,1.3049999999999999e-05,NOT_FOUND.,a drought
+без RAG,gpt-4o-mini,fresh-24,False,False,True,1.3649999999999993e-05,NOT_FOUND.,"""open war"""
+без RAG,gpt-4o-mini,fresh-25,False,False,True,1.4100000000000004e-05,NOT_FOUND.,nine
+без RAG,gpt-4o-mini,fresh-26,False,False,True,1.4850000000000002e-05,NOT_FOUND.,Markus Hinterhäuser
+без RAG,gpt-4o-mini,fresh-27,False,False,True,1.4699999999999998e-05,NOT_FOUND.,nine
+без RAG,gpt-4o-mini,fresh-28,False,False,True,1.3499999999999996e-05,NOT_FOUND.,43
+без RAG,gpt-4o-mini,fresh-29,False,False,True,1.3050000000000005e-05,NOT_FOUND.,Ankara
+без RAG,gpt-4o-mini,fresh-30,False,False,True,1.3200000000000002e-05,NOT_FOUND.,Aibek Dädebai
+без RAG,gpt-4o-mini,fresh-31,False,False,True,1.2599999999999995e-05,NOT_FOUND.,Richard Lewer
+без RAG,gpt-4o-mini,fresh-32,False,False,True,1.2900000000000002e-05,NOT_FOUND.,Marilyn Gladu
+без RAG,gpt-4o-mini,fresh-33,False,False,True,1.3500000000000003e-05,NOT_FOUND.,6.3
+без RAG,gpt-4o-mini,fresh-34,False,False,True,1.2900000000000002e-05,NOT_FOUND.,Dina Levačić
+без RAG,gpt-4o-mini,fresh-35,False,False,True,1.3050000000000005e-05,NOT_FOUND.,15 June
+без RAG,gpt-4o-mini,fresh-36,False,False,True,1.3200000000000002e-05,NOT_FOUND.,Chief Minister
+без RAG,gpt-4o-mini,fresh-37,False,False,True,1.3049999999999999e-05,NOT_FOUND.,Gelida
+без RAG,gpt-4o-mini,fresh-38,False,False,True,1.2749999999999998e-05,NOT_FOUND.,Vladimir Alekseyev
+без RAG,gpt-4o-mini,fresh-39,False,False,True,1.3050000000000005e-05,NOT_FOUND.,Thirty thousand people
+без RAG,gpt-4o-mini,fresh-40,False,False,True,1.2450000000000004e-05,NOT_FOUND.,Prime Minister Narendra Modi
+без RAG,gpt-4o-mini,fresh-41,False,False,True,1.3199999999999996e-05,NOT_FOUND.,Zohran Mamdani
+без RAG,gpt-4o-mini,fresh-42,False,False,True,1.3650000000000007e-05,NOT_FOUND.,LHS 1140 b
+без RAG,gpt-4o-mini,fresh-43,False,False,True,1.335e-05,NOT_FOUND.,F-16 Fighting Falcon
+без RAG,gpt-4o-mini,fresh-44,False,False,True,1.2749999999999998e-05,NOT_FOUND.,five
+без RAG,gpt-4o-mini,fresh-45,False,False,True,1.2900000000000002e-05,NOT_FOUND.,Education Minister
+без RAG,gpt-4o-mini,fresh-46,False,False,True,1.2750000000000012e-05,NOT_FOUND.,Mykhailo Fedorov
+без RAG,gpt-4o-mini,fresh-47,False,False,True,1.335e-05,NOT_FOUND.,life imprisonment
+без RAG,gpt-4o-mini,fresh-48,False,False,True,1.395e-05,NOT_FOUND.,"802,500 lira"
+без RAG,gpt-4o-mini,fresh-49,False,False,True,1.3650000000000007e-05,NOT_FOUND.,Bruno Foucher
+без RAG,gpt-4o-mini,fresh-50,False,False,True,1.3199999999999996e-05,NOT_FOUND.,5.2
+без RAG,gpt-4o-mini,fresh-51,False,False,True,1.395e-05,NOT_FOUND.,Tonya McBride Robles
+без RAG,gpt-4o-mini,fresh-52,False,False,True,1.3650000000000007e-05,NOT_FOUND.,80
+без RAG,gpt-4o-mini,fresh-53,False,False,True,1.2900000000000002e-05,NOT_FOUND.,two
+без RAG,gpt-4o-mini,fresh-54,False,False,True,1.1999999999999994e-05,NOT_FOUND.,3%
+без RAG,gpt-4o-mini,fresh-55,False,False,True,1.3500000000000003e-05,NOT_FOUND.,Yoon Suk Yeol
+без RAG,gpt-4o-mini,fresh-56,False,False,True,1.365e-05,NOT_FOUND.,BYD Auto
+без RAG,gpt-4o-mini,fresh-57,False,False,True,1.3649999999999993e-05,NOT_FOUND.,Carson Ting
+без RAG,gpt-4o-mini,fresh-58,False,False,True,1.2450000000000004e-05,NOT_FOUND.,209
+без RAG,gpt-4o-mini,fresh-59,False,False,True,1.3050000000000005e-05,NOT_FOUND.,Fourteen
+без RAG,gpt-4o-mini,fresh-60,False,False,True,1.2599999999999995e-05,NOT_FOUND.,13 years
+без RAG,gpt-4o-mini,fresh-61,False,False,True,1.2899999999999988e-05,NOT_FOUND.,Two
+без RAG,gpt-4o-mini,fresh-62,False,False,True,1.2599999999999995e-05,NOT_FOUND.,mayor of Lutsk
+без RAG,gpt-4o-mini,fresh-63,False,False,True,1.409999999999999e-05,NOT_FOUND.,16
+без RAG,gpt-4o-mini,fresh-64,False,False,True,1.3799999999999997e-05,NOT_FOUND.,at least six
+без RAG,gpt-4o-mini,fresh-65,False,False,True,1.4250000000000008e-05,NOT_FOUND.,Liam Nassereddine
+без RAG,gpt-4o-mini,fresh-66,False,False,True,1.335e-05,NOT_FOUND.,Mark Carney
+без RAG,gpt-4o-mini,fresh-67,False,False,True,1.2450000000000004e-05,NOT_FOUND.,Leipzig
+без RAG,gpt-4o-mini,fresh-68,False,False,True,1.3049999999999992e-05,NOT_FOUND.,night train service
+без RAG,gpt-4o-mini,fresh-69,False,False,True,1.409999999999999e-05,NOT_FOUND.,Nikita Solovyov
+без RAG,gpt-4o-mini,fresh-70,False,False,True,1.3650000000000007e-05,NOT_FOUND.,Dharmendra Pradhan
+без RAG,gpt-4o-mini,fresh-71,False,False,True,1.3649999999999993e-05,NOT_FOUND.,Han Hak-ja
+без RAG,gpt-4o-mini,fresh-72,False,False,True,1.2450000000000004e-05,NOT_FOUND.,Daniel Ortega
+без RAG,gpt-4o-mini,fresh-73,False,False,True,1.3349999999999986e-05,NOT_FOUND.,Novokuznetsk
+без RAG,gpt-4o-mini,fresh-74,False,False,True,1.3500000000000003e-05,NOT_FOUND.,life imprisonment
+без RAG,gpt-4o-mini,fresh-75,False,False,True,1.2749999999999998e-05,NOT_FOUND.,Carlos Vila Nova
+без RAG,gpt-4o-mini,fresh-76,False,False,True,1.3199999999999996e-05,NOT_FOUND.,13.2 months
+без RAG,gpt-4o-mini,fresh-77,False,False,True,1.380000000000001e-05,NOT_FOUND.,three
+без RAG,gpt-4o-mini,fresh-78,False,False,True,1.2899999999999988e-05,NOT_FOUND.,"UGC Equity Regulations, 2026"
+без RAG,gpt-4o-mini,fresh-79,False,False,True,1.2450000000000004e-05,NOT_FOUND.,8.15m
+без RAG,gpt-4o-mini,fresh-80,False,False,True,1.3199999999999996e-05,NOT_FOUND.,28 people
+без RAG,gpt-4o-mini,fresh-81,False,False,True,1.380000000000001e-05,NOT_FOUND.,improvised explosive device
+без RAG,gpt-4o-mini,fresh-82,False,False,True,1.3049999999999992e-05,NOT_FOUND.,eight games
+без RAG,gpt-4o-mini,fresh-83,False,False,True,1.3650000000000007e-05,NOT_FOUND.,38 °C
+без RAG,gpt-4o-mini,fresh-84,False,False,True,1.2450000000000004e-05,NOT_FOUND.,£30.4bn
+без RAG,gpt-4o-mini,fresh-85,False,False,True,1.3049999999999992e-05,NOT_FOUND.,José Jerí
+без RAG,gpt-4o-mini,fresh-86,False,False,True,1.2750000000000012e-05,NOT_FOUND.,"Henoko, Okinawa Prefecture"
+без RAG,gpt-4o-mini,fresh-87,False,False,True,1.335e-05,NOT_FOUND.,Doug Armstrong
+без RAG,gpt-4o-mini,fresh-88,False,False,True,1.380000000000001e-05,NOT_FOUND.,Imperial College London
+без RAG,gpt-4o-mini,fresh-89,False,False,True,1.395e-05,NOT_FOUND.,"₹25,863 crore"
+без RAG,gpt-4o-mini,fresh-90,False,False,True,1.3199999999999996e-05,NOT_FOUND.,Rubén Rocha Moya
+без RAG,gpt-4o-mini,fresh-91,False,False,True,1.3049999999999992e-05,NOT_FOUND.,Spain
+без RAG,gpt-4o-mini,fresh-92,False,False,True,1.2450000000000004e-05,NOT_FOUND.,11th
+без RAG,gpt-4o-mini,fresh-93,False,False,True,1.2450000000000004e-05,NOT_FOUND.,India
+без RAG,gpt-4o-mini,fresh-94,False,False,True,1.2899999999999988e-05,NOT_FOUND.,Istanbul
+без RAG,gpt-4o-mini,fresh-95,False,False,True,1.23e-05,NOT_FOUND.,Citizens Bank Park
+без RAG,gpt-4o-mini,fresh-96,False,False,True,1.3949999999999987e-05,NOT_FOUND.,Islamabad Memorandum
+без RAG,gpt-4o-mini,fresh-97,False,False,True,1.23e-05,NOT_FOUND.,Elon Musk
+без RAG,gpt-4o-mini,fresh-98,False,False,True,1.335e-05,NOT_FOUND.,"252,756 miles"
+без RAG,gpt-4o-mini,fresh-99,False,False,True,1.2600000000000008e-05,NOT_FOUND.,10-day
+без RAG,gpt-4o-mini,fresh-100,False,False,True,1.2000000000000007e-05,NOT_FOUND.,Oleksandr Dovhach
+без RAG,gpt-4o-mini,fresh-101,False,False,True,1.2450000000000004e-05,NOT_FOUND.,José María Balcázar
+без RAG,gpt-4o-mini,fresh-102,False,False,True,1.3049999999999992e-05,NOT_FOUND.,21
+без RAG,gpt-4o-mini,fresh-103,False,False,True,1.335e-05,NOT_FOUND.,¥60–120
+без RAG,gpt-4o-mini,fresh-104,False,False,True,1.2750000000000012e-05,NOT_FOUND.,GRU Airport People Mover
+без RAG,gpt-4o-mini,fresh-105,False,False,True,1.2450000000000004e-05,NOT_FOUND.,2026 Beninese parliamentary election
+без RAG,gpt-4o-mini,fresh-106,False,False,True,1.2600000000000008e-05,NOT_FOUND.,Michaelmas Island
+без RAG,gpt-4o-mini,fresh-107,False,False,True,1.2899999999999988e-05,NOT_FOUND.,conspiracy to commit arson
+без RAG,gpt-4o-mini,fresh-108,False,False,True,1.1999999999999994e-05,NOT_FOUND.,Clay Fuller
+без RAG,gpt-4o-mini,fresh-109,False,False,True,1.3500000000000003e-05,NOT_FOUND.,prime minister
+без RAG,gpt-4o-mini,fresh-110,False,False,True,1.2750000000000012e-05,NOT_FOUND.,SMILE
+без RAG,gpt-4o-mini,fresh-111,False,False,True,1.2750000000000012e-05,NOT_FOUND.,850
+без RAG,gpt-4o-mini,fresh-112,False,False,True,1.3500000000000003e-05,NOT_FOUND.,Urgent Care Centre
+без RAG,gpt-4o-mini,fresh-113,False,False,True,1.3199999999999996e-05,NOT_FOUND.,66
+без RAG,gpt-4o-mini,fresh-114,False,False,True,1.2750000000000012e-05,NOT_FOUND.,Nelly Korda
+без RAG,gpt-4o-mini,fresh-115,False,False,True,1.2450000000000004e-05,NOT_FOUND.,Line S2
+без RAG,gpt-4o-mini,fresh-116,False,False,True,1.23e-05,NOT_FOUND.,Antonello da Messina
+без RAG,gpt-4o-mini,fresh-117,False,False,True,1.1999999999999994e-05,NOT_FOUND.,Baku and Tbilisi
+без RAG,gpt-4o-mini,fresh-118,False,False,True,1.2899999999999988e-05,NOT_FOUND.,Operation Southern Spear
+без RAG,gpt-4o-mini,fresh-119,False,False,True,1.2450000000000004e-05,NOT_FOUND.,5.6
+без RAG,gpt-4o-mini,fresh-120,False,False,True,1.2600000000000008e-05,NOT_FOUND.,Angus Taylor
+без RAG,gpt-4o-mini,fresh-121,False,False,True,1.23e-05,NOT_FOUND.,Burkina Faso
+без RAG,gpt-4o-mini,fresh-122,False,False,True,1.23e-05,NOT_FOUND.,Kehl
+без RAG,gpt-4o-mini,fresh-123,False,False,True,1.3049999999999992e-05,NOT_FOUND.,Christophe Leribault
+без RAG,gpt-4o-mini,fresh-124,False,False,True,1.4700000000000005e-05,NOT_FOUND.,Paris St-Germain
+без RAG,gpt-4o-mini,fresh-125,False,False,True,1.2450000000000004e-05,NOT_FOUND.,Monroe
+без RAG,gpt-4o-mini,fresh-126,False,False,True,1.2750000000000012e-05,NOT_FOUND.,Bezalel Smotrich
+без RAG,gpt-4o-mini,fresh-127,False,False,True,1.3049999999999992e-05,NOT_FOUND.,Évian-les-Bains
+без RAG,gpt-4o-mini,fresh-128,False,False,True,1.4700000000000005e-05,NOT_FOUND.,Pissos
+без RAG,gpt-4o-mini,fresh-129,False,False,True,1.4550000000000001e-05,NOT_FOUND.,Golfech Nuclear Power Plant
+без RAG,gpt-4o-mini,fresh-130,False,False,True,1.23e-05,NOT_FOUND.,Claude Guillemot
+без RAG,gpt-4o-mini,fresh-131,False,False,True,1.4100000000000017e-05,NOT_FOUND.,World Heritage Sites
+без RAG,gpt-4o-mini,fresh-132,False,False,True,1.4550000000000001e-05,NOT_FOUND.,$7 billion
+без RAG,gpt-4o-mini,fresh-133,False,False,True,1.4249999999999994e-05,NOT_FOUND.,The Constitutional Council
+без RAG,gpt-4o-mini,fresh-134,False,False,True,1.2899999999999988e-05,NOT_FOUND.,22 March
+без RAG,gpt-4o-mini,fresh-135,False,False,True,1.3650000000000007e-05,NOT_FOUND.,Democratic Republic of the Congo
+без RAG,gpt-4o-mini,fresh-136,False,False,True,1.4999999999999985e-05,NOT_FOUND.,June 15
+без RAG,gpt-4o-mini,fresh-137,False,False,True,1.4249999999999994e-05,NOT_FOUND.,Baden-Württemberg
+без RAG,gpt-4o-mini,fresh-138,False,False,True,1.3949999999999987e-05,NOT_FOUND.,43.8%
+без RAG,gpt-4o-mini,fresh-139,False,False,True,1.3500000000000003e-05,NOT_FOUND.,30.2%
+без RAG,gpt-4o-mini,fresh-140,False,False,True,1.3500000000000003e-05,NOT_FOUND.,Koblenz
+без RAG,gpt-4o-mini,fresh-141,False,False,True,1.380000000000001e-05,NOT_FOUND.,Möckern-Drewitz
+без RAG,gpt-4o-mini,fresh-142,False,False,True,1.380000000000001e-05,NOT_FOUND.,"186,700"
+без RAG,gpt-4o-mini,fresh-143,False,False,True,1.3950000000000014e-05,NOT_FOUND.,2026 Leipzig Airport drone attack
+без RAG,gpt-4o-mini,fresh-144,False,False,True,1.2899999999999988e-05,NOT_FOUND.,14 March
+без RAG,gpt-4o-mini,fresh-145,False,False,True,1.3200000000000023e-05,NOT_FOUND.,Niue
+без RAG,gpt-4o-mini,fresh-146,False,False,True,1.4550000000000001e-05,NOT_FOUND.,Amazon
+без RAG,gpt-4o-mini,fresh-147,False,False,True,1.4100000000000017e-05,NOT_FOUND.,Tomahawk missiles
+без RAG,gpt-4o-mini,fresh-148,False,False,True,1.2450000000000004e-05,NOT_FOUND.,28 July
+без RAG,claude-sonnet-4.6,fresh-0,False,False,True,0.000855,NOT_FOUND,15 March
+без RAG,claude-sonnet-4.6,fresh-1,False,False,False,0.000675,"April 24, 2025",22 March
+без RAG,claude-sonnet-4.6,fresh-2,False,False,True,0.000891,NOT_FOUND,Miguel Díaz-Canel
+без RAG,claude-sonnet-4.6,fresh-3,False,False,True,0.000672,NOT_FOUND,a strategic partnership agreement
+без RAG,claude-sonnet-4.6,fresh-4,False,False,True,0.002058,NOT_FOUND,A total fire ban
+без RAG,claude-sonnet-4.6,fresh-5,False,False,True,0.000975,NOT_FOUND,two people
+без RAG,claude-sonnet-4.6,fresh-6,False,False,True,0.000918,NOT_FOUND,Deniz Göktaş
+без RAG,claude-sonnet-4.6,fresh-7,False,False,True,0.000732,NOT_FOUND,Pavel Durov
+без RAG,claude-sonnet-4.6,fresh-8,False,False,False,0.000654,Guangzhou,New Delhi
+без RAG,claude-sonnet-4.6,fresh-9,False,False,True,0.0024479999999999997,NOT_FOUND,Twelve
+без RAG,claude-sonnet-4.6,fresh-10,False,False,True,0.001011,NOT_FOUND,Helter Skelter
+без RAG,claude-sonnet-4.6,fresh-11,False,False,True,0.001005,NOT_FOUND,"700,000"
+без RAG,claude-sonnet-4.6,fresh-12,False,False,True,0.0011580000000000002,NOT_FOUND,41.5 °C
+без RAG,claude-sonnet-4.6,fresh-13,False,False,True,0.001758,NOT_FOUND,Ciudad Rodrigo
+без RAG,claude-sonnet-4.6,fresh-14,False,False,True,0.00075,NOT_FOUND,Oleksandr Syrskyi
+без RAG,claude-sonnet-4.6,fresh-15,False,False,False,0.0009629999999999999,Minnesota (PWHL Minnesota),Montreal Victoire
+без RAG,claude-sonnet-4.6,fresh-16,False,False,True,0.0007559999999999999,NOT_FOUND,EOS-05
+без RAG,claude-sonnet-4.6,fresh-17,False,False,False,0.001686,"November 13, 2019",13 July
+без RAG,claude-sonnet-4.6,fresh-18,False,False,True,0.0007590000000000001,NOT_FOUND,Disney Kids & Family
+без RAG,claude-sonnet-4.6,fresh-19,True,False,False,0.0016170000000000002,Single-elimination (Round of 32) knockout format,single-elimination
+без RAG,claude-sonnet-4.6,fresh-20,False,False,True,0.0008909999999999999,NOT_FOUND,Gavin Snider
+без RAG,claude-sonnet-4.6,fresh-21,False,False,True,0.001131,NOT_FOUND,Clara and the Below
+без RAG,claude-sonnet-4.6,fresh-22,False,False,True,0.0009240000000000003,NOT_FOUND,German Galushchenko
+без RAG,claude-sonnet-4.6,fresh-23,False,False,True,0.00423,NOT_FOUND,a drought
+без RAG,claude-sonnet-4.6,fresh-24,False,False,True,0.0011219999999999997,NOT_FOUND,"""open war"""
+без RAG,claude-sonnet-4.6,fresh-25,False,False,True,0.0009239999999999999,NOT_FOUND,nine
+без RAG,claude-sonnet-4.6,fresh-26,False,False,True,0.0008219999999999998,NOT_FOUND,Markus Hinterhäuser
+без RAG,claude-sonnet-4.6,fresh-27,False,False,True,0.001173,NOT_FOUND,nine
+без RAG,claude-sonnet-4.6,fresh-28,False,False,True,0.0007949999999999997,NOT_FOUND,43
+без RAG,claude-sonnet-4.6,fresh-29,False,False,True,0.0007109999999999998,NOT_FOUND,Ankara
+без RAG,claude-sonnet-4.6,fresh-30,False,False,True,0.0009480000000000001,NOT_FOUND,Aibek Dädebai
+без RAG,claude-sonnet-4.6,fresh-31,False,False,True,0.0007890000000000002,NOT_FOUND,Richard Lewer
+без RAG,claude-sonnet-4.6,fresh-32,False,False,True,0.0007020000000000004,NOT_FOUND,Marilyn Gladu
+без RAG,claude-sonnet-4.6,fresh-33,False,False,True,0.0011130000000000003,NOT_FOUND,6.3
+без RAG,claude-sonnet-4.6,fresh-34,False,False,True,0.0007020000000000004,NOT_FOUND,Dina Levačić
+без RAG,claude-sonnet-4.6,fresh-35,False,False,True,0.0008879999999999999,NOT_FOUND,15 June
+без RAG,claude-sonnet-4.6,fresh-36,False,False,True,0.000699,NOT_FOUND,Chief Minister
+без RAG,claude-sonnet-4.6,fresh-37,False,False,True,0.0009449999999999997,NOT_FOUND,Gelida
+без RAG,claude-sonnet-4.6,fresh-38,False,False,True,0.0008339999999999997,NOT_FOUND,Vladimir Alekseyev
+без RAG,claude-sonnet-4.6,fresh-39,False,False,True,0.0008879999999999999,NOT_FOUND,Thirty thousand people
+без RAG,claude-sonnet-4.6,fresh-40,False,False,True,0.000804,NOT_FOUND,Prime Minister Narendra Modi
+без RAG,claude-sonnet-4.6,fresh-41,False,False,False,0.0022380000000000004,Brad Lander,Zohran Mamdani
+без RAG,claude-sonnet-4.6,fresh-42,False,False,True,0.0008070000000000004,NOT_FOUND,LHS 1140 b
+без RAG,claude-sonnet-4.6,fresh-43,False,False,True,0.0009389999999999997,NOT_FOUND,F-16 Fighting Falcon
+без RAG,claude-sonnet-4.6,fresh-44,False,False,True,0.0009690000000000002,NOT_FOUND,five
+без RAG,claude-sonnet-4.6,fresh-45,False,False,True,0.0007080000000000003,NOT_FOUND,Education Minister
+без RAG,claude-sonnet-4.6,fresh-46,False,False,True,0.0007289999999999996,NOT_FOUND,Mykhailo Fedorov
+без RAG,claude-sonnet-4.6,fresh-47,False,False,True,0.0009269999999999999,NOT_FOUND,life imprisonment
+без RAG,claude-sonnet-4.6,fresh-48,False,False,True,0.0011820000000000008,NOT_FOUND,"802,500 lira"
+без RAG,claude-sonnet-4.6,fresh-49,False,False,True,0.0007049999999999999,NOT_FOUND,Bruno Foucher
+без RAG,claude-sonnet-4.6,fresh-50,False,False,True,0.001026,NOT_FOUND,5.2
+без RAG,claude-sonnet-4.6,fresh-51,False,False,True,0.0010889999999999997,NOT_FOUND,Tonya McBride Robles
+без RAG,claude-sonnet-4.6,fresh-52,False,False,True,0.0010229999999999996,NOT_FOUND,80
+без RAG,claude-sonnet-4.6,fresh-53,False,False,True,0.0010080000000000002,NOT_FOUND,two
+без RAG,claude-sonnet-4.6,fresh-54,False,False,True,0.0008339999999999997,NOT_FOUND,3%
+без RAG,claude-sonnet-4.6,fresh-55,False,False,True,0.0007049999999999999,NOT_FOUND,Yoon Suk Yeol
+без RAG,claude-sonnet-4.6,fresh-56,False,False,False,0.0020399999999999993,BYD,BYD Auto
+без RAG,claude-sonnet-4.6,fresh-57,False,False,True,0.0011699999999999992,NOT_FOUND,Carson Ting
+без RAG,claude-sonnet-4.6,fresh-58,False,False,True,0.000876,NOT_FOUND,209
+без RAG,claude-sonnet-4.6,fresh-59,False,False,True,0.0009750000000000002,NOT_FOUND,Fourteen
+без RAG,claude-sonnet-4.6,fresh-60,False,False,True,0.0006810000000000002,NOT_FOUND,13 years
+без RAG,claude-sonnet-4.6,fresh-61,False,False,True,0.000992999999999999,NOT_FOUND,Two
+без RAG,claude-sonnet-4.6,fresh-62,False,False,True,0.0006899999999999996,NOT_FOUND,mayor of Lutsk
+без RAG,claude-sonnet-4.6,fresh-63,False,False,True,0.0008669999999999997,NOT_FOUND,16
+без RAG,claude-sonnet-4.6,fresh-64,False,False,True,0.0010860000000000002,NOT_FOUND,at least six
+без RAG,claude-sonnet-4.6,fresh-65,False,False,True,0.0007380000000000008,NOT_FOUND,Liam Nassereddine
+без RAG,claude-sonnet-4.6,fresh-66,False,False,True,0.0008160000000000008,NOT_FOUND,Mark Carney
+без RAG,claude-sonnet-4.6,fresh-67,False,False,False,0.000621,Wrocław,Leipzig
+без RAG,claude-sonnet-4.6,fresh-68,False,False,True,0.0014999999999999996,NOT_FOUND,night train service
+без RAG,claude-sonnet-4.6,fresh-69,False,False,True,0.0010710000000000008,NOT_FOUND,Nikita Solovyov
+без RAG,claude-sonnet-4.6,fresh-70,False,False,True,0.0014009999999999995,NOT_FOUND,Dharmendra Pradhan
+без RAG,claude-sonnet-4.6,fresh-71,False,False,True,0.0007650000000000001,NOT_FOUND,Han Hak-ja
+без RAG,claude-sonnet-4.6,fresh-72,False,False,True,0.0009930000000000008,NOT_FOUND,Daniel Ortega
+без RAG,claude-sonnet-4.6,fresh-73,False,False,True,0.0009119999999999996,NOT_FOUND,Novokuznetsk
+без RAG,claude-sonnet-4.6,fresh-74,False,False,True,0.0011610000000000006,NOT_FOUND,life imprisonment
+без RAG,claude-sonnet-4.6,fresh-75,False,False,True,0.0009029999999999993,NOT_FOUND,Carlos Vila Nova
+без RAG,claude-sonnet-4.6,fresh-76,False,False,True,0.0010050000000000007,NOT_FOUND,13.2 months
+без RAG,claude-sonnet-4.6,fresh-77,False,False,True,0.0009239999999999995,NOT_FOUND,three
+без RAG,claude-sonnet-4.6,fresh-78,False,False,True,0.0010019999999999994,NOT_FOUND,"UGC Equity Regulations, 2026"
+без RAG,claude-sonnet-4.6,fresh-79,False,False,True,0.0009630000000000003,NOT_FOUND,8.15m
+без RAG,claude-sonnet-4.6,fresh-80,False,False,True,0.0009479999999999992,NOT_FOUND,28 people
+без RAG,claude-sonnet-4.6,fresh-81,False,False,True,0.0010950000000000005,NOT_FOUND,improvised explosive device
+без RAG,claude-sonnet-4.6,fresh-82,False,False,True,0.0010559999999999996,NOT_FOUND,eight games
+без RAG,claude-sonnet-4.6,fresh-83,False,False,True,0.0009449999999999997,NOT_FOUND,38 °C
+без RAG,claude-sonnet-4.6,fresh-84,False,False,True,0.0007380000000000008,NOT_FOUND,£30.4bn
+без RAG,claude-sonnet-4.6,fresh-85,False,False,True,0.0007349999999999995,NOT_FOUND,José Jerí
+без RAG,claude-sonnet-4.6,fresh-86,False,False,True,0.0009689999999999994,NOT_FOUND,"Henoko, Okinawa Prefecture"
+без RAG,claude-sonnet-4.6,fresh-87,False,False,True,0.0007139999999999994,NOT_FOUND,Doug Armstrong
+без RAG,claude-sonnet-4.6,fresh-88,False,False,True,0.0012840000000000004,NOT_FOUND,Imperial College London
+без RAG,claude-sonnet-4.6,fresh-89,False,False,True,0.000843,NOT_FOUND,"₹25,863 crore"
+без RAG,claude-sonnet-4.6,fresh-90,False,False,True,0.0028140000000000005,NOT_FOUND,Rubén Rocha Moya
+без RAG,claude-sonnet-4.6,fresh-91,False,False,True,0.0010229999999999996,NOT_FOUND,Spain
+без RAG,claude-sonnet-4.6,fresh-92,False,False,True,0.0008459999999999995,NOT_FOUND,11th
+без RAG,claude-sonnet-4.6,fresh-93,False,False,True,0.0008669999999999997,NOT_FOUND,India
+без RAG,claude-sonnet-4.6,fresh-94,False,False,False,0.0007469999999999994,Katowice,Istanbul
+без RAG,claude-sonnet-4.6,fresh-95,False,False,False,0.000876,"Truist Park in Atlanta, Georgia",Citizens Bank Park
+без RAG,claude-sonnet-4.6,fresh-96,False,False,True,0.0008789999999999996,NOT_FOUND,Islamabad Memorandum
+без RAG,claude-sonnet-4.6,fresh-97,False,False,True,0.0007980000000000001,NOT_FOUND,Elon Musk
+без RAG,claude-sonnet-4.6,fresh-98,False,False,True,0.0011520000000000002,NOT_FOUND,"252,756 miles"
+без RAG,claude-sonnet-4.6,fresh-99,False,False,True,0.0010620000000000004,NOT_FOUND,10-day
+без RAG,claude-sonnet-4.6,fresh-100,False,False,True,0.0023639999999999998,NOT_FOUND,Oleksandr Dovhach
+без RAG,claude-sonnet-4.6,fresh-101,False,False,True,0.0009060000000000006,NOT_FOUND,José María Balcázar
+без RAG,claude-sonnet-4.6,fresh-102,False,False,False,0.002180999999999999,9,21
+без RAG,claude-sonnet-4.6,fresh-103,False,False,True,0.0007740000000000004,NOT_FOUND,¥60–120
+без RAG,claude-sonnet-4.6,fresh-104,False,False,True,0.0007769999999999999,NOT_FOUND,GRU Airport People Mover
+без RAG,claude-sonnet-4.6,fresh-105,False,False,True,0.0007259999999999992,NOT_FOUND,2026 Beninese parliamentary election
+без RAG,claude-sonnet-4.6,fresh-106,False,False,True,0.000876,NOT_FOUND,Michaelmas Island
+без RAG,claude-sonnet-4.6,fresh-107,False,False,True,0.00081,NOT_FOUND,conspiracy to commit arson
+без RAG,claude-sonnet-4.6,fresh-108,False,False,True,0.0009390000000000006,NOT_FOUND,Clay Fuller
+без RAG,claude-sonnet-4.6,fresh-109,False,False,True,0.0007530000000000002,NOT_FOUND,prime minister
+без RAG,claude-sonnet-4.6,fresh-110,False,False,True,0.001065,NOT_FOUND,SMILE
+без RAG,claude-sonnet-4.6,fresh-111,False,False,True,0.0007290000000000005,NOT_FOUND,850
+без RAG,claude-sonnet-4.6,fresh-112,False,False,True,0.0011520000000000002,NOT_FOUND,Urgent Care Centre
+без RAG,claude-sonnet-4.6,fresh-113,False,False,True,0.0007229999999999997,NOT_FOUND,66
+без RAG,claude-sonnet-4.6,fresh-114,False,False,False,0.003887999999999999,The 2026 U.S. Women's Open is associated with Riviera Countr,Nelly Korda
+без RAG,claude-sonnet-4.6,fresh-115,False,False,True,0.000726000000000001,NOT_FOUND,Line S2
+без RAG,claude-sonnet-4.6,fresh-116,False,False,True,0.0006779999999999998,NOT_FOUND,Antonello da Messina
+без RAG,claude-sonnet-4.6,fresh-117,False,False,True,0.0008339999999999997,NOT_FOUND,Baku and Tbilisi
+без RAG,claude-sonnet-4.6,fresh-118,False,False,True,0.002817,I don't have sufficiently precise information about the spec,Operation Southern Spear
+без RAG,claude-sonnet-4.6,fresh-119,False,False,True,0.0006780000000000015,NOT_FOUND,5.6
+без RAG,claude-sonnet-4.6,fresh-120,False,False,True,0.0008099999999999982,NOT_FOUND,Angus Taylor
+без RAG,claude-sonnet-4.6,fresh-121,False,False,True,0.0007950000000000006,NOT_FOUND,Burkina Faso
+без RAG,claude-sonnet-4.6,fresh-122,False,False,True,0.000903000000000001,NOT_FOUND,Kehl
+без RAG,claude-sonnet-4.6,fresh-123,False,False,True,0.0007019999999999995,NOT_FOUND,Christophe Leribault
+без RAG,claude-sonnet-4.6,fresh-124,False,False,True,0.0008219999999999998,NOT_FOUND,Paris St-Germain
+без RAG,claude-sonnet-4.6,fresh-125,False,False,True,0.0007559999999999997,NOT_FOUND,Monroe
+без RAG,claude-sonnet-4.6,fresh-126,False,False,True,0.000732,NOT_FOUND,Bezalel Smotrich
+без RAG,claude-sonnet-4.6,fresh-127,False,False,True,0.0009179999999999987,NOT_FOUND,Évian-les-Bains
+без RAG,claude-sonnet-4.6,fresh-128,False,False,True,0.0008489999999999991,NOT_FOUND,Pissos
+без RAG,claude-sonnet-4.6,fresh-129,False,False,True,0.0010439999999999998,NOT_FOUND,Golfech Nuclear Power Plant
+без RAG,claude-sonnet-4.6,fresh-130,False,False,True,0.0007349999999999995,NOT_FOUND,Claude Guillemot
+без RAG,claude-sonnet-4.6,fresh-131,False,False,True,0.0020879999999999996,NOT_FOUND,World Heritage Sites
+без RAG,claude-sonnet-4.6,fresh-132,False,False,True,0.0008579999999999994,NOT_FOUND,$7 billion
+без RAG,claude-sonnet-4.6,fresh-133,False,False,True,0.0007740000000000004,NOT_FOUND,The Constitutional Council
+без RAG,claude-sonnet-4.6,fresh-134,False,False,False,0.000621,"March 4, 2026",22 March
+без RAG,claude-sonnet-4.6,fresh-135,False,False,True,0.0012059999999999987,NOT_FOUND,Democratic Republic of the Congo
+без RAG,claude-sonnet-4.6,fresh-136,False,False,True,0.0009179999999999987,NOT_FOUND,June 15
+без RAG,claude-sonnet-4.6,fresh-137,False,False,True,0.000954,NOT_FOUND,Baden-Württemberg
+без RAG,claude-sonnet-4.6,fresh-138,False,False,True,0.001037999999999999,NOT_FOUND,43.8%
+без RAG,claude-sonnet-4.6,fresh-139,False,False,True,0.0010350000000000012,NOT_FOUND,30.2%
+без RAG,claude-sonnet-4.6,fresh-140,False,False,True,0.0008519999999999986,NOT_FOUND,Koblenz
+без RAG,claude-sonnet-4.6,fresh-141,False,False,True,0.002211000000000001,NOT_FOUND,Möckern-Drewitz
+без RAG,claude-sonnet-4.6,fresh-142,False,False,True,0.0009119999999999996,NOT_FOUND,"186,700"
+без RAG,claude-sonnet-4.6,fresh-143,False,False,True,0.0010170000000000005,NOT_FOUND,2026 Leipzig Airport drone attack
+без RAG,claude-sonnet-4.6,fresh-144,False,False,True,0.0012689999999999993,NOT_FOUND,14 March
+без RAG,claude-sonnet-4.6,fresh-145,False,False,True,0.0007409999999999986,NOT_FOUND,Niue
+без RAG,claude-sonnet-4.6,fresh-146,False,False,True,0.0009569999999999995,NOT_FOUND,Amazon
+без RAG,claude-sonnet-4.6,fresh-147,False,False,True,0.0011849999999999986,NOT_FOUND,Tomahawk missiles
+без RAG,claude-sonnet-4.6,fresh-148,False,False,False,0.0006689999999999995,"February 4, 2026",28 July
+"RAG, k=5",gpt-4o-mini,fresh-0,True,True,False,6.225e-05,15 March.,15 March
+"RAG, k=5",gpt-4o-mini,fresh-1,True,True,False,8.64e-05,22 March 2026,22 March
+"RAG, k=5",gpt-4o-mini,fresh-2,False,False,True,4.335e-05,NOT_FOUND.,Miguel Díaz-Canel
+"RAG, k=5",gpt-4o-mini,fresh-3,True,True,False,5.775e-05,strategic partnership agreement in defense and energy sector,a strategic partnership agreement
+"RAG, k=5",gpt-4o-mini,fresh-4,True,True,False,5.28e-05,total fire ban.,A total fire ban
+"RAG, k=5",gpt-4o-mini,fresh-5,True,True,False,4.935e-05,2,two people
+"RAG, k=5",gpt-4o-mini,fresh-6,True,True,False,5.82e-05,Deniz Göktaş.,Deniz Göktaş
+"RAG, k=5",gpt-4o-mini,fresh-7,True,True,False,5.655e-05,Pavel Durov.,Pavel Durov
+"RAG, k=5",gpt-4o-mini,fresh-8,True,True,False,7.38e-05,New Delhi.,New Delhi
+"RAG, k=5",gpt-4o-mini,fresh-9,True,True,False,5.415e-05,12,Twelve
+"RAG, k=5",gpt-4o-mini,fresh-10,True,True,False,8.685e-05,Helter Skelter: Arthur Jafa and Richard Prince.,Helter Skelter
+"RAG, k=5",gpt-4o-mini,fresh-11,True,True,False,7.620000000000001e-05,"700,000","700,000"
+"RAG, k=5",gpt-4o-mini,fresh-12,True,True,False,8.775000000000002e-05,41.5 °C,41.5 °C
+"RAG, k=5",gpt-4o-mini,fresh-13,True,True,False,6.194999999999999e-05,Ciudad Rodrigo.,Ciudad Rodrigo
+"RAG, k=5",gpt-4o-mini,fresh-14,True,True,False,6.465e-05,Oleksandr Syrskyi.,Oleksandr Syrskyi
+"RAG, k=5",gpt-4o-mini,fresh-15,True,True,False,5.3549999999999994e-05,Montreal Victoire.,Montreal Victoire
+"RAG, k=5",gpt-4o-mini,fresh-16,True,True,False,7.439999999999999e-05,EOS-05 satellite.,EOS-05
+"RAG, k=5",gpt-4o-mini,fresh-17,True,True,False,6.194999999999999e-05,13 July,13 July
+"RAG, k=5",gpt-4o-mini,fresh-18,True,True,False,5.715000000000001e-05,Disney Kids & Family.,Disney Kids & Family
+"RAG, k=5",gpt-4o-mini,fresh-19,True,True,False,0.00014250000000000002,single-elimination format,single-elimination
+"RAG, k=5",gpt-4o-mini,fresh-20,True,True,False,7.02e-05,Gavin Snider.,Gavin Snider
+"RAG, k=5",gpt-4o-mini,fresh-21,True,True,False,6.405000000000001e-05,Clara and the Below.,Clara and the Below
+"RAG, k=5",gpt-4o-mini,fresh-22,True,True,False,6.990000000000002e-05,German Galushchenko.,German Galushchenko
+"RAG, k=5",gpt-4o-mini,fresh-23,True,True,False,6.435000000000002e-05,drought,a drought
+"RAG, k=5",gpt-4o-mini,fresh-24,True,True,False,6.015e-05,open war against the Taliban.,"""open war"""
+"RAG, k=5",gpt-4o-mini,fresh-25,True,True,False,5.685e-05,9,nine
+"RAG, k=5",gpt-4o-mini,fresh-26,True,True,False,6.960000000000001e-05,Markus Hinterhäuser.,Markus Hinterhäuser
+"RAG, k=5",gpt-4o-mini,fresh-27,True,True,False,5.775000000000002e-05,9,nine
+"RAG, k=5",gpt-4o-mini,fresh-28,False,True,False,7.38e-05,46,43
+"RAG, k=5",gpt-4o-mini,fresh-29,True,True,False,5.1149999999999996e-05,Ankara,Ankara
+"RAG, k=5",gpt-4o-mini,fresh-30,True,True,False,6.615000000000001e-05,Aibek Dädebai.,Aibek Dädebai
+"RAG, k=5",gpt-4o-mini,fresh-31,True,True,False,5.9999999999999995e-05,Richard Lewer.,Richard Lewer
+"RAG, k=5",gpt-4o-mini,fresh-32,True,True,False,5.1900000000000015e-05,Marilyn Gladu.,Marilyn Gladu
+"RAG, k=5",gpt-4o-mini,fresh-33,True,True,False,6.27e-05,6.3,6.3
+"RAG, k=5",gpt-4o-mini,fresh-34,True,True,False,8.744999999999998e-05,Dina Levačić.,Dina Levačić
+"RAG, k=5",gpt-4o-mini,fresh-35,True,True,False,6.0150000000000025e-05,15 June 2026.,15 June
+"RAG, k=5",gpt-4o-mini,fresh-36,True,True,False,5.414999999999999e-05,Chief Minister of Kerala.,Chief Minister
+"RAG, k=5",gpt-4o-mini,fresh-37,True,True,False,5.414999999999999e-05,Gelida.,Gelida
+"RAG, k=5",gpt-4o-mini,fresh-38,True,True,False,6.330000000000002e-05,Lieutenant General Vladimir Alekseyev.,Vladimir Alekseyev
+"RAG, k=5",gpt-4o-mini,fresh-39,True,True,False,6.24e-05,30000,Thirty thousand people
+"RAG, k=5",gpt-4o-mini,fresh-40,True,True,False,5.1150000000000024e-05,Prime Minister Narendra Modi.,Prime Minister Narendra Modi
+"RAG, k=5",gpt-4o-mini,fresh-41,True,True,False,5.850000000000001e-05,Zohran Mamdani.,Zohran Mamdani
+"RAG, k=5",gpt-4o-mini,fresh-42,True,True,False,9.84e-05,LHS 1140 b,LHS 1140 b
+"RAG, k=5",gpt-4o-mini,fresh-43,True,True,False,6.375e-05,F-16 Fighting Falcon.,F-16 Fighting Falcon
+"RAG, k=5",gpt-4o-mini,fresh-44,True,True,False,5.160000000000001e-05,5,five
+"RAG, k=5",gpt-4o-mini,fresh-45,True,True,False,5.715000000000001e-05,Education Minister.,Education Minister
+"RAG, k=5",gpt-4o-mini,fresh-46,True,True,False,6.165000000000001e-05,Mykhailo Fedorov.,Mykhailo Fedorov
+"RAG, k=5",gpt-4o-mini,fresh-47,True,True,False,6.419999999999999e-05,life imprisonment.,life imprisonment
+"RAG, k=5",gpt-4o-mini,fresh-48,True,True,False,7.649999999999996e-05,"802,500 lira ($18,500).","802,500 lira"
+"RAG, k=5",gpt-4o-mini,fresh-49,True,True,False,6.524999999999999e-05,Bruno Foucher,Bruno Foucher
+"RAG, k=5",gpt-4o-mini,fresh-50,True,True,False,5.759999999999999e-05,5.2,5.2
+"RAG, k=5",gpt-4o-mini,fresh-51,True,True,False,6.764999999999999e-05,Tonya McBride Robles.,Tonya McBride Robles
+"RAG, k=5",gpt-4o-mini,fresh-52,True,True,False,5.400000000000001e-05,80,80
+"RAG, k=5",gpt-4o-mini,fresh-53,True,True,False,5.2650000000000006e-05,2,two
+"RAG, k=5",gpt-4o-mini,fresh-54,True,True,False,5.6249999999999985e-05,3%,3%
+"RAG, k=5",gpt-4o-mini,fresh-55,True,True,False,7.229999999999997e-05,Yoon Suk Yeol,Yoon Suk Yeol
+"RAG, k=5",gpt-4o-mini,fresh-56,True,True,False,6.284999999999998e-05,BYD Auto.,BYD Auto
+"RAG, k=5",gpt-4o-mini,fresh-57,True,True,False,0.00012315000000000004,"Carson Ting, Minerva GM, Hank Willis Thomas.",Carson Ting
+"RAG, k=5",gpt-4o-mini,fresh-58,True,True,False,5.1749999999999984e-05,209,209
+"RAG, k=5",gpt-4o-mini,fresh-59,True,True,False,5.13e-05,14,Fourteen
+"RAG, k=5",gpt-4o-mini,fresh-60,False,True,True,6.435000000000002e-05,NOT_FOUND,13 years
+"RAG, k=5",gpt-4o-mini,fresh-61,True,True,False,5.084999999999996e-05,2,Two
+"RAG, k=5",gpt-4o-mini,fresh-62,True,True,False,5.250000000000003e-05,mayor of Lutsk,mayor of Lutsk
+"RAG, k=5",gpt-4o-mini,fresh-63,True,True,True,4.500000000000001e-05,16.,16
+"RAG, k=5",gpt-4o-mini,fresh-64,True,True,False,5.880000000000002e-05,6,at least six
+"RAG, k=5",gpt-4o-mini,fresh-65,True,True,False,6.24e-05,Liam Nassereddine.,Liam Nassereddine
+"RAG, k=5",gpt-4o-mini,fresh-66,True,True,False,6.090000000000002e-05,Mark Carney,Mark Carney
+"RAG, k=5",gpt-4o-mini,fresh-67,True,True,False,4.4399999999999995e-05,"Leipzig, Germany.",Leipzig
+"RAG, k=5",gpt-4o-mini,fresh-68,True,True,False,5.850000000000001e-05,"Night train service between Paris, Brussels, and Berlin.",night train service
+"RAG, k=5",gpt-4o-mini,fresh-69,True,True,False,6.495000000000003e-05,Nikita Solovyov,Nikita Solovyov
+"RAG, k=5",gpt-4o-mini,fresh-70,True,True,False,7.394999999999998e-05,Dharmendra Pradhan,Dharmendra Pradhan
+"RAG, k=5",gpt-4o-mini,fresh-71,True,True,False,6.554999999999994e-05,Han Hak-ja.,Han Hak-ja
+"RAG, k=5",gpt-4o-mini,fresh-72,True,True,False,5.400000000000001e-05,Daniel Ortega.,Daniel Ortega
+"RAG, k=5",gpt-4o-mini,fresh-73,True,True,False,7.200000000000002e-05,"Novokuznetsk, Russia.",Novokuznetsk
+"RAG, k=5",gpt-4o-mini,fresh-74,True,True,False,7.844999999999998e-05,life imprisonment.,life imprisonment
+"RAG, k=5",gpt-4o-mini,fresh-75,True,True,False,6.795e-05,Carlos Vila Nova re-elected.,Carlos Vila Nova
+"RAG, k=5",gpt-4o-mini,fresh-76,True,True,False,8.46e-05,13.2 months.,13.2 months
+"RAG, k=5",gpt-4o-mini,fresh-77,True,True,False,5.865000000000004e-05,3 games.,three
+"RAG, k=5",gpt-4o-mini,fresh-78,True,True,False,6.780000000000002e-05,"UGC Equity Regulations, 2026.","UGC Equity Regulations, 2026"
+"RAG, k=5",gpt-4o-mini,fresh-79,True,True,False,5.669999999999997e-05,8.15 million.,8.15m
+"RAG, k=5",gpt-4o-mini,fresh-80,True,True,False,5.204999999999999e-05,28,28 people
+"RAG, k=5",gpt-4o-mini,fresh-81,True,True,False,6.614999999999995e-05,improvised explosive device,improvised explosive device
+"RAG, k=5",gpt-4o-mini,fresh-82,True,True,False,5.5499999999999994e-05,8 games.,eight games
+"RAG, k=5",gpt-4o-mini,fresh-83,True,True,False,7.590000000000006e-05,38 °C.,38 °C
+"RAG, k=5",gpt-4o-mini,fresh-84,True,True,False,5.880000000000002e-05,£30.4bn,£30.4bn
+"RAG, k=5",gpt-4o-mini,fresh-85,False,True,True,5.414999999999999e-05,NOT_FOUND,José Jerí
+"RAG, k=5",gpt-4o-mini,fresh-86,True,True,False,5.8949999999999996e-05,"Henoko, Okinawa Prefecture.","Henoko, Okinawa Prefecture"
+"RAG, k=5",gpt-4o-mini,fresh-87,True,True,False,5.34e-05,Doug Armstrong.,Doug Armstrong
+"RAG, k=5",gpt-4o-mini,fresh-88,True,True,False,8.819999999999998e-05,"Imperial College London, the Met Office, and the London Scho",Imperial College London
+"RAG, k=5",gpt-4o-mini,fresh-89,True,True,False,7.289999999999998e-05,"₹25,863 crore.","₹25,863 crore"
+"RAG, k=5",gpt-4o-mini,fresh-90,True,True,False,6.915000000000003e-05,Rubén Rocha Moya.,Rubén Rocha Moya
+"RAG, k=5",gpt-4o-mini,fresh-91,True,False,False,9.179999999999995e-05,Spain.,Spain
+"RAG, k=5",gpt-4o-mini,fresh-92,True,True,False,5.595000000000003e-05,11th,11th
+"RAG, k=5",gpt-4o-mini,fresh-93,True,True,False,4.500000000000001e-05,India,India
+"RAG, k=5",gpt-4o-mini,fresh-94,True,True,False,5.144999999999998e-05,"Istanbul, Turkey.",Istanbul
+"RAG, k=5",gpt-4o-mini,fresh-95,True,True,False,5.730000000000004e-05,"Citizens Bank Park, Philadelphia, Pennsylvania.",Citizens Bank Park
+"RAG, k=5",gpt-4o-mini,fresh-96,True,True,False,8.04e-05,Islamabad Memorandum.,Islamabad Memorandum
+"RAG, k=5",gpt-4o-mini,fresh-97,True,True,False,5.880000000000002e-05,Elon Musk.,Elon Musk
+"RAG, k=5",gpt-4o-mini,fresh-98,False,True,False,8.715000000000003e-05,"252,757 miles (406,773 km).","252,756 miles"
+"RAG, k=5",gpt-4o-mini,fresh-99,True,True,False,5.475e-05,10 days.,10-day
+"RAG, k=5",gpt-4o-mini,fresh-100,True,True,False,6.990000000000002e-05,Viktor Kuzmenko and Oleksandr Dovhach.,Oleksandr Dovhach
+"RAG, k=5",gpt-4o-mini,fresh-101,True,True,False,6.599999999999998e-05,José María Balcázar.,José María Balcázar
+"RAG, k=5",gpt-4o-mini,fresh-102,True,True,False,5.685e-05,21,21
+"RAG, k=5",gpt-4o-mini,fresh-103,True,True,False,8.865000000000001e-05,¥60–120 (US$8.70–17.5).,¥60–120
+"RAG, k=5",gpt-4o-mini,fresh-104,True,True,False,5.414999999999999e-05,GRU Airport People Mover.,GRU Airport People Mover
+"RAG, k=5",gpt-4o-mini,fresh-105,False,True,False,5.144999999999998e-05,Beninese parliamentary election.,2026 Beninese parliamentary election
+"RAG, k=5",gpt-4o-mini,fresh-106,True,True,False,5.445000000000005e-05,"Michaelmas Island, Western Australia.",Michaelmas Island
+"RAG, k=5",gpt-4o-mini,fresh-107,False,True,False,7.695000000000011e-05,Attack on Jewish sites.,conspiracy to commit arson
+"RAG, k=5",gpt-4o-mini,fresh-108,True,True,False,6.090000000000002e-05,Clay Fuller.,Clay Fuller
+"RAG, k=5",gpt-4o-mini,fresh-109,True,True,False,6.435000000000002e-05,Prime Minister.,prime minister
+"RAG, k=5",gpt-4o-mini,fresh-110,True,True,False,0.00010440000000000004,SMILE mission.,SMILE
+"RAG, k=5",gpt-4o-mini,fresh-111,True,True,False,5.250000000000003e-05,850 job cuts.,850
+"RAG, k=5",gpt-4o-mini,fresh-112,True,True,False,5.279999999999998e-05,Urgent Care Centre.,Urgent Care Centre
+"RAG, k=5",gpt-4o-mini,fresh-113,True,True,False,5.2349999999999944e-05,66,66
+"RAG, k=5",gpt-4o-mini,fresh-114,True,True,False,5.969999999999999e-05,Nelly Korda.,Nelly Korda
+"RAG, k=5",gpt-4o-mini,fresh-115,True,True,False,5.7449999999999906e-05,Line S2.,Line S2
+"RAG, k=5",gpt-4o-mini,fresh-116,True,True,False,6.959999999999996e-05,Antonello da Messina.,Antonello da Messina
+"RAG, k=5",gpt-4o-mini,fresh-117,True,True,False,6.330000000000007e-05,"Baku, Tbilisi, London, Stirling.",Baku and Tbilisi
+"RAG, k=5",gpt-4o-mini,fresh-118,True,True,False,6.959999999999996e-05,Operation Southern Spear.,Operation Southern Spear
+"RAG, k=5",gpt-4o-mini,fresh-119,True,True,False,5.865000000000004e-05,5.6,5.6
+"RAG, k=5",gpt-4o-mini,fresh-120,True,True,False,5.5499999999999994e-05,Angus Taylor.,Angus Taylor
+"RAG, k=5",gpt-4o-mini,fresh-121,True,True,False,4.7549999999999936e-05,Burkina Faso.,Burkina Faso
+"RAG, k=5",gpt-4o-mini,fresh-122,True,True,False,4.620000000000004e-05,Kehl,Kehl
+"RAG, k=5",gpt-4o-mini,fresh-123,True,True,False,6.24e-05,Christophe Leribault.,Christophe Leribault
+"RAG, k=5",gpt-4o-mini,fresh-124,False,True,True,4.5600000000000024e-05,NOT_FOUND,Paris St-Germain
+"RAG, k=5",gpt-4o-mini,fresh-125,True,True,False,5.250000000000003e-05,Monroe,Monroe
+"RAG, k=5",gpt-4o-mini,fresh-126,True,True,False,5.910000000000008e-05,Bezalel Smotrich.,Bezalel Smotrich
+"RAG, k=5",gpt-4o-mini,fresh-127,True,True,False,5.6999999999999976e-05,Évian-les-Bains.,Évian-les-Bains
+"RAG, k=5",gpt-4o-mini,fresh-128,True,True,True,6.944999999999998e-05,Pissos.,Pissos
+"RAG, k=5",gpt-4o-mini,fresh-129,True,True,True,7.320000000000004e-05,Golfech Nuclear Power Plant.,Golfech Nuclear Power Plant
+"RAG, k=5",gpt-4o-mini,fresh-130,True,True,False,4.4399999999999995e-05,Claude Guillemot.,Claude Guillemot
+"RAG, k=5",gpt-4o-mini,fresh-131,True,True,False,5.805000000000003e-05,UNESCO World Heritage Sites.,World Heritage Sites
+"RAG, k=5",gpt-4o-mini,fresh-132,True,True,False,6.885000000000007e-05,$7 billion.,$7 billion
+"RAG, k=5",gpt-4o-mini,fresh-133,True,True,False,6.750000000000007e-05,Constitutional Council.,The Constitutional Council
+"RAG, k=5",gpt-4o-mini,fresh-134,True,True,False,5.400000000000001e-05,22 March 2026.,22 March
+"RAG, k=5",gpt-4o-mini,fresh-135,True,True,False,6.465000000000008e-05,Democratic Republic of the Congo.,Democratic Republic of the Congo
+"RAG, k=5",gpt-4o-mini,fresh-136,True,True,False,6.330000000000007e-05,"June 15, 2026.",June 15
+"RAG, k=5",gpt-4o-mini,fresh-137,True,True,False,6.0600000000000064e-05,Baden-Württemberg,Baden-Württemberg
+"RAG, k=5",gpt-4o-mini,fresh-138,True,True,False,7.514999999999996e-05,43.8%,43.8%
+"RAG, k=5",gpt-4o-mini,fresh-139,False,True,True,4.904999999999992e-05,NOT_FOUND,30.2%
+"RAG, k=5",gpt-4o-mini,fresh-140,False,True,True,4.334999999999994e-05,NOT_FOUND,Koblenz
+"RAG, k=5",gpt-4o-mini,fresh-141,True,True,False,7.035000000000006e-05,Möckern-Drewitz.,Möckern-Drewitz
+"RAG, k=5",gpt-4o-mini,fresh-142,True,True,False,6.704999999999992e-05,"186,700.","186,700"
+"RAG, k=5",gpt-4o-mini,fresh-143,True,True,False,6.989999999999991e-05,2026 Leipzig Airport drone attack.,2026 Leipzig Airport drone attack
+"RAG, k=5",gpt-4o-mini,fresh-144,True,True,False,4.800000000000008e-05,14 March 2026.,14 March
+"RAG, k=5",gpt-4o-mini,fresh-145,True,True,True,4.529999999999996e-05,Niue.,Niue
+"RAG, k=5",gpt-4o-mini,fresh-146,True,True,False,7.020000000000008e-05,"Amazon, Inc.",Amazon
+"RAG, k=5",gpt-4o-mini,fresh-147,False,True,True,5.490000000000009e-05,NOT_FOUND.,Tomahawk missiles
+"RAG, k=5",gpt-4o-mini,fresh-148,False,True,True,3.675000000000011e-05,NOT_FOUND,28 July
+"RAG, k=5",claude-haiku-4.5,fresh-0,True,True,False,0.0005,15 March,15 March
+"RAG, k=5",claude-haiku-4.5,fresh-1,True,True,False,0.000712,22 March,22 March
+"RAG, k=5",claude-haiku-4.5,fresh-2,False,False,True,0.000581,NOT_FOUND,Miguel Díaz-Canel
+"RAG, k=5",claude-haiku-4.5,fresh-3,True,True,False,0.000527,Ukraine and Romania signed a strategic partnership agreement,a strategic partnership agreement
+"RAG, k=5",claude-haiku-4.5,fresh-4,True,True,False,0.000678,A total fire ban came into force in Victoria on 9 January 20,A total fire ban
+"RAG, k=5",claude-haiku-4.5,fresh-5,True,True,False,0.000592,"Two people were killed in the car incident in Leipzig, Germa",two people
+"RAG, k=5",claude-haiku-4.5,fresh-6,True,True,False,0.000838,"Deniz Göktaş, a comedian, was imprisoned in Istanbul on 3 Ju",Deniz Göktaş
+"RAG, k=5",claude-haiku-4.5,fresh-7,True,True,False,0.000625,"Pavel Durov, Telegram founder, was charged by the FSB on 29 ",Pavel Durov
+"RAG, k=5",claude-haiku-4.5,fresh-8,True,True,False,0.000616,"New Delhi, India",New Delhi
+"RAG, k=5",claude-haiku-4.5,fresh-9,True,True,False,0.000574,12 people were killed in the February 18 explosion at a fire,Twelve
+"RAG, k=5",claude-haiku-4.5,fresh-10,True,True,False,0.0007850000000000001,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+"RAG, k=5",claude-haiku-4.5,fresh-11,True,True,False,0.0006149999999999999,"700,000 children","700,000"
+"RAG, k=5",claude-haiku-4.5,fresh-12,True,True,False,0.0009260000000000001,41.5 °C (106.7 °F) in Möckern-Drewitz on 27 June.,41.5 °C
+"RAG, k=5",claude-haiku-4.5,fresh-13,True,True,False,0.0007250000000000001,Ciudad Rodrigo,Ciudad Rodrigo
+"RAG, k=5",claude-haiku-4.5,fresh-14,True,True,False,0.0006779999999999999,Oleksandr Syrskyi,Oleksandr Syrskyi
+"RAG, k=5",claude-haiku-4.5,fresh-15,True,True,False,0.000624,"The Montreal Victoire won their first Walter Cup on May 20, ",Montreal Victoire
+"RAG, k=5",claude-haiku-4.5,fresh-16,True,True,False,0.000701,"EOS-05, India's first geostationary Earth observation satell",EOS-05
+"RAG, k=5",claude-haiku-4.5,fresh-17,True,True,False,0.000562,13 July,13 July
+"RAG, k=5",claude-haiku-4.5,fresh-18,True,True,False,0.00046999999999999993,Disney Kids & Family,Disney Kids & Family
+"RAG, k=5",claude-haiku-4.5,fresh-19,True,True,False,0.0013199999999999998,The 2026 FIFA World Cup knockout stage used a single-elimina,single-elimination
+"RAG, k=5",claude-haiku-4.5,fresh-20,True,True,False,0.0008019999999999998,Gavin Snider accused Devon Rodriguez of presenting his work ,Gavin Snider
+"RAG, k=5",claude-haiku-4.5,fresh-21,True,True,False,0.000542,Clara and the Below,Clara and the Below
+"RAG, k=5",claude-haiku-4.5,fresh-22,True,True,False,0.0007069999999999997,"German Galushchenko, former energy minister, was arrested on",German Galushchenko
+"RAG, k=5",claude-haiku-4.5,fresh-23,True,True,False,0.000614,A drought is declared across the whole of Wales in July 2026,a drought
+"RAG, k=5",claude-haiku-4.5,fresh-24,True,True,False,0.0005569999999999998,"The government of Pakistan declared ""open war"" against the T","""open war"""
+"RAG, k=5",claude-haiku-4.5,fresh-25,True,True,False,0.0005019999999999998,Nine people were injured.,nine
+"RAG, k=5",claude-haiku-4.5,fresh-26,True,True,False,0.0006489999999999998,Markus Hinterhäuser,Markus Hinterhäuser
+"RAG, k=5",claude-haiku-4.5,fresh-27,True,True,False,0.0006889999999999999,At least nine people were killed in the mass shooting at Tum,nine
+"RAG, k=5",claude-haiku-4.5,fresh-28,True,True,False,0.0009030000000000002,"46 people were killed in the train derailment near Adamuz, S",43
+"RAG, k=5",claude-haiku-4.5,fresh-29,True,True,False,0.000513,Ankara,Ankara
+"RAG, k=5",claude-haiku-4.5,fresh-30,True,True,False,0.0006540000000000001,Aibek Dädebai of Ädilet formed the new government of Kazakhs,Aibek Dädebai
+"RAG, k=5",claude-haiku-4.5,fresh-31,True,True,False,0.0006180000000000001,"Richard Lewer won the Archibald Prize on May 8, 2026.",Richard Lewer
+"RAG, k=5",claude-haiku-4.5,fresh-32,True,True,False,0.000582,Marilyn Gladu,Marilyn Gladu
+"RAG, k=5",claude-haiku-4.5,fresh-33,True,True,False,0.0005660000000000001,6.3,6.3
+"RAG, k=5",claude-haiku-4.5,fresh-34,True,True,False,0.000771,Dina Levačić,Dina Levačić
+"RAG, k=5",claude-haiku-4.5,fresh-35,True,True,False,0.0005149999999999998,15 June 2026,15 June
+"RAG, k=5",claude-haiku-4.5,fresh-36,True,True,False,0.000487,Chief Minister of Kerala,Chief Minister
+"RAG, k=5",claude-haiku-4.5,fresh-37,True,True,False,0.00046299999999999987,Gelida,Gelida
+"RAG, k=5",claude-haiku-4.5,fresh-38,True,True,False,0.0005760000000000001,"Lieutenant General Vladimir Alekseyev, deputy head of the GR",Vladimir Alekseyev
+"RAG, k=5",claude-haiku-4.5,fresh-39,True,True,False,0.0006020000000000001,"30,000 people participated in the anti-war protest in Japan ",Thirty thousand people
+"RAG, k=5",claude-haiku-4.5,fresh-40,True,True,False,0.0004810000000000001,Prime Minister Narendra Modi,Prime Minister Narendra Modi
+"RAG, k=5",claude-haiku-4.5,fresh-41,True,True,False,0.0006980000000000003,Zohran Mamdani was sworn in as the Mayor of New York City on,Zohran Mamdani
+"RAG, k=5",claude-haiku-4.5,fresh-42,True,True,False,0.0009710000000000001,LHS 1140 b,LHS 1140 b
+"RAG, k=5",claude-haiku-4.5,fresh-43,True,True,False,0.000559,F-16 Fighting Falcon,F-16 Fighting Falcon
+"RAG, k=5",claude-haiku-4.5,fresh-44,True,True,False,0.0005189999999999999,"Five people died in the Moscow bombing on August 1, 2026.",five
+"RAG, k=5",claude-haiku-4.5,fresh-45,True,True,False,0.0005059999999999999,Education Minister,Education Minister
+"RAG, k=5",claude-haiku-4.5,fresh-46,True,True,False,0.0006809999999999997,Mykhailo Fedorov was dismissed as defence minister in Ukrain,Mykhailo Fedorov
+"RAG, k=5",claude-haiku-4.5,fresh-47,True,True,False,0.0005869999999999998,Life imprisonment,life imprisonment
+"RAG, k=5",claude-haiku-4.5,fresh-48,True,True,False,0.0006629999999999995,"802,500 lira ($18,500)","802,500 lira"
+"RAG, k=5",claude-haiku-4.5,fresh-49,True,True,False,0.0007779999999999996,Bruno Foucher,Bruno Foucher
+"RAG, k=5",claude-haiku-4.5,fresh-50,True,True,False,0.0005119999999999999,5.2,5.2
+"RAG, k=5",claude-haiku-4.5,fresh-51,True,True,False,0.0006069999999999999,Tonya McBride Robles,Tonya McBride Robles
+"RAG, k=5",claude-haiku-4.5,fresh-52,True,True,False,0.0006220000000000002,80 people were killed in the fire at a shopping mall in Kara,80
+"RAG, k=5",claude-haiku-4.5,fresh-53,True,True,False,0.0005890000000000001,Two people were killed in the Guerrero earthquake on January,two
+"RAG, k=5",claude-haiku-4.5,fresh-54,True,True,False,0.00045899999999999977,3%,3%
+"RAG, k=5",claude-haiku-4.5,fresh-55,True,True,False,0.0006459999999999999,Yoon Suk Yeol,Yoon Suk Yeol
+"RAG, k=5",claude-haiku-4.5,fresh-56,True,True,False,0.0005469999999999997,BYD Auto,BYD Auto
+"RAG, k=5",claude-haiku-4.5,fresh-57,True,True,False,0.0011130000000000003,"Carson Ting (Canada), Minerva GM (Mexico), and Hank Willis T",Carson Ting
+"RAG, k=5",claude-haiku-4.5,fresh-58,True,True,False,0.0006280000000000001,At least 209 people were arrested in Ankara in June 2026.,209
+"RAG, k=5",claude-haiku-4.5,fresh-59,True,True,False,0.0005609999999999999,14 people were killed in the Daejeon factory fire in March 2,Fourteen
+"RAG, k=5",claude-haiku-4.5,fresh-60,True,True,False,0.000797,13 years' imprisonment.,13 years
+"RAG, k=5",claude-haiku-4.5,fresh-61,True,True,False,0.0005929999999999998,2 people were killed in the avalanche near Ratschings in Mar,Two
+"RAG, k=5",claude-haiku-4.5,fresh-62,True,True,False,0.0004609999999999996,Mayor of Lutsk,mayor of Lutsk
+"RAG, k=5",claude-haiku-4.5,fresh-63,True,True,False,0.0007000000000000001,16 people were killed in the bus accident in São José da Tap,16
+"RAG, k=5",claude-haiku-4.5,fresh-64,True,True,False,0.000575,At least six people were reportedly trapped.,at least six
+"RAG, k=5",claude-haiku-4.5,fresh-65,True,True,False,0.0006369999999999995,Liam Nassereddine,Liam Nassereddine
+"RAG, k=5",claude-haiku-4.5,fresh-66,True,True,False,0.0005199999999999996,Mark Carney,Mark Carney
+"RAG, k=5",claude-haiku-4.5,fresh-67,True,True,False,0.00039400000000000025,"Leipzig, Germany",Leipzig
+"RAG, k=5",claude-haiku-4.5,fresh-68,True,True,False,0.0005279999999999998,"European Sleeper begins a night train service between Paris,",night train service
+"RAG, k=5",claude-haiku-4.5,fresh-69,True,True,False,0.0006069999999999999,Nikita Solovyov,Nikita Solovyov
+"RAG, k=5",claude-haiku-4.5,fresh-70,True,True,False,0.0009979999999999998,Dharmendra Pradhan,Dharmendra Pradhan
+"RAG, k=5",claude-haiku-4.5,fresh-71,True,True,False,0.0007439999999999999,"Han Hak-ja, Unification Church leader, was sentenced to two ",Han Hak-ja
+"RAG, k=5",claude-haiku-4.5,fresh-72,True,True,False,0.0006119999999999997,"Daniel Ortega, Nicaraguan Co-President, ceased Nicaragua's e",Daniel Ortega
+"RAG, k=5",claude-haiku-4.5,fresh-73,True,True,False,0.0006230000000000003,"Novokuznetsk, Russia",Novokuznetsk
+"RAG, k=5",claude-haiku-4.5,fresh-74,True,True,False,0.0007260000000000001,Life imprisonment for insurrection.,life imprisonment
+"RAG, k=5",claude-haiku-4.5,fresh-75,True,True,False,0.0006659999999999999,Carlos Vila Nova was re-elected for a second five-year term.,Carlos Vila Nova
+"RAG, k=5",claude-haiku-4.5,fresh-76,True,True,False,0.0010020000000000003,The median overall survival time for patients with metastati,13.2 months
+"RAG, k=5",claude-haiku-4.5,fresh-77,True,True,False,0.0006670000000000001,The Evansville Thunderbolts won 3 games to secure the Presid,three
+"RAG, k=5",claude-haiku-4.5,fresh-78,True,True,False,0.00068,The Supreme Court of India stayed the UGC Equity Regulations,"UGC Equity Regulations, 2026"
+"RAG, k=5",claude-haiku-4.5,fresh-79,True,True,False,0.0004800000000000004,8.15 million passengers,8.15m
+"RAG, k=5",claude-haiku-4.5,fresh-80,True,True,False,0.0005040000000000001,28 people,28 people
+"RAG, k=5",claude-haiku-4.5,fresh-81,True,True,False,0.0005890000000000001,An improvised explosive device.,improvised explosive device
+"RAG, k=5",claude-haiku-4.5,fresh-82,True,True,False,0.0005450000000000003,8 games,eight games
+"RAG, k=5",claude-haiku-4.5,fresh-83,True,True,False,0.0006400000000000008,38 °C,38 °C
+"RAG, k=5",claude-haiku-4.5,fresh-84,True,True,False,0.0005199999999999996,£30.4bn,£30.4bn
+"RAG, k=5",claude-haiku-4.5,fresh-85,False,True,True,0.0007159999999999996,NOT_FOUND,José Jerí
+"RAG, k=5",claude-haiku-4.5,fresh-86,True,True,False,0.0005089999999999999,"Henoko, Okinawa Prefecture","Henoko, Okinawa Prefecture"
+"RAG, k=5",claude-haiku-4.5,fresh-87,True,True,False,0.0004869999999999996,Doug Armstrong,Doug Armstrong
+"RAG, k=5",claude-haiku-4.5,fresh-88,True,True,False,0.0009429999999999994,"Imperial College London, the Met Office, and the London Scho",Imperial College London
+"RAG, k=5",claude-haiku-4.5,fresh-89,True,True,False,0.0008130000000000004,"₹25,863 crore (US$2.7 billion)","₹25,863 crore"
+"RAG, k=5",claude-haiku-4.5,fresh-90,True,True,False,0.000706,Rubén Rocha Moya,Rubén Rocha Moya
+"RAG, k=5",claude-haiku-4.5,fresh-91,True,False,False,0.0007310000000000007,Spain,Spain
+"RAG, k=5",claude-haiku-4.5,fresh-92,True,True,False,0.00047900000000000026,11th place,11th
+"RAG, k=5",claude-haiku-4.5,fresh-93,True,True,False,0.0006630000000000004,India won the 2026 Men's T20 World Cup in cricket.,India
+"RAG, k=5",claude-haiku-4.5,fresh-94,True,True,False,0.00047900000000000026,"Istanbul, Turkey",Istanbul
+"RAG, k=5",claude-haiku-4.5,fresh-95,True,True,False,0.0004879999999999997,"Citizens Bank Park in Philadelphia, Pennsylvania",Citizens Bank Park
+"RAG, k=5",claude-haiku-4.5,fresh-96,True,True,False,0.0009789999999999998,The Islamabad Memorandum,Islamabad Memorandum
+"RAG, k=5",claude-haiku-4.5,fresh-97,True,True,False,0.0008040000000000009,Elon Musk became the first US dollar trillionaire in June 20,Elon Musk
+"RAG, k=5",claude-haiku-4.5,fresh-98,False,True,False,0.0008749999999999999,"The crew of Artemis II reached a maximum distance of 252,757","252,756 miles"
+"RAG, k=5",claude-haiku-4.5,fresh-99,True,True,False,0.0005579999999999995,The ceasefire in the 2026 Lebanon war is 10 days long.,10-day
+"RAG, k=5",claude-haiku-4.5,fresh-100,True,True,False,0.0008299999999999991,Viktor Kuzmenko (rescuer and civil defense officer) and Olek,Oleksandr Dovhach
+"RAG, k=5",claude-haiku-4.5,fresh-101,True,True,False,0.0005889999999999992,José María Balcázar,José María Balcázar
+"RAG, k=5",claude-haiku-4.5,fresh-102,True,True,False,0.0006300000000000004,"21 people were killed in the bus accident in Udhampur, Jammu",21
+"RAG, k=5",claude-haiku-4.5,fresh-103,True,True,False,0.0007290000000000005,¥60–120 (US$8.70–17.5),¥60–120
+"RAG, k=5",claude-haiku-4.5,fresh-104,True,True,False,0.0005190000000000004,GRU Airport People Mover,GRU Airport People Mover
+"RAG, k=5",claude-haiku-4.5,fresh-105,True,True,False,0.0005330000000000005,The 2026 Beninese parliamentary election is held on January ,2026 Beninese parliamentary election
+"RAG, k=5",claude-haiku-4.5,fresh-106,False,True,False,0.0005009999999999997,Michaelms Island in Western Australia,Michaelmas Island
+"RAG, k=5",claude-haiku-4.5,fresh-107,False,True,False,0.0009499999999999995,An arson attack at the former East London Central Synagogue ,conspiracy to commit arson
+"RAG, k=5",claude-haiku-4.5,fresh-108,True,True,False,0.0007019999999999995,Clay Fuller wins the special election in Georgia in 2026.,Clay Fuller
+"RAG, k=5",claude-haiku-4.5,fresh-109,True,True,False,0.0005669999999999998,Prime Minister of the United Kingdom,prime minister
+"RAG, k=5",claude-haiku-4.5,fresh-110,True,True,False,0.0008909999999999994,SMILE,SMILE
+"RAG, k=5",claude-haiku-4.5,fresh-111,True,True,False,0.0005149999999999998,850 job cuts,850
+"RAG, k=5",claude-haiku-4.5,fresh-112,True,True,False,0.0006160000000000002,"An Urgent Care Centre opened in St. John's, Newfoundland and",Urgent Care Centre
+"RAG, k=5",claude-haiku-4.5,fresh-113,True,True,False,0.0005479999999999999,At least 66 people were killed in the Kenya floods on March ,66
+"RAG, k=5",claude-haiku-4.5,fresh-114,True,True,False,0.0006060000000000006,Nelly Korda,Nelly Korda
+"RAG, k=5",claude-haiku-4.5,fresh-115,True,True,False,0.0006350000000000001,Line S2 of the Nanjing Metro opens in April 2026.,Line S2
+"RAG, k=5",claude-haiku-4.5,fresh-116,True,True,False,0.0008509999999999993,Antonello da Messina,Antonello da Messina
+"RAG, k=5",claude-haiku-4.5,fresh-117,True,True,False,0.0008230000000000008,"Baku, Tbilisi, Beijing, Pyongyang, London, and Stirling had ",Baku and Tbilisi
+"RAG, k=5",claude-haiku-4.5,fresh-118,True,True,False,0.0005850000000000005,Operation Southern Spear,Operation Southern Spear
+"RAG, k=5",claude-haiku-4.5,fresh-119,True,True,False,0.0006250000000000006,A magnitude 5.6 earthquake struck Yamanashi Prefecture in Ju,5.6
+"RAG, k=5",claude-haiku-4.5,fresh-120,True,True,False,0.0009619999999999993,Angus Taylor ousted Sussan Ley in February 2026.,Angus Taylor
+"RAG, k=5",claude-haiku-4.5,fresh-121,True,True,False,0.0005229999999999992,Burkina Faso broke off diplomatic relations with France in J,Burkina Faso
+"RAG, k=5",claude-haiku-4.5,fresh-122,True,True,False,0.0005559999999999992,"Kehl, Baden-Württemberg",Kehl
+"RAG, k=5",claude-haiku-4.5,fresh-123,True,True,False,0.0005999999999999998,Christophe Leribault,Christophe Leribault
+"RAG, k=5",claude-haiku-4.5,fresh-124,True,True,False,0.0005929999999999998,Paris St-Germain,Paris St-Germain
+"RAG, k=5",claude-haiku-4.5,fresh-125,True,True,False,0.0005190000000000004,France's Monroe finished 11th at Eurovision 2026.,Monroe
+"RAG, k=5",claude-haiku-4.5,fresh-126,True,True,False,0.0005970000000000003,Bezalel Smotrich,Bezalel Smotrich
+"RAG, k=5",claude-haiku-4.5,fresh-127,True,True,False,0.0005520000000000004,Évian-les-Bains,Évian-les-Bains
+"RAG, k=5",claude-haiku-4.5,fresh-128,True,True,False,0.0006709999999999997,Pissos,Pissos
+"RAG, k=5",claude-haiku-4.5,fresh-129,True,True,False,0.0007839999999999991,Golfech Nuclear Power Plant,Golfech Nuclear Power Plant
+"RAG, k=5",claude-haiku-4.5,fresh-130,True,True,False,0.0004609999999999996,Claude Guillemot,Claude Guillemot
+"RAG, k=5",claude-haiku-4.5,fresh-131,True,True,False,0.0005299999999999992,UNESCO World Heritage Sites status.,World Heritage Sites
+"RAG, k=5",claude-haiku-4.5,fresh-132,True,True,False,0.0006080000000000009,$7 billion,$7 billion
+"RAG, k=5",claude-haiku-4.5,fresh-133,True,True,False,0.0005889999999999992,The Constitutional Council,The Constitutional Council
+"RAG, k=5",claude-haiku-4.5,fresh-134,True,True,False,0.0004930000000000004,22 March 2026,22 March
+"RAG, k=5",claude-haiku-4.5,fresh-135,True,True,False,0.0005409999999999998,The Democratic Republic of the Congo,Democratic Republic of the Congo
+"RAG, k=5",claude-haiku-4.5,fresh-136,True,True,False,0.000503,"June 15, 2026",June 15
+"RAG, k=5",claude-haiku-4.5,fresh-137,True,True,False,0.0005970000000000003,Baden-Württemberg,Baden-Württemberg
+"RAG, k=5",claude-haiku-4.5,fresh-138,True,True,False,0.0006739999999999993,43.8%,43.8%
+"RAG, k=5",claude-haiku-4.5,fresh-139,True,True,False,0.0005649999999999995,30.2%,30.2%
+"RAG, k=5",claude-haiku-4.5,fresh-140,True,True,False,0.0006999999999999992,Koblenz [1],Koblenz
+"RAG, k=5",claude-haiku-4.5,fresh-141,True,True,False,0.000614,Möckern-Drewitz,Möckern-Drewitz
+"RAG, k=5",claude-haiku-4.5,fresh-142,True,True,False,0.0006010000000000008,"186,700 soldiers","186,700"
+"RAG, k=5",claude-haiku-4.5,fresh-143,True,True,False,0.0006289999999999994,The 2026 Leipzig Airport drone attack.,2026 Leipzig Airport drone attack
+"RAG, k=5",claude-haiku-4.5,fresh-144,True,True,False,0.0004419999999999997,14 March 2026,14 March
+"RAG, k=5",claude-haiku-4.5,fresh-145,True,True,False,0.0004939999999999996,Niue,Niue
+"RAG, k=5",claude-haiku-4.5,fresh-146,True,True,False,0.0006399999999999999,"Amazon, Inc.",Amazon
+"RAG, k=5",claude-haiku-4.5,fresh-147,True,True,False,0.0006309999999999996,Tomahawk missiles,Tomahawk missiles
+"RAG, k=5",claude-haiku-4.5,fresh-148,True,True,False,0.00041199999999999917,28 July 2026,28 July
+агент с инструментом,gpt-4o-mini,fresh-0,True,False,False,0.00013121,"March 15, 2026",15 March
+агент с инструментом,gpt-4o-mini,fresh-1,True,False,False,0.00015612,22 March 2026,22 March
+агент с инструментом,gpt-4o-mini,fresh-2,False,False,True,0.0009172899999999999,NOT_FOUND,Miguel Díaz-Canel
+агент с инструментом,gpt-4o-mini,fresh-3,True,False,False,0.00011805,strategic partnership agreement in defense and energy sector,a strategic partnership agreement
+агент с инструментом,gpt-4o-mini,fresh-4,True,False,False,0.00011696999999999999,total fire ban,A total fire ban
+агент с инструментом,gpt-4o-mini,fresh-5,True,False,False,0.00011685999999999999,2 killed,two people
+агент с инструментом,gpt-4o-mini,fresh-6,True,False,False,0.00012255,Deniz Göktaş,Deniz Göktaş
+агент с инструментом,gpt-4o-mini,fresh-7,True,False,False,0.00025428,Pavel Durov,Pavel Durov
+агент с инструментом,gpt-4o-mini,fresh-8,True,False,False,0.00011532,"New Delhi, India",New Delhi
+агент с инструментом,gpt-4o-mini,fresh-9,True,False,False,0.00011999,12,Twelve
+агент с инструментом,gpt-4o-mini,fresh-10,True,False,False,0.00015003999999999997,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+агент с инструментом,gpt-4o-mini,fresh-11,True,False,False,0.00014703999999999997,"700,000","700,000"
+агент с инструментом,gpt-4o-mini,fresh-12,True,False,False,0.00014238,41.5 °C,41.5 °C
+агент с инструментом,gpt-4o-mini,fresh-13,True,False,False,0.00012905000000000002,Ciudad Rodrigo,Ciudad Rodrigo
+агент с инструментом,gpt-4o-mini,fresh-14,True,False,False,0.00014585999999999996,Oleksandr Syrskyi,Oleksandr Syrskyi
+агент с инструментом,gpt-4o-mini,fresh-15,True,False,False,0.00012350000000000002,Montreal Victoire,Montreal Victoire
+агент с инструментом,gpt-4o-mini,fresh-16,True,False,False,0.00014285000000000003,EOS-05 satellite,EOS-05
+агент с инструментом,gpt-4o-mini,fresh-17,True,False,False,0.00013556,13 July 2026,13 July
+агент с инструментом,gpt-4o-mini,fresh-18,True,False,False,0.00013134000000000003,Disney Kids & Family,Disney Kids & Family
+агент с инструментом,gpt-4o-mini,fresh-19,True,False,False,0.00019801000000000004,single-elimination format,single-elimination
+агент с инструментом,gpt-4o-mini,fresh-20,True,False,False,0.00014418,Gavin Snider,Gavin Snider
+агент с инструментом,gpt-4o-mini,fresh-21,True,False,False,0.00013408000000000007,Clara and the Below,Clara and the Below
+агент с инструментом,gpt-4o-mini,fresh-22,True,False,False,0.00013099999999999999,German Galushchenko,German Galushchenko
+агент с инструментом,gpt-4o-mini,fresh-23,True,False,False,0.00012702,drought declared,a drought
+агент с инструментом,gpt-4o-mini,fresh-24,True,False,False,0.00012733000000000004,open war against the Taliban,"""open war"""
+агент с инструментом,gpt-4o-mini,fresh-25,True,False,False,0.00013300999999999992,9,nine
+агент с инструментом,gpt-4o-mini,fresh-26,True,False,False,0.00012815,Markus Hinterhäuser,Markus Hinterhäuser
+агент с инструментом,gpt-4o-mini,fresh-27,True,False,False,0.00013974000000000007,9 killed,nine
+агент с инструментом,gpt-4o-mini,fresh-28,False,False,False,0.0001181,46,43
+агент с инструментом,gpt-4o-mini,fresh-29,True,False,False,0.00012756999999999997,Ankara,Ankara
+агент с инструментом,gpt-4o-mini,fresh-30,True,False,False,0.00012907,Aibek Dädebai,Aibek Dädebai
+агент с инструментом,gpt-4o-mini,fresh-31,True,False,False,0.00012458999999999994,Richard Lewer,Richard Lewer
+агент с инструментом,gpt-4o-mini,fresh-32,True,False,False,0.00012310999999999995,Marilyn Gladu,Marilyn Gladu
+агент с инструментом,gpt-4o-mini,fresh-33,True,False,False,0.00012295999999999997,6.3,6.3
+агент с инструментом,gpt-4o-mini,fresh-34,True,False,False,0.00013703999999999995,Dina Levačić,Dina Levačić
+агент с инструментом,gpt-4o-mini,fresh-35,True,False,False,0.00012379999999999997,15 June 2026,15 June
+агент с инструментом,gpt-4o-mini,fresh-36,True,False,False,0.0001158899999999999,Chief Minister of Kerala,Chief Minister
+агент с инструментом,gpt-4o-mini,fresh-37,True,False,False,0.00012618000000000004,Gelida,Gelida
+агент с инструментом,gpt-4o-mini,fresh-38,True,False,False,0.00012956000000000003,Lieutenant General Vladimir Alekseyev,Vladimir Alekseyev
+агент с инструментом,gpt-4o-mini,fresh-39,True,False,False,0.00013230999999999985,30000,Thirty thousand people
+агент с инструментом,gpt-4o-mini,fresh-40,False,False,False,0.00010925000000000008,Narendra Modi,Prime Minister Narendra Modi
+агент с инструментом,gpt-4o-mini,fresh-41,True,False,False,0.00013137999999999995,Zohran Mamdani,Zohran Mamdani
+агент с инструментом,gpt-4o-mini,fresh-42,True,False,False,0.00016701999999999993,LHS 1140 b,LHS 1140 b
+агент с инструментом,gpt-4o-mini,fresh-43,True,False,False,0.00013362999999999993,F-16 Fighting Falcon,F-16 Fighting Falcon
+агент с инструментом,gpt-4o-mini,fresh-44,True,False,False,0.00011629999999999995,5,five
+агент с инструментом,gpt-4o-mini,fresh-45,True,False,False,0.00012398999999999993,Education Minister,Education Minister
+агент с инструментом,gpt-4o-mini,fresh-46,True,False,False,0.00013224000000000005,Mykhailo Fedorov,Mykhailo Fedorov
+агент с инструментом,gpt-4o-mini,fresh-47,True,False,False,0.00013599,life imprisonment,life imprisonment
+агент с инструментом,gpt-4o-mini,fresh-48,True,False,False,0.00016804000000000005,"802,500 lira ($18,500) fine","802,500 lira"
+агент с инструментом,gpt-4o-mini,fresh-49,True,False,False,0.00013581999999999993,Bruno Foucher,Bruno Foucher
+агент с инструментом,gpt-4o-mini,fresh-50,True,False,False,0.00012096999999999998,5.2,5.2
+агент с инструментом,gpt-4o-mini,fresh-51,True,False,False,0.00013458999999999997,Tonya McBride Robles,Tonya McBride Robles
+агент с инструментом,gpt-4o-mini,fresh-52,True,False,False,0.00012080000000000001,80,80
+агент с инструментом,gpt-4o-mini,fresh-53,True,False,False,0.00011059999999999998,2,two
+агент с инструментом,gpt-4o-mini,fresh-54,True,False,False,0.00012164000000000001,3%,3%
+агент с инструментом,gpt-4o-mini,fresh-55,True,False,False,0.00013597000000000001,Yoon Suk Yeol,Yoon Suk Yeol
+агент с инструментом,gpt-4o-mini,fresh-56,True,False,False,0.00014408999999999993,BYD Auto,BYD Auto
+агент с инструментом,gpt-4o-mini,fresh-57,True,False,False,0.00019737999999999993,"Carson Ting, Minerva GM, Hank Willis Thomas",Carson Ting
+агент с инструментом,gpt-4o-mini,fresh-58,True,False,False,0.00011929999999999992,209,209
+агент с инструментом,gpt-4o-mini,fresh-59,True,False,False,0.00011674999999999988,14,Fourteen
+агент с инструментом,gpt-4o-mini,fresh-60,True,False,False,0.00015678000000000003,13 years' imprisonment,13 years
+агент с инструментом,gpt-4o-mini,fresh-61,True,False,False,0.00034595000000000003,2,Two
+агент с инструментом,gpt-4o-mini,fresh-62,True,False,False,0.00012259999999999984,mayor of Lutsk,mayor of Lutsk
+агент с инструментом,gpt-4o-mini,fresh-63,True,False,False,0.00012582999999999995,16,16
+агент с инструментом,gpt-4o-mini,fresh-64,True,False,False,0.00012009,6,at least six
+агент с инструментом,gpt-4o-mini,fresh-65,True,False,False,0.00012699,Liam Nassereddine,Liam Nassereddine
+агент с инструментом,gpt-4o-mini,fresh-66,True,False,False,0.0001263499999999999,Mark Carney,Mark Carney
+агент с инструментом,gpt-4o-mini,fresh-67,True,False,False,0.00010379000000000009,"Leipzig, Germany",Leipzig
+агент с инструментом,gpt-4o-mini,fresh-68,True,False,False,0.00013292999999999985,"European Sleeper night train service between Paris, Brussels",night train service
+агент с инструментом,gpt-4o-mini,fresh-69,True,False,False,0.00012664999999999985,Nikita Solovyov,Nikita Solovyov
+агент с инструментом,gpt-4o-mini,fresh-70,True,False,False,0.00013958999999999998,Dharmendra Pradhan,Dharmendra Pradhan
+агент с инструментом,gpt-4o-mini,fresh-71,True,False,False,0.0001388400000000001,Han Hak-ja,Han Hak-ja
+агент с инструментом,gpt-4o-mini,fresh-72,True,False,False,0.00012144000000000022,Daniel Ortega,Daniel Ortega
+агент с инструментом,gpt-4o-mini,fresh-73,True,False,False,0.00014084999999999987,"Novokuznetsk, Russia",Novokuznetsk
+агент с инструментом,gpt-4o-mini,fresh-74,True,False,False,0.00015454999999999983,Life imprisonment for insurrection.,life imprisonment
+агент с инструментом,gpt-4o-mini,fresh-75,True,False,False,0.00013008000000000008,Carlos Vila Nova re-elected.,Carlos Vila Nova
+агент с инструментом,gpt-4o-mini,fresh-76,True,False,False,0.00015518999999999993,13.2 months,13.2 months
+агент с инструментом,gpt-4o-mini,fresh-77,True,False,False,0.00013573000000000014,3,three
+агент с инструментом,gpt-4o-mini,fresh-78,True,False,False,0.0001352599999999999,"UGC Equity Regulations, 2026","UGC Equity Regulations, 2026"
+агент с инструментом,gpt-4o-mini,fresh-79,True,False,False,0.00011402999999999999,8.15 million,8.15m
+агент с инструментом,gpt-4o-mini,fresh-80,True,False,False,0.00012005000000000002,28,28 people
+агент с инструментом,gpt-4o-mini,fresh-81,True,False,False,0.00012198000000000005,improvised explosive device,improvised explosive device
+агент с инструментом,gpt-4o-mini,fresh-82,True,False,False,0.0001282999999999998,8 games,eight games
+агент с инструментом,gpt-4o-mini,fresh-83,True,False,False,0.00014104999999999999,38 °C,38 °C
+агент с инструментом,gpt-4o-mini,fresh-84,False,False,False,0.0001369400000000001,£30.4 billion,£30.4bn
+агент с инструментом,gpt-4o-mini,fresh-85,True,False,False,0.00013136000000000007,José Jerí,José Jerí
+агент с инструментом,gpt-4o-mini,fresh-86,True,False,False,0.00011956000000000011,"Henoko, Okinawa Prefecture","Henoko, Okinawa Prefecture"
+агент с инструментом,gpt-4o-mini,fresh-87,True,False,False,0.0001213500000000001,Doug Armstrong,Doug Armstrong
+агент с инструментом,gpt-4o-mini,fresh-88,True,False,False,0.00014985999999999992,"Imperial College London, the Met Office, and the London Scho",Imperial College London
+агент с инструментом,gpt-4o-mini,fresh-89,True,False,False,0.00013637000000000002,"₹25,863 crore","₹25,863 crore"
+агент с инструментом,gpt-4o-mini,fresh-90,True,False,False,0.00014495000000000003,Rubén Rocha Moya,Rubén Rocha Moya
+агент с инструментом,gpt-4o-mini,fresh-91,True,False,False,0.0001417199999999999,Spain,Spain
+агент с инструментом,gpt-4o-mini,fresh-92,True,False,False,0.00011833999999999998,11th,11th
+агент с инструментом,gpt-4o-mini,fresh-93,True,False,False,0.00010712999999999999,India,India
+агент с инструментом,gpt-4o-mini,fresh-94,True,False,False,0.00017814999999999997,"Istanbul, Turkey",Istanbul
+агент с инструментом,gpt-4o-mini,fresh-95,True,False,False,0.00011640999999999973,"Citizens Bank Park, Philadelphia, Pennsylvania",Citizens Bank Park
+агент с инструментом,gpt-4o-mini,fresh-96,True,False,False,0.00015034999999999983,Islamabad Memorandum,Islamabad Memorandum
+агент с инструментом,gpt-4o-mini,fresh-97,True,False,False,0.00012273000000000015,Elon Musk,Elon Musk
+агент с инструментом,gpt-4o-mini,fresh-98,False,False,False,0.00016888000000000016,"252,757 miles (406,773 km)","252,756 miles"
+агент с инструментом,gpt-4o-mini,fresh-99,True,False,False,0.0001288000000000001,10 days,10-day
+агент с инструментом,gpt-4o-mini,fresh-100,True,False,False,0.00013407000000000002,Viktor Kuzmenko and Oleksandr Dovhach.,Oleksandr Dovhach
+агент с инструментом,gpt-4o-mini,fresh-101,True,False,False,0.00013410999999999978,José María Balcázar,José María Balcázar
+агент с инструментом,gpt-4o-mini,fresh-102,True,False,False,0.00012377999999999998,21,21
+агент с инструментом,gpt-4o-mini,fresh-103,True,False,False,0.00022072999999999993,¥60–120 (US$8.70–17.5) increase,¥60–120
+агент с инструментом,gpt-4o-mini,fresh-104,True,False,False,0.0001274599999999998,"GRU Airport People Mover opens on February 21, 2026.",GRU Airport People Mover
+агент с инструментом,gpt-4o-mini,fresh-105,False,False,False,0.00028067999999999973,Beninese parliamentary election.,2026 Beninese parliamentary election
+агент с инструментом,gpt-4o-mini,fresh-106,True,False,False,0.00011354000000000008,"Michaelmas Island, Western Australia",Michaelmas Island
+агент с инструментом,gpt-4o-mini,fresh-107,False,False,False,0.0002740899999999996,Arson conspiracy related to attacks on Jewish sites.,conspiracy to commit arson
+агент с инструментом,gpt-4o-mini,fresh-108,True,False,False,0.00012567000000000004,Clay Fuller,Clay Fuller
+агент с инструментом,gpt-4o-mini,fresh-109,True,False,False,0.00012741999999999983,Prime Minister,prime minister
+агент с инструментом,gpt-4o-mini,fresh-110,True,False,False,0.00017538000000000015,SMILE mission,SMILE
+агент с инструментом,gpt-4o-mini,fresh-111,True,False,False,0.00012036999999999985,850,850
+агент с инструментом,gpt-4o-mini,fresh-112,True,False,False,0.00012037999999999979,Urgent Care Centre,Urgent Care Centre
+агент с инструментом,gpt-4o-mini,fresh-113,True,False,False,0.00012099000000000007,66,66
+агент с инструментом,gpt-4o-mini,fresh-114,True,False,False,0.00013308000000000005,Nelly Korda,Nelly Korda
+агент с инструментом,gpt-4o-mini,fresh-115,True,False,False,0.00012301000000000022,Line S2,Line S2
+агент с инструментом,gpt-4o-mini,fresh-116,True,False,False,0.0001375600000000001,Antonello da Messina,Antonello da Messina
+агент с инструментом,gpt-4o-mini,fresh-117,False,False,False,0.00023594999999999996,"Birmingham, Kansas City, London",Baku and Tbilisi
+агент с инструментом,gpt-4o-mini,fresh-118,True,False,False,0.00013982999999999964,Operation Southern Spear,Operation Southern Spear
+агент с инструментом,gpt-4o-mini,fresh-119,True,False,False,0.00012619999999999992,5.6,5.6
+агент с инструментом,gpt-4o-mini,fresh-120,True,False,False,0.0001243799999999999,Angus Taylor,Angus Taylor
+агент с инструментом,gpt-4o-mini,fresh-121,True,False,False,0.00011238000000000003,Burkina Faso,Burkina Faso
+агент с инструментом,gpt-4o-mini,fresh-122,True,False,False,0.0001229899999999999,Kehl,Kehl
+агент с инструментом,gpt-4o-mini,fresh-123,True,False,False,0.00012624000000000012,Christophe Leribault,Christophe Leribault
+агент с инструментом,gpt-4o-mini,fresh-124,True,False,False,0.00012530000000000006,Paris St-Germain,Paris St-Germain
+агент с инструментом,gpt-4o-mini,fresh-125,True,False,False,0.00011705000000000005,Monroe,Monroe
+агент с инструментом,gpt-4o-mini,fresh-126,True,False,False,0.00012401000000000035,Bezalel Smotrich,Bezalel Smotrich
+агент с инструментом,gpt-4o-mini,fresh-127,True,False,False,0.00012392999999999996,Évian-les-Bains,Évian-les-Bains
+агент с инструментом,gpt-4o-mini,fresh-128,True,False,False,0.0001585699999999998,Pissos,Pissos
+агент с инструментом,gpt-4o-mini,fresh-129,True,False,False,0.00015102999999999991,Golfech Nuclear Power Plant,Golfech Nuclear Power Plant
+агент с инструментом,gpt-4o-mini,fresh-130,True,False,False,0.00011632000000000005,Claude Guillemot,Claude Guillemot
+агент с инструментом,gpt-4o-mini,fresh-131,True,False,False,0.00012523000000000005,UNESCO World Heritage Sites,World Heritage Sites
+агент с инструментом,gpt-4o-mini,fresh-132,True,False,False,0.00012843000000000012,$7 billion,$7 billion
+агент с инструментом,gpt-4o-mini,fresh-133,True,False,False,0.0001337999999999999,Constitutional Council,The Constitutional Council
+агент с инструментом,gpt-4o-mini,fresh-134,True,False,False,0.00011751999999999986,22 March 2026,22 March
+агент с инструментом,gpt-4o-mini,fresh-135,True,False,False,0.00012684000000000003,Democratic Republic of the Congo,Democratic Republic of the Congo
+агент с инструментом,gpt-4o-mini,fresh-136,True,False,False,0.00013694999999999983,"June 15, 2026",June 15
+агент с инструментом,gpt-4o-mini,fresh-137,True,False,False,0.00012728999999999996,Baden-Württemberg,Baden-Württemberg
+агент с инструментом,gpt-4o-mini,fresh-138,True,False,False,0.00013949999999999987,43.8%,43.8%
+агент с инструментом,gpt-4o-mini,fresh-139,True,False,False,0.0001303900000000002,30.2%,30.2%
+агент с инструментом,gpt-4o-mini,fresh-140,True,False,False,0.00013717000000000026,Koblenz,Koblenz
+агент с инструментом,gpt-4o-mini,fresh-141,True,False,False,0.0002697900000000002,Möckern-Drewitz,Möckern-Drewitz
+агент с инструментом,gpt-4o-mini,fresh-142,True,False,False,0.00012279000000000023,"186,700","186,700"
+агент с инструментом,gpt-4o-mini,fresh-143,False,False,False,0.00013206999999999976,Leipzig Airport drone attack,2026 Leipzig Airport drone attack
+агент с инструментом,gpt-4o-mini,fresh-144,True,False,False,0.00010938000000000007,"March 14, 2026",14 March
+агент с инструментом,gpt-4o-mini,fresh-145,True,False,False,0.00011902000000000006,Niue,Niue
+агент с инструментом,gpt-4o-mini,fresh-146,True,False,False,0.00013526000000000033,"Amazon, Inc.",Amazon
+агент с инструментом,gpt-4o-mini,fresh-147,True,False,False,0.00013648000000000002,Tomahawk missiles,Tomahawk missiles
+агент с инструментом,gpt-4o-mini,fresh-148,True,False,False,0.00010738999999999974,28 July 2026,28 July
