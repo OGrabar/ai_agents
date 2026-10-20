@@ -1,0 +1,11 @@
+httpx==0.28.1
+pydantic==2.13.5
+python-dotenv==1.2.3
+numpy==2.5.3
+pandas==3.0.6
+matplotlib==3.11.2
+langgraph==1.2.16
+langchain==1.4.6
+langchain-openai==1.7.2
+smolagents==1.26.0
+ipykernel==7.4.0
