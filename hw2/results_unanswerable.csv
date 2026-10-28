@@ -1,0 +1,102 @@
+config,model,id,question,final,refused,cost,answer
+"RAG, k=5",gpt-4o-mini,unans2-0,Who won the men's singles title at the 2026 Wimbledon Championships?,NOT_FOUND.,True,3.899999999999997e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND."
+"RAG, k=5",gpt-4o-mini,unans2-1,Who won the women's singles title at the 2026 French Open?,NOT_FOUND.,True,3.660000000000035e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND."
+"RAG, k=5",gpt-4o-mini,unans2-2,Who won the men's singles title at the 2026 Australian Open?,NOT_FOUND.,True,3.750000000000021e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND."
+"RAG, k=5",gpt-4o-mini,unans2-3,How many seats did the Social Democrats win in the 2026 Danish general election?,NOT_FOUND,True,4.24500000000003e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND"
+"RAG, k=5",gpt-4o-mini,unans2-4,Which club won the 2025–26 Bundesliga title?,NOT_FOUND.,True,3.539999999999967e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND."
+"RAG, k=5",gpt-4o-mini,unans2-5,What was the magnitude of the earthquake that struck Lisbon in March 2026?,NOT_FOUND,True,4.290000000000023e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND"
+"RAG, k=5",gpt-4o-mini,unans2-6,How many people died when a ferry sank off the coast of Greece in May 2026?,NOT_FOUND,True,4.410000000000004e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND"
+"RAG, k=5",gpt-4o-mini,unans2-7,Which German airline filed for bankruptcy in June 2026?,NOT_FOUND,True,4.275000000000025e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND"
+"RAG, k=5",gpt-4o-mini,unans2-8,How many people were evacuated from Reykjavík because of a volcanic eruption in April 2026?,NOT_FOUND.,True,4.380000000000009e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND."
+"RAG, k=5",gpt-4o-mini,unans2-9,Which Japanese city was hit by a typhoon in February 2026?,NOT_FOUND,True,5.2049999999999666e-05,"NOT_FOUND.  
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-0,Who won the men's singles title at the 2026 Wimbledon Championships?,NOT_FOUND,True,0.0006519999999999998,"NOT_FOUND
+
+The sources provided do not contain information about who won the men's singles title at the 2026 Wimbledon Championships. Source [1] only mentions that the 2026 Wimbledon Championships took place from June 29 – July 12, but does not specify any winners.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-1,Who won the women's singles title at the 2026 French Open?,NOT_FOUND,True,0.0008240000000000001,"I need to find information about the women's singles title at the 2026 French Open.
+
+Looking through the provided sources:
+- [1] mentions the 2026 U.S. Women's Open at Riviera Country Club
+- [2], [4], and [5] mention women's doubles pairings
+- [3] mentions France's Monroe at Eurovision 2026
+
+None of these sources contain information about the women's singles title at the 2026 French Open.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-2,Who won the men's singles title at the 2026 Australian Open?,NOT_FOUND,True,0.0007169999999999998,"I've reviewed all the provided sources, but none of them contain information about who won the men's singles title at the 2026 Australian Open. Source [1] mentions that the 2026 Australian Open took place from January 18 – February 1, and sources [3] and [5] mention men's doubles winners, but there is no information about the men's singles champion.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-3,How many seats did the Social Democrats win in the 2026 Danish general election?,NOT_FOUND,True,0.0006719999999999999,"NOT_FOUND
+
+The sources provided contain information about the 2026 Danish general election [1][3], but they do not specify how many seats the Social Democrats won. The sources only mention that the incumbent Prime Minister Mette Frederiksen's coalition lost its majority, without providing specific seat counts for individual parties.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-4,Which club won the 2025–26 Bundesliga title?,NOT_FOUND,True,0.0005510000000000003,"NOT_FOUND
+
+The sources provided contain information about the 2026 UEFA Conference League final, ice hockey events in Germany, and other sports events, but they do not contain any information about which club won the 2025–26 Bundesliga title.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-5,What was the magnitude of the earthquake that struck Lisbon in March 2026?,NOT_FOUND,True,0.00047299999999999946,"NOT_FOUND
+
+The sources provided do not contain any information about an earthquake that struck Lisbon in March 2026.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-6,How many people died when a ferry sank off the coast of Greece in May 2026?,NOT_FOUND,True,0.0006300000000000004,"NOT_FOUND
+
+The sources provided do not contain information about a ferry sinking off the coast of Greece in May 2026. While source [2] mentions a helicopter crash on a Greek island in 2026, it does not describe a ferry sinking incident.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-7,Which German airline filed for bankruptcy in June 2026?,NOT_FOUND,True,0.00046299999999999987,"NOT_FOUND
+
+The sources provided do not contain any information about a German airline filing for bankruptcy in June 2026.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-8,How many people were evacuated from Reykjavík because of a volcanic eruption in April 2026?,NOT_FOUND,True,0.0007220000000000004,"NOT_FOUND
+
+The sources provided do not contain any information about evacuations from Reykjavík due to a volcanic eruption in April 2026. While source [3] mentions a volcanic eruption in Japan in May 2026, there is no information about Reykjavík or any April 2026 volcanic eruption evacuation.
+
+FINAL: NOT_FOUND"
+"RAG, k=5",claude-haiku-4.5,unans2-9,Which Japanese city was hit by a typhoon in February 2026?,NOT_FOUND,True,0.0006580000000000006,"NOT_FOUND
+
+The sources provided contain information about events in Japan during 2026, but they only cover incidents from April through September. There is no information about any typhoon hitting a Japanese city in February 2026.
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-0,Who won the men's singles title at the 2026 Wimbledon Championships?,NOT_FOUND,True,0.0006935399999999994,"I could not find any information regarding the winner of the men's singles title at the 2026 Wimbledon Championships. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-1,Who won the women's singles title at the 2026 French Open?,NOT_FOUND,True,0.0005873400000000004,"I could not find the information regarding the winner of the women's singles title at the 2026 French Open. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-2,Who won the men's singles title at the 2026 Australian Open?,NOT_FOUND,True,0.0007639100000000048,"I couldn't find the information regarding the men's singles title winner at the 2026 Australian Open. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-3,How many seats did the Social Democrats win in the 2026 Danish general election?,NOT_FOUND,True,0.0009037400000000001,"The information retrieved does not specify the number of seats won by the Social Democrats in the 2026 Danish general election. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-4,Which club won the 2025–26 Bundesliga title?,,True,0.0005821100000000003,NOT_FOUND
+агент с инструментом,gpt-4o-mini,unans2-5,What was the magnitude of the earthquake that struck Lisbon in March 2026?,NOT_FOUND,True,0.0008989899999999988,"I could not find any information regarding an earthquake that struck Lisbon in March 2026, including its magnitude. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-6,How many people died when a ferry sank off the coast of Greece in May 2026?,NOT_FOUND,True,0.0005175399999999934,"I could not find any information regarding a ferry sinking off the coast of Greece in May 2026. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-7,Which German airline filed for bankruptcy in June 2026?,NOT_FOUND,True,0.00017369000000000065,"I could not find any information regarding a German airline filing for bankruptcy in June 2026. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-8,How many people were evacuated from Reykjavík because of a volcanic eruption in April 2026?,NOT_FOUND,True,0.0007099199999999924,"I could not find any information regarding an evacuation from Reykjavík due to a volcanic eruption in April 2026. 
+
+FINAL: NOT_FOUND"
+агент с инструментом,gpt-4o-mini,unans2-9,Which Japanese city was hit by a typhoon in February 2026?,NOT_FOUND,True,0.0009752099999999972,"It appears that there is no record of a typhoon hitting a Japanese city in February 2026. The notable typhoons mentioned occurred later in the year. 
+
+FINAL: NOT_FOUND"
